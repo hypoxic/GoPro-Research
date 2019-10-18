@@ -1,0 +1,21 @@
+GoPro HERO8 MAX 
+CodeName: Coconut 
+ID: 0x7cc8
+Model: 51 
+Model String: H19.03
+
+SocioNext Milbeaut SC2000A EVB w/ RTOS VBD (GP1)
+2x NITTOH Z600 Lens
+2x Sony IMX577 Sensor 7.857 mm (Type 1/2.3) 12.3MP CMOS Image Sensor (4056 x 3040)
+DSP Group DBMD7 TalkTo™ Technology
+Atheros QCA6174 Dual-band 2 × 2 802.11ac with MU-MIMO + Bluetooth 5
+Pericom PI3USB9281 Charger Detection
+Microchip ATSAML22 MCU for system supervisor & authentication
+Active Semi ACT9150  PMIC
+Active Semi ACT88326 PMIC (0.9v regulator)
+Sitronix ST7796S 320RGB X 480 dot 262K Color TFT
+FT6306 Touch Controller
+BOSCH BMI260 IMU
+Apple MFI
+NXP PCF85063A RTC
+ublox UBX-M8030 GNSS 

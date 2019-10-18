@@ -1,0 +1,1794 @@
+Jan  1 00:00:03 syslogd started: BusyBox v1.23.1
+Jan  1 00:00:03 kernel: klogd started: BusyBox v1.23.1 (2018-12-07 00:45:21 UTC)
+Jan  1 00:00:03 kernel: [    0.000000] Booting Linux on physical CPU 0xf03
+Jan  1 00:00:03 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jan  1 00:00:03 kernel: [    0.000000] Initializing cgroup subsys cpu
+Jan  1 00:00:03 kernel: [    0.000000] Linux version 4.4.15 (ubuntu@c22c51ee2e7f) (gcc version 4.9.2 (GCC) ) #1 SMP PREEMPT Fri Dec 7 01:02:56 UTC 2018
+Jan  1 00:00:03 kernel: [    0.000000] CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=50c5387d
+Jan  1 00:00:03 kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan  1 00:00:03 kernel: [    0.000000] Machine model: Socionext SC2000A EVB w/ RTOS VBD
+Jan  1 00:00:03 kernel: [    0.000000] Memory policy: Data cache writealloc
+Jan  1 00:00:03 kernel: [    0.000000] On node 0 totalpages: 20992
+Jan  1 00:00:03 kernel: [    0.000000] free_area_init_node: node 0, pgdat 80642700, node_mem_map 85150000
+Jan  1 00:00:03 kernel: [    0.000000]   DMA zone: 164 pages used for memmap
+Jan  1 00:00:03 kernel: [    0.000000]   DMA zone: 0 pages reserved
+Jan  1 00:00:03 kernel: [    0.000000]   DMA zone: 20992 pages, LIFO batch:3
+Jan  1 00:00:03 kernel: [    0.000000] DT missing boot CPU MPIDR[23:0], fall back to default cpu_logical_map
+Jan  1 00:00:03 kernel: [    0.000000] PERCPU: Embedded 12 pages/cpu @85129000 s19712 r8192 d21248 u49152
+Jan  1 00:00:03 kernel: [    0.000000] pcpu-alloc: s19712 r8192 d21248 u49152 alloc=12*4096
+Jan  1 00:00:03 kernel: [    0.000000] pcpu-alloc: [0] 0 
+Jan  1 00:00:03 kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 20828
+Jan  1 00:00:03 kernel: [    0.000000] Kernel command line: consoleblank=0 loglevel=8 init=/sbin/finit root=/dev/nandblk rootwait ro console=ttyUSI0,115200n8 console=/dev/tty1 
+Jan  1 00:00:03 kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Jan  1 00:00:03 kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jan  1 00:00:03 kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jan  1 00:00:03 kernel: [    0.000000] Memory: 76260K/83968K available (3600K kernel code, 296K rwdata, 2284K rodata, 200K init, 310K bss, 7708K reserved, 0K cma-reserved, 0K highmem)
+Jan  1 00:00:03 kernel: [    0.000000] Virtual kernel memory layout:
+Jan  1 00:00:03 kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan  1 00:00:03 kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jan  1 00:00:03 kernel: [    0.000000]     vmalloc : 0x85800000 - 0xff800000   (1952 MB)
+Jan  1 00:00:03 kernel: [    0.000000]     lowmem  : 0x80000000 - 0x85200000   (  82 MB)
+Jan  1 00:00:03 kernel: [    0.000000]     pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jan  1 00:00:03 kernel: [    0.000000]     modules : 0x7f800000 - 0x7fe00000   (   6 MB)
+Jan  1 00:00:03 kernel: [    0.000000]       .text : 0x80008000 - 0x805c7594   (5886 kB)
+Jan  1 00:00:03 kernel: [    0.000000]       .init : 0x805c8000 - 0x805fa000   ( 200 kB)
+Jan  1 00:00:03 kernel: [    0.000000]       .data : 0x805fa000 - 0x80644340   ( 297 kB)
+Jan  1 00:00:03 kernel: [    0.000000]        .bss : 0x80646000 - 0x80693a40   ( 311 kB)
+Jan  1 00:00:03 kernel: [    0.000000] Preemptible hierarchical RCU implementation.
+Jan  1 00:00:03 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Jan  1 00:00:03 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jan  1 00:00:03 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1
+Jan  1 00:00:03 kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Jan  1 00:00:03 kernel: [    0.000000] NO_HZ: Clearing 0 from nohz_full range for timekeeping
+Jan  1 00:00:03 kernel: [    0.000000] NO_HZ: Full dynticks CPUs: .
+Jan  1 00:00:03 kernel: [    0.000000] 	Note: kernel parameter 'rcu_nocbs=' contains nonexistent CPUs.
+Jan  1 00:00:03 kernel: [    0.000000] 	Offload RCU callbacks from CPUs: .
+Jan  1 00:00:03 kernel: [    0.000000] clocksource: peri-timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 70787423951 ns
+Jan  1 00:00:03 kernel: [    0.000000] Architected cp15 timer(s) running at 40.00MHz (phys).
+Jan  1 00:00:03 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x939a85c40, max_idle_ns: 440795202120 ns
+Jan  1 00:00:03 kernel: [    0.000011] sched_clock: 56 bits at 40MHz, resolution 25ns, wraps every 4398046511100ns
+Jan  1 00:00:03 kernel: [    0.000035] Switching to timer-based delay loop, resolution 25ns
+Jan  1 00:00:03 kernel: [    0.001265] Console: colour dummy device 80x30
+Jan  1 00:00:03 kernel: [    0.001297] Calibrating delay loop... 79.87 BogoMIPS (lpj=399360)
+Jan  1 00:00:03 kernel: [    0.079502] pid_max: default: 32768 minimum: 301
+Jan  1 00:00:03 kernel: [    0.079673] Security Framework initialized
+Jan  1 00:00:03 kernel: [    0.079758] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:00:03 kernel: [    0.079778] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:00:03 kernel: [    0.081021] Initializing cgroup subsys debug
+Jan  1 00:00:03 kernel: [    0.081097] CPU: Testing write buffer coherency: ok
+Jan  1 00:00:03 kernel: [    0.081612] Setting up static identity map for 0x40008280 - 0x400082cc
+Jan  1 00:00:03 kernel: [    0.081998] MCPM boot on cpu_3 cluster_15
+Jan  1 00:00:03 kernel: [    0.129848] Brought up 1 CPUs
+Jan  1 00:00:03 kernel: [    0.129875] SMP: Total of 1 processors activated (79.87 BogoMIPS).
+Jan  1 00:00:03 kernel: [    0.129885] CPU: All CPU(s) started in SVC mode.
+Jan  1 00:00:03 kernel: [    0.130778] devtmpfs: initialized
+Jan  1 00:00:03 kernel: [    0.149821] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jan  1 00:00:03 kernel: [    0.150382] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jan  1 00:00:03 kernel: [    0.159804] pinctrl core: initialized pinctrl subsystem
+Jan  1 00:00:03 kernel: [    0.160426] regulator-dummy: no parameters
+Jan  1 00:00:03 kernel: [    0.161382] NET: Registered protocol family 16
+Jan  1 00:00:03 kernel: [    0.162000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jan  1 00:00:03 kernel: [    0.189598] cpuidle: using governor ladder
+Jan  1 00:00:03 kernel: [    0.219510] cpuidle: using governor menu
+Jan  1 00:00:03 kernel: [    0.224824] gic_poke_irq: black listed IRQ 75
+Jan  1 00:00:03 kernel: [    0.224835] gic_set_type: black listed IRQ 75
+Jan  1 00:00:03 kernel: [    0.224867] genirq: Setting trigger mode 4 for irq 39 failed (gic_set_type+0x1/0x4c)
+Jan  1 00:00:03 kernel: [    0.225049] gic_poke_irq: black listed IRQ 80
+Jan  1 00:00:03 kernel: [    0.225059] gic_set_type: black listed IRQ 80
+Jan  1 00:00:03 kernel: [    0.225077] genirq: Setting trigger mode 4 for irq 40 failed (gic_set_type+0x1/0x4c)
+Jan  1 00:00:03 kernel: [    0.225533] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jan  1 00:00:03 kernel: [    0.225545] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jan  1 00:00:03 kernel: [    0.225952] find no power domain device.
+Jan  1 00:00:03 kernel: [    0.300473] SCSI subsystem initialized
+Jan  1 00:00:03 kernel: [    0.300837] usbcore: registered new interface driver usbfs
+Jan  1 00:00:03 kernel: [    0.300925] usbcore: registered new interface driver hub
+Jan  1 00:00:03 kernel: [    0.301018] usbcore: registered new device driver usb
+Jan  1 00:00:03 kernel: [    0.301204] media: Linux media interface: v0.10
+Jan  1 00:00:03 kernel: [    0.301281] Linux video capture interface: v2.00
+Jan  1 00:00:03 kernel: [    0.302726] clocksource: Switched to clocksource arch_sys_counter
+Jan  1 00:00:03 kernel: [    0.303153] FS-Cache: Loaded
+Jan  1 00:00:03 kernel: [    0.315419] NET: Registered protocol family 2
+Jan  1 00:00:03 kernel: [    0.316354] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:00:03 kernel: [    0.316386] TCP bind hash table entries: 1024 (order: 1, 8192 bytes)
+Jan  1 00:00:03 kernel: [    0.316418] TCP: Hash tables configured (established 1024 bind 1024)
+Jan  1 00:00:03 kernel: [    0.316498] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:03 kernel: [    0.316549] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:03 kernel: [    0.316832] NET: Registered protocol family 1
+Jan  1 00:00:03 kernel: [    0.316897] PCI: CLS 0 bytes, default 64
+Jan  1 00:00:03 kernel: [    0.317738] Lineo Warp!! module loaded
+Jan  1 00:00:03 kernel: [    0.318690] futex hash table entries: 256 (order: 2, 16384 bytes)
+Jan  1 00:00:03 kernel: [    0.330952] VFS: Disk quotas dquot_6.6.0
+Jan  1 00:00:03 kernel: [    0.331138] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jan  1 00:00:03 kernel: [    0.332032] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.
+Jan  1 00:00:03 kernel: [    0.345950] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jan  1 00:00:03 kernel: [    0.345985] io scheduler noop registered
+Jan  1 00:00:03 kernel: [    0.346027] io scheduler deadline registered
+Jan  1 00:00:03 kernel: [    0.346063] io scheduler cfq registered (default)
+Jan  1 00:00:03 kernel: [    0.346326] milbeaut-pinctrl 1d022000.pinctrl: continuing without EXIU support
+Jan  1 00:00:03 kernel: [    0.350192] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jan  1 00:00:03 kernel: [    0.352393] 1e700000.usio_uart: ttyUSI1 at MMIO 0x1e700000 (irq = 21, base_baud = 6250000) is a sn-usio-uart
+Jan  1 00:00:03 kernel: [    0.352930] 1e700010.usio_uart: ttyUSI0 at MMIO 0x1e700010 (irq = 23, base_baud = 6250000) is a sn-usio-uart
+Jan  1 00:00:03 kernel: [    0.981437] console [ttyUSI0] enabled
+Jan  1 00:00:03 kernel: [    1.160674] brd: module loaded
+Jan  1 00:00:03 kernel: [    1.185745] loop: module loaded
+Jan  1 00:00:03 kernel: [    1.199074] sni_ipcu_ch_init:225 [ERROR] request_irq ACK is failed. ret=-22 IRQ=0 devname=[]
+Jan  1 00:00:03 kernel: [    1.207387] vblk_ipcu_init:242 Cannot init send ipcu channel. -retry probe-
+Jan  1 00:00:03 kernel: [    1.215445] tun: Universal TUN/TAP device driver, 1.6
+Jan  1 00:00:03 kernel: [    1.220327] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan  1 00:00:03 kernel: [    1.229062] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:00:03 kernel: [    1.235513] ehci-pci: EHCI PCI platform driver
+Jan  1 00:00:03 kernel: [    1.239941] ehci-platform: EHCI generic platform driver
+Jan  1 00:00:03 kernel: [    1.245306] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan  1 00:00:03 kernel: [    1.251338] ohci-platform: OHCI generic platform driver
+Jan  1 00:00:03 kernel: [    1.257075] usbcore: registered new interface driver usb-storage
+Jan  1 00:00:03 kernel: [    1.263315] usbcore: registered new interface driver uvcvideo
+Jan  1 00:00:03 kernel: [    1.268890] USB Video Class driver (1.1.1)
+Jan  1 00:00:03 kernel: [    1.273150] sdhci: Secure Digital Host Controller Interface driver
+Jan  1 00:00:03 kernel: [    1.279159] sdhci: Copyright(c) Pierre Ossman
+Jan  1 00:00:03 kernel: [    1.283813] f_sdh30 1b000000.mmc: sdhci_f_sdh30_probe: starting host
+Jan  1 00:00:03 kernel: [    1.312808] f_sdh30 1b000000.mmc: Looking up vmmc-supply from device tree
+Jan  1 00:00:03 kernel: [    1.319434] f_sdh30 1b000000.mmc: Looking up vmmc-supply property in node /mmc@1b000000 failed
+Jan  1 00:00:03 kernel: [    1.328057] f_sdh30 1b000000.mmc: Looking up vqmmc-supply from device tree
+Jan  1 00:00:03 kernel: [    1.334903] f_sdh30 1b000000.mmc: Looking up vqmmc-supply property in node /mmc@1b000000 failed
+Jan  1 00:00:03 kernel: [    1.343580] f_sdh30 1b000000.mmc: No vmmc regulator found
+Jan  1 00:00:03 kernel: [    1.348942] f_sdh30 1b000000.mmc: No vqmmc regulator found
+Jan  1 00:00:03 kernel: [    1.417819] mmc0: SDHCI controller on f_sdh30 [1b000000.mmc] using ADMA
+Jan  1 00:00:03 kernel: [    1.442232] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan  1 00:00:03 kernel: [    1.448586] usbcore: registered new interface driver usbhid
+Jan  1 00:00:03 kernel: [    1.454018] usbhid: USB HID core driver
+Jan  1 00:00:03 kernel: [    1.460925] exFAT: FS Version 1.2.4
+Jan  1 00:00:03 kernel: [    1.466449] exFAT: Core Version 1.2.4
+Jan  1 00:00:03 kernel: [    1.470048] Netfilter messages via NETLINK v0.30.
+Jan  1 00:00:03 kernel: [    1.474767] nf_conntrack version 0.5.0 (1191 buckets, 4764 max)
+Jan  1 00:00:03 kernel: [    1.480776] ctnetlink v0.93: registering with nfnetlink.
+Jan  1 00:00:03 kernel: [    1.487493] xt_time: kernel timezone is -0000
+Jan  1 00:00:03 kernel: [    1.499628] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jan  1 00:00:03 kernel: [    1.505164] NET: Registered protocol family 10
+Jan  1 00:00:03 kernel: [    1.520596] sit: IPv6 over IPv4 tunneling driver
+Jan  1 00:00:03 kernel: [    1.529143] NET: Registered protocol family 17
+Jan  1 00:00:03 kernel: [    1.533466] tipc: Activated (version 2.0.0)
+Jan  1 00:00:03 kernel: [    1.537680] NET: Registered protocol family 30
+Jan  1 00:00:03 kernel: [    1.542224] tipc: Started in single node mode
+Jan  1 00:00:03 kernel: [    1.546677] Registering SWP/SWPB emulation handler
+Jan  1 00:00:03 kernel: [    1.552160] registered taskstats version 1
+Jan  1 00:00:03 kernel: [    1.568141] Key type encrypted registered
+Jan  1 00:00:03 kernel: [    1.574911] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+Jan  1 00:00:03 kernel: [    1.587712] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+Jan  1 00:00:03 kernel: [    1.596623] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+Jan  1 00:00:03 kernel: [    1.602583] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+Jan  1 00:00:03 kernel: [    1.628933] mmc0: queuing unknown CIS tuple 0x80 (1 bytes)
+Jan  1 00:00:03 kernel: [    1.634422] EXT4-fs (nandblk): couldn't mount as ext3 due to feature incompatibilities
+Jan  1 00:00:03 kernel: [    1.642399] mmc0: queuing unknown CIS tuple 0x81 (1 bytes)
+Jan  1 00:00:03 kernel: [    1.647802] EXT4-fs (nandblk): couldn't mount as ext2 due to feature incompatibilities
+Jan  1 00:00:03 kernel: [    1.655731] mmc0: queuing unknown CIS tuple 0x82 (1 bytes)
+Jan  1 00:00:03 kernel: [    1.661116] mmc0: new ultra high speed 1SDR104 SDIO card at address 0001
+Jan  1 00:00:03 kernel: [    1.731027] EXT4-fs (nandblk): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:03 kernel: [    1.738873] VFS: Mounted root (ext4 filesystem) readonly on device 254:0.
+Jan  1 00:00:03 kernel: [    1.767598] devtmpfs: mounted
+Jan  1 00:00:03 kernel: [    1.770882] Freeing unused kernel memory: 200K (805c8000 - 805fa000)
+Jan  1 00:00:03 kernel: [    1.777092] This architecture does not have kernel memory protection.
+Jan  1 00:00:03 kernel: [    3.109934] random: dbus-daemon urandom read with 35 bits of entropy available
+Jan  1 00:00:03 login[74]: ROOT LOGIN  on '/dev/ttyUSI0'
+Jan  1 00:00:03 gpChpIpc: [            main: 297] Start gpChpIpc daemon
+Jan  1 00:00:03 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:04 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:04 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:05 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:05 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:06 gpChpIpc: gp_rx wifi_ctrl client not up yet
+Jan  1 00:00:06 gpCamApi: Starting gpCamApi daemon 
+Jan  1 00:00:06 gpNet:  Starting gpNet daemon 
+Jan  1 00:00:06 gpNet: version 6.0.0.0  built on Jun 28 2019 18:23:57 by  at b546a43
+Jan  1 00:00:06 gpNet: Test for debug cable shorted to RTOS console input:
+Jan  1 00:00:06 gpNet: t api system beep_blink beep_blink_error
+Jan  1 00:00:06 gpNet: t api system beep_blink beep_blink_error
+Jan  1 00:00:06 gpNet: reboot yes
+Jan  1 00:00:06 root: Starting babyblue...
+Jan  1 00:00:06 gpNet: CKSUM WARNING: Written by v1,2 or 3. Skipping checksum validation. "/tmp/fuse_b/mfg.json" file
+Jan  1 00:00:06 gpNet: WIFI MAC     = XX:XX:XX:XX:XX:XX
+Jan  1 00:00:06 gpNet: WIFI MAC(bin)= XX:XX:XX:XX:XX:XX
+Jan  1 00:00:06 gpNet: BLUE MAC     = XX:XX:XX:XX:XX:XX
+Jan  1 00:00:06 gpNet: CAMERA SN    = C33XXXXXXXXXXX
+Jan  1 00:00:06 gpNet: CAMERA MODEL = 0x32
+Jan  1 00:00:06 gpNet: BOARD NAME   = Jbay PVT
+Jan  1 00:00:06 gpNet: WIFI REGION  = 0
+Jan  1 00:00:06 gpNet: CSI_AP_MAC   = d6:32:60:2d:ac:9c
+Jan  1 00:00:06 kernel: [    6.383752] usb mtp memalloc init
+Jan  1 00:00:06 kernel: [    6.756966] random: nonblocking pool is initialized
+Jan  1 00:00:06 gpNet: READING "/tmp/fuse_b/conf.json" file
+Jan  1 00:00:06 gpNet: CKSUM OK v4.0 "/tmp/fuse_b/conf.json" file
+Jan  1 00:00:06 gpNet: PSMR       :   COLDBOOT POWER STATE (@ resume time=0) [0]: Set:PWR_ALL_ON then WAIT 10 MINS
+Jan  1 00:00:06 gpNet: PSMR       :   next_time=600 since_resume=0
+Jan  1 00:00:06 gpNet:            :   set_suspend_state: SS_OFF
+Jan  1 00:00:06 gpNet: INIT        g_debug_level=0x285420 g_debug=0x30000000
+Oct 16 16:26:11 gpNet: gpTimeSet:  2019/10/16 16:26:11
+Oct 16 16:26:11 gpNet: /fr_wif    :HR ================== Hello Ready(#00)(Cold boot (possible CAH))POWER_ON_FROM_SCRATCH(0x00)br=0x00(2019/10/16 16:26:11)(OFFtime=0m:0s)
+Oct 16 16:26:11 gpNet: /fr_wif    : HR compiled:Jun 28 2019 18:23:57 by: at:b546a43 (ACK)br=0x00 st=00000000 pair=NONE menu=Classic
+Oct 16 16:26:11 gpNet: /fr_wif    : HR Boot: (0x00)Transition from zero power sources to at least one.(FRW_POWER_BOOT_REASON_POWER_ON_FROM_SCRATCH)
+Oct 16 16:26:11 gpNet:            :   set_suspend_state: SS_RESUMING
+Oct 16 16:26:11 gpNet: SUSP-SS    :SUSPEND STATE MACHINE:   hw+su+yy+ps bs+ws ack+so [wifi_rst+fr+wf] 00000000
+Oct 16 16:26:11 gpNet: AP State Ma:   AP_USER_OFF + PREPARE_COLD_BOOT   -> sm_ap_ptor      AP_USER_OFF 
+Oct 16 16:26:11 gpNet: PSMR       :   RESUME POWER STATE (@ resume time=0) [0]: Set:PWR_ALL_ON then WAIT 10 MINS
+Oct 16 16:26:11 gpNet: PSMR       :   next_time=600 since_resume=0
+Oct 16 16:26:11 gpNet: /to_ath    :WR Wifi Resume NO_BOUNCE_RC
+Oct 16 16:26:11 gpNet: /to_udp    :LD LCD power icon
+Oct 16 16:26:11 gpNet: RC State Ma:   RC_USER_OFF + PREPARE_COLD_BOOT   -> sm_rc_ptor      RC_USER_OFF 
+Oct 16 16:26:11 gpNet: /to_ble    :BR BLE Resume. Slow Advertise=0 Silent Boot=0
+Oct 16 16:26:11 gpNet: BT State Ma:   BT_USER_OFF + PREPARE_COLD_BOOT   -> sm_bt_ptoc1off  BT_USER_OFF 
+Oct 16 16:26:11 gpNet: SoftTubesSM:   ST_OFF                     + ST_EVT_RESUME            -> sm_nop           ST_OFF
+Oct 16 16:26:11 gpNet: /fr_wif    :gp%0000 pair=NONE menu=Classic status=00000000 [sts2=00008200 feat=00011b80]
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_PLATFORM_READY(0x04) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 babyblue: Starting babyblue daemon
+Oct 16 16:26:11 babyblue: daemonize: setrlimit ret=0
+Oct 16 16:26:11 babyblue: WARNING: unexpected file descriptors 0 3 4
+Oct 16 16:26:11 babyblue: load_config: parsed camera model=0x32
+Oct 16 16:26:11 babyblue: load_config: boardname_revision:Jbay PVT
+Oct 16 16:26:11 babyblue: load_config: Load default rampatch
+Oct 16 16:26:11 babyblue: mac_address: d432602dac9b
+Oct 16 16:26:11 babyblue: serial_number: C33XXXXXXXXXXX
+Oct 16 16:26:11 babyblue: hardware_revision: 0x05
+Oct 16 16:26:11 babyblue: software_version: 0.5.0.0
+Oct 16 16:26:11 babyblue: babyblue bin compiled on Jun 28 2019 18:25:01
+Oct 16 16:26:11 babyblue: BLE GATT API Version: 0.93
+Oct 16 16:26:11 babyblue: Enable new advertisement format (g_Enable_Non_Conn_Adv): 1
+Oct 16 16:26:11 babyblue: using /to_bbl
+Oct 16 16:26:11 babyblue: babyblue_cli_open success
+Oct 16 16:26:11 babyblue: entering the state machine with initial cntrl event: 0
+Oct 16 16:26:11 babyblue: start_bt: called
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_PLATFORM_CAMERA_REGISTERED(0x05) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WIRELESS_MODE(0x12) <- "0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WLAN_SSID(0x10) <- ""
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(cri)-CSI_APP_PASSPHRASE(0x0f) <- "cycle9533"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(cri)-CSI_APP_SSID(0x0e) <- "GP2463XXXX"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(per)-CSI_WIFI_BAND(0x31) <- "0x01"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_AP_STATE(0x32) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_RC_ASSOCIATED(0x0b) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WLAN_INRANGE_ASSOC(0x0d) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_AP_PAIRING_STATE(0x36) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WIFI_TRAFFIC_TIMEOUT(0x3c) <- "0xff"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(per)-CSI_STA_NETWORK_CONFIG_CNT(0x78) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_LINUX_PRINT_TO_RTOS(0x58) <- "Linux reports: Cold boot (possible CAH) #0 compiled:Jun 28 2019 18:23:57 at b546a43"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_REQUESTED_PAIR_TYPE(0x38) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_NEW_WAKEUP_REASON(0x7f) <- "0x02,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_NETWORK_SCANNING_STATE(0x39) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_NETWORK_PROVISION_STATE(0x3b) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_PREVENT_RTOS_DEEP_SLEEP(0x43) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BT_NUM_CONNECTED_SENSORS(0x46) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BT_NUM_WHITELISTED_SENSORS(0x45) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BT_SENSOR_PAIRING_STATE(0x4e) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BLE_CONN_EVENT(0x76) <- ""
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WMS_STATE(0x4a) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_OTA_STATE(0x2a) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(per)-CSI_CAH_FEATURE_ENABLE(0x66) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_CAH_UPLOAD_PROGRESS(0x5e) <- ""
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_CAH_TRANSCODE_PROGRESS(0x5f) <- ""
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_CAH_CANCEL_UPLOAD(0x30) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(per)-CSI_CAH_ACTIVE(0x6c) <- "0x01"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(cri)-CSI_CAH_3GB_RESERVED(0x7e) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WOM_EVENT(0x60) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WOM_ERROR(0x64) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(per)-CSI_BROADCAST_ID(0x34) <- "0"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_ST_ACTIVITY(0x1e) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_PHONE_NAME(0x56) <- ""
+Oct 16 16:26:11 gpBtMan: sm_timer_create: timerfd_create returns 3.
+Oct 16 16:26:11 gpBtMan: init_sniper: called. Handle=0x47e98
+Oct 16 16:26:11 gpBtMan: init_sm: sm=0x4ee158, name=SN PR SM
+Oct 16 16:26:11 gpBtMan: get_free_timer: give timer index=0, handle=0x47ef4
+Oct 16 16:26:11 gpBtMan: sm_timer_register: Timer index=0, func=0xab98, sm_timeout_callback=0xab98
+Oct 16 16:26:11 gpBtMan: init_sn_pr_sm: init_sm OK
+Oct 16 16:26:11 gpBtMan: sm_post_event: Event=SP_PR_EVT_STARTUP_SM (0)
+Oct 16 16:26:11 gpBtMan: get_bt_capabilities: Send BL-1B (BT_GET_CAP) cmd to BabyBlue to get BT Capabilities
+Oct 16 16:26:11 gpBtMan: init_modules: called.
+Oct 16 16:26:11 gpBtMan: main: sm_timer_fd=3, rxqFrGP.mqd=0
+Oct 16 16:26:11 gpBtMan: state_machine: Event=SP_PR_EVT_STARTUP_SM(0)
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:11 gpBtMan: request_ble_whitelist: Send BL-06 cmd to BabyBlue to get BLE whitelist
+Oct 16 16:26:11 gpBtMan: SN PR SM:SP_ST_INIT  + SP_PR_EVT_STARTUP_SM-> sm_sn_pr_startup_sm SP_ST_INIT  
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_BROADCAST_ENCODE(0x06) <- "0x00"
+Oct 16 16:26:11 gpNet: /to_wif    :CN /frRegister CSI Notify(dyn)-CSI_CLOCK_BOOST_MODE(0x89) <- "0x00"
+Oct 16 16:26:11 kernel: [    7.492444] Loading modules backported from Linux version v4.4.2-0-g1cb8570
+Oct 16 16:26:11 kernel: [    7.522825] Backport generated by backports.git v4.4.2-1-0-gbec4037
+Oct 16 16:26:11 kernel: [    7.665615] cfg80211: World regulatory domain updated:
+Oct 16 16:26:11 kernel: [    7.671002] cfg80211:  DFS Master region: unset
+Oct 16 16:26:11 kernel: [    7.679687] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+Oct 16 16:26:11 kernel: [    7.712094] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+Oct 16 16:26:11 kernel: [    7.712122] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+Oct 16 16:26:11 kernel: [    7.712136] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm), (N/A)
+Oct 16 16:26:11 kernel: [    7.712150] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (300 mBi, 2000 mBm), (N/A)
+Oct 16 16:26:11 kernel: [    7.712165] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (300 mBi, 2000 mBm), (N/A)
+Oct 16 16:26:11 kernel: [    7.712179] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+Oct 16 16:26:12 gpAth:  Starting gpAth daemon 
+Oct 16 16:26:12 gpAth: version 6.0.0.0  built on Jun 28 2019 18:23:50 by  at b546a43
+Oct 16 16:26:12 gpNet: /to_ath    :CN /frChain0   CSI Notify(dyn)-CSI_DEBUG_DMSG_LEVEL(0x4b) <- "0x20,0x54,0x28,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain0   CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_RECORDING(0x03) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_BT_NUM_WHITELISTED_SENSORS(0x45) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_BLUE_LED_DISABLE(0x40) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_BT_ROLE(0x51) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_REMOTE_RESUME(0x55) <- "0,PWR_ALL_ON,10,MINS;1,PWR_ALL_OFF,0,MINS;"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_REMOTE_SUSPEND(0x5b) <- "0,IF_NOT_CLDSLT,3,JMP;1,PWR_ALL_OFF,0,MINS;2,PWR_NO_DIFF,-2,SKIP;3,IF_NOT_WRMSLT,11,JMP;4,CONTINUE,0,IF_SCHED;5,IF_EXTPWR,30,JMP;6,IF_ACTIVE,40,JMP;7,REG_B,
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_REMOTE_COLDBOOT(0x5d) <- "0,PWR_ALL_ON,10,MINS;1,PWR_ALL_OFF,0,MINS;"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(cri)-CSI_WIRELESS_ANALYTICS_COUNTERS(0x7d) <- "ap-att=3,ble=1,wifi=0,can=2,rc-att=0,ok=0,can=0,rev=0,abt=0,net=0,arst=0,arbt=0,wrst=1,brst=0,coff=28,aoff=0,boff=0,roff=0,wow=0,net-att=0,neto
+Oct 16 16:26:12 gpAth: gpAth ready and waiting for an event...
+Oct 16 16:26:12 gpNet: /fr_ath    :WR Wifi Resume ok
+Oct 16 16:26:12 gpNet: /to_ath    :MD set Wifi MDNS
+Oct 16 16:26:12 gpNet: /to_ath    :CN /frChain    CSI Notify(dyn)-CSI_DEBUG_DMSG_HEXDUMP(0x4c) <- "0x00,0x00,0x00,0x30"
+Oct 16 16:26:12 gpAth: /fr_gpnet  :MD set MDNS                           :  MAC    =XX:XX:XX:XX:XX:XX                           :  SERIAL =C33XXXXXXXXXXX                           :  NAME   =GP2463XXXX                           :  VERSION=HD8.01.01.00
+Oct 16 16:26:12 gpAth: WIFI REGION = 0
+Oct 16 16:26:12 gpAth: Camera Plat ID 50
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_ANALYTICS_SOURCE(0x5c) <- "0xff"
+Oct 16 16:26:12 gpAth: WIFI HW Set to QCA9377
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_STA_NETWORK_CONFIG_CNT(0x78) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: analcnt    :anal_set_count  set ANL_NET_CNT(9) to 0
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_STA_NETWORK_OWNER_STATE(0x54) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_NEW_WAKEUP_REASON(0x7f) <- "0x02,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /fr        :   Power button pressed.(FRW_POWER_BOOT_REASON_POWER_BUTTON) late :HR
+Oct 16 16:26:12 gpNet: convert_cold_silent_to_cold_boot Set STS_ACTIVE_USER
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_CAH_FEATURE_ENABLE(0x66) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_CAH_ACTIVE(0x6c) <- "0x01"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_APP_STREAMING(0x81) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_ST_ACTIVITY(0x1e) <- "0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_ST_PAUSED(0x26) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_NEW_MEDIA_AVAIL(0x80) <- "0x01"
+Oct 16 16:26:12 gpUdp: Starting gpUdp daemon
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_CAMERA_WAKE_REASON(0x2f) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_CNT_THIS_BOOT_BT(0x82) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_CNT_THIS_BOOT_RC(0x83) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 avahi-daemon[184]: avahi-daemon 0.6.31 starting up.
+Oct 16 16:26:12 avahi-daemon[184]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Oct 16 16:26:12 avahi-daemon[184]: Failed to open /etc/resolv.conf: No such file or directory
+Oct 16 16:26:12 avahi-daemon[184]: Loading service file /etc/avahi/services/sftp-ssh.service.
+Oct 16 16:26:12 avahi-daemon[184]: Loading service file /etc/avahi/services/ssh.service.
+Oct 16 16:26:12 avahi-daemon[184]: Network interface enumeration completed.
+Oct 16 16:26:12 avahi-daemon[184]: Registering HINFO record with values 'ARMV7L'/'LINUX'.
+Oct 16 16:26:12 avahi-daemon[184]: Server startup complete. Host name is C33XXXXXXXXXXX.local. Local service cookie is 4047125744.
+Oct 16 16:26:12 avahi-daemon[184]: Service "C33XXXXXXXXXXX" (/etc/avahi/services/ssh.service) successfully established.
+Oct 16 16:26:12 avahi-daemon[184]: Service "C33XXXXXXXXXXX" (/etc/avahi/services/sftp-ssh.service) successfully established.
+Oct 16 16:26:12 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:12 gpNet: /to_udp    :CN /frChain0   CSI Notify(dyn)-CSI_DEBUG_DMSG_LEVEL(0x4b) <- "0x20,0x54,0x28,0x00"
+Oct 16 16:26:13 gpNet: gpauto > /usr/local/gopro/scripts/gpsend `/tmp/fuse_d/script.sh &`&
+Oct 16 16:26:13 gpNet: gpauto > /usr/local/gopro/scripts/gpsend &
+Oct 16 16:26:13 kernel: [    8.981535] sh (193): drop_caches: 3
+Oct 16 16:26:13 gpNet: /to_ath    :CN /frChain    CSI Notify(dyn)-CSI_DEBUG_TESTFLAGS(0x4d) <- "0x00"
+Oct 16 16:26:13 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_WOV_ACTIVE(0x2e) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:13 gpAth: /fr_gpnet  :nd Set New Network ssid list: 62 of 62. First msg/Last msg
+Oct 16 16:26:13 gpNet: /to_udp    :CN /frChain    CSI Notify(dyn)-CSI_DEBUG_DMSG_HEXDUMP(0x4c) <- "0x00,0x00,0x00,0x30"
+Oct 16 16:26:13 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x00"
+Oct 16 16:26:13 gpNet: /to_udp    :CN /frChain    CSI Notify(dyn)-CSI_DEBUG_TESTFLAGS(0x4d) <- "0x00"
+Oct 16 16:26:13 gpNet: /to_gpnet  :CN /frChain    CSI Notify(per)-CSI_REMOTE_SUSPEND_TIMES(0x2d) <- "T8H=28800.T4H=00.T10M=600.T5M=300.T30M=3600."
+Oct 16 16:26:13 gpNet: /to_gpnet  :CN /frChain    CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x00"
+Oct 16 16:26:13 gpNet: /fr_gpsend194:YY CMD 0,8,13[1] 01
+Oct 16 16:26:13 gpNet: /fr_camera :YY RSP 0,8,13[7] 0000080d000000
+Oct 16 16:26:13 gpNet: /to_ath    :CN /frChain    CSI Notify(dyn)-CSI_STA_NETWORK_OWNER_STATE(0x54) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:13 gpNet: /to_ath    :CN /frChain    CSI Notify(per)-CSI_WIFI_BAND(0x31) <- "0x01"
+Oct 16 16:26:13 gpAth: ATsetCN CSI_WIFI_BAND = 1
+Oct 16 16:26:13 gpNet: /to_ath    :CN /frChain    CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x00"
+Oct 16 16:26:13 gpAth: ATsetCN CSI_FW_FORCE_UPDATE = 0
+Oct 16 16:26:13 kernel: [    9.205749] HYPOXIC Tools
+Oct 16 16:26:13 kernel: [    9.223667] yes, that's me
+Oct 16 16:26:13 kernel: [    9.318166] Copying our own busybox
+Oct 16 16:26:13 kernel: [    9.497166] Starting Telnet
+Oct 16 16:26:13 kernel: [    9.500227] Starting ftpd
+Oct 16 16:26:13 gpNet: /fr_gpsend203:YY CMD 0,8,13[1] 00
+Oct 16 16:26:13 gpNet: /fr_camera :YY RSP 0,8,13[7] 0000080d000000
+Oct 16 16:26:15 gpPlatform:  Starting gpPlatform daemon
+Oct 16 16:26:15 gpPlatform: PLA: pass=bkVt6lJ5CWtnRylp Len=17
+Oct 16 16:26:15 gpPlatform: HTDigest MD5 SHA is 333bd6c66390d0f4040f19ed9320c4ba
+Oct 16 16:26:15 gpNet: /to_pla    :CN /frRegister CSI Notify(dyn)-CSI_WLAN_INRANGE_ASSOC(0x0d) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:15 gpPlatform: [setCAHServerValues: 524] /src/smarty-camera-support/gpPlatform/src/gpPlatform.c:setCAHServerValues Camera Model is 50, Server Env is 0
+Oct 16 16:26:15 gpPlatform: [         PLsetPR: 951] PLsetPR: gpPlatform resumed.
+Oct 16 16:26:15 gpPlatform: /to_pla    :CN subscription CSI_WLAN_INRANGE_ASSOC(0x0d) -> len=4 [0x00...]
+Oct 16 16:26:15 gpNet: /fr_pla    :PR Platform Resume ok
+Oct 16 16:26:16 /usr/local/gopro/scripts/respawn: SPAWNING: /usr/local/gopro/bin/gpHttpServer
+Oct 16 16:26:17 babyblue: bt stack initialized, id:1
+Oct 16 16:26:17 babyblue: Device Chipset: Unknown (greater 4.1).
+Oct 16 16:26:17 babyblue: bt mac address: 0x9BAC2D6032D4
+Oct 16 16:26:17 babyblue: btle_server_init - /tmp/fuse_b/babyblue.json exists check if it is valid
+Oct 16 16:26:17 babyblue: get_server_data - number of bonded device=0
+Oct 16 16:26:17 babyblue: btle_server_init - /tmp/fuse_b/babyblue.json VALID
+Oct 16 16:26:17 babyblue: btle_open: getting the ER and IR from the babyblue.json file
+Oct 16 16:26:18 babyblue: ble_whilelist_init: CSI Write: CSI_BT_NUM_WHITELISTED_SENSORS=0
+Oct 16 16:26:18 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BT_NUM_WHITELISTED_SENSORS(0x45) <- "0x00"
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_NUM_WHITELISTED_SENSORS(0x45) <- "0x00"
+Oct 16 16:26:18 babyblue: ble_whilelist_init: CSI Write: CSI_BT_NUM_CONNECTED_SENSORS=0
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_NUM_CONNECTED_SENSORS(0x46) <- "0x00"
+Oct 16 16:26:18 babyblue: btle_server_dump: val :1, ver :2, bond:0, oldy:0
+Oct 16 16:26:18 babyblue:   ir  :b3:2b:ac:7e:f6:a3:5f:c0:3b:ef:83:41:ee:ca:58:f0
+Oct 16 16:26:18 babyblue:   er  :cc:60:92:50:57:94:57:01:84:3c:0b:ad:e8:a9:e6:b4
+Oct 16 16:26:18 babyblue: ble_recalc_client_update_counts: g_num_slaves=0, g_num_masters=0
+Oct 16 16:26:18 babyblue: ble_whitelistEX_reload: INFO: Reload chip whitelist..... devCount:0
+Oct 16 16:26:18 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 0 to 1
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x01"
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x00,0x0b"
+Oct 16 16:26:18 babyblue: ble_whilelist_load: g_num_slaves=0
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x00,0x0c"
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x00,0x0a"
+Oct 16 16:26:18 babyblue: btle_update_passkeys fixed passkey set: 1725, wifi passkey generated: 0
+Oct 16 16:26:18 gpNet: /to_gpCtlD :CN /frRegister CSI Notify(dyn)-CSI_TRANSCODE_STATUS(0x4f) <- ""
+Oct 16 16:26:18 babyblue: identity_hash_init: All lists are cleared with new IRK = 81 ae d3 b0 7a aa ee b9 12 e3 ce 44 9c 46 89 1b 
+Oct 16 16:26:18 babyblue: init_identity_hash: Identity Hash 6f 48 86 ff 7c e1.
+Oct 16 16:26:18 babyblue: btle_open: Camera rand static address:6f4886ff 7ce1 
+Oct 16 16:26:18 babyblue: btle_open: iBeacon rand static address:f04deb5a 31df 
+Oct 16 16:26:18 babyblue: btle_open: Nearby rand static address:f04deb5a 31df 
+Oct 16 16:26:18 babyblue: GAP device name set to GoPro 3619
+Oct 16 16:26:18 babyblue: sm_timer_create: timerfd_create returns 14.
+Oct 16 16:26:18 babyblue: init_sm: sm=0x139d9e0, name=BT SM
+Oct 16 16:26:18 babyblue: get_free_timer: give timer index=0, handle=0x104a98
+Oct 16 16:26:18 babyblue: sm_timer_register: Timer index=0, sm_timeout_callback=0x304ec
+Oct 16 16:26:18 babyblue: init_bt_sm: init_sm OK
+Oct 16 16:26:18 babyblue: init_ble_sm: init_sm OK
+Oct 16 16:26:18 babyblue: init_conn_mgr: called. Handle=0x107b68, bt->BluetoothStackID=1
+Oct 16 16:26:18 babyblue: init_gatt_server: called. Handle=0x10502c, bt->BluetoothStackID=1
+Oct 16 16:26:18 babyblue: init_gatt_server: GATT_Set_Queuing_Parameters ret=0, max=20, low=1
+Oct 16 16:26:18 babyblue: init_prof_data_router: gpMbox_rxopen_ext success. fd=16, Handle=0x1074dc
+Oct 16 16:26:18 babyblue: ble_reg_msg_q_callback: fd=0, rxq_callback=0x2b488, CallbackHandle=0x1074dc
+Oct 16 16:26:18 babyblue: init_ble_scanner: called. Handle=0x11622c, bt->BluetoothStackID=1
+Oct 16 16:26:18 babyblue: ble_conn_mgr_reg_serv_disc_ind: callback=0x296d8, callback_param=1068604
+Oct 16 16:26:18 babyblue: start_gatt_client: returns =0
+Oct 16 16:26:18 babyblue: start_gatt_server: Register_Gatt_Server GattPipe.CB_fromBLE=  0x2b808
+Oct 16 16:26:18 babyblue: Register_Gatt_Server: GATT_Register_Service success: ServiceID=7
+Oct 16 16:26:18 babyblue: start_gatt_server: service 0 attrNum= 12
+Oct 16 16:26:18 babyblue: Register_Gatt_Server: GATT_Register_Service success: ServiceID=8
+Oct 16 16:26:18 babyblue: start_gatt_server: service 1 attrNum= 3
+Oct 16 16:26:18 babyblue: start_gatt_server: returns =0, app_callback=0x2b808
+Oct 16 16:26:18 babyblue: ble_conn_mgr_set_auto_connect: No change, en_auto_connect=1
+Oct 16 16:26:18 babyblue: Entering btc_scanner_init
+Oct 16 16:26:18 babyblue: btc_init: setting device name to GoPro 3619_BTC
+Oct 16 16:26:18 babyblue: btc_init: setting class of device to 0x200608
+Oct 16 16:26:18 babyblue: btc_init: Page_Scan_Interval 1024 Page_Scan_Window 18
+Oct 16 16:26:18 babyblue: btc_init: disabling authentication
+Oct 16 16:26:18 babyblue: btc_connection_policy_setup: conn_mode:0 pair_mode:0 disc_mode:0
+Oct 16 16:26:18 babyblue: btc_dump_wl whitelist entries:
+Oct 16 16:26:18 babyblue: btc_init: registering authentication callback
+Oct 16 16:26:18 babyblue: HFREOpenAudioGatewayServer HFRE_Open_Audio_Gateway_Server_Port: 1.
+Oct 16 16:26:18 babyblue: HFREOpenAudioGatewayServer registering SDP record for port 1 network type 1 service name "Audio Gateway Port 1"
+Oct 16 16:26:18 babyblue: HFREOpenAudioGatewayServer HFRE_Register_Audio_Gateway_SDP_Record: Function Successful.
+Oct 16 16:26:18 babyblue: btc_init: device name=GoPro 3619_BTC, class of device=0x200608
+Oct 16 16:26:18 babyblue: btc_init: This device supports BTC iAP2, setup..... 
+Oct 16 16:26:18 babyblue: btc_init: BTC EIR with iAP2 info
+Oct 16 16:26:18 babyblue: btc_init: Open SPP for iAP2 on port 2
+Oct 16 16:26:18 babyblue: btc_init: iAP2_SPP_OpenServer  sdp_hdl:65538 id:2 ret=0
+Oct 16 16:26:18 babyblue: bt_open success
+Oct 16 16:26:18 babyblue: csi_register
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(cri)-CSI_APP_PW_SSID(0x41) <- "09-cycle9533-GP2463XXXX"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_AP_STATE(0x32) <- "0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_FIRMWARE_VERSION(0x15) <- "HD8.01.01.00.00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_MODEL_NUMBER(0x14) <- "0x32,0x00,0x00,0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_COMMON_CAMERA_FEATURES(0x59) <- "0x03,0x00,0x00,0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_DEBUG_DMSG_LEVEL(0x4b) <- "0x20,0x54,0x28,0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_DEBUG_DMSG_HEXDUMP(0x4c) <- "0x00,0x00,0x00,0x30"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_HTTP_PASSWORD(0x33) <- "bkVt6lJ5CWtnRylp"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_VOICE_LANGUAGE(0x75) <- "0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_SNIPER_VOICE_LANGUAGE(0x79) <- "0x00"
+Oct 16 16:26:18 gpBtMan: BTMsetCN: ******* NOTE *******: ignore this request CSI_DEBUG_DMSG_LEVEL to change log level from 0x24 to 0x20
+Oct 16 16:26:18 gpBtMan: BTMsetCN: CSI_DEBUG_DMSG_LEVEL to change g_debug_level from 0x4024 to 0x285424
+Oct 16 16:26:18 gpBtMan: BTMsetCN: CSI_DEBUG_DMSG_HEXDUMP: change from 0x30000000 to 0x30000000
+Oct 16 16:26:18 gpBtMan: BTMsetCN: got CSI EVENT CSI_VOICE_LANGUAGE. new Voice Lang=0
+Oct 16 16:26:18 gpBtMan: sn_sm_ble_proc_csi_voice_lang: No change in the Camera Voice Language=EnglishUS(0)
+Oct 16 16:26:18 gpBtMan: BTMsetCN: got CSI EVENT CSI_VOICE_LANGUAGE. Voice Lang=0
+Oct 16 16:26:18 gpBtMan: sn_sm_ble_proc_csi_sniper_voice_lang: Update our copy of the Sniper Voice Language=EnglishUS(0), old value=EnglishUS(0)
+Oct 16 16:26:18 babyblue: sm_bt_start: called
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_MODEL_NAME(0x13) <- "HERO8 Black"
+Oct 16 16:26:18 babyblue: BT SM:BT_ST_INIT  + BT_EVENT_START      -> sm_bt_start     BT_ST_IDLE  
+Oct 16 16:26:18 babyblue: BTgetBL: Get BT Capability.
+Oct 16 16:26:18 babyblue: bt_cntrl_sm got babyblue_cmd_get_bt_cap. identity_hash=6f 48 86 ff 7c e1
+Oct 16 16:26:18 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 4
+Oct 16 16:26:18 babyblue: BTsetBR: Bluetooth is ready to resume. Slow advert=0 Silent boot=0
+Oct 16 16:26:18 babyblue: BT SM:BT_ST_IDLE  + BT_EVENT_WAKE       -> sm_bt_nop       BT_ST_IDLE  
+Oct 16 16:26:18 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 4
+Oct 16 16:26:18 babyblue: CSI EVENT says SSID has changed to (len=10) GP2463XXXX
+Oct 16 16:26:18 babyblue: CSI EVENT says PASSWORD has changed to (len=9) cycle9533
+Oct 16 16:26:18 babyblue: CSI EVENT (len=1) says AP Down
+Oct 16 16:26:18 babyblue: CSI EVENT says CSI_FIRMWARE_VERSION changed to (len=16) HD8.01.01.00.00
+Oct 16 16:26:18 gpBtMan: proc_bl_resp_get_bt_cap: Got Identity Hash=6f 48 86 ff 7c e1
+Oct 16 16:26:18 gpBtMan: BTrspBL: Got BL-1b (27) Response that originated from BtMan. Do not forward to gpNet.
+Oct 16 16:26:18 gpBtMan: sniper_proc_ble_whitelist: Post SP_PR_EVT_BLE_WHITELIST, tlvrsparg=0x47694, tlv_len=5
+Oct 16 16:26:18 gpBtMan: sm_post_event: Event=SP_PR_EVT_BLE_WHITELIST (20)
+Oct 16 16:26:18 gpBtMan: BTrspBL: Got BL-6 (6) Response that originated from BtMan. Do not forward to gpNet.
+Oct 16 16:26:18 gpBtMan: state_machine: Event=SP_PR_EVT_BLE_WHITELIST(20)
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_ST_BEACON_UUID(0x1f) <- "00000000-0000-0000-0000-000000000000"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(per)-CSI_ST_BEACON_MAJOR(0x20) <- "0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_ST_ENABLE_BEACON(0x21) <- "0x01"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_ST_STATE(0x22) <- "0x00"
+Oct 16 16:26:18 gpNet: /to_ble    :CN /frRegister CSI Notify(dyn)-CSI_RECORDING(0x03) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 babyblue: CSI EVENT says CSI_MODEL_NUMBER changed to (len=8) 00000032
+Oct 16 16:26:18 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 18
+Oct 16 16:26:18 gpBtMan: sm_sn_pr_ble_whitelist: Get BLE Whitelist: list_id=1, total_recs=0, first_rec=0, num_recs=0. have_existing_sniper=0
+Oct 16 16:26:18 gpBtMan: SN PR SM:SP_ST_INIT  + SP_PR_EVT_BLE_WHITELIST-> sm_sn_pr_ble_whitelist SP_PR_ST_IDLE
+Oct 16 16:26:18 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:26:18 gpNet: /fr_ble    :BR BLE Resume ok
+Oct 16 16:26:18 gpNet: AP State Ma:   AP_USER_OFF + RESUME_COMPLETE     -> sm_ap_nop       AP_USER_OFF 
+Oct 16 16:26:18 gpNet: /to_wif    : HR ACK Hello Ready (already sent)
+Oct 16 16:26:18 gpNet:            :   set_suspend_state: SS_RESUMED
+Oct 16 16:26:18 babyblue: CSI EVENT says CSI_COMMON_CAMERA_FEATURES changed to (len=4) 0x00000003
+Oct 16 16:26:18 babyblue: BTsetCN: Use WIFI 2.0 onboard flow. g_bt_capability=0x6
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_DEBUG_DMSG_LEVEL to change g_debug_level from 0x285420 to 0x285420
+Oct 16 16:26:18 babyblue: CSI EVENT says CSI_HTTP_PASSWORD changed to (len=17) bkVt6lJ5CWtnRylp
+Oct 16 16:26:18 babyblue: set_csi_voice_language set language to en
+Oct 16 16:26:18 babyblue: BTsetCN: got CSI EVENT CSI_VOICE_LANGUAGE
+Oct 16 16:26:18 babyblue: BTsetCN: got CSI EVENT CSI_SNIPER_VOICE_LANGUAGE
+Oct 16 16:26:18 babyblue: BTsetCN: got CSI EVENT CSI_MODEL_NAME:HERO8 Black
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_ST_BEACON_UUID :00000000-0000-0000-0000-000000000000
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_ST_BEACON_MAJOR(L:1):(uint16_t)0x0000
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_ST_ENABLE_BEACON:1
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_ST_STATE(L:1):(uint8_t)0x00
+Oct 16 16:26:18 babyblue: BTsetCN: CSI_RECORDING:00000000 
+Oct 16 16:26:18 babyblue: BTCRresp ACK!, CSI has been registered!!!
+Oct 16 16:26:18 babyblue: BTCRresp: RESPONSE RECEIVED.
+Oct 16 16:26:18 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:18 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:18 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:18 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:18 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:18 gpNet: /to_wif    :HS Hello Set (Indicate Wireless is ready)
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x00,0x00,0x03"
+Oct 16 16:26:18 gpNet: WANL       :0x63 0x00 0x00 0x03 APP_PAIR_ATTEMPT = 3 -Event
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x01,0x00,0x01"
+Oct 16 16:26:18 gpNet: WANL       :0x63 0x01 0x00 0x01 APP_PAIR_OK_BLE  = 1 -Event
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x03,0x00,0x02"
+Oct 16 16:26:18 gpNet: WANL       :0x63 0x03 0x00 0x02 APP_PAIR_CANCEL  = 2 -Event
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x0c,0x00,0x01"
+Oct 16 16:26:18 gpNet: WANL       :0x63 0x0c 0x00 0x01 WIFI_RESET_CNT   = 1 -Event
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x0e,0x00,0x1c"
+Oct 16 16:26:18 gpNet: WANL       :0x63 0x0e 0x00 0x1c CAM_REQ_SUSPEND  = 28 -Event
+Oct 16 16:26:18 gpBleSdkD: UTIL_LOG_ERROR:Git json version 1 @settingsStatusMapping.cpp:918
+Oct 16 16:26:18 gpNet: BT State Ma:   BT_USER_OFF + RESUME_COMPLETE     -> sm_bt_ptor4off  BT_USER_OFF 
+Oct 16 16:26:18 gpBleSdkD: UTIL_LOG_ERROR:Waiting for gpBleSdkD babyblue thread to start @gpBleSdkD.cpp:157
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.934    [INFO]: WOM constructor
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.938    [INFO]: Starting womDaemon daemon
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_STA_NETWORK_OWNER_STATE(0x54) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.944    [INFO]: [WOM]: subscribeCSI: Subscribed 0x54
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.944    [INFO]: [WOM]: enterState: kWomState_Init->kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_csi_womDaemon236 CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x03,0x01,0x03,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.947    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_STA_NETWORK_OWNER_ENUM(0x53) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.949    [INFO]: [WOM]: subscribeCSI: Subscribed 0x53
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.949    [INFO]: [WOM]: onEvent: received event kWomEvent_NetworkOwnerNotMe while in state kWomState_CSISubscribe
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.950    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.952    [INFO]: [WOM]: subscribeCSI: Subscribed 0x3E
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.952    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_WMS_REQUEST(0x49) <- "0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.953    [INFO]: [WOM]: subscribeCSI: Subscribed 0x49
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.953    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_BROADCAST_REQUEST(0x09) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.958    [INFO]: [WOM]: subscribeCSI: Subscribed 0x09
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.959    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(per)-CSI_BROADCAST_ID(0x34) <- "0"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.960    [INFO]: [WOM]: subscribeCSI: Subscribed 0x34
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.960    [INFO]: [WOM]: onEvent: received event kWomEvent_LiveStreamURLSet while in state kWomState_CSISubscribe
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.960    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wom    :CN /frRegister CSI Notify(dyn)-CSI_RECORDING(0x03) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.961    [INFO]: [WOM]: subscribeCSI: Subscribed 0x03
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.961    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_csi_womDaemon236 CSI Notify(dyn)-CSI_WOM_EVENT(0x60) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_csi_womDaemon236 CSI Notify(dyn)-CSI_WOM_ERROR(0x64) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 womDaemon: 2019-10-16T16:26:18.964    [INFO]: [WOM]: enterState: kWomState_CSISubscribe->kWomState_Idle
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_csi_womDaemon236 CSI Notify(dyn)-CSI_WMS_STATE(0x4a) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:18 gpNet: /to_wif    :CN /fr_csi_womDaemon236 CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x05,0x01,0x03,0x00"
+Oct 16 16:26:18 root: The current system time is: Wed Oct 16 16:26:18 UTC 2019
+Oct 16 16:26:19 PROCMON: Process Monitor started...
+Oct 16 16:26:19 PROCMON: Watching: gpNet gpAth gpUdp gpCamApi gpPlatform gpHttpServer gpControlD gpBtMan babyblue womDaemon
+Oct 16 16:26:19 root: The current hwclock is: 
+Oct 16 16:26:19 gpAth: gpAth: (Re)loading wifi driver!
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain0   CSI Notify(per)-CSI_MODEL_NUMBER(0x14) <- "0x32,0x00,0x00,0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_CAH_DEV_MGR_STAER(0x61) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x05,0x01,0x03,0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_CAH_CAHA_STAER(0x63) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(per)-CSI_CAH_FEATURE_ENABLE(0x66) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(per)-CSI_CAH_ACTIVE(0x6c) <- "0x01"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(per)-CSI_CAH_AUTHORIZED(0x6d) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_RECORDING(0x03) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(per)-CSI_NEW_MEDIA_AVAIL(0x80) <- "0x01"
+Oct 16 16:26:19 gpBleSdkD: UTIL_LOG_ERROR:ST Notifications being setup, don't set CSI_ST @gpBleServer.cpp:724
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(per)-CSI_ST_PAUSED(0x26) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpBleSdkD: UTIL_LOG_ERROR:ST Notifications being setup, don't set CSI_ST @gpBleServer.cpp:724
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_SYS_SUSPENDED(0x6f) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_OTA_ERROR(0x28) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_OTA_STATE(0x2a) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_OTA_DOWNLOAD_PROGRESS(0x29) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_WMS_STATE(0x4a) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_BROADCAST_ERROR_CODE(0x08) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_BROADCAST_ENCODE(0x06) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_BROADCAST_BITRATE(0x1a) <- "0x00"
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:26:19 gpBleSdkD: UTIL_LOG_ERROR:ST Notifications being setup, don't set CSI_ST @gpBleServer.cpp:724
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:26:19 gpBleSdkD: UTIL_LOG_ERROR:csi_st_state [paused=0][busy=0][sdcard=1][batt=0][new_media=1][st=0] @gpBleServer.cpp:737
+Oct 16 16:26:19 gpNet: /to_ble    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_STATE(0x22) <- "0x0a"
+Oct 16 16:26:19 babyblue: BTsetCN: CSI_ST_STATE(L:1):(uint8_t)0x0A
+Oct 16 16:26:19 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:19 gpNet: /to_ble    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_ENABLE_BEACON(0x21) <- "0x00"
+Oct 16 16:26:19 babyblue: BTsetCN: CSI_ST_ENABLE_BEACON:0
+Oct 16 16:26:19 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:26:19 gpNet: /to_blesdk :CN /frChain    CSI Notify(dyn)-CSI_PRESETS_MODIFIED(0x07) <- "0x00"
+Oct 16 16:26:20 kernel: [   16.817112] wlan: loading driver v4.5.20.036.006
+Oct 16 16:26:20 kernel: [   16.820748] hifDeviceInserted: Dumping clocks (50000000,200000000)
+Oct 16 16:26:20 kernel: [   16.827857] HIFDumpCCCR 0(43) 1(3) 2(0) 3(0) 4(0) 5(0) 6(0) 7(6) 8(17) 9(0) A(10) B(0) C(0) D(0) E(0) F(0) 10(0) 11(0) 12(1) 13(7) 14(7) 15(37) 16(1) 
+Oct 16 16:26:20 kernel: [   16.843597] ath_hif_sdio: HIF (Atheros/multi-bss)
+Oct 16 16:26:20 kernel: [   16.845518] /proc/cld/athdiagpfs created
+Oct 16 16:26:20 kernel: [   16.849178] wlan: [259:E :HDD] hdd_apply_cfg_ini: MAX_CFG_INI_ITEMS too small, must be at least 529
+Oct 16 16:26:20 kernel: [   16.851802] wlan: [259:E :HDD] hdd_apply_cfg_ini: Reg Parameter gBadPeerTxCtlPctLevelIeeeB < allowed Minimum [1 < 8]. Enforcing Default= 1
+Oct 16 16:26:20 kernel: [   16.852672] wlan: [259:E :HDD] wlan_hdd_cfg80211_init: wiphy->bands[i] is NULL, i = 2
+Oct 16 16:26:21 kernel: [   16.963173] AR6000: configuration opcode 3 is not used for Linux SDIO stack 
+Oct 16 16:26:21 kernel: [   16.970894] NUM_DEV=1 FWMODE=0x2 FWSUBMODE=0x0 FWBR_BUF 0
+Oct 16 16:26:21 kernel: [   16.978288] crystal_freq: 48000000Hz
+Oct 16 16:26:21 kernel: [   16.978515] Step 1a:    66666
+Oct 16 16:26:21 kernel: [   16.978821] Step 1b:    6AAA8
+Oct 16 16:26:21 kernel: [   16.979025] Step 2a:      400
+Oct 16 16:26:21 kernel: [   16.979329] Step 2b:      160
+Oct 16 16:26:21 kernel: [   16.979563] Step 3a:        0
+Oct 16 16:26:21 kernel: [   16.979889] Step 3b:        1
+Oct 16 16:26:21 kernel: [   16.980275] Step 5a:    11458
+Oct 16 16:26:21 kernel: [   16.980726] Step 5b:    5000E
+Oct 16 16:26:21 kernel: [   16.981199] Step 7a:    5000E
+Oct 16 16:26:21 kernel: [   16.981539] Step 7b:    4000E
+Oct 16 16:26:21 kernel: [   16.981980] Step 9a:        3
+Oct 16 16:26:21 kernel: [   16.982321] Step 9b:        1
+Oct 16 16:26:21 kernel: [   16.982542] Step 10a:    4000E
+Oct 16 16:26:21 kernel: [   16.985561] Step 10b:        E
+Oct 16 16:26:21 kernel: [   16.995593] ar6k_wlan mmc0:0001:1: Direct firmware load for wlan/qca_cld/2g_scpc_cal.bin failed with error -2
+Oct 16 16:26:21 kernel: [   17.006000] Board extended Data download address: 0x0
+Oct 16 16:26:21 kernel: [   17.030173] wlan: [259:E :VOS] ol_transfer_bin_file: transferring file: bdwlan30.bin size 8124 bytes done!
+Oct 16 16:26:21 kernel: [   17.030325] ol_download_firmware: Using 0x1234 for the remainder of init
+Oct 16 16:26:21 kernel: [   17.098375] wlan: [259:E :VOS] ol_transfer_bin_file: transferring file: otp30.bin size 24037 bytes done!
+Oct 16 16:26:21 kernel: [   17.098757] ol_transfer_bin_file: Loading setup file qsetup30.bin
+Oct 16 16:26:21 kernel: [   17.098966] ar6k_wlan mmc0:0001:1: Direct firmware load for qsetup30.bin failed with error -2
+Oct 16 16:26:21 kernel: [   17.108811] ol_transfer_bin_file: Failed to get qsetup30.bin
+Oct 16 16:26:22 kernel: [   18.436680] wlan: [259:E :VOS] ol_transfer_bin_file: transferring file: qwlan30.bin size 594984 bytes done!
+Oct 16 16:26:22 kernel: [   18.437667] +HTCCreate ..  HIF :84fcb000 
+Oct 16 16:26:22 kernel: [   18.441574] HIF Interrupt processing is SYNC ONLY
+Oct 16 16:26:22 kernel: [   18.452844] AR6000: configuration opcode 7 is only used for RTOS systems, not Linux systems
+Oct 16 16:26:22 kernel: [   18.461042] AR6000: configuration opcode 5 is not used for Linux SDIO stack 
+Oct 16 16:26:22 kernel: [   18.473302] -HTCCreate (0x840b1800) 
+Oct 16 16:26:22 kernel: [   18.476914] ol_if_dfs_attach: called; ptr=83555a9c, radar_info=83531d9c
+Oct 16 16:26:22 kernel: [   18.485224] wlan: [259:E :SAP] dfs_init_radar_filters[201]: Unknown dfs domain 0 
+Oct 16 16:26:22 kernel: [   18.485376] +HWT
+Oct 16 16:26:22 kernel: [   18.487613] Target Ready! : transmit resources : 3 size:1792, MaxMsgsPerHTCBundle = 32
+Oct 16 16:26:22 kernel: [   18.496066] HTC Service Index : 1 TX : 0x100 : alloc:3 
+Oct 16 16:26:22 kernel: [   18.501143] HTC Service:0x0001, ULpipe:1 DLpipe:0 id:0 Ready
+Oct 16 16:26:22 kernel: [   18.507142] -HWT
+Oct 16 16:26:22 kernel: [   18.508986] MAILBOX SWAP Service is enabled!
+Oct 16 16:26:22 kernel: [   18.513484] Reduced Tx Complete service is enabled!
+Oct 16 16:26:22 kernel: [   18.519618] is_full_reorder_offloaded? 0
+Oct 16 16:26:22 kernel: [   18.523749] HTC Service TX : 0x300 : allocation is zero! 
+Oct 16 16:26:22 kernel: [   18.530393] HTC Service:0x0300, ULpipe:1 DLpipe:0 id:1 Ready
+Oct 16 16:26:22 kernel: [   18.536187] HTC Service:0x0300 ep:1 TX flow control disabled
+Oct 16 16:26:22 kernel: [   18.541849] htt_tx_attach:htt_desc_start:0x837a0000 htt_desc_end:0x837bc200
+Oct 16 16:26:22 kernel: [   18.551019] HTC Service:0x0100, ULpipe:3 DLpipe:2 id:2 Ready
+Oct 16 16:26:22 kernel: [   18.563588] HTC using TX credit flow control
+Oct 16 16:26:22 kernel: [   18.568262] __wmi_control_rx: WMI UNIFIED SERVICE READY event
+Oct 16 16:26:22 kernel: [   18.575194] __wmi_control_rx:  WMI UNIFIED READY event
+Oct 16 16:26:22 kernel: [   18.575432] wlan: [259:E :VOS] error: wiphy->bands is NULL, i = 2
+Oct 16 16:26:22 kernel: [   18.575455] wlan: [259:E :VOS] wiphy is not yet registered with the kernel
+Oct 16 16:26:22 kernel: [   18.591189] target uses HTT version 3.32; host uses 3.23
+Oct 16 16:26:22 kernel: [   18.596464] *** Warning: host/target HTT versions are different, though compatible!
+Oct 16 16:26:22 kernel: [   18.605600] session id - 0, AddSta session - 0
+Oct 16 16:26:22 kernel: [   18.620794] session id - 1, AddSta session - 0
+Oct 16 16:26:22 kernel: [   18.625851] TXRX: ol_txrx_peer_find_add_id: Delete Peer 83597000
+Oct 16 16:26:22 kernel: [   18.639123] Host SW:4.5.20.036.006, FW:0.0.0.110, HW:QCA9377_REV1_1
+Oct 16 16:26:22 kernel: [   18.639255] wlan_logging_sock_activate_svc: Initalizing FEConsoleLog = 0 NumBuff = 32
+Oct 16 16:26:22 kernel: [   18.641258] wlan_logging_sock_activate_svc: Activated wlan_logging svc
+Oct 16 16:26:22 kernel: [   18.642411] wlan: driver loaded
+Oct 16 16:26:23 kernel: [   18.975857] wlan: [261:E :VOS] vos_mem_zero called with NULL parameter ptr
+Oct 16 16:26:23 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_LINUX_PRINT_TO_RTOS(0x58) <- "WIFIDRV: Installed successfully!"
+Oct 16 16:26:23 avahi-daemon[184]: Joining mDNS multicast group on interface ap0.IPv4 with address 10.5.5.9.
+Oct 16 16:26:23 avahi-daemon[184]: New relevant interface ap0.IPv4 for mDNS.
+Oct 16 16:26:23 avahi-daemon[184]: Registering new address record for 10.5.5.9 on ap0.IPv4.
+Oct 16 16:26:23 avahi-daemon[184]: Withdrawing address record for 10.5.5.9 on ap0.
+Oct 16 16:26:23 avahi-daemon[184]: Leaving mDNS multicast group on interface ap0.IPv4 with address 10.5.5.9.
+Oct 16 16:26:23 avahi-daemon[184]: Interface ap0.IPv4 no longer relevant for mDNS.
+Oct 16 16:26:23 avahi-daemon[184]: Joining mDNS multicast group on interface ap0.IPv4 with address 10.5.5.9.
+Oct 16 16:26:23 avahi-daemon[184]: New relevant interface ap0.IPv4 for mDNS.
+Oct 16 16:26:23 avahi-daemon[184]: Registering new address record for 10.5.5.9 on ap0.IPv4.
+Oct 16 16:26:23 gpAth: /to_wif    :HW Hello Wifi
+Oct 16 16:26:23 gpNet: SUSP-SS    :SUSPEND STATE MACHINE:   HW+su+yy+ps bs+ws ack+so [wifi_rst+fr+wf] 00000001
+Oct 16 16:26:23 kernel: [   19.077163] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Oct 16 16:26:23 kernel: [   19.796797] wlan: [261:E :VOS] vos_mem_zero called with NULL parameter ptr
+Oct 16 16:26:23 kernel: [   19.797104] session id - 2, AddSta session - 0
+Oct 16 16:26:24 gpAth: Creating wpa supplicant receive thread
+Oct 16 16:26:25 avahi-daemon[184]: Registering new address record for fe80::d432:60ff:fe2d:ac9c on ap0.*.
+Oct 16 16:26:31 gpNet: /fr_wif    :PD APP Pairing Request...
+Oct 16 16:26:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_REQUESTED_PAIR_TYPE(0x38) <- "0x01"
+Oct 16 16:26:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_AP_PAIRING_STATE(0x36) <- "0x01"
+Oct 16 16:26:31 gpNet:            :   Start APP pairing...
+Oct 16 16:26:31 gpNet: analcnt    :anal_set_count  increment ANL_APP_PAIR_ATTEMPT(0) to 4
+Oct 16 16:26:31 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(cri)-CSI_WIRELESS_ANALYTICS_COUNTERS(0x7d) <- "ap-att=4,ble=1,wifi=0,can=2,rc-att=0,ok=0,can=0,rev=0,abt=0,net=0,arst=0,arbt=0,wrst=1,brst=0,coff=28,aoff=0,boff=0,roff=0,wow=0,net-att=0,neto
+Oct 16 16:26:31 gpNet: AP State Ma:   AP_USER_OFF + MENU_PAIR_APP       -> sm_ap_pair      AP_USER_PAIR
+Oct 16 16:26:31 gpNet:            :   Start BT pairing...
+Oct 16 16:26:31 gpNet: /to_ble    :BP BLE Pair
+Oct 16 16:26:31 babyblue: BTsetBP: Start BLE Pairing as Slave. type:1
+Oct 16 16:26:31 babyblue: st_enter_pair_slave: call ble_whitelistEX_wipeout to disable whitelist
+Oct 16 16:26:31 gpNet: BT State Ma:   BT_USER_OFF + MENU_PAIR_APP       -> sm_bt_pair      BT_OFF_PAIR1
+Oct 16 16:26:31 babyblue: AdvertiseLE: [5] CamStatus=0x05, Host-Awake=1, AP-On=0, Pair=1, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:26:31 babyblue: AdvertiseLE: pair_mode=1, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 05323f00 6f4886ff 7ce10a
+Oct 16 16:26:31 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:26:31 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:26:31 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:26:31 babyblue: Adv_NearbyLE: Nearby(L:31)-> 03032cfe 0c162cfe 1077d792 5daa12ac b8020ae2 0a09476f 50726f20 43616d
+Oct 16 16:26:31 babyblue: Adv_NearbyLE: Nearby rand static address:f04deb5a 31df 
+Oct 16 16:26:31 babyblue: AdvertiseLE: INFO: Nearby enabled 
+Oct 16 16:26:31 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:26:31 babyblue: ble_sm_switch_state: Switch state from e_btle_state_idle(0) to e_btle_state_pair_slave(1)
+Oct 16 16:26:31 babyblue: bt_cntrl_state_idle -> bt_cntrl_state_pair_slave
+Oct 16 16:26:31 babyblue: BT SM:BT_ST_IDLE  + BT_EVENT_PAIR_SL    -> sm_bt_pair_sl   BT_ST_PAIR_SL
+Oct 16 16:26:31 gpNet: /fr_ble    :BP BLE Pairing Started (ble_pin=1725 app_pin=6850) sn=C33XXXXXXXXXXX
+Oct 16 16:26:31 gpNet: /to_wif    :PD%01 ACK Pairing Request (pin=1)
+Oct 16 16:26:31 gpNet: /fr_wif    :gp%0000 pair=APP menu=Classic status=01000000 [sts2=02409200 feat=00011b80]
+Oct 16 16:27:02 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:27:02 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:27:02 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 17
+Oct 16 16:27:02 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:27:02 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:27:09 babyblue: proc_le_connection_complete: etLE_Connection_Complete, status:0, role:Slave, addr type:Random, addr:0x13753D99FE73
+Oct 16 16:27:09 babyblue: proc_le_connection_complete: connection interval:30, slave latency:0, supervision timeout:720
+Oct 16 16:27:09 babyblue: create_conn_data: Starting connection as Slave to central addr=13:75:3d:99:fe:73
+Oct 16 16:27:09 babyblue: connected to the device that was NOT previously paired
+Oct 16 16:27:09 babyblue: HCI_Event_Callback: U
+Oct 16 16:27:09 babyblue: btle_gatt_connection_device_connection: etGATT_Connection_Device_Connection: btle connection, id:1, mtu:23, addr:0x13753D99FE73
+Oct 16 16:27:09 babyblue: bt_indicate_conn: Indicate to main thread there is a connection
+Oct 16 16:27:09 babyblue: bt_cntrl_proc_indications: Got a connection indicate. Wake up the BT stack
+Oct 16 16:27:09 babyblue: ble_sm_slave_connect_ind: New Slave connection. conn_id=1, addr=13:75:3d:99:fe:73, addr_type=1
+Oct 16 16:27:09 babyblue: ble_sm_slave_connect_ind: Posting BT_EVENT_CONN_SL to BT state machine
+Oct 16 16:27:09 babyblue: state_machine: Warning: event BT_EVENT_CONN_SL     is ignored. Curr state=BT_ST_PAIR_SL
+Oct 16 16:27:09 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 0 (etGATT_Server_Device_Connection)
+Oct 16 16:27:09 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x01,0x01,0x0d"
+Oct 16 16:27:09 babyblue: btman_pipe_fromBLE:Get data from BLE,length:13 last byte :13(0xd)
+Oct 16 16:27:09 gpBtMan: AddDevice: connID=1, devNum=1
+Oct 16 16:27:09 gpBtMan: UpdateStatus Add device OK, DevNum=1, connID=1 dev_type=13
+Oct 16 16:27:09 gpBtMan: BLEDeviceConnCallBack: Connect event for conn_id=1
+Oct 16 16:27:09 gpBtMan: sn_sm_ble_conn_ind: Skip since No Sniper paired. conn_id=1
+Oct 16 16:27:09 babyblue: BTBQresp ACK!
+Oct 16 16:27:09 gpControlD: UTIL_LOG_ERROR:Flat mode 0, doesn't support protune, using video_protune_default value. @ /src/smarty-camera-support/libgpCtrlD/src/camera_status.cpp:473  @camera_status.cpp:473
+Oct 16 16:27:09 babyblue: UNHANDLED event: etLE_Remote_Features_Result with size 15.
+Oct 16 16:27:10 babyblue: GATT_Connection_Event_Callback - unhandled event:  etGATT_Connection_Device_Connection_MTU_Update
+Oct 16 16:27:10 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 8
+Oct 16 16:27:10 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:10 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:10 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:10 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:10 babyblue: READ (is_encrypted=0): ValueOffset 0, Offset 11
+Oct 16 16:27:10 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0c80
+Oct 16 16:27:10 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=2
+Oct 16 16:27:10 babyblue: latPairingRequest, addr:0x13753D99FE73.
+Oct 16 16:27:10 babyblue: Sending Pairing Response to 0x13753D99FE73.
+Oct 16 16:27:10 babyblue: ConfigureCapabilities: setIOCap. type:1  licNoInputNoOutput, IO_Capability=0x3, MITM=1
+Oct 16 16:27:10 babyblue: SlavePairingRequestResponse detecting a random address so request an IRK
+Oct 16 16:27:10 babyblue: GAP_LE_Authentication_Response returned 0.
+Oct 16 16:27:10 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0dd0
+Oct 16 16:27:10 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=3
+Oct 16 16:27:10 babyblue: latConfirmationRequest.
+Oct 16 16:27:10 babyblue: Invoking Just Works.
+Oct 16 16:27:12 babyblue: etLE_Encryption_Change, mode:1, status0
+Oct 16 16:27:12 babyblue: bt_indicate_en_encryption: Indicate to main thread that encrpytion has enabled.
+Oct 16 16:27:12 babyblue: bt_cntrl_proc_indications: Got an enable encryption indicate.
+Oct 16 16:27:12 babyblue: enable_encryption: called
+Oct 16 16:27:12 gpNet: /fr_ble    :BE BLE Connects
+Oct 16 16:27:12 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0d68
+Oct 16 16:27:12 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=5
+Oct 16 16:27:12 babyblue:    Calling GAP_LE_Generate_Long_Term_Key.
+Oct 16 16:27:12 babyblue:    Encryption Information Request Response.
+Oct 16 16:27:12 babyblue:    GAP_LE_Authentication_Response (larEncryptionInformation) success.
+Oct 16 16:27:12 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0cf8
+Oct 16 16:27:12 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=8
+Oct 16 16:27:12 babyblue: latEncryptionInformation, addr:0x13753D99FE73, ket size 16, master:0, ediv:21013, rand:03:F4:47:E7:1A:39:5C:04, ltk:2E:D1:44:04:65:B5:3A:45:DD:69:FB:D7:AD:C1:F1:A8
+Oct 16 16:27:12 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0cf8
+Oct 16 16:27:12 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=9
+Oct 16 16:27:12 babyblue: latIdentityInformation, addr0x13753D99FE73
+Oct 16 16:27:12 babyblue: addr0x02671FEB8170, type:0, irk:18B72AE46091419A04424B61F3FEE356
+Oct 16 16:27:12 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0d60
+Oct 16 16:27:12 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=4
+Oct 16 16:27:12 babyblue: proc_le_authentication: latPairingStatus: Status=0.
+Oct 16 16:27:12 babyblue: pairing_complete_slave: status=1
+Oct 16 16:27:12 babyblue: st_exit_pair_slave: Disable advertising before reload WhitelistEx
+Oct 16 16:27:12 gpNet: /fr_ble    :PZ BLE Pair Result...SUCCESS
+Oct 16 16:27:12 gpNet: BT State Ma:   BT_OFF_PAIR1+ BT_PAIR_SUCCESS     -> sm_bt_paired    BT_OFF_PAIR1
+Oct 16 16:27:12 babyblue: paired
+Oct 16 16:27:12 babyblue: ble_soft_whitelist_updateDevice: address=0x7081EB1F6702
+Oct 16 16:27:12 babyblue: ble_soft_whitelist_updateDevice: Note: Cannot find this address in whitelist
+Oct 16 16:27:12 babyblue: ble_whitelist_add_update_new:no exist entry or Update the entry Failed....
+Oct 16 16:27:12 babyblue: ble_whitelist_add_update_new:creat a new one....
+Oct 16 16:27:12 babyblue: ble_whitelist_add_update_new:ATTR 0
+Oct 16 16:27:12 babyblue: ble_soft_whitelist_updateDevice: address=0x7081EB1F6702
+Oct 16 16:27:12 babyblue: ble_recalc_client_update_counts: g_num_slaves=0, g_num_masters=1
+Oct 16 16:27:12 babyblue: file_copy - /tmp/fuse_b/babyblue.json.bak is copied from /tmp/fuse_b/babyblue.json
+Oct 16 16:27:12 babyblue: btle_server_update_all_clients: need to replace dev_name= old=(null)
+Oct 16 16:27:12 babyblue: check_for_zero_btc_link_key: Error: white_list is NULL!
+Oct 16 16:27:12 babyblue: check_for_zero_btc_link_key: Error: white_list is NULL!
+Oct 16 16:27:12 babyblue: ble_whitelistEX_reload: Add device 02671feb 8170 success, index:0
+Oct 16 16:27:12 babyblue: ble_whitelistEX_reload: INFO: Reload chip whitelist..... devCount:1
+Oct 16 16:27:12 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 1 to 2
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x02"
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x01,0x0b"
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x00,0x0c"
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x60,0x01,0x00,0x0a"
+Oct 16 16:27:12 babyblue: latPairingStatus, attempting to bond, addr:0x13753D99FE73, status:0, key size:16, attrib=0xad
+Oct 16 16:27:12 babyblue:    GAP_LE_Advertising_Disable returned -1.
+Oct 16 16:27:12 babyblue: st_exit_pair_slave: call ble_whitelistEX_reload to reload whitelist
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x03,0x01,0x0b"
+Oct 16 16:27:12 babyblue: ble_whitelistEX_reload: Add device 02671feb 8170 success, index:0
+Oct 16 16:27:12 babyblue: ble_whitelistEX_reload: INFO: Reload chip whitelist..... devCount:1
+Oct 16 16:27:12 babyblue: AdvertiseLE: To enable Advertisement but currently On. Disable it first.
+Oct 16 16:27:12 babyblue: AdvertiseLE: GAP_LE_Advertising_Disable returned -1.
+Oct 16 16:27:12 babyblue: AdvertiseLE: [5] CamStatus=0x01, Host-Awake=1, AP-On=0, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=900-1000
+Oct 16 16:27:12 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 01323f00 6f4886ff 7ce10a
+Oct 16 16:27:12 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:27:12 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:27:12 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=0
+Oct 16 16:27:12 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:27:12 babyblue: st_exit_pair_slave: Note: active connection. Send CSI Event
+Oct 16 16:27:12 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 11
+Oct 16 16:27:12 babyblue: ble_whitelist_search_by_pubaddr_or_irk_addr: Matched with resolvable addr. devIter->ConnectionAddressType: 1
+Oct 16 16:27:12 babyblue: indicate_slave_connection: mac addr=13:75:3d:99:fe:73. isResolvable=1, addr_type=1, wl_device=0x76308648
+Oct 16 16:27:12 babyblue: ble_whitelist_set_connected: A master device (e.g. Smarty) is connected
+Oct 16 16:27:12 babyblue: ble_send_csi_conn_event: CSI Write: CSI_BLE_CONN_EVENT. Addr=02671feb817000, len=14, rev_count=1
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_CONN_EVENT(0x76) <- "02671feb817000"
+Oct 16 16:27:12 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 2 to 3
+Oct 16 16:27:12 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x03"
+Oct 16 16:27:12 babyblue: st_enter_pair_slave_on: Warn: Do not enable AdvertiseLE since connected
+Oct 16 16:27:12 babyblue: ble_sm_switch_state: Switch state from e_btle_state_pair_slave(1) to e_btle_state_pair_slave_on(2)
+Oct 16 16:27:12 babyblue: BT SM:BT_ST_PAIR_SL+ BT_EVENT_BONDED_SL  -> sm_bt_bonded_sl BT_ST_PAIR_SL
+Oct 16 16:27:12 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xaf, dev_name=
+Oct 16 16:27:12 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:12 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:12 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xaf, dev_name=
+Oct 16 16:27:12 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:12 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:12 babyblue: WRITE : ValueOffset 0, Offset 5, Value[0] 1, ValueLength 2
+Oct 16 16:27:12 babyblue: proc_write_ccc_attrib_req: Write of services[1].attr[2], AttributeOffset=5
+Oct 16 16:27:12 babyblue: proc_write_ccc_attrib_req: Write of services[1].attr[2], old=0x0, new=0x1
+Oct 16 16:27:12 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=5, len=7
+Oct 16 16:27:12 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:12 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:12 babyblue: BTBQresp ACK!
+Oct 16 16:27:13 babyblue: WRITE : ValueOffset 0, Offset 2, Value[0] c, ValueLength 13
+Oct 16 16:27:13 babyblue: btman_pipe_fromBLE:Get data from BLE,length:20 last byte :101(0x65)
+Oct 16 16:27:13 gpBtMan: UpdateStatus stream_id:21, data_len:13
+Oct 16 16:27:13 gpBtMan: FindBLECommander: No match. devCapacity=10
+Oct 16 16:27:13 gpBtMan: SetBLECommander: devStatus=0xf, connID=1
+Oct 16 16:27:13 gpBtMan: Extract_ProtoBuff_from_CMSPkt: FEATURE_ID:3  CMD_ID:1
+Oct 16 16:27:13 gpNet: /fr_ble    :PB featId=0x03 cmdId=0x01 len=10 (WIRELESS_MANAGEMENT__ENUM_WIRELESS_MANAGEMENT_COMMAND__PAIRING_FINISH)
+Oct 16 16:27:13 gpNet: /fr_ble    :PB protobuf command=0800 12066950 686f6e65
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_PHONE_NAME(0x56) <- "iPhone"
+Oct 16 16:27:13 gpNet: analcnt    :anal_set_count  increment ANL_APP_PAIR_OK_BLE(1) to 2
+Oct 16 16:27:13 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(cri)-CSI_WIRELESS_ANALYTICS_COUNTERS(0x7d) <- "ap-att=4,ble=2,wifi=0,can=2,rc-att=0,ok=0,can=0,rev=0,abt=0,net=0,arst=0,arbt=0,wrst=1,brst=0,coff=28,aoff=0,boff=0,roff=0,wow=0,net-att=0,neto
+Oct 16 16:27:13 babyblue: BTBQresp ACK!
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x63,0x01,0x00,0x02"
+Oct 16 16:27:13 gpNet: WANL       :0x63 0x01 0x00 0x02 APP_PAIR_OK_BLE  = 2 -Event
+Oct 16 16:27:13 gpNet: /fr_ble    :KX(ble) Pair Finish OK (Use Smart Menu) phone=iPhone
+Oct 16 16:27:13 gpNet: /to_ble    :PB featId=0x03 cmdId=0x81 len=2 (WIRELESS_MANAGEMENT__ENUM_WIRELESS_MANAGEMENT_COMMAND__PAIRING_FINISH_RSP)
+Oct 16 16:27:13 gpNet: /to_ble    :PB protobuf response= 0801
+Oct 16 16:27:13 gpBtMan: FindBLECommander: Found a match. devList[0]: devStatus=0xf
+Oct 16 16:27:13 gpBtMan: send_Cam_Mgmt_Serv_cmd: PKT:  id:1,event_type:2, length:2)
+Oct 16 16:27:13 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=5! BluetoothStackID=1, Service_ID=8
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x00,0x00"
+Oct 16 16:27:13 gpNet: WANL       :0x04 0x08 0x00 0x00 COLD boot Wireless Enabled
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_MODE(0x12) <- "0x01,0x07"
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x00,0x02"
+Oct 16 16:27:13 gpNet: WANL       :0x04 0x08 0x00 0x02 APP paired
+Oct 16 16:27:13 gpNet: /to_wif    :PZ%04010701 APP pair success OP_COMPLETE_OK
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_AP_PAIRING_STATE(0x36) <- "0x04"
+Oct 16 16:27:13 gpNet: AP State Ma:   AP_USER_PAIR+ AP_KX7_OK           -> sm_ap_paired7   AP_SMRT_OFF 
+Oct 16 16:27:13 gpNet:            :   BT pairing success
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x00,0x42"
+Oct 16 16:27:13 gpNet: WANL       :0x04 0x08 0x00 0x42 BT paired
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x10,0x42"
+Oct 16 16:27:13 gpNet: WANL       :0x04 0x08 0x10 0x42
+Oct 16 16:27:13 gpNet: /to_ble    :BX BLE Cancel Pair (BX_PAIR_PERIPHERAL_DONE)
+Oct 16 16:27:13 babyblue: BTsetBX: Cancel BLE Pairing. isiz=1500, index=3
+Oct 16 16:27:13 babyblue: BTsetBX: BLE Pairing done: PAIR SUCCESSFUL - CENTRAL MODE OK. babyblue_event=8
+Oct 16 16:27:13 babyblue: sm_bt_stop_pair_sl_peri_ok: bt_cntrl_state_pair_slave -> bt_cntrl_state_on
+Oct 16 16:27:13 babyblue: btle_calc_on_mode: new_on_mode=2, supports dual-roles=1
+Oct 16 16:27:13 babyblue: switch_on_state: switching to ON_SLAVE state. slave connected=1
+Oct 16 16:27:13 babyblue: st_exit_pair_slave_on: Note: active connection.
+Oct 16 16:27:13 babyblue: ble_notify_CSI_BT_ROLE: send CSI role info  inCentral=0  inPeripheral=2
+Oct 16 16:27:13 babyblue: st_enter_on_slave: Do not enable AdvertiseLE since connected
+Oct 16 16:27:13 babyblue: ble_sm_switch_state: Switch state from e_btle_state_pair_slave_on(2) to e_btle_state_on_slave(5)
+Oct 16 16:27:13 babyblue: bt_st_exit_idle ***** BTC STATE CHANGE: exiting Idle
+Oct 16 16:27:13 babyblue: btc_connection_policy_setup: conn_mode:1 pair_mode:0 disc_mode:0
+Oct 16 16:27:13 gpNet: BT State Ma:   BT_OFF_PAIR1+ AP_KX7_OK           -> sm_bt_paired7   BT_USER_ON  
+Oct 16 16:27:13 gpNet: /to_ble    :BI BLE set Interface-IFMODES_ON
+Oct 16 16:27:13 gpNet: AP State Ma:   AP_SMRT_OFF + MENU_ON_SMART_OFF   -> sm_ap_nop       AP_SMRT_OFF 
+Oct 16 16:27:13 gpNet: RC State Ma:   RC_USER_OFF + MENU_ON_SMART_OFF   -> sm_rc_ispair    RC_ON_NTPAIR
+Oct 16 16:27:13 gpNet: BT State Ma:   BT_USER_ON  + MENU_ON_SMART_OFF   -> sm_bt_nop       BT_USER_ON  
+Oct 16 16:27:13 babyblue: bt_sm_switch_state: list_idx=0, Switch state from e_bt_cn_mgr_st_idle(0) to e_bt_cn_mgr_st_on(5)
+Oct 16 16:27:13 babyblue: bt_cntrl_state_pair_slave -> bt_cntrl_state_search
+Oct 16 16:27:13 babyblue: BT SM:BT_ST_PAIR_SL+ BT_EVENT_STOP_PAIR_PERI_OK-> sm_bt_stop_pair_sl_peri_ok BT_ST_ON    
+Oct 16 16:27:13 babyblue: bt_set_interface: change from 0 to 1
+Oct 16 16:27:13 babyblue: BTsendBA: set to active
+Oct 16 16:27:13 babyblue: BTsetBI: BLE ON
+Oct 16 16:27:13 babyblue: BT SM:BT_ST_ON    + BT_EVENT_ON         -> sm_bt_nop       BT_ST_ON    
+Oct 16 16:27:13 babyblue: proc_write_ccc_attrib_req: Write of services[1].attr[2], AttributeOffset=5
+Oct 16 16:27:13 babyblue: proc_write_ccc_attrib_req: Write of services[1].attr[2], old=0x1, new=0x0
+Oct 16 16:27:13 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=5, len=7
+Oct 16 16:27:13 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:13 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:13 babyblue: BTBQresp ACK!
+Oct 16 16:27:13 gpNet: /fr_wif    :WE%01 Set Wifi Enable
+Oct 16 16:27:13 gpNet: AP State Ma:   AP_SMRT_OFF + MENU_ON_SMART_OFF   -> sm_ap_nop       AP_SMRT_OFF 
+Oct 16 16:27:13 gpNet: RC State Ma:   RC_ON_NTPAIR+ MENU_ON_SMART_OFF   -> sm_rc_nop       RC_ON_NTPAIR
+Oct 16 16:27:13 gpNet: BT State Ma:   BT_USER_ON  + MENU_ON_SMART_OFF   -> sm_bt_nop       BT_USER_ON  
+Oct 16 16:27:13 avahi-daemon[184]: Interface ap0.IPv4 no longer relevant for mDNS.
+Oct 16 16:27:13 avahi-daemon[184]: Leaving mDNS multicast group on interface ap0.IPv4 with address 10.5.5.9.
+Oct 16 16:27:13 avahi-daemon[184]: Withdrawing address record for fe80::d432:60ff:fe2d:ac9c on ap0.
+Oct 16 16:27:13 avahi-daemon[184]: Withdrawing address record for 10.5.5.9 on ap0.
+Oct 16 16:27:13 gpAth: /fr_gpnet  :WI Set Wifi Interface ap=IFMODES_OFF (,)    rc=IFMODES_NC (,)
+Oct 16 16:27:13 gpNet: /fr_wif    :gp%0107 pair=NONE menu=Smart status=08081052 [sts2=02409200 feat=00011b80]
+Oct 16 16:27:13 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BT_ROLE(0x51) <- "0x02"
+Oct 16 16:27:13 gpNet: /fr_ble    :BA BLE reports 1(Active)
+Oct 16 16:27:13 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x30,0x42"
+Oct 16 16:27:13 gpNet: WANL       :0x04 0x08 0x30 0x42
+Oct 16 16:27:13 gpNet: /fr_ath    :WI response. rcmode=IFMODES_NC
+Oct 16 16:27:13 gpNet:            :TRAFFIC TIMEOUTS- wake=0:noap=300:rc[scan=300:loss=300:warn=5:ok=1]app[scan=290:loss=300:warn=5:ok=1]
+Oct 16 16:27:14 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 11
+Oct 16 16:27:14 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 2
+Oct 16 16:27:14 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 4
+Oct 16 16:27:14 babyblue: log skip=1 - WRITE : ValueOffset 0, Offset 5, Value[0] 1, ValueLength 2
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x0, new=0x1
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=5, len=7
+Oct 16 16:27:14 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:14 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:14 babyblue: BTBQresp ACK!
+Oct 16 16:27:14 gpNet: /to_gpnet  :CN /fr_csi_gpBleSdkD229 CSI Notify(dyn)-CSI_ANALYTICS_SOURCE(0x5c) <- "0x0d"
+Oct 16 16:27:14 babyblue: ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:14 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x1, new=0x0
+Oct 16 16:27:14 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=5, len=7
+Oct 16 16:27:14 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:14 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:14 babyblue: BTBQresp ACK!
+Oct 16 16:27:19 babyblue: log skip=2 - WRITE : ValueOffset 0, Offset 5, Value[0] 1, ValueLength 2
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x0, new=0x1
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=5, len=7
+Oct 16 16:27:19 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:19 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:19 babyblue: BTBQresp ACK!
+Oct 16 16:27:19 babyblue: log skip=4 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:19 babyblue: log skip=4 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x1, new=0x0
+Oct 16 16:27:19 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=5, len=7
+Oct 16 16:27:19 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:19 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:19 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: log skip=2 - WRITE : ValueOffset 0, Offset 15, Value[0] 1, ValueLength 2
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: log skip=4 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:20 babyblue: log skip=4 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x1, new=0x0
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x1, new=0x0
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x1, new=0x0
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:20 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:20 gpNet: /to_blesdk :CN /fr_csi_gpControlD216 CSI Notify(dyn)-CSI_PRESETS_MODIFIED(0x07) <- "0x00,0x00,0x00,0x00"
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x1, new=0x0
+Oct 16 16:27:20 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=15, len=7
+Oct 16 16:27:20 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:20 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:20 babyblue: BTBQresp ACK!
+Oct 16 16:27:21 babyblue: log skip=11 - WRITE : ValueOffset 0, Offset 15, Value[0] 1, ValueLength 2
+Oct 16 16:27:21 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:21 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:21 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:21 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:21 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:21 babyblue: BTBQresp ACK!
+Oct 16 16:27:21 babyblue: log skip=52 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:21 babyblue: log skip=52 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:21 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:22 babyblue: log skip=4 - WRITE : ValueOffset 0, Offset 5, Value[0] 1, ValueLength 2
+Oct 16 16:27:22 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:22 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x0, new=0x1
+Oct 16 16:27:22 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=5, len=7
+Oct 16 16:27:22 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:22 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:22 babyblue: BTBQresp ACK!
+Oct 16 16:27:22 gpNet: /fr_gpCtlD2:YY CMD 0,7,27[7] 07e30a10101b18
+Oct 16 16:27:22 gpNet: /fr_camera :YY RSP 0,7,27[7] 0000071b000000
+Oct 16 16:27:22 babyblue: log skip=52 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:22 babyblue: log skip=52 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=3! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:24 gpNet: gpTimeSet:  2019/10/16 16:27:24
+Oct 16 16:27:24 babyblue: log skip=1 - WRITE : ValueOffset 0, Offset 5, Value[0] 0, ValueLength 2
+Oct 16 16:27:24 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:24 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x1, new=0x0
+Oct 16 16:27:24 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=5, len=7
+Oct 16 16:27:24 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:24 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:24 babyblue: BTBQresp ACK!
+Oct 16 16:27:26 babyblue: GATT_Connection_Event_Callback: etGATT_Connection_Device_Disconnection
+Oct 16 16:27:26 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 1 (etGATT_Server_Device_Disconnection)
+Oct 16 16:27:26 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x73FE993D7513, pkt len=11
+Oct 16 16:27:26 babyblue: btman_pipe_fromBLE:Get data from BLE,length:11 last byte :115(0x73)
+Oct 16 16:27:26 gpBtMan: BLEDeviceConnCallBack: Disconnect event for conn_id=1
+Oct 16 16:27:26 gpBtMan: sn_sm_ble_disc_ind: Note: unexpected Sniper BLE Disconnection. conn_id=1
+Oct 16 16:27:26 gpBtMan: UpdateStatus Remove device OK... DevNum:0
+Oct 16 16:27:26 babyblue: BTBQresp ACK!
+Oct 16 16:27:26 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x02,0x01,0x0d"
+Oct 16 16:27:26 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x73FE993D7513, pkt len=11
+Oct 16 16:27:26 babyblue: proc_le_disconnection_complete: etLE_Disconnection_Complete, status:0, reason:0x13
+Oct 16 16:27:26 babyblue: proc_le_disconnection_complete: DISCONNECT REASON: 0x13, REMOTE DEVICE terminated the connection!!!
+Oct 16 16:27:26 babyblue: free_conn_data: free connection as Slave.
+Oct 16 16:27:26 babyblue: bt_indicate_disconn: Indicate to main thread there is a disconnection
+Oct 16 16:27:26 babyblue: bt_cntrl_proc_indications: Got a disconnection indicate.
+Oct 16 16:27:26 babyblue: ble_whitelist_clear_connected: A master device (e.g. Smarty) is disconnected
+Oct 16 16:27:26 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 3 to 4
+Oct 16 16:27:26 babyblue: AdvertiseLE: To enable Advertisement but currently On. Disable it first.
+Oct 16 16:27:26 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x04"
+Oct 16 16:27:26 babyblue: AdvertiseLE: GAP_LE_Advertising_Disable success.
+Oct 16 16:27:26 babyblue: AdvertiseLE: [5] CamStatus=0x01, Host-Awake=1, AP-On=0, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:27:26 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 01323f00 6f4886ff 7ce10a
+Oct 16 16:27:26 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:27:26 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:27:26 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:27:26 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:27:26 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x00"
+Oct 16 16:27:26 babyblue: BT SM:BT_ST_ON    + BT_EVENT_DISC_SL    -> sm_bt_disc_sl   BT_ST_ON    
+Oct 16 16:27:26 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xad, dev_name=
+Oct 16 16:27:26 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:26 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:26 babyblue: bt_sm_proc_indications: Event=0x3007 for the BTC State Machine
+Oct 16 16:27:26 babyblue: bt_sm_switch_state: Warn: no change in internal state=5
+Oct 16 16:27:26 babyblue: btc_sm_event_disconnection_complete 98:04:10:76:00:00 Disconnected reason:0x13
+Oct 16 16:27:26 babyblue: btc_sm_event_disconnection_complete: can't find connection by handle 1
+Oct 16 16:27:27 babyblue: proc_le_connection_complete: etLE_Connection_Complete, status:0, role:Slave, addr type:Random, addr:0x02671FEB8170
+Oct 16 16:27:27 babyblue: proc_le_connection_complete: connection interval:30, slave latency:0, supervision timeout:720
+Oct 16 16:27:27 babyblue: create_conn_data: Starting connection as Slave to central addr=02:67:1f:eb:81:70
+Oct 16 16:27:27 babyblue: ble_whitelist_search_by_pubaddr_or_irk_addr: Matched with equal non-resolvable addr. devIter->ConnectionAddressType: 1
+Oct 16 16:27:27 babyblue: connected to the device that was previously paired
+Oct 16 16:27:27 babyblue: HCI_Event_Callback: U
+Oct 16 16:27:27 babyblue: btle_gatt_connection_device_connection: etGATT_Connection_Device_Connection: btle connection, id:2, mtu:23, addr:0x02671FEB8170
+Oct 16 16:27:27 babyblue: bt_indicate_conn: Indicate to main thread there is a connection
+Oct 16 16:27:27 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 0 (etGATT_Server_Device_Connection)
+Oct 16 16:27:27 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x01,0x02,0x0b"
+Oct 16 16:27:27 babyblue: bt_cntrl_proc_indications: Got a connection indicate. Wake up the BT stack
+Oct 16 16:27:27 babyblue: ble_sm_slave_connect_ind: New Slave connection. conn_id=2, addr=02:67:1f:eb:81:70, addr_type=3
+Oct 16 16:27:27 babyblue: ble_sm_slave_connect_ind: Posting BT_EVENT_CONN_SL to BT state machine
+Oct 16 16:27:27 babyblue: ble_whitelist_search_by_pubaddr_or_irk_addr: Matched with equal non-resolvable addr. devIter->ConnectionAddressType: 1
+Oct 16 16:27:27 babyblue: indicate_slave_connection: mac addr=02:67:1f:eb:81:70. isResolvable=0, addr_type=3, wl_device=0x76308648
+Oct 16 16:27:27 babyblue: ble_whitelist_set_connected: A master device (e.g. Smarty) is connected
+Oct 16 16:27:27 babyblue: ble_send_csi_conn_event: CSI Write: CSI_BLE_CONN_EVENT. Addr=02671feb817001, len=14, rev_count=2
+Oct 16 16:27:27 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_CONN_EVENT(0x76) <- "02671feb817001"
+Oct 16 16:27:27 babyblue: btman_pipe_fromBLE:Get data from BLE,length:13 last byte :11(0xb)
+Oct 16 16:27:27 gpBtMan: AddDevice: connID=2, devNum=1
+Oct 16 16:27:27 gpBtMan: UpdateStatus Add device OK, DevNum=1, connID=2 dev_type=11
+Oct 16 16:27:27 gpBtMan: BLEDeviceConnCallBack: Connect event for conn_id=2
+Oct 16 16:27:27 gpBtMan: sn_sm_ble_conn_ind: Skip since No Sniper paired. conn_id=2
+Oct 16 16:27:27 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 4 to 5
+Oct 16 16:27:27 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x05"
+Oct 16 16:27:27 babyblue: BT SM:BT_ST_ON    + BT_EVENT_CONN_SL    -> sm_bt_conn_sl   BT_ST_ON    
+Oct 16 16:27:27 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x01"
+Oct 16 16:27:27 babyblue: BTBQresp ACK!
+Oct 16 16:27:27 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xaf, dev_name=
+Oct 16 16:27:27 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:27 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:28 babyblue: UNHANDLED event: etLE_Remote_Features_Result with size 15.
+Oct 16 16:27:28 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0d68
+Oct 16 16:27:28 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=0
+Oct 16 16:27:28 babyblue: latLongTermKeyRequest, addr0x02671FEB8170, ediv23581, rand:a1:70:51:09:40:da:7a:9c
+Oct 16 16:27:28 babyblue: etLE_Encryption_Change, mode:1, status0
+Oct 16 16:27:28 babyblue: state_machine: Warning: event BT_EVENT_BONDED_SL   is ignored. Curr state=BT_ST_ON    
+Oct 16 16:27:28 babyblue: signal paired due to encryption
+Oct 16 16:27:28 babyblue: bt_indicate_en_encryption: Indicate to main thread that encrpytion has enabled.
+Oct 16 16:27:28 babyblue: bt_cntrl_proc_indications: Got an enable encryption indicate.
+Oct 16 16:27:28 babyblue: enable_encryption: called
+Oct 16 16:27:28 gpNet: /fr_ble    :BE BLE Connects
+Oct 16 16:27:28 babyblue: GATT_Connection_Event_Callback - unhandled event:  etGATT_Connection_Device_Connection_MTU_Update
+Oct 16 16:27:28 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 8
+Oct 16 16:27:28 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:28 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:28 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:28 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:28 babyblue: WRITE : ValueOffset 0, Offset 15, Value[0] 1, ValueLength 2
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:28 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:28 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:28 babyblue: BTBQresp ACK!
+Oct 16 16:27:28 babyblue: ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:28 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=3! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x0, new=0x1
+Oct 16 16:27:28 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=5, len=7
+Oct 16 16:27:28 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:28 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:28 babyblue: BTBQresp ACK!
+Oct 16 16:27:28 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:28 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:28 gpNet: /to_gpnet  :CN /fr_csi_gpBleSdkD229 CSI Notify(dyn)-CSI_ANALYTICS_SOURCE(0x5c) <- "0x0b"
+Oct 16 16:27:29 babyblue: log skip=8 - WRITE : ValueOffset 0, Offset 12, Value[0] 1, ValueLength 2
+Oct 16 16:27:29 babyblue: log skip=48 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:29 babyblue: log skip=48 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:29 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], AttributeOffset=5
+Oct 16 16:27:29 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[2], old=0x1, new=0x0
+Oct 16 16:27:29 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=0, offset=5, len=7
+Oct 16 16:27:29 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :0(0x0)
+Oct 16 16:27:29 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=0
+Oct 16 16:27:29 babyblue: BTBQresp ACK!
+Oct 16 16:27:29 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:29 babyblue: GATT_Connection_Event_Callback: etGATT_Connection_Device_Disconnection
+Oct 16 16:27:29 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 1 (etGATT_Server_Device_Disconnection)
+Oct 16 16:27:29 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x7081EB1F6702, pkt len=11
+Oct 16 16:27:29 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x02,0x02,0x0b"
+Oct 16 16:27:29 babyblue: btman_pipe_fromBLE:Get data from BLE,length:11 last byte :112(0x70)
+Oct 16 16:27:29 gpBtMan: BLEDeviceConnCallBack: Disconnect event for conn_id=2
+Oct 16 16:27:29 gpBtMan: sn_sm_ble_disc_ind: Note: unexpected Sniper BLE Disconnection. conn_id=2
+Oct 16 16:27:29 gpBtMan: UpdateStatus Remove device OK... DevNum:0
+Oct 16 16:27:29 babyblue: BTBQresp ACK!
+Oct 16 16:27:29 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x7081EB1F6702, pkt len=11
+Oct 16 16:27:29 babyblue: proc_le_disconnection_complete: etLE_Disconnection_Complete, status:0, reason:0x13
+Oct 16 16:27:29 babyblue: proc_le_disconnection_complete: DISCONNECT REASON: 0x13, REMOTE DEVICE terminated the connection!!!
+Oct 16 16:27:29 babyblue: free_conn_data: free connection as Slave.
+Oct 16 16:27:29 babyblue: bt_indicate_disconn: Indicate to main thread there is a disconnection
+Oct 16 16:27:29 babyblue: bt_cntrl_proc_indications: Got a disconnection indicate.
+Oct 16 16:27:29 babyblue: ble_whitelist_clear_connected: A master device (e.g. Smarty) is disconnected
+Oct 16 16:27:29 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 5 to 6
+Oct 16 16:27:29 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x06"
+Oct 16 16:27:29 babyblue: AdvertiseLE: To enable Advertisement but currently On. Disable it first.
+Oct 16 16:27:29 babyblue: AdvertiseLE: GAP_LE_Advertising_Disable returned -1.
+Oct 16 16:27:29 babyblue: AdvertiseLE: [5] CamStatus=0x01, Host-Awake=1, AP-On=0, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:27:29 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 01323f00 6f4886ff 7ce10a
+Oct 16 16:27:29 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:27:29 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:27:29 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:27:29 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:27:29 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x00"
+Oct 16 16:27:29 babyblue: BT SM:BT_ST_ON    + BT_EVENT_DISC_SL    -> sm_bt_disc_sl   BT_ST_ON    
+Oct 16 16:27:29 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xad, dev_name=
+Oct 16 16:27:29 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:29 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:29 babyblue: bt_sm_proc_indications: Event=0x3007 for the BTC State Machine
+Oct 16 16:27:29 babyblue: bt_sm_switch_state: Warn: no change in internal state=5
+Oct 16 16:27:29 babyblue: btc_sm_event_disconnection_complete 80:04:10:76:00:00 Disconnected reason:0x13
+Oct 16 16:27:29 babyblue: btc_sm_event_disconnection_complete: can't find connection by handle 4
+Oct 16 16:27:30 babyblue: proc_le_connection_complete: etLE_Connection_Complete, status:0, role:Slave, addr type:Random, addr:0x02671FEB8170
+Oct 16 16:27:30 babyblue: proc_le_connection_complete: connection interval:30, slave latency:0, supervision timeout:720
+Oct 16 16:27:30 babyblue: create_conn_data: Starting connection as Slave to central addr=02:67:1f:eb:81:70
+Oct 16 16:27:30 babyblue: ble_whitelist_search_by_pubaddr_or_irk_addr: Matched with equal non-resolvable addr. devIter->ConnectionAddressType: 1
+Oct 16 16:27:30 babyblue: connected to the device that was previously paired
+Oct 16 16:27:30 babyblue: HCI_Event_Callback: U
+Oct 16 16:27:30 babyblue: btle_gatt_connection_device_connection: etGATT_Connection_Device_Connection: btle connection, id:3, mtu:23, addr:0x02671FEB8170
+Oct 16 16:27:30 babyblue: bt_indicate_conn: Indicate to main thread there is a connection
+Oct 16 16:27:30 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 0 (etGATT_Server_Device_Connection)
+Oct 16 16:27:30 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x01,0x03,0x0b"
+Oct 16 16:27:30 babyblue: btman_pipe_fromBLE:Get data from BLE,length:13 last byte :11(0xb)
+Oct 16 16:27:30 gpBtMan: AddDevice: connID=3, devNum=1
+Oct 16 16:27:30 gpBtMan: UpdateStatus Add device OK, DevNum=1, connID=3 dev_type=11
+Oct 16 16:27:30 gpBtMan: BLEDeviceConnCallBack: Connect event for conn_id=3
+Oct 16 16:27:30 gpBtMan: sn_sm_ble_conn_ind: Skip since No Sniper paired. conn_id=3
+Oct 16 16:27:30 babyblue: BTBQresp ACK!
+Oct 16 16:27:30 babyblue: bt_cntrl_proc_indications: Got a connection indicate. Wake up the BT stack
+Oct 16 16:27:30 babyblue: ble_sm_slave_connect_ind: New Slave connection. conn_id=3, addr=02:67:1f:eb:81:70, addr_type=3
+Oct 16 16:27:30 babyblue: ble_sm_slave_connect_ind: Posting BT_EVENT_CONN_SL to BT state machine
+Oct 16 16:27:30 babyblue: ble_whitelist_search_by_pubaddr_or_irk_addr: Matched with equal non-resolvable addr. devIter->ConnectionAddressType: 1
+Oct 16 16:27:30 babyblue: indicate_slave_connection: mac addr=02:67:1f:eb:81:70. isResolvable=0, addr_type=3, wl_device=0x76308648
+Oct 16 16:27:30 babyblue: ble_whitelist_set_connected: A master device (e.g. Smarty) is connected
+Oct 16 16:27:30 babyblue: ble_send_csi_conn_event: CSI Write: CSI_BLE_CONN_EVENT. Addr=02671feb817002, len=14, rev_count=3
+Oct 16 16:27:30 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_CONN_EVENT(0x76) <- "02671feb817002"
+Oct 16 16:27:30 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 6 to 7
+Oct 16 16:27:30 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x07"
+Oct 16 16:27:30 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x01"
+Oct 16 16:27:30 babyblue: BT SM:BT_ST_ON    + BT_EVENT_CONN_SL    -> sm_bt_conn_sl   BT_ST_ON    
+Oct 16 16:27:30 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xaf, dev_name=
+Oct 16 16:27:30 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:30 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:30 babyblue: UNHANDLED event: etLE_Remote_Features_Result with size 15.
+Oct 16 16:27:30 babyblue: GAP_LE_Event_Callback: etLE_Authentication, GAP_LE_Authentication_Event_Data=0x764c0d68
+Oct 16 16:27:30 babyblue: etLE_Authentication, GAP_LE_Authentication_Event_Type=0
+Oct 16 16:27:30 babyblue: latLongTermKeyRequest, addr0x02671FEB8170, ediv23581, rand:a1:70:51:09:40:da:7a:9c
+Oct 16 16:27:30 babyblue: etLE_Encryption_Change, mode:1, status0
+Oct 16 16:27:30 babyblue: state_machine: Warning: event BT_EVENT_BONDED_SL   is ignored. Curr state=BT_ST_ON    
+Oct 16 16:27:30 babyblue: signal paired due to encryption
+Oct 16 16:27:30 babyblue: bt_indicate_en_encryption: Indicate to main thread that encrpytion has enabled.
+Oct 16 16:27:30 babyblue: bt_cntrl_proc_indications: Got an enable encryption indicate.
+Oct 16 16:27:30 babyblue: enable_encryption: called
+Oct 16 16:27:30 gpNet: /fr_ble    :BE BLE Connects
+Oct 16 16:27:30 babyblue: GATT_Connection_Event_Callback - unhandled event:  etGATT_Connection_Device_Connection_MTU_Update
+Oct 16 16:27:30 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 8
+Oct 16 16:27:30 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:30 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:30 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:30 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Connection_MTU_Update::185 ignored.
+Oct 16 16:27:30 babyblue: log skip=7 - WRITE : ValueOffset 0, Offset 15, Value[0] 1, ValueLength 2
+Oct 16 16:27:30 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], AttributeOffset=15
+Oct 16 16:27:30 babyblue: proc_write_ccc_attrib_req: Write of services[0].attr[8], old=0x0, new=0x1
+Oct 16 16:27:30 babyblue: proc_write_ccc_attrib_req: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: bEnableNotify=1, offset=15, len=7
+Oct 16 16:27:30 babyblue: btman_pipe_fromBLE:Get data from BLE,length:7 last byte :1(0x1)
+Oct 16 16:27:30 gpBtMan: UpdateStatus: GP_GATT_STREAM_EVENT_TYPE_Ntfy_CCC: enable_notify=1
+Oct 16 16:27:30 babyblue: BTBQresp ACK!
+Oct 16 16:27:30 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 2
+Oct 16 16:27:30 babyblue: READ (is_encrypted=1): ValueOffset 0, Offset 4
+Oct 16 16:27:30 babyblue: log skip=103 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:30 babyblue: log skip=103 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=3! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:30 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:31 babyblue: WRITE (is_encrypted=1): ValueOffset 0, Offset 9, Value[0] 2, ValueLength 2
+Oct 16 16:27:31 babyblue: writing state ccd
+Oct 16 16:27:31 babyblue: send initial notification
+Oct 16 16:27:31 babyblue: send initial indication
+Oct 16 16:27:31 babyblue: log skip=4 - WRITE : ValueOffset 0, Offset 12, Value[0] 6, ValueLength 7
+Oct 16 16:27:31 gpBleSdkD: UTIL_LOG_ERROR:SENDING RESPONSE err = 0 size 362 @bleQueryMessage.cpp:1542
+Oct 16 16:27:31 babyblue: log skip=22 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:31 babyblue: log skip=22 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=20! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:31 babyblue: WRITE (is_encrypted=1): ValueOffset 0, Offset 6, Value[0] 1, ValueLength 1
+Oct 16 16:27:31 babyblue: switch thrown, turning on the access point!
+Oct 16 16:27:31 babyblue: set_switch
+Oct 16 16:27:31 babyblue: turn on the AP 0x01
+Oct 16 16:27:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x01"
+Oct 16 16:27:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x38,0x42"
+Oct 16 16:27:31 gpNet: WANL       :0x04 0x08 0x38 0x42 APP inFocus
+Oct 16 16:27:31 gpNet: /fr_ble    :AP BLE (or NRA) Requests IFMODES_ON (AP is up)
+Oct 16 16:27:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x3a,0x42"
+Oct 16 16:27:31 gpNet: WANL       :0x04 0x08 0x3a 0x42
+Oct 16 16:27:31 gpNet: AP State Ma:   AP_SMRT_OFF + BT_REQ_AP_ON        -> sm_ap_on        AP_SMRT_ON  
+Oct 16 16:27:31 gpNet: BT State Ma:   BT_USER_ON  + BT_REQ_AP_ON        -> sm_bt_on        BT_USER_ON  
+Oct 16 16:27:31 gpAth: start_ap_mode PREF BAND = 1
+Oct 16 16:27:31 gpNet: /to_ble    :BI BLE set Interface-IFMODES_ON
+Oct 16 16:27:31 babyblue: bt_set_interface: change from 1 to 1
+Oct 16 16:27:31 babyblue: BTsendBA: set to active
+Oct 16 16:27:31 babyblue: BTsetBI: BLE ON
+Oct 16 16:27:31 babyblue: BT SM:BT_ST_ON    + BT_EVENT_ON         -> sm_bt_nop       BT_ST_ON    
+Oct 16 16:27:31 gpNet: /fr_ble    :BA BLE reports 1(Active)
+Oct 16 16:27:31 avahi-daemon[184]: Joining mDNS multicast group on interface ap0.IPv4 with address 10.5.5.9.
+Oct 16 16:27:31 kernel: [   86.368526] IPv6: ADDRCONF(NETDEV_UP): ap0: link is not ready
+Oct 16 16:27:31 kernel: [   86.369229] TXRX: ol_txrx_peer_detach:peer 83597000 (XX:XX:XX:XX:XX:XX)
+Oct 16 16:27:31 gpAth:            :   AP Started on channel 5805
+Oct 16 16:27:31 gpAth: /fr_gpnet  :WI Set Wifi Interface ap=IFMODES_ON (GP2463XXXX,cycle9533)    rc=IFMODES_NC (,)
+Oct 16 16:27:31 gpNet: /fr_ath    :WI response. rcmode=IFMODES_NC
+Oct 16 16:27:31 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_AP_STATE(0x32) <- "0x01"
+Oct 16 16:27:31 gpNet: /to_ble    :CN /fr_gpnet   CSI Notify(dyn)-CSI_AP_STATE(0x32) <- "0x01"
+Oct 16 16:27:31 babyblue: CSI EVENT (len=1) says AP UP
+Oct 16 16:27:31 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:27:31 babyblue: AdvertiseLE: To enable Advertisement but currently On. Disable it first.
+Oct 16 16:27:31 babyblue: AdvertiseLE: GAP_LE_Advertising_Disable returned -1.
+Oct 16 16:27:31 babyblue: AdvertiseLE: [5] CamStatus=0x03, Host-Awake=1, AP-On=1, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=900-1000
+Oct 16 16:27:31 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 03323f00 6f4886ff 7ce10a
+Oct 16 16:27:31 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:27:31 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:27:31 kernel: [   86.392610] TXRX: ol_rx_peer_unmap_handler: Remove the ID 32 reference to peer 83597000
+Oct 16 16:27:31 kernel: [   86.410274] TXRX: ol_rx_peer_unmap_handler: Remove the ID 16 reference to peer 83597000
+Oct 16 16:27:31 kernel: [   86.429213] TXRX: Deleting peer 83597000 (XX:XX:XX:XX:XX:XX)
+Oct 16 16:27:31 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=0
+Oct 16 16:27:31 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:27:31 kernel: [   86.472602] wlan: [261:E :VOS] vos_mem_zero called with NULL parameter ptr
+Oct 16 16:27:31 avahi-daemon[184]: New relevant interface ap0.IPv4 for mDNS.
+Oct 16 16:27:31 avahi-daemon[184]: Registering new address record for 10.5.5.9 on ap0.IPv4.
+Oct 16 16:27:31 avahi-daemon[184]: Withdrawing workstation service for p2p0.
+Oct 16 16:27:31 babyblue: WRITE (is_encrypted=1): ValueOffset 0, Offset 9, Value[0] 0, ValueLength 2
+Oct 16 16:27:31 babyblue: writing state ccd
+Oct 16 16:27:31 babyblue: send initial notification
+Oct 16 16:27:31 kernel: [   86.534268] session id - 1, AddSta session - 0
+Oct 16 16:27:31 kernel: [   86.541912] TXRX: ol_txrx_peer_find_add_id: Delete Peer 83597800
+Oct 16 16:27:31 kernel: [   86.636118] IPv6: ADDRCONF(NETDEV_CHANGE): ap0: link becomes ready
+Oct 16 16:27:32 babyblue: log skip=52 - ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:32 babyblue: log skip=52 - send_notification_pkt: GATT_Handle_Value_Notification Success. ret=9! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:33 avahi-daemon[184]: Registering new address record for fe80::d432:60ff:fe2d:ac9c on ap0.*.
+Oct 16 16:27:39 gpAth: Station 70:81:eb:1f:67:01 Connected to ap0 (1)
+Oct 16 16:27:39 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(1)
+Oct 16 16:27:39 gpNet: /fr_ath    :WA Wifi Associated (APP1)
+Oct 16 16:27:39 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x3e,0x42"
+Oct 16 16:27:39 gpNet: WANL       :0x04 0x08 0x3e 0x42 APP associated
+Oct 16 16:27:39 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x01,0x00,0x00,0x00"
+Oct 16 16:27:39 kernel: [   94.306680] TXRX: Couldn't find peer from ID 12 - skipping security inits
+Oct 16 16:27:39 kernel: [   94.319663] TXRX: ol_txrx_peer_find_add_id: Delete Peer 83759000
+Oct 16 16:27:39 gpNet: AP State Ma:   AP_SMRT_ON  + WIFI_AP_ASSOC       -> sm_ap_stay_on   AP_SMRT_ON  
+Oct 16 16:27:39 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x01"
+Oct 16 16:27:40 babyblue: ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:40 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=6! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:40 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x02"
+Oct 16 16:27:41 babyblue: ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:41 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=6! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:41 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x03"
+Oct 16 16:27:42 babyblue: ble_proc_gatt_rx_queue: called. fd=16, ble_rxq_callback_func=0x2b488
+Oct 16 16:27:42 babyblue: send_notification_pkt: GATT_Handle_Value_Notification Success. ret=6! BluetoothStackID=1, Service_ID=7
+Oct 16 16:27:42 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x04"
+Oct 16 16:27:43 babyblue: GATT_Connection_Event_Callback: etGATT_Connection_Device_Disconnection
+Oct 16 16:27:43 babyblue: Unhandled GATT_Server_Event_Type_t in GATT_ServerEventCallback: 1 (etGATT_Server_Device_Disconnection)
+Oct 16 16:27:43 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x7081EB1F6702, pkt len=11
+Oct 16 16:27:43 babyblue: btman_pipe_fromBLE:Get data from BLE,length:11 last byte :112(0x70)
+Oct 16 16:27:43 babyblue: GP_GATT_Server_EventCallback: etGATT_Server_Device_Disconnection: mac addr=0x7081EB1F6702, pkt len=11
+Oct 16 16:27:43 babyblue: proc_le_disconnection_complete: etLE_Disconnection_Complete, status:0, reason:0x13
+Oct 16 16:27:43 babyblue: proc_le_disconnection_complete: DISCONNECT REASON: 0x13, REMOTE DEVICE terminated the connection!!!
+Oct 16 16:27:43 babyblue: free_conn_data: free connection as Slave.
+Oct 16 16:27:43 gpBtMan: BLEDeviceConnCallBack: Disconnect event for conn_id=3
+Oct 16 16:27:43 gpBtMan: sn_sm_ble_disc_ind: Note: unexpected Sniper BLE Disconnection. conn_id=3
+Oct 16 16:27:43 gpBtMan: UpdateStatus Remove device OK... DevNum:0
+Oct 16 16:27:43 babyblue: BTBQresp ACK!
+Oct 16 16:27:43 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x62,0x02,0x03,0x0b"
+Oct 16 16:27:43 babyblue: bt_indicate_disconn: Indicate to main thread there is a disconnection
+Oct 16 16:27:43 babyblue: bt_cntrl_proc_indications: Got a disconnection indicate.
+Oct 16 16:27:43 babyblue: ble_whitelist_clear_connected: A master device (e.g. Smarty) is disconnected
+Oct 16 16:27:43 babyblue: ble_whitelist_rev_bump: bump rev id,CSI_BT_WHITELIST_REV_ID, from 7 to 8
+Oct 16 16:27:43 babyblue: AdvertiseLE: To enable Advertisement but currently On. Disable it first.
+Oct 16 16:27:43 gpNet: /to_wif    :CN /fr_ble     CSI Notify(dyn)-CSI_BT_WHITELIST_REV_ID(0x44) <- "0x08"
+Oct 16 16:27:43 babyblue: AdvertiseLE: GAP_LE_Advertising_Disable success.
+Oct 16 16:27:43 babyblue: AdvertiseLE: [5] CamStatus=0x03, Host-Awake=1, AP-On=1, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:27:43 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 03323f00 6f4886ff 7ce10a
+Oct 16 16:27:43 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:27:43 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:27:43 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:27:43 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:27:43 gpNet: /to_gpnet  :CN /fr_ble     CSI Notify(dyn)-CSI_BLE_APP_CONNECTED(0x8a) <- "0x00"
+Oct 16 16:27:43 babyblue: BT SM:BT_ST_ON    + BT_EVENT_DISC_SL    -> sm_bt_disc_sl   BT_ST_ON    
+Oct 16 16:27:43 babyblue: ble_get_whitelist: Addr=2671feb8170, attrib=0xad, dev_name=
+Oct 16 16:27:43 babyblue: bt_cntrl_sm got babyblue_cmd_get_whitelist_success response_required 45
+Oct 16 16:27:43 gpBtMan: BTrspBL: Got BL-6 (6) Response and forward to gpNet. len=7
+Oct 16 16:27:43 babyblue: bt_sm_proc_indications: Event=0x3007 for the BTC State Machine
+Oct 16 16:27:43 babyblue: bt_sm_switch_state: Warn: no change in internal state=5
+Oct 16 16:27:43 babyblue: btc_sm_event_disconnection_complete 28:06:10:76:00:00 Disconnected reason:0x13
+Oct 16 16:27:43 babyblue: btc_sm_event_disconnection_complete: can't find connection by handle 5
+Oct 16 16:27:43 gpNet: /to_gpnet  :CN /fr_csi_civetweb-worker21 CSI Notify(dyn)-CSI_ANALYTICS_SOURCE(0x5c) <- "0x01"
+Oct 16 16:27:44 gpHttpServer: UTIL_LOG_ERROR:gracefulStop::system(killall -s SIGINT gpStream) returned 256 @command_execute.cpp:477
+Oct 16 16:27:44 gpHttpServer: UTIL_LOG_ERROR:Execute failed, err -102, path execute, param p1=gpStream&c1=restart @gpcontrol_if_uri.cpp:362
+Oct 16 16:27:44 gpNet: /to_gpnet  :CN /fr_csi_gpStream418 CSI Notify(dyn)-CSI_APP_STREAMING(0x81) <- "0x01"
+Oct 16 16:27:44 kernel: [   99.230268] [E]gpStreamA9: Starting
+Oct 16 16:27:44 kernel: [   99.247336] [E]gpStreamA9: starting_ipc_connection!
+Oct 16 16:27:44 kernel: [   99.260533] [E]gpStreamA9: Starting mainloop
+Oct 16 16:27:44 gpNet: /fr_gpCtlD2:YY CMD 0,8,21[0]
+Oct 16 16:27:44 gpNet: /fr_camera :YY RSP 0,8,21[34] 0000081500001b4a 3a5c736176655c64 6174615f616e61
+Oct 16 16:27:44 gpHttpServer: UTIL_LOG_ERROR:Execute failed, err -102, path analytics/get, param  @gpcontrol_if_uri.cpp:362
+Oct 16 16:27:44 gpNet: /fr_gpCtlD2:YY CMD 0,8,20[0]
+Oct 16 16:27:44 gpNet: /fr_camera :YY RSP 0,8,20[7] 00000814000000
+Oct 16 16:27:45 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIFI_TRAFFIC_TIMEOUT(0x3c) <- "0x00"
+Oct 16 16:27:45 gpHttpServer: UTIL_LOG_ERROR:date_time string p=>%13%0a%10%10%1b%2e< @gpcontrol_if_uri.cpp:511
+Oct 16 16:27:45 gpNet: /fr_gpCtlD2:YY CMD 0,7,27[7] 07e30a10101b2e
+Oct 16 16:27:45 gpNet: /fr_camera :YY RSP 0,7,27[7] 0000071b000000
+Oct 16 16:27:45 gpHttpServer: UTIL_LOG_ERROR:date_time err=0 y07:ye3:m0a:d10:h10:m1b:s2e @gpcontrol_if_uri.cpp:567
+Oct 16 16:27:46 gpNet: gpTimeSet:  2019/10/16 16:27:46
+Oct 16 16:27:46 kernel: [  101.740803] [E]gpStreamA9: received 500 packets
+Oct 16 16:27:49 kernel: [  104.102071] [E]gpStreamA9: received 500 packets
+Oct 16 16:27:51 kernel: [  106.575814] [E]gpStreamA9: received 500 packets
+Oct 16 16:27:54 kernel: [  109.024956] [E]gpStreamA9: received 500 packets
+Oct 16 16:27:56 kernel: [  111.423736] [E]gpStreamA9: received 500 packets
+Oct 16 16:27:58 kernel: [  113.752038] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:01 kernel: [  116.135580] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:02 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:28:02 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:28:02 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:28:02 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:28:02 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 16
+Oct 16 16:28:03 kernel: [  118.599595] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:06 kernel: [  121.062150] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:08 kernel: [  123.438216] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:10 kernel: [  125.781558] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:13 kernel: [  128.243417] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:15 kernel: [  130.662999] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:18 kernel: [  133.097200] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:20 kernel: [  135.466486] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:22 kernel: [  137.873230] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:25 kernel: [  140.305148] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:27 kernel: [  142.781288] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:30 kernel: [  145.111715] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:32 kernel: [  147.515930] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:35 kernel: [  149.989612] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:37 kernel: [  152.446537] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:39 kernel: [  154.796814] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:42 kernel: [  157.178797] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:44 kernel: [  159.697135] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:47 kernel: [  162.196377] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:49 kernel: [  164.585263] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:52 kernel: [  167.086009] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:54 kernel: [  169.477939] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:57 kernel: [  171.942199] [E]gpStreamA9: received 500 packets
+Oct 16 16:28:59 kernel: [  174.417968] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:01 kernel: [  176.811393] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:03 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:29:03 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:29:03 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:29:03 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:29:03 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 15
+Oct 16 16:29:04 kernel: [  179.241299] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:06 kernel: [  181.713950] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:09 kernel: [  184.151735] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:11 kernel: [  186.556090] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:14 kernel: [  189.097036] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:16 kernel: [  191.526582] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:19 kernel: [  193.944749] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:21 kernel: [  196.436020] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:22 kernel: [  197.035284] [E]gpStreamA9: Error IPC continuity error! expected=20568 received=1
+Oct 16 16:29:24 kernel: [  199.259962] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:26 kernel: [  201.697936] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:29 kernel: [  204.058787] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:31 kernel: [  206.387821] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:33 kernel: [  208.746500] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:36 kernel: [  211.112509] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:38 kernel: [  213.502141] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:40 kernel: [  215.828424] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:43 kernel: [  218.196462] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:45 kernel: [  220.550160] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:48 kernel: [  222.918602] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:50 kernel: [  225.277286] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:52 kernel: [  227.627823] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:55 kernel: [  230.006751] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:57 kernel: [  232.340934] [E]gpStreamA9: received 500 packets
+Oct 16 16:29:59 kernel: [  234.753523] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:02 kernel: [  237.133422] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:03 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0e,0x00,0x00,0x00"
+Oct 16 16:30:03 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0e,0x00,0x00,0x00"
+Oct 16 16:30:03 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0e,0x00,0x00,0x00"
+Oct 16 16:30:03 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x01,0x00,0x00,0x00"
+Oct 16 16:30:03 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x01,0x00,0x00,0x00"
+Oct 16 16:30:03 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:30:03 gpBleSdkD: UTIL_LOG_ERROR:csi_st_state [paused=0][busy=0][sdcard=1][batt=1][new_media=1][st=1] @gpBleServer.cpp:737
+Oct 16 16:30:03 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 14
+Oct 16 16:30:03 gpNet: /to_ble    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_STATE(0x22) <- "0x0f"
+Oct 16 16:30:03 babyblue: BTsetCN: CSI_ST_STATE(L:1):(uint8_t)0x0F
+Oct 16 16:30:03 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:30:03 gpNet: /to_ble    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_ENABLE_BEACON(0x21) <- "0x01"
+Oct 16 16:30:03 babyblue:    GAP_LE_Advertising_Disable success.
+Oct 16 16:30:03 babyblue: AdvertiseLE: [5] CamStatus=0x03, Host-Awake=1, AP-On=1, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:30:03 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 03323f00 6f4886ff 7ce10f
+Oct 16 16:30:03 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:30:03 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:30:03 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:30:03 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(0) && is_UUID_non_zero(0) 
+Oct 16 16:30:03 babyblue: BTsetCN: CSI_ST_ENABLE_BEACON:1
+Oct 16 16:30:03 babyblue: ble_sm_event_ap_st_chg: WiFi AP state has changed. Notify connected Master device (if any)
+Oct 16 16:30:03 babyblue:    GAP_LE_Advertising_Disable success.
+Oct 16 16:30:03 babyblue: AdvertiseLE: [5] CamStatus=0x03, Host-Awake=1, AP-On=1, Pair=0, Cent-Role=0, cam_model=0x32, CamCap=0x0f, Interval=100-200
+Oct 16 16:30:03 babyblue: AdvertiseLE: pair_mode=0, FULL AD(L:23)-> 02010203 02a6fe0f fff20202 03323f00 6f4886ff 7ce10f
+Oct 16 16:30:03 babyblue: AdvertiseLE: setting device name in advertising data to GoPro 3619
+Oct 16 16:30:03 babyblue: AdvertiseLE: FULL AD rsp(L:24)-> 0b09476f 50726f20 33363139 0b16a6fe 602dac9c 33363139 
+Oct 16 16:30:03 babyblue: AdvertiseLE: GAP_LE_Advertising_Enable success. Connectable=1
+Oct 16 16:30:03 babyblue: AdvertiseLE: INFO: iBeacon ibeacon_activate(0) = enable(1) && CSI_iBEACON_EN(1) && is_UUID_non_zero(0) 
+Oct 16 16:30:04 kernel: [  239.657904] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:07 kernel: [  242.094695] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:09 kernel: [  244.498599] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:12 kernel: [  247.106240] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:14 kernel: [  249.472653] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:17 kernel: [  252.098346] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:17 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x03"
+Oct 16 16:30:17 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:30:17 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:30:17 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 15
+Oct 16 16:30:17 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x0f,0x00,0x00,0x00"
+Oct 16 16:30:17 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:30:19 kernel: [  254.490730] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:22 kernel: [  257.112050] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:24 kernel: [  259.496931] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:27 kernel: [  262.106116] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:29 kernel: [  264.496379] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:32 kernel: [  267.116068] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:34 kernel: [  269.505765] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:37 kernel: [  272.129390] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:39 kernel: [  274.504023] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:42 kernel: [  277.123453] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:43 gpNet: /to_wif    :CN /fr_ath     CSI Notify(dyn)-CSI_AP_RSSI(0x35) <- "0x04"
+Oct 16 16:30:44 kernel: [  279.550548] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:47 kernel: [  282.137943] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:49 kernel: [  284.615207] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:52 kernel: [  287.134032] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:54 kernel: [  289.640747] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:57 kernel: [  292.146376] [E]gpStreamA9: received 500 packets
+Oct 16 16:30:59 kernel: [  294.675790] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:02 kernel: [  297.160144] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:04 kernel: [  299.696624] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:07 kernel: [  302.152348] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:09 kernel: [  304.724000] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:12 kernel: [  307.168265] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:14 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:31:14 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:31:14 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x10,0x00,0x00,0x00"
+Oct 16 16:31:14 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:31:14 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 16
+Oct 16 16:31:14 kernel: [  309.778848] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:17 kernel: [  312.190578] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:19 kernel: [  314.814439] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:22 kernel: [  317.202556] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:24 kernel: [  319.833373] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:27 kernel: [  322.259690] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:29 kernel: [  324.847038] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:32 kernel: [  327.315093] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:34 kernel: [  329.842522] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:37 kernel: [  332.349857] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:39 kernel: [  334.858545] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:42 kernel: [  337.427395] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:44 kernel: [  339.877009] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:47 kernel: [  342.462956] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:49 kernel: [  344.866193] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:52 kernel: [  347.521139] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:54 kernel: [  349.887099] [E]gpStreamA9: received 500 packets
+Oct 16 16:31:57 kernel: [  352.533946] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:00 kernel: [  354.921128] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:02 kernel: [  357.550041] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:05 kernel: [  359.956001] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:07 kernel: [  362.543910] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:09 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:32:09 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:32:09 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x11,0x00,0x00,0x00"
+Oct 16 16:32:09 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:32:09 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 17
+Oct 16 16:32:10 kernel: [  365.012172] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:12 kernel: [  367.558874] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:15 kernel: [  370.088303] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:17 kernel: [  372.553581] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:20 kernel: [  375.138158] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:22 kernel: [  377.567781] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:25 kernel: [  380.180155] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:27 kernel: [  382.581091] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:30 kernel: [  385.194220] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:32 kernel: [  387.583658] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:35 kernel: [  390.232578] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:37 kernel: [  392.680797] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:40 kernel: [  395.249444] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:42 kernel: [  397.738477] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:45 kernel: [  400.264617] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:47 kernel: [  402.839208] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:50 kernel: [  405.257179] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:52 kernel: [  407.870651] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:55 kernel: [  410.273595] [E]gpStreamA9: received 500 packets
+Oct 16 16:32:58 kernel: [  412.930092] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:00 kernel: [  415.311162] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:03 kernel: [  417.945393] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:04 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:33:04 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:33:04 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x12,0x00,0x00,0x00"
+Oct 16 16:33:04 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:33:04 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 18
+Oct 16 16:33:05 kernel: [  420.370663] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:08 kernel: [  422.938072] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:10 kernel: [  425.426599] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:13 kernel: [  427.956090] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:15 kernel: [  430.505608] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:18 kernel: [  432.948397] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:20 kernel: [  435.565220] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:23 kernel: [  437.961905] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:25 kernel: [  440.620567] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:28 kernel: [  443.008746] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:30 kernel: [  445.634111] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:33 kernel: [  448.083470] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:35 kernel: [  450.634036] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:38 kernel: [  453.183242] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:40 kernel: [  455.657766] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:43 kernel: [  458.280574] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:45 kernel: [  460.670496] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:48 kernel: [  463.319304] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:50 kernel: [  465.748199] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:53 kernel: [  468.314486] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:55 kernel: [  470.824739] [E]gpStreamA9: received 500 packets
+Oct 16 16:33:58 kernel: [  473.331726] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:00 kernel: [  475.882044] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:02 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x13,0x00,0x00,0x00"
+Oct 16 16:34:02 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x13,0x00,0x00,0x00"
+Oct 16 16:34:02 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x13,0x00,0x00,0x00"
+Oct 16 16:34:02 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:34:02 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 19
+Oct 16 16:34:03 kernel: [  478.345954] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:06 kernel: [  480.916435] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:08 kernel: [  483.336764] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:11 kernel: [  485.952015] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:13 kernel: [  488.353910] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:16 kernel: [  491.009029] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:18 kernel: [  493.417155] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:21 kernel: [  496.026414] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:23 kernel: [  498.495279] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:26 kernel: [  501.021444] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:28 kernel: [  503.549903] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:31 kernel: [  506.036877] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:33 kernel: [  508.604635] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:36 kernel: [  511.029500] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:38 kernel: [  513.661350] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:41 kernel: [  516.043744] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:43 kernel: [  518.700494] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:46 kernel: [  521.107132] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:48 kernel: [  523.716102] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:51 kernel: [  526.164019] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:53 kernel: [  528.712312] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:56 kernel: [  531.259712] [E]gpStreamA9: received 500 packets
+Oct 16 16:34:57 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x14,0x00,0x00,0x00"
+Oct 16 16:34:57 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x14,0x00,0x00,0x00"
+Oct 16 16:34:57 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 20
+Oct 16 16:34:57 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x14,0x00,0x00,0x00"
+Oct 16 16:34:57 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:34:58 kernel: [  533.727506] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:01 kernel: [  536.318767] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:03 kernel: [  538.745840] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:06 kernel: [  541.399907] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:08 kernel: [  543.827570] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:11 kernel: [  546.393755] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:13 kernel: [  548.863705] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:16 kernel: [  551.409777] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:19 kernel: [  553.897489] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:21 kernel: [  556.404999] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:24 kernel: [  558.954804] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:26 kernel: [  561.416325] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:29 kernel: [  564.009147] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:31 kernel: [  566.431532] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:34 kernel: [  569.089562] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:36 kernel: [  571.475867] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:39 kernel: [  574.082575] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:41 kernel: [  576.530996] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:44 kernel: [  579.098059] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:46 kernel: [  581.588968] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:49 kernel: [  584.115044] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:51 kernel: [  586.648211] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:54 kernel: [  589.123412] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:56 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x15,0x00,0x00,0x00"
+Oct 16 16:35:56 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x15,0x00,0x00,0x00"
+Oct 16 16:35:56 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x15,0x00,0x00,0x00"
+Oct 16 16:35:56 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:35:56 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 21
+Oct 16 16:35:56 kernel: [  591.699177] [E]gpStreamA9: received 500 packets
+Oct 16 16:35:59 kernel: [  594.123443] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:01 kernel: [  596.779390] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:03 kernel: [  598.204492] 1 log buffers are dropped 
+Oct 16 16:36:04 kernel: [  599.165189] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:06 kernel: [  601.796846] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:09 kernel: [  604.244529] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:11 kernel: [  606.792241] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:14 kernel: [  609.337366] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:16 kernel: [  611.806268] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:19 kernel: [  614.380306] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:21 kernel: [  616.800177] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:24 kernel: [  619.433314] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:26 kernel: [  621.821284] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:29 kernel: [  624.471271] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:31 kernel: [  626.877834] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:34 kernel: [  629.498105] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:37 kernel: [  631.934198] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:39 kernel: [  634.487307] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:42 kernel: [  636.997056] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:44 kernel: [  639.510110] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:47 kernel: [  642.089225] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:49 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x16,0x00,0x00,0x00"
+Oct 16 16:36:49 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x16,0x00,0x00,0x00"
+Oct 16 16:36:49 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x16,0x00,0x00,0x00"
+Oct 16 16:36:49 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:36:49 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 22
+Oct 16 16:36:49 kernel: [  644.518862] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:52 kernel: [  647.124015] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:54 kernel: [  649.516072] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:57 kernel: [  652.163235] [E]gpStreamA9: received 500 packets
+Oct 16 16:36:59 kernel: [  654.581710] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:02 kernel: [  657.177637] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:04 kernel: [  659.645965] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:07 kernel: [  662.207135] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:09 kernel: [  664.702452] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:12 kernel: [  667.185470] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:13 gpNet: PSMR       :   COLDBOOT POWER STATE (@ resume time=600) [1]: Set:PWR_ALL_OFF then WAIT 0 MINS
+Oct 16 16:37:13 gpNet: PSMR       :   next_time=600 since_resume=600
+Oct 16 16:37:14 kernel: [  669.736551] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:17 kernel: [  672.201740] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:19 kernel: [  674.773644] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:22 kernel: [  677.196491] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:24 kernel: [  679.826736] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:27 kernel: [  682.242361] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:29 kernel: [  684.868548] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:32 kernel: [  687.316065] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:34 kernel: [  689.885059] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:37 kernel: [  692.371423] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:39 kernel: [  694.877998] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:42 kernel: [  697.407071] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:44 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x17,0x00,0x00,0x00"
+Oct 16 16:37:44 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x17,0x00,0x00,0x00"
+Oct 16 16:37:44 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 23
+Oct 16 16:37:44 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x17,0x00,0x00,0x00"
+Oct 16 16:37:44 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:37:45 kernel: [  699.892680] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:47 kernel: [  702.482624] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:50 kernel: [  704.907454] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:52 kernel: [  707.564575] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:55 kernel: [  709.950584] [E]gpStreamA9: received 500 packets
+Oct 16 16:37:57 kernel: [  712.558181] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:00 kernel: [  715.027301] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:02 kernel: [  717.574994] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:05 kernel: [  720.085865] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:07 kernel: [  722.569139] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:10 kernel: [  725.203755] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:12 kernel: [  727.593375] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:15 kernel: [  730.242866] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:17 kernel: [  732.657980] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:20 kernel: [  735.256318] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:22 kernel: [  737.683836] [E]gpStreamA9: received 500 packets
+Oct 16 16:38:24 gpAth: Interface doesn't accept private ioctl...
+Oct 16 16:38:24 gpAth: getRSSI (8BFD): No such file or directory
+Oct 16 16:38:24 gpAth: AP Assoc count changed from 1 to 0
+Oct 16 16:38:24 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(0)
+Oct 16 16:38:24 gpNet: /fr_ath    :WA Wifi Associated (APP0)
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x00"
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x36,0x42"
+Oct 16 16:38:24 gpNet: WANL       :0x04 0x08 0x36 0x42 APP outOfFocus but still associated
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x32,0x42"
+Oct 16 16:38:24 gpNet: WANL       :0x04 0x08 0x32 0x42 APP disassociated
+Oct 16 16:38:24 gpAth: AP Assoc count changed from 0 to 1
+Oct 16 16:38:24 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(1)
+Oct 16 16:38:24 gpNet: /fr_ath    :WA Wifi Associated (APP1)
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x36,0x42"
+Oct 16 16:38:24 gpNet: WANL       :0x04 0x08 0x36 0x42 APP associated
+Oct 16 16:38:24 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x02,0x00,0x00,0x00"
+Oct 16 16:38:24 gpNet: AP State Ma:   AP_SMRT_ON  + WIFI_AP_ASSOC       -> sm_ap_stay_on   AP_SMRT_ON  
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x01"
+Oct 16 16:38:24 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x3e,0x42"
+Oct 16 16:38:24 gpNet: WANL       :0x04 0x08 0x3e 0x42 APP inFocus
+Oct 16 16:38:26 gpAth: Interface doesn't accept private ioctl...
+Oct 16 16:38:26 gpAth: getRSSI (8BFD): No such file or directory
+Oct 16 16:38:26 gpAth: AP Assoc count changed from 1 to 0
+Oct 16 16:38:26 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(0)
+Oct 16 16:38:26 gpNet: /fr_ath    :WA Wifi Associated (APP0)
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x00"
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x36,0x42"
+Oct 16 16:38:26 gpNet: WANL       :0x04 0x08 0x36 0x42 APP outOfFocus but still associated
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x32,0x42"
+Oct 16 16:38:26 gpNet: WANL       :0x04 0x08 0x32 0x42 APP disassociated
+Oct 16 16:38:26 gpAth: Station b4:6b:fc:d7:6c:61 Connected to ap0 (1)
+Oct 16 16:38:26 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(1)
+Oct 16 16:38:26 kernel: [  741.289523] TXRX: Couldn't find peer from ID 26 - skipping security inits
+Oct 16 16:38:26 gpNet: /fr_ath    :WA Wifi Associated (APP1)
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x36,0x42"
+Oct 16 16:38:26 kernel: [  741.303624] TXRX: ol_txrx_peer_find_add_id: Delete Peer 83566000
+Oct 16 16:38:26 gpNet: WANL       :0x04 0x08 0x36 0x42 APP associated
+Oct 16 16:38:26 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x03,0x00,0x00,0x00"
+Oct 16 16:38:26 gpNet: AP State Ma:   AP_SMRT_ON  + WIFI_AP_ASSOC       -> sm_ap_stay_on   AP_SMRT_ON  
+Oct 16 16:38:26 gpAth: AP Assoc count changed from 1 to 2
+Oct 16 16:38:26 gpAth: /to_gpnet  :WA /nw/ Send WA_APP_ASSOC Event for <GP2463XXXX>  sta count=(2)
+Oct 16 16:38:26 gpNet: /fr_ath    :WA Wifi Associated (APP2)
+Oct 16 16:38:26 gpNet: /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x04,0x00,0x00,0x00"
+Oct 16 16:38:26 gpNet: AP State Ma:   AP_SMRT_ON  + WIFI_AP_ASSOC       -> sm_ap_stay_on   AP_SMRT_ON  
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_APP_ASSOCIATED_COUNT(0x0c) <- "0x02"
+Oct 16 16:38:26 gpNet: /to_wif    :CN /fr_gpnet   CSI Notify(dyn)-CSI_WIRELESS_ANALYTICS_EVENT(0x57) <- "0x04,0x08,0x3e,0x42"
+Oct 16 16:38:26 gpNet: WANL       :0x04 0x08 0x3e 0x42 APP inFocus
+Oct 16 16:38:39 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x18,0x00,0x00,0x00"
+Oct 16 16:38:39 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x18,0x00,0x00,0x00"
+Oct 16 16:38:39 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x18,0x00,0x00,0x00"
+Oct 16 16:38:39 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:38:39 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 24
+Oct 16 16:39:36 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x19,0x00,0x00,0x00"
+Oct 16 16:39:36 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x19,0x00,0x00,0x00"
+Oct 16 16:39:36 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 25
+Oct 16 16:39:36 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x19,0x00,0x00,0x00"
+Oct 16 16:39:36 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716
+Oct 16 16:40:32 gpNet: /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x1a,0x00,0x00,0x00"
+Oct 16 16:40:32 gpNet: /to_ble    :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x1a,0x00,0x00,0x00"
+Oct 16 16:40:32 babyblue: CSI EVENT says CSI_BATTERY_LIFE changed to (len=4) 26
+Oct 16 16:40:32 gpNet: /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x1a,0x00,0x00,0x00"
+Oct 16 16:40:32 gpBleSdkD: UTIL_LOG_ERROR:st_state not changed @gpBleServer.cpp:716

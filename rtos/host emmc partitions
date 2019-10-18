@@ -1,0 +1,73 @@
+t c media em get_info
+FJ_EMMC_Get_Device_Info() end(0)
+ - mode : 3(HS400)
+
+t c fs statvfs K
+FS_statvfs() end(0).
+    blksize  ( 16384)
+    blocks   ( 32758)
+    bfree    ( 32742)
+    free size   511.59 MB (536444928 Byte)
+    bbad(0)
+    dstat(0) :UNPROTECT
+    fstype(4) :0x04(FS_Type_FAT16(Less than 32MB))
+    fsvers(0)
+    tasks(0)
+    entries(0)
+    mdfvers((null))
+
+
+t c fs statvfs J
+FS_statvfs() end(0).
+    blksize  ( 16384)
+    blocks   ( 32758)
+    bfree    ( 32754)
+    free size   511.78 MB (536641536 Byte)
+    bbad(0)
+    dstat(0) :UNPROTECT
+    fstype(4) :0x04(FS_Type_FAT16(Less than 32MB))
+    fsvers(0)
+    tasks(0)
+    entries(0)
+    mdfvers((null))
+
+t c fs statvfs L
+FS_statvfs() end(0).
+    blksize  ( 16384)
+    blocks   ( 65518)
+    bfree    ( 65518)
+    free size   1023.72 MB (1073446912 Byte)
+    bbad(0)
+    dstat(0) :UNPROTECT
+    fstype(4) :0x04(FS_Type_FAT16(Less than 32MB))
+    fsvers(0)
+    tasks(0)
+    entries(0)
+    mdfvers((null))
+
+t c fs statvfs C
+    blksize  ( 32768)
+    blocks   (973584)
+    bfree    (973521)
+    free size   29.71 GB
+    bbad(0)
+    dstat(0) :UNPROTECT
+    fstype(11) :0x11(FS_Type_FAT32(CHS))
+    fsvers(0)
+    tasks(0)
+    entries(0)
+    mdfvers((null))
+
+t c fs statvfs J
+FS_statvfs() end(0).
+    blksize  ( 16384)
+    blocks   ( 32758)
+    bfree    ( 32754)
+    free size   511.78 MB (536641536 Byte)
+    bbad(0)
+    dstat(0) :UNPROTECT
+    fstype(4) :0x04(FS_Type_FAT16(Less than 32MB))
+    fsvers(0)
+    tasks(0)
+    entries(0)
+    mdfvers((null))

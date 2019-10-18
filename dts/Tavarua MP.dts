@@ -1,0 +1,522 @@
+/dts-v1/;
+
+/ {
+	banzai_dt_format_version = <0x0>;
+	target,name = "Tavarua MP";
+	target,arch = "mxm";
+	target,id = <0x3931>;
+
+	mxm_gpio_ctrl@0 {
+		device_type = "mxm_gpio_ctrl";
+
+		gpio03 {
+			id = <0xcb>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "CODEC_RESET";
+		};
+
+		gpio04 {
+			id = <0xcc>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "LCD_DSI_RST";
+		};
+
+		gpio05 {
+			id = <0xcd>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "FRONT_LCD_EN_EP";
+		};
+
+		gpio07 {
+			id = <0xcf>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "I2C_HANDSHAKE";
+		};
+
+		gpio10 {
+			id = <0xd0>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "CAM_SHDN#";
+		};
+
+		gpio17 {
+			id = <0xd7>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "TP_RST#";
+		};
+
+		gpio46 {
+			id = <0xee>;
+			func = "OUTL";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "FRNT_RED_LED";
+		};
+
+		gpio60 {
+			id = <0x0>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "TP_INT";
+		};
+
+		gpio63 {
+			id = <0x3>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "POWER_KEY_EP";
+		};
+
+		gpio64 {
+			id = <0x4>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "SHUTTER_KEY_EP";
+		};
+
+		gpio65 {
+			id = <0x5>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "HB_INT";
+		};
+
+		gpio70 {
+			id = <0x8>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "PMIC_INT#";
+		};
+
+		gpio73 {
+			id = <0xb>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "GPS_TIME_PULSE";
+		};
+
+		gpio74 {
+			id = <0xc>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "SHUB_BSH_INT";
+		};
+
+		gpio75 {
+			id = <0xd>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "GPS_RESET#";
+		};
+
+		gpio77 {
+			id = <0xf>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "MCU_INTR";
+		};
+
+		gpiod5 {
+			id = <0x34>;
+			func = "OUTL";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "SPKR_MODE";
+		};
+
+		gpio62 {
+			id = <0x2>;
+			func = "OUTH";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "MFI_RST_N";
+		};
+
+		gpio14 {
+			id = <0xc>;
+			func = "IN";
+			pull = [58 00];
+			drive = <0x3>;
+			halname = "IDC3_SEL";
+		};
+	};
+
+	mxm_i2c_ctrl@0 {
+		device_type = "mxm_i2c_ctrl";
+		halname = "mxm_i2c_0";
+		channel = <0x0>;
+	};
+
+	mxm_i2c_ctrl@1 {
+		device_type = "mxm_i2c_ctrl";
+		halname = "mxm_i2c_1";
+		channel = <0x1>;
+	};
+
+	mxm_i2c_ctrl@2 {
+		device_type = "mxm_i2c_ctrl";
+		halname = "mxm_i2c_2";
+		channel = <0x2>;
+	};
+
+	mxm_spi_ctrl@0 {
+		device_type = "mxm_spi_ctrl";
+		halname = "mxm_spi_0";
+		channel = <0x0>;
+	};
+
+	mxm_spi_ctrl@1 {
+		device_type = "mxm_spi_ctrl";
+		halname = "mxm_spi_1";
+		channel = <0x1>;
+	};
+
+	mxm_spi_ctrl@2 {
+		device_type = "mxm_spi_ctrl";
+		halname = "mxm_spi_2";
+		channel = <0x2>;
+	};
+
+	mxm_uart_ctrl@0 {
+		device_type = "mxm_uart_ctrl";
+		halname = "mxm_uart_0";
+		channel = <0x0>;
+	};
+
+	mxm_uart_ctrl@1 {
+		device_type = "mxm_uart_ctrl";
+		halname = "mxm_uart_1";
+		channel = <0x1>;
+	};
+
+	mxm_uart_ctrl@2 {
+		device_type = "mxm_uart_ctrl";
+		halname = "mxm_uart_2";
+		channel = <0x2>;
+	};
+
+	mxm_uart_ctrl@5 {
+		device_type = "mxm_uart_ctrl";
+		halname = "mxm_uart_5";
+		channel = <0x5>;
+	};
+
+	pi3usb9281@0 {
+		device_type = "pi3usb9281";
+		i2c_device = "mxm_i2c_0";
+		halname = "pericom";
+		i2c_chan = <0x0>;
+		use_i2cmux = <0x1>;
+	};
+
+	atsaml22@0 {
+		device_type = "atsaml22";
+		halname = "hkmcu";
+		i2c_device = "mxm_i2c_0";
+		i2c_chan = <0x0>;
+		intr = <0xf>;
+		regio_enable = <0x1>;
+		use_i2cmux = <0x1>;
+	};
+
+	act9150@0 {
+		device_type = "act9150";
+
+		device_info {
+			i2c_device = "mxm_i2c_0";
+			halname = "pmic";
+			i2c_chan = <0x0>;
+			intr = <0x8>;
+			use_i2cmux = <0x1>;
+			chg_ctrl = <0x1>;
+			led_ctrl = <0x1>;
+			sys_pwr_ctrl = <0x0>;
+			wifibt_ctrl = <0x1>;
+			num_of_init = <0x1>;
+			num_of_regulators = <0x0>;
+			num_of_led = <0x4>;
+		};
+
+		device_init_0xce@0 {
+			addr = <0xce>;
+			value = <0xf8>;
+			op = <0x1>;
+		};
+
+		LED@0 {
+			led_no = <0x1>;
+			halname = "BACK_LED";
+		};
+
+		LED@1 {
+			led_no = <0x2>;
+			halname = "FRNT_LED";
+		};
+
+		LED@2 {
+			led_no = <0x3>;
+			halname = "WIFI_LED";
+		};
+
+		LED@3 {
+			led_no = <0x4>;
+			halname = "BTM_LED";
+		};
+	};
+
+	st7796s@0 {
+		device_type = "st7796s";
+		halname = "lcd";
+		spi_device = "mxm_spi_1";
+		spi_cs = <0x3>;
+		reset = <0xcc>;
+		extra = <0x1>;
+		mount_angle = <0x5a>;
+	};
+
+	ft6306@0 {
+		device_type = "ft6306";
+		i2c_device = "mxm_i2c_1";
+		halname = "touch";
+		i2c_chan = <0x1>;
+		use_i2cmux = <0x0>;
+		intr = <0x0>;
+		reset = <0xd7>;
+		width = <0x13f>;
+		height = <0x1df>;
+		integrated = <0x1>;
+		mount_angle = <0x5a>;
+	};
+
+	st7570@0 {
+		device_type = "st7570";
+		halname = "front_lcd";
+		spi_device = "mxm_spi_1";
+		spi_cs = <0x0>;
+		reset = <0xcd>;
+		reset_level = <0x1>;
+		contrast = <0x1b>;
+		extra = <0x1>;
+	};
+
+	bha250@0 {
+		device_type = "bha250";
+		i2c_device = "mxm_i2c_2";
+		halname = "datasrc";
+		i2c_chan = <0x2>;
+		use_i2cmux = <0x0>;
+		intr = <0xc>;
+	};
+
+	mfi@0 {
+		device_type = "mfi";
+		halname = "iaccauth";
+		i2c_chan = <0x2>;
+		i2c_device = "mxm_i2c_2";
+		i2c_device_addr = <0x22>;
+		reset_gpio_halname = "MFI_RST_N";
+		use_i2cmux = <0x0>;
+	};
+
+	pcf85063a@0 {
+		device_type = "pcf85063a";
+		i2c_device = "mxm_i2c_2";
+		halname = "rtc";
+		i2c_chan = <0x2>;
+		use_i2cmux = <0x0>;
+	};
+
+	dbmd4@0 {
+		device_type = "dbmd4";
+		halname = "audio_dbmdx";
+		spi_device = "mxm_spi_1";
+		spi_cs = <0x1>;
+		wakeup = <0xed>;
+		reset_wov = <0x0>;
+		reset_gpio = <0x0>;
+	};
+
+	sensor_tempsrc@0 {
+		device_type = "sensor_tempsrc";
+		adc_device = "m9m_adc_0";
+		halname = "sensor";
+		adc_ch = <0x0>;
+		moving_average_nsamples = <0x4>;
+		moving_average_period_ms = <0x3e8>;
+		tshutd_poll_period_ms = <0x1388>;
+		tshutd_pretty_name = "Sensor";
+		tshutd_shutdown_enabled = <0x1>;
+		tshutd_thresh_grace = <0x4b>;
+		tshutd_thresh_mand = <0x4e>;
+		tshutd_thresh_warn = <0x48>;
+		tcold_enabled = <0x0>;
+		tcold_thresh_start = <0x0>;
+		tcold_thresh_stop = <0x0>;
+	};
+
+	ext_dsp_tempsrc@0 {
+		device_type = "ext_dsp_tempsrc";
+		adc_device = "m9m_adc_1";
+		halname = "ext_dsp";
+		moving_average_nsamples = <0x4>;
+		moving_average_period_ms = <0x3e8>;
+		tshutd_poll_period_ms = <0x1388>;
+		tshutd_pretty_name = "EXT_DSP";
+		tshutd_shutdown_enabled = <0x1>;
+		tshutd_thresh_grace = <0x5f>;
+		tshutd_thresh_mand = <0x64>;
+		tshutd_thresh_warn = <0x5a>;
+		tcold_enabled = <0x0>;
+		tcold_thresh_start = <0x0>;
+		tcold_thresh_stop = <0x0>;
+	};
+
+	int_dsp_tempsrc@0 {
+		device_type = "int_dsp_tempsrc";
+		adc_device = "m9m";
+		halname = "int_dsp";
+		moving_average_nsamples = <0x4>;
+		moving_average_period_ms = <0x3e8>;
+		tshutd_poll_period_ms = <0x1388>;
+		tshutd_pretty_name = "INT_DSP";
+		tshutd_shutdown_enabled = <0x0>;
+		tshutd_thresh_grace = <0x53>;
+		tshutd_thresh_mand = <0x55>;
+		tshutd_thresh_warn = <0x50>;
+		tcold_enabled = <0x0>;
+		tcold_thresh_start = <0x0>;
+		tcold_thresh_stop = <0x0>;
+	};
+
+	battery_tempsrc@0 {
+		device_type = "battery_tempsrc";
+		halname = "battery";
+		adc_device = "mcu";
+		moving_average_nsamples = <0x4>;
+		moving_average_period_ms = <0x7d0>;
+		tshutd_poll_period_ms = <0x1388>;
+		tshutd_pretty_name = "Internal battery";
+		tshutd_shutdown_enabled = <0x1>;
+		tshutd_thresh_grace = <0x44>;
+		tshutd_thresh_mand = <0x46>;
+		tshutd_thresh_warn = <0x41>;
+		tcold_enabled = <0x1>;
+		tcold_thresh_start = <0x0>;
+		tcold_thresh_stop = <0x1>;
+	};
+
+	hal_tempsrc_config@0 {
+		device_type = "hal_tempsrc_config";
+		tempsrc_int_dsp_halname = "int_dsp";
+		tempsrc_ext_dsp_halname = "ext_dsp";
+		tempsrc_battery_halname = "battery";
+		tempsrc_sensor0_halname = "sensor";
+	};
+
+	lce_la008v3@0 {
+		device_type = "lce_la008v3";
+		halname = "lce_la008v3";
+	};
+
+	img_sensor_imx277@0 {
+		device_type = "img_sensor_imx277";
+		halname = "image_sensor";
+		spi_device = "mxm_spi_0";
+		spi_cs = <0x0>;
+		sensor_id = <0x0>;
+		interface = "slvs";
+		lens = "lce_la008v3";
+	};
+
+	button@0 {
+		device_type = "button_gpio";
+		halname = "button";
+
+		button1 {
+			gpio = <0x3>;
+			def_pol = <0x1>;
+			button_name = "POWER";
+			gpio_name = "POWER_KEY_EP";
+		};
+
+		button2 {
+			gpio = <0x4>;
+			def_pol = <0x1>;
+			button_name = "SHUTTER";
+			gpio_name = "SHUTTER_KEY_EP";
+		};
+	};
+
+	ublox_m8030@0 {
+		device_type = "ublox_m8030";
+		uart_device = "mxm_uart_2";
+		halname = "gps";
+		uart_chan = <0x2>;
+		reset_m8030 = <0x0>;
+		reset_gpio = <0x0>;
+		fw_version = <0x1>;
+		gnss_type = <0x5>;
+	};
+
+	gt1@0 {
+		device_type = "gt1";
+		i2c_device = "mxm_i2c_0";
+		halname = "garter";
+		i2c_chan = <0x0>;
+		use_i2cmux = <0x0>;
+		intr = <0x5>;
+		intr_pull = <0x0>;
+	};
+
+	dsp@0 {
+		device_type = "cevadsp";
+		halname = "coprocessor";
+	};
+
+	bmg250@0 {
+		device_type = "bmg250";
+		halname = "imu";
+		mount_matrix = <0xffffffff 0x0 0x0 0x0 0x1 0x0 0x0 0x0 0x1>;
+	};
+
+	audio_vr_thf@0 {
+		device_type = "audio_vr_thf";
+		halname = "audio_vr";
+	};
+
+	audio_dspc_asrc@0 {
+		device_type = "audio_dspc_asrc_lcl";
+		halname = "audio_asrc";
+	};
+
+	audio_awe_lcl@0 {
+		device_type = "audio_awe_lcl";
+		halname = "audio_awe";
+	};
+
+	audio_awe_lcl_spk@0 {
+		device_type = "audio_awe_spk_lcl";
+		halname = "audio_awe_spk";
+	};
+};

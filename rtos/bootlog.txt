@@ -1,0 +1,2571 @@
+I:0:T01000004: --- UART System Started ---
+[00000034] =========== FIRST STAGE  =============
+
+[00000034] =========== SECOND STAGE =============
+
+s:>[00000054] [PLATFORM INFO1] Target ID:11, Product ID:0, Board ID:11, Jbay PVT
+[00000054] [PLATFORM INFO2] AVS value:0x0E, CM0/CA7 frequency at 100MHz/600MHz, DDR memory size:2GB
+[00000055]  ======= init_nvm_storage_peripherals Initing nvm storage peripherals ========
+[00000078] emmc_nvm_init:Calibration: start_sec_num=0x00000600 data_size=0x00000000 total_size=0x04000000
+[00000078] emmc_nvm_init:Calibration: start_sec_num=0x00020600 data_size=0x00000000 total_size=0x00100000
+[00000078] emmc_nvm_init size=0x00800000
+[00000078] emmc_nvm_init:User Pref: start_sec_num=0x00262200 data_size=0x00000000 total_size=0x00200000
+[00000078] emmc_nvm_init:System Pref: start_sec_num=0x00263200 data_size=0x00000000 total_size=0x00200000
+[00000078] emmc_nvm_init:Preset Store: start_sec_num=0x00264200 data_size=0x00000000 total_size=0x00080000
+[00000079] emmc_nvm_init: FJ_EMMC_Partition_Read, part_num = 4
+[00000079]  - partition 0  type=4, LBA=0x280300, size=0x100000
+[00000079]  - partition 1  type=4, LBA=0x380300, size=0x100000
+[00000079]  - partition 2  type=4, LBA=0x480300, size=0x200000
+[00000079]  - partition 3  type=4, LBA=0x680300, size=0x200000
+[00000079]  - partition 4  type=0, LBA=0x0, size=0x0
+[00000079]  - partition 5  type=0, LBA=0x0, size=0x0
+[00000079]  - partition 6  type=0, LBA=0x0, size=0x0
+[00000079]  - partition 7  type=0, LBA=0x0, size=0x0
+[00000116] ====== init_nvm_storage_peripherals successfully nvm init'ed all partitions ========
+SchedInfo::SchedInfo() called
+[00000116] 
+
+
+[00000116] ******************* HERO8 Black - hero ********************************************
+[00000116] 	Release HD8.01.01.20.00 compiled Sep 27 2019, 00:02:40 git-c1c345f
+[00000116] 	SDK Version 01010000
+[00000116] 	DSPC AWE Release   - AWB   - Sensory SDK  
+[00000116] ***********************************************************************************
+
+
+[00000116] Getting...:
+[00000117] FWUPD Partition Info:
+[00000117]     Filename:            
+[00000117]     Current state:       0
+[00000117]     Current retry count: 0
+[00000117]     Step error:          0
+[00000117]     File verified:       0
+[00000117]     Enable Wireless:     1
+[00000117]     Total Steps          2
+[00000117]     Hiber Erase Complete 0
+[00000117] Other Non-FWUPD items:
+[00000117]     enable_mtp           1
+[00000117]     serial_debug         15
+[00000117]     spyd_debug           0x00
+[00000117] Read Success!!
+[00000128] hal_init:83: Initiating "adc" subsystem...
+[00000128] hal_init:83: Initiating "gpio" subsystem...
+[00000128] hal_init:83: Initiating "i2c" subsystem...
+[00000128] hal_init:83: Initiating "irqsrc" subsystem...
+[00000128] hal_init:83: Initiating "fp" subsystem...
+[00000128] hal_init:83: Initiating "led" subsystem...
+[00000128] hal_led_init: initializing
+[00000128] hal_init:83: Initiating "touch" subsystem...
+[00000128] hal_init:83: Initiating "button" subsystem...
+[00000128] hal_button_init HAL button initialized: 
+[00000128] hal_init:83: Initiating "lcd" subsystem...
+[00000128] hal_init:83: Initiating "orientation" subsystem...
+[00000128] hal_init:83: Initiating "datasrc" subsystem...
+[00000128] hal_datasrc_init: initializing
+[00000128] hal_datasrc_init: Init success
+[00000128] hal_init:83: Initiating "imu" subsystem...
+[00000129] hal_init:83: Initiating "spi" subsystem...
+[00000129] hal_init:83: Initiating "templog" subsystem...
+[00000129] hal_init:83: Initiating "tempsrc" subsystem...
+[00000129] hal_init:83: Initiating "borg" subsystem...
+[00000129] hal_borg_init: 
+[00000129] hal_init:83: Initiating "gt" subsystem...
+[00000129] hal_gt_init: 
+[00000129] hal_init:83: Initiating "audio_dbmdx" subsystem...
+[00000129] hal_init:83: Initiating "audio_vr" subsystem...
+[00000129] hal_init:83: Initiating "audio_awe" subsystem...
+[00000129] hal_init:83: Initiating "audio_asrc" subsystem...
+[00000129] hal_init:83: Initiating "audio_awe_spk" subsystem...
+[00000129] hal_init:83: Initiating "regulator" subsystem...
+[00000129] hal_init:83: Initiating "bat" subsystem...
+[00000129] hal_bat_init: initializing
+[00000129] hal_init:83: Initiating "lens" subsystem...
+[00000129] hal_init:83: Initiating "gps" subsystem...
+[00000130] hal_gps_init: initializing
+[00000130] hal_init:83: Initiating "vreg" subsystem...
+[00000130] hal_vreg_init: initializing
+[00000130] hal_init:83: Initiating "wifibt" subsystem...
+[00000130] hal_wifibt_init: initializing
+[00000130] hal_init:83: Initiating "sysctrl" subsystem...
+[00000130] hal_sysctrl_init: initializing
+[00000130] hal_init:83: Initiating "lcd_bklight" subsystem...
+[00000130] hal_lcd_bklight_init: initializing
+[00000130] hal_init:83: Initiating "charger" subsystem...
+[00000130] hal_charger_init: initializing
+[00000130] hal_init:83: Initiating "rtc" subsystem...
+[00000130] rtc_init: ENTER
+[00000130] hal_init:83: Initiating "uart" subsystem...
+[00000130] hal_init:83: Initiating "hkmcu" subsystem...
+[00000130] hal_hkmcu_init: initializing
+[00000130] hal_init:83: Initiating "accessory" subsystem...
+[00000130] hal_accessory_init: initializing
+[00000131] hal_init:83: Initiating "timer" subsystem...
+[00000131] hal_timer_init: initializing
+[00000131] hal_init:83: Initiating "wakeuprsn" subsystem...
+[00000131] hal_wakeuprsn_init: initializing
+[00000131] hal_init:83: Initiating "iaccauth" subsystem...
+[00000131] hal_iaccauth_init: HAL-IOS Accessory Authentication: init OK!
+[00000131] hal_init:83: Initiating "coprocessor" subsystem...
+[00000131] hal_init:83: Initiating "clk" subsystem...
+[00000131] hal_init:83: Initiating "dp" subsystem...
+[00000131] hal_dp_init: 
+[00000131] hal_init:94: Initiating "mxm_gpio_ctrl" driver...
+[00000131] hal_init:94: Initiating "mxm_i2c_ctrl" driver...
+[00000131] hal_init:94: Initiating "mxm_spi_ctrl" driver...
+[00000131] hal_init:94: Initiating "mxm_uart_ctrl" driver...
+[00000131] mxm_uart_ctrl_init: Inside It
+[00000131] hal_init:94: Initiating "mxm_timer_ctrl" driver...
+[00000132] mxm_timer_ctrl_init: initializing!
+[00000132] hal_timer_register:100: Registering timer controller "mxm_timer_ctrl"...
+[00000132] hal_init:94: Initiating "st7796s" driver...
+[00000132] hal_init:94: Initiating "ft6306" driver...
+[00000132] hal_init:94: Initiating "st7570" driver...
+[00000132] hal_init:94: Initiating "icm30670" driver...
+[00000132] drv_icm30670_init
+[00000132] hal_init:94: Initiating "dbmd4" driver...
+[00000132] drv_dbmd4_init
+[00000132] hal_init:94: Initiating "dbmd7" driver...
+[00000132] drv_dbmd7_init
+[00000132] drv_dbmd7_init exit
+[00000132] hal_init:94: Initiating "bmi260" driver...
+[00000132] hal_init:94: Initiating "hal_tempsrc_config" driver...
+[00000132] hal_init:94: Initiating "sensor_tempsrc" driver...
+[00000132] hal_init:94: Initiating "pmic_tempsrc" driver...
+[00000132] hal_init:94: Initiating "ext_dsp_tempsrc" driver...
+[00000133] hal_init:94: Initiating "int_dsp_tempsrc" driver...
+[00000133] hal_init:94: Initiating "battery_tempsrc" driver...
+[00000133] hal_init:94: Initiating "img_sensor_imx277" driver...
+[00000133] drv_img_sensor_imx277_init
+[00000133] hal_init:94: Initiating "img_sensor_imx577" driver...
+[00000133] drv_img_sensor_imx577_init
+[00000133] hal_init:94: Initiating "borg" driver...
+[00000133] hal_init:94: Initiating "gt1" driver...
+[00000133] hal_init:94: Initiating "act9150" driver...
+[00000133] act9150_early_init: pre-initialized
+[00000133] hal_init:94: Initiating "act88326" driver...
+[00000133] hal_init:94: Initiating "button_gpio" driver...
+[00000133] button_init: Button Driver initialized 
+[00000133] hal_init:94: Initiating "atsaml22" driver...
+[00000133] drv_atsaml22_init: completed
+[00000134] hal_init:94: Initiating "pcf85063a" driver...
+[00000134] pcf85063a_init: pre initialized
+
+[00000134] hal_init:94: Initiating "pi3usb9281" driver...
+[00000134] pi3usb9281_init: pre initialized
+
+[00000134] hal_init:94: Initiating "ublox_m8030" driver...
+[00000134] ublox_m8030_early_init: pre-initialized
+[00000134] hal_init:94: Initiating "mfi" driver...
+[00000134] hal_init:94: Initiating "lce_la068a" driver...
+[00000134] lce_la068a_init: Lens Driver initialized 
+[00000134] hal_init:94: Initiating "nittoh_z600" driver...
+[00000134] nittoh_z600_init: Lens Driver initialized 
+[00000134] hal_init:94: Initiating "cevadsp" driver...
+[00000134] cevadsp_init: CEVA DSP is initialized 
+[00000134] Waiting for a message in cevadsp_debug_print_task 
+
+[00000134] hal_init:94: Initiating "mxm_coreclk_ctrl" driver...
+[00000134] mxm_coreclk_ctrl_init: initializing!
+[00000135] hal_clk_register:102: Registering clk driver controller "mxm_coreclk_ctrl"...
+[00000135] hal_init:94: Initiating "anx7816" driver...
+[00000135] hal_init:94: Initiating "as1130" driver...
+[00000135] Initializing as1130......
+[00000135] hal_init:94: Initiating "audio_awe_lcl" driver...
+[00000135] hal_lcl_drv_audio_awe_init is done 
+[00000135] hal_init:94: Initiating "audio_vr_thf" driver...
+[00000135] hal_audio_thf_init is done 
+[00000135] hal_init:94: Initiating "audio_dspc_asrc_lcl" driver...
+[00000135] hal_lcl_drv_audio_dspc_asrc_init is done 
+[00000135] hal_init:94: Initiating "audio_awe_spk_lcl" driver...
+[00000135] hal_lcl_drv_speakeraudio_awe_init is done 
+[00000135] hal_init:94: Initiating "audio_awe_remote" driver...
+[00000135] hal_remote_drv_audio_awe_init is done 
+[00000135] hal_init:94: Initiating "audio_vr_thf_remote" driver...
+[00000135] hal_audio_thf_remote_init: is done 
+[00000136] hal_init:146: Attaching driver "mxm_gpio_ctrl" to device "mxm_gpio_ctrl@0"...
+[00000136] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000136] hal_gpio_register:98: Registering GPIO "LCD_DSI_RST"...
+[00000136] hal_irqsrc_register:101: Registering IRQ source "LCD_DSI_RST"...
+[00000136] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000136] hal_gpio_register:98: Registering GPIO "FRONT_LCD_EN_EP"...
+[00000136] hal_irqsrc_register:101: Registering IRQ source "FRONT_LCD_EN_EP"...
+[00000136] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000136] hal_gpio_register:98: Registering GPIO "I2C_HANDSHAKE"...
+[00000136] hal_irqsrc_register:101: Registering IRQ source "I2C_HANDSHAKE"...
+[00000137] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000137] hal_gpio_register:98: Registering GPIO "CAM_SHDN#"...
+[00000137] hal_irqsrc_register:101: Registering IRQ source "CAM_SHDN#"...
+[00000137] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000137] hal_gpio_register:98: Registering GPIO "ANX7816_PWRDWN"...
+[00000137] hal_irqsrc_register:101: Registering IRQ source "ANX7816_PWRDWN"...
+[00000137] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000137] hal_gpio_register:98: Registering GPIO "GPS_RESET#"...
+[00000137] hal_irqsrc_register:101: Registering IRQ source "GPS_RESET#"...
+[00000138] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000138] hal_gpio_register:98: Registering GPIO "ANX7816_RST"...
+[00000138] hal_irqsrc_register:101: Registering IRQ source "ANX7816_RST"...
+[00000138] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000138] hal_gpio_register:98: Registering GPIO "TP_RST#"...
+[00000138] hal_irqsrc_register:101: Registering IRQ source "TP_RST#"...
+[00000138] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000138] hal_gpio_register:98: Registering GPIO "FRONT_LCD_SEL"...
+[00000138] hal_irqsrc_register:101: Registering IRQ source "FRONT_LCD_SEL"...
+[00000138] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000139] hal_gpio_register:98: Registering GPIO "PMIC_MCU_EP_I2C_HSHAKE"...
+[00000139] hal_irqsrc_register:101: Registering IRQ source "PMIC_MCU_EP_I2C_HSHAKE"...
+[00000139] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000139] hal_gpio_register:98: Registering GPIO "FRNT_RED_LED"...
+[00000139] hal_irqsrc_register:101: Registering IRQ source "FRNT_RED_LED"...
+[00000139] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000139] hal_gpio_register:98: Registering GPIO "TP_INT"...
+[00000139] hal_irqsrc_register:101: Registering IRQ source "TP_INT"...
+[00000139] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000139] hal_gpio_register:98: Registering GPIO "POWER_KEY_EP"...
+[00000140] hal_irqsrc_register:101: Registering IRQ source "POWER_KEY_EP"...
+[00000140] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000140] hal_gpio_register:98: Registering GPIO "SHUTTER_KEY_EP"...
+[00000140] hal_irqsrc_register:101: Registering IRQ source "SHUTTER_KEY_EP"...
+[00000140] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000140] hal_gpio_register:98: Registering GPIO "HB_INT"...
+[00000140] hal_irqsrc_register:101: Registering IRQ source "HB_INT"...
+[00000140] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000140] hal_gpio_register:98: Registering GPIO "ANX7816_DP_DET"...
+[00000140] hal_irqsrc_register:101: Registering IRQ source "ANX7816_DP_DET"...
+[00000141] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000141] hal_gpio_register:98: Registering GPIO "PMIC_INT#"...
+[00000141] hal_irqsrc_register:101: Registering IRQ source "PMIC_INT#"...
+[00000141] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000141] hal_gpio_register:98: Registering GPIO "ANX7816_INTR"...
+[00000141] hal_irqsrc_register:101: Registering IRQ source "ANX7816_INTR"...
+[00000141] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000141] hal_gpio_register:98: Registering GPIO "GPS_TIME_PULSE"...
+[00000141] hal_irqsrc_register:101: Registering IRQ source "GPS_TIME_PULSE"...
+[00000141] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000142] hal_gpio_register:98: Registering GPIO "BMI260_INT2"...
+[00000142] hal_irqsrc_register:101: Registering IRQ source "BMI260_INT2"...
+[00000142] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000142] hal_gpio_register:98: Registering GPIO "MCU_INTR"...
+[00000142] hal_irqsrc_register:101: Registering IRQ source "MCU_INTR"...
+[00000142] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000142] hal_gpio_register:98: Registering GPIO "GNSS_LNA_DET"...
+[00000142] hal_irqsrc_register:101: Registering IRQ source "GNSS_LNA_DET"...
+[00000142] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000142] hal_gpio_register:98: Registering GPIO "BMI260_INT1"...
+[00000142] hal_irqsrc_register:101: Registering IRQ source "BMI260_INT1"...
+[00000143] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000143] hal_gpio_register:98: Registering GPIO "SPI3_WOV_EN#"...
+[00000143] hal_irqsrc_register:101: Registering IRQ source "SPI3_WOV_EN#"...
+[00000143] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000143] hal_gpio_register:98: Registering GPIO "SPKR_MODE"...
+[00000143] hal_irqsrc_register:101: Registering IRQ source "SPKR_MODE"...
+[00000143] mxm_gpio_ctrl_create_device:435: GPIO Drive Strength Setting NOT SUPPORTED
+[00000143] hal_gpio_register:98: Registering GPIO "SPI3_LCD_EN#"...
+[00000143] hal_irqsrc_register:101: Registering IRQ source "SPI3_LCD_EN#"...
+[00000144] hal_init:146: Attaching driver "mxm_i2c_ctrl" to device "mxm_i2c_ctrl@0"...
+[00000144] hal_i2c_register:103: Registering I2C controller "mxm_i2c_0"...
+[00000144] hal_init:146: Attaching driver "mxm_i2c_ctrl" to device "mxm_i2c_ctrl@1"...
+[00000144] hal_i2c_register:103: Registering I2C controller "mxm_i2c_1"...
+[00000144] hal_init:146: Attaching driver "mxm_i2c_ctrl" to device "mxm_i2c_ctrl@2"...
+[00000144] hal_i2c_register:103: Registering I2C controller "mxm_i2c_2"...
+[00000144] hal_init:146: Attaching driver "mxm_spi_ctrl" to device "mxm_spi_ctrl@0"...
+[00000144] hal_spi_register:101: Registering SPI controller "mxm_spi_0"...
+[00000144] hal_init:146: Attaching driver "mxm_spi_ctrl" to device "mxm_spi_ctrl@1"...
+[00000144] hal_spi_register:101: Registering SPI controller "mxm_spi_1"...
+[00000145] hal_init:146: Attaching driver "mxm_spi_ctrl" to device "mxm_spi_ctrl@2"...
+[00000145] hal_spi_register:101: Registering SPI controller "mxm_spi_2"...
+[00000145] hal_init:146: Attaching driver "mxm_uart_ctrl" to device "mxm_uart_ctrl@0"...
+[00000145] mxm_uart_ctrl_create_device: Inside It
+[00000145] mxm_uart_ctrl_create_device: Entered
+[00000145] mxm_uart_ctrl_create_device: name:mxm_uart_0
+[00000145] mxm_uart_ctrl_create_device: chan:0
+[00000145] hal_uart_register:104: Registering UART controller "mxm_uart_0"...
+[00000145] hal_init:146: Attaching driver "mxm_uart_ctrl" to device "mxm_uart_ctrl@1"...
+[00000145] mxm_uart_ctrl_create_device: Inside It
+[00000145] mxm_uart_ctrl_create_device: Entered
+[00000145] mxm_uart_ctrl_create_device: name:mxm_uart_1
+[00000145] mxm_uart_ctrl_create_device: chan:1
+[00000146] hal_uart_register:104: Registering UART controller "mxm_uart_1"...
+[00000146] hal_init:146: Attaching driver "mxm_uart_ctrl" to device "mxm_uart_ctrl@2"...
+[00000146] mxm_uart_ctrl_create_device: Inside It
+[00000146] mxm_uart_ctrl_create_device: Entered
+[00000146] mxm_uart_ctrl_create_device: name:mxm_uart_2
+[00000146] mxm_uart_ctrl_create_device: chan:2
+[00000146] hal_uart_register:104: Registering UART controller "mxm_uart_2"...
+[00000146] hal_init:146: Attaching driver "mxm_uart_ctrl" to device "mxm_uart_ctrl@5"...
+[00000146] mxm_uart_ctrl_create_device: Inside It
+[00000146] mxm_uart_ctrl_create_device: Entered
+[00000146] mxm_uart_ctrl_create_device: name:mxm_uart_5
+[00000146] mxm_uart_ctrl_create_device: chan:5
+[00000146] hal_uart_register:104: Registering UART controller "mxm_uart_5"...
+[00000147] hal_init:146: Attaching driver "pi3usb9281" to device "pi3usb9281@0"...
+[00000147] pi3usb9281_create_device: i2c_mux:1
+[00000147] hal_charger_register:99: Registering CHARGER controller "charger_detect"...
+[00000147] hal_init:146: Attaching driver "atsaml22" to device "atsaml22@0"...
+[00000147] drv_atsaml22_create_device: i2c_mux:1
+[00000147] ENTER :: drv_atsaml22_irq_task_init
+[00000147] ENTER :: drv_atsaml22_config_irq
+[00000147] gp_gpio_config_input: FJ_Gpio_Set_Function failed error=1
+[00000147] EXIT :: drv_atsaml22_config_irq
+[00000147] ENTER :: drv_atsaml22_irq_task_event_init
+[00000147] EXIT :: drv_atsaml22_irq_task_event_init
+[00000147] ENTER :: etask_drv_atsaml22_irq_entry
+[00000147] EXIT :: drv_atsaml22_irq_task_init
+[00000148] drv_atsaml22_init_event: completed
+[00000154] hal_bat_register:100: Registering Battery controller "batt"...
+[00000154] drv_atsaml22_create_device: batt is registered to HAL Infra
+[00000154] hal_hkmcu_register:137: Registering house-keeping micro controller unit "hkmcu"...
+[00000154] drv_atsaml22_create_device: hkmcu is registered to HAL Infra
+[00000155] hal_wakeuprsn_register:100: Registering Bootrsn controller "wakeuprsn"...
+[00000155] drv_atsaml22_create_device: wakeuprsn is registered to HAL Infra
+[00000155] hal_accessory_register:101: Registering Battery controller "accessory"...
+[00000155] drv_atsaml22_create_device: accessory is registered to HAL Infra
+[00000155] drv_atsaml22_create_device: loading device tree completed successfully
+[00000155] hal_init:146: Attaching driver "act9150" to device "act9150@0"...
+[00000155] act9150_create_device: HAL name:pmic
+[00000155] act9150_create_device: i2c_ch:0
+[00000155] act9150_create_device: i2c interrupt:8
+[00000155] act9150_create_device: i2c_mux:1
+[00000155] act9150_create_device: chg_ctrl:1
+[00000155] act9150_create_device: led_ctrl:1
+[00000155] act9150_create_device: sys_pwr_ctrl:0
+[00000156] act9150_create_device: wifibt_ctrl:1
+[00000156] act9150_create_device: num_of_init:1
+[00000156] act9150_create_device: num_of_regulators:1
+[00000156] act9150_create_device: num_of_led:2
+[00000156] act9150_create_device: p_reg_init_list:0xa86bcd40
+[00000156] act9150_create_device: index:0, reg_addr:0xCE
+[00000156] act9150_create_device: index:0, reg_value:0xF8
+[00000156] act9150_create_device: index:0, reg_operation:1
+[00000156] hal_regulator_register:102: Registering power regulator controller "VDD_0V9_CA7"...
+[00000156] act9150_fdt_parse_regulators: registered "VDD_0V9_CA7" to HAL Regulator Infrastructure
+[00000156] act9150_fdt_parse_leds: ERROR - property brightness_level not found!
+[00000156] act9150_fdt_parse_leds: led:BACK_LED
+[00000156] hal_led_register:100: Registering LED controller "BACK_LED"...
+[00000157] act9150_fdt_parse_leds: ERROR - property brightness_level not found!
+[00000157] act9150_fdt_parse_leds: led:FRNT_LED
+[00000157] hal_led_register:100: Registering LED controller "FRNT_LED"...
+[00000157] act9150_init: enter
+[00000172] act9150_init_registers: list size:1
+[00000173] act9150_init_registers: regval read: 0x51
+[00000173] act9150_init_registers: regval to write: 0x50
+[00000177] _i2c_io_write:422: FJ_I2C_Transfer failed for chan: 0! Returning GP_FAILURE (5)...
+[00000177] _wr_u8: ERROR - I2C write reg 0xff failed (err=-1)
+[00000177] act9150_irq_init
+[00000177] GPIO_DBUG: id = 8, int_priority = 30, cpu_target = 2, trigger type=3
+[00000177] act9150_event_mask_init:
+[00000184] act9150_init: configured CHGIN current = 500 mA
+[00000184] act9150_test_init: initialized
+[00000184] rtos_mqueue_receive: Failure (act9150_led_mqueue, Err = -1179648)
+[00000186] hal_charger_register:99: Registering CHARGER controller "charger_ctrl"...
+[00000186] act9150_create_device: charger_ctrl is registered to HAL Infra
+[00000186] hal_lcd_bklight_register:100: Registering LCD Backlight controller "lcd_bklight"...
+[00000187] act9150_create_device: lcd_bklight is registered to HAL Infra
+[00000187] hal_sysctrl_register:100: Registering SYSTEM controller "sysctrl"...
+[00000187] act9150_create_device: sysctrl is registered to HAL Infra
+[00000187] hal_wifibt_register:99: Registering Wi-Fi/BT controller "wifibt"...
+[00000187] act9150_create_device: wifibt is registered to HAL Infra
+[00000187] hal_vreg_register:99: Registering Vreg controller "vreg"...
+[00000187] act9150_create_device: vreg is registered to HAL Infra
+[00000187] act9150_create_device: done successfully
+[00000187] hal_init:146: Attaching driver "act88326" to device "act88326@0"...
+[00000187] act88326_create_device: HAL name:pmic
+[00000187] act88326_create_device: i2c_ch:0
+[00000187] act88326_create_device: i2c interrupt:8
+[00000187] act88326_create_device: i2c_mux:1
+[00000188] act88326_create_device: num_of_init:0
+[00000188] act88326_create_device: num_of_regulators:1
+[00000188] hal_regulator_register:102: Registering power regulator controller "VDD_0V9"...
+[00000188] act88326_fdt_parse_regulators: registered "VDD_0V9" to HAL Regulator Infrastructure
+[00000188] act88326_test_init: initialized
+[00000188] act88326_create_device: done successfully
+[00000188] hal_init:146: Attaching driver "st7796s" to device "st7796s@0"...
+[00000188] hal_lcd_register:97: Registering SPI controller "lcd"...
+[00000188] hal_init:146: Attaching driver "ft6306" to device "ft6306@0"...
+[00000188] ft6306_create_device: i2c_mux:0
+[00000189] hal_touch_register:436: Registering I2C controller "touch"...
+[00000189] hal_init:146: Attaching driver "st7570" to device "st7570@0"...
+[00000189] hal_fp_register:96: Registering SPI controller "front_lcd"...
+[00000189] hal_init:146: Attaching driver "anx7816" to device "anx7816@0"...
+[00000189] anx7816_create_device: Entry
+[00000189] anx7816_create_device: i2c_mux:0
+[00000189] anx7816_initialize: Entry
+[00000189] anx7816_initialize: Exit
+[00000189] anx7816_create_device: Create device succefully completed
+[00000190] hal_init:146: Attaching driver "bmi260" to device "bmi260@0"...
+[00000190] drv_bmi260_create_device: bmm150_present:0
+[00000190] hal_imu_register:110: Registering IMU "imu"...
+[00000190] hal_datasrc_register:105: Registering datasrc "datasrc"...
+[00000190] hal_orientation_register:104: Registering orientation "orientation"...
+[00000190] drv_bmi260_task_entry: start
+[00000190] drv_bmi260_test_init: called
+[00000190] hal_init:146: Attaching driver "mfi" to device "mfi@0"...
+[00000191] _i2c_io_write:422: FJ_I2C_Transfer failed for chan: 2! Returning GP_FAILURE (5)...
+[00000193] _i2c_io_write:422: FJ_I2C_Transfer failed for chan: 2! Returning GP_FAILURE (5)...
+[00000195] _i2c_io_write:422: FJ_I2C_Transfer failed for chan: 2! Returning GP_FAILURE (5)...
+[00000197] drv_mfi_regio_read_u8: reg 0x04 - bus write failed! (err = -1)
+[00000197] drv_mfi_create_device: mfi device is not found!
+[00000197] hal_init:146: Attaching driver "pcf85063a" to device "pcf85063a@0"...
+[00000197] pcf85063a_create_device: ERROR - hack to use MCU RTC! Please fix this mess!
+[00000197] hal_rtc_register:136: Registering RTC controller "rtc"...
+[00000197] hal_init:146: Attaching driver "dbmd4" to device "dbmd4@0"...
+[00000197] drv_dbmd4_create_device: DBMD4 Host Driver Version:v2.105
+[00000197] drv_dbmd4_create_device: spics_gpio:SPI3_WOV_EN#
+[00000197] drv_dbmd4_create_device: wakeup_gpio:237
+[00000197] drv_dbmd4_create_device: reset_wov:0
+[00000197] drv_dbmd4_create_device: reset_gpio:0
+[00000197] hal_audio_dbmdx_register:95: Registering HAL AUDIO "audio_dbmdx"...
+[00000198] drv_dbmd4_test_init
+[00000204] drv_dbmd4_create_device: mcu_boot_mode_get returned:0, mcu_bmode:2
+[00000204] drv_dbmd4_create_device: done
+[00000204] drv_dbmd4_task_entry: EVT 0x00010000 received
+[00000204] hal_init:146: Attaching driver "sensor_tempsrc" to device "sensor_tempsrc@0"...
+[00000205] hal_tempsrc_register:211: Registering temperature source "sensor" (Sensor)...
+[00000205] hal_init:146: Attaching driver "ext_dsp_tempsrc" to device "ext_dsp_tempsrc@0"...
+[00000205] hal_tempsrc_register:211: Registering temperature source "ext_dsp" (EXT_DSP)...
+[00000205] hal_init:146: Attaching driver "int_dsp_tempsrc" to device "int_dsp_tempsrc@0"...
+[00000205] hal_tempsrc_register:211: Registering temperature source "int_dsp" (INT_DSP)...
+[00000206] hal_init:146: Attaching driver "battery_tempsrc" to device "battery_tempsrc@0"...
+[00000206] hal_tempsrc_register:211: Registering temperature source "battery" (Internal battery)...
+[00000206] hal_init:146: Attaching driver "pmic_tempsrc" to device "pmic_tempsrc@0"...
+[00000206] hal_tempsrc_register:211: Registering temperature source "act88326_die" (ACT88326_DIE)...
+[00000206] hal_init:146: Attaching driver "pmic_tempsrc" to device "pmic_tempsrc@1"...
+[00000207] hal_tempsrc_register:211: Registering temperature source "act9150_die" (ACT9150_DIE)...
+[00000207] hal_init:146: Attaching driver "hal_tempsrc_config" to device "hal_tempsrc_config@0"...
+[00000207] hal_tempsrc_config_create_device:86: Attempting to configure temperature source "int_dsp" as source of internal DSP temperatures...
+[00000207] hal_tempsrc_config_create_device:101: Attempting to configure temperature source "ext_dsp" as source of external DSP temperatures...
+[00000207] hal_tempsrc_config_create_device:116: Attempting to configure temperature source "battery" as source of internal battery temperatures...
+[00000207] hal_tempsrc_config_create_device:132: Attempting to configure temperature source "sensor" as source of sensor0 temperatures...
+[00000208] hal_tempsrc_config_create_device: Unable to obtain 'tempsrc_sensor1_halname' property for hal_tempsrc_config node !Ignoring this property and attempting to continue...
+[00000208] hal_init:146: Attaching driver "lce_la068a" to device "lce_la068a@0"...
+[00000208] lce_la068a_create_device: halname = lce_la068a
+[00000208] hal_lens_register:98: Registering LENS "lce_la068a"...
+[00000208] hal_init:146: Attaching driver "img_sensor_imx277" to device "img_sensor_imx277@0"...
+[00000208] drv_img_sensor_imx277_create_device: spics:0
+[00000208] drv_img_sensor_imx277_create_device: sensor_id = 0
+[00000208] hal_init:146: Attaching driver "button_gpio" to device "button@0"...
+[00000208] GPIO_DBUG: id = 3, int_priority = 30, cpu_target = 2, trigger type=0
+[00000209] GPIO_DBUG: id = 4, int_priority = 30, cpu_target = 2, trigger type=0
+[00000209] hal_button_register:106: Registering "button"...
+[00000209] hal_init:146: Attaching driver "ublox_m8030" to device "ublox_m8030@0"...
+[00000209] hal_gps_register:100: Registering GPS controller "gps"...
+[00000209] hal_init:146: Attaching driver "gt1" to device "gt1@0"...
+[00000209] gt1_create_device: i2c_mux:0
+[00000209] hal_gt_register:115: Registering SPI controller "garter"...
+[00000209] hal_init:146: Attaching driver "borg" to device "borg@0"...
+[00000209] borg_create_device: i2c_mux:0
+[00000210] hal_borg_register:101: Registering BORG controller "mediabacpac"...
+[00000210] hal_init:146: Attaching driver "audio_vr_thf" to device "audio_vr_thf@0"...
+[00000210] hal_audio_thf_create_device: HAL AUDIO THF is in create device 
+[00000210] hal_audio_vr_register:165: Registering HAL_AUDIO_VR "audio_vr"...
+[00000210] hal_init:146: Attaching driver "audio_dspc_asrc_lcl" to device "audio_dspc_asrc@0"...
+[00000210] hal_lcl_drv_audio_dspc_asrc_create_device: HAL DSPC_ASRC is in create device 
+[00000210] drv_dbmd4_por_init_handler: wov_clock_enabled: 1
+[00000210] hal_audio_asrc_register:98: Registering HAL_AUDIO_ASRC "audio_asrc"...
+[00000210] drv_dbmd4_exit_hibernation: Start
+[00000210] hal_init:146: Attaching driver "audio_awe_lcl" to device "audio_awe_lcl@0"...
+[00000210] hal_lcl_drv_audio_awe_create_device: HAL AUDIO AWE LCL is in create device 
+[00000211] hal_audio_awe_register:106: Registering HAL_AUDIO_AWE "audio_awe"...
+[00000211] hal_init:146: Attaching driver "audio_awe_spk_lcl" to device "audio_awe_lcl_spk@0"...
+[00000211] hal_lcl_drv_audio_awe_spk_create_device: HAL_AUDIO_AWE_SPK_LCL is in create device 
+[00000211] hal_audio_awe_spk_register:96: Registering HAL_AUDIO_AWE_SPK "audio_awe_spk"...
+[00000211] frw_init_stage_2:248 hal_init executed
+[00000211] =========== THIRD STAGE  =============
+
+[00000211] mxm_gpio_hgpioop_pull_disable:277: FJ_Gpio_Set_Pull_Up_Down_Enable failed for gpio: 0! Returning GP_FAILURE (1)...
+[00000299] ft6306_event_init: FT6306 found! Panel ID: d4, FW Version: c3
+[00000299] ft6306_event_init: WARNING - FW Upgrade is disabled -> skipped!
+[00000299] GPIO_DBUG: id = 0, int_priority = 30, cpu_target = 2, trigger type=3
+[00000300] csc_utils_switch_to_display: ENTRY, switch_at_init is 1
+[00000300] disp_avail_0: 1, disp_avail_1: 0
+[00000300] rtos_mutex_acquire: Failure (Name = "", Error = -18, Caller = 0xa0980ce8)
+[00000300] **************** ERROR: Assertion (ret_val == 0) failed in sts_mutex_acquire()
+			../../app_control/appc_settings/appc_status.c:268
+[00000300] rtos_mutex_release: Failure (Name = "", not locked, Caller = 0xa098ee0c)
+[00000300] **************** ERROR: Assertion (ret_val == 0) failed in sts_mutex_release()
+			../../app_control/appc_settings/appc_status.c:281
+[00000300] _system_status.disp_avail=8
+[00000300] Opening Module : Lcd
+[00000300] Open instance_id[0] AV_MOD_HANDLE_DISPLAY_LCD
+[00000300] frw_disp_set_output: LCD output
+[00000300] frw_display_set_control : enable_backlight:FALSE
+[00000301] csc_utils_switch_to_display: ENTRY, switch_at_init is 1
+[00000301] disp_avail_0: 1, disp_avail_1: 0
+[00000301] rtos_mutex_acquire: Failure (Name = "", Error = -18, Caller = 0xa0980ce8)
+[00000301] **************** ERROR: Assertion (ret_val == 0) failed in sts_mutex_acquire()
+			../../app_control/appc_settings/appc_status.c:268
+[00000301] rtos_mutex_release: Failure (Name = "", not locked, Caller = 0xa098ee0c)
+[00000301] **************** ERROR: Assertion (ret_val == 0) failed in sts_mutex_release()
+			../../app_control/appc_settings/appc_status.c:281
+[00000301] _system_status.disp_avail=8
+[00000301] Resuming Module : Lcd
+[00000301] frw_disp_resume: Entered with handle:2813047820
+[00000301] frw_disp_resume: REQ to resume LCD display
+[00000301] disp_lcd_resume: Entered with handle:2770930756
+[00000301] disp_lcd_resume: FJ_Disp_Open Success with id:0
+[00000306] drv_dbmd4_exit_hibernation: Finish
+[00000307] mipi_st7796s_enable: ENTER
+[00000307] mipi_st7796s_enable: LCD vendor id = 0x00d4 (212)
+[00000307] act9150_lcd_backlight_enable: enter
+[00000307] drv_dbmd4_por_init_handler: FIRMWARE_ID_NUMBER: 0x0
+[00000307] drv_dbmd4_por_init_handler: DBMD4 from cold reset
+[00000308] drv_dbmd4_pin_toggle_reset: high:0
+[00000308] fwsm_init
+[00000308] [FWUPD] first init to setup resources.
+[00000308] Getting...:
+[00000308] FWUPD Partition Info:
+[00000308]     Filename:            
+[00000308]     Current state:       0
+[00000308]     Current retry count: 0
+[00000308]     Step error:          0
+[00000308]     File verified:       0
+[00000308]     Enable Wireless:     1
+[00000308]     Total Steps          2
+[00000308]     Hiber Erase Complete 0
+[00000308] Other Non-FWUPD items:
+[00000308]     enable_mtp           1
+[00000308]     serial_debug         15
+[00000308]     spyd_debug           0x00
+[00000309] Read Success!!
+[00000309] [FWUPD] fwsm_init: init_state:0 init_defaults:0
+[00000309] ../../app_control/fwupdate/test_fwupdate.c-test_appc_fwupdate_init
+[00000309] gp_ipc_init entry
+[00000309] gp_ipc_init: IPCU Open for virtual channel 0 (wifibt) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000309] gp_ipc_init: IPCU Open for virtual channel 1 (streaming) with send_ipc_id:6 and receive_ipc_id:7 ( 10 items of 1500 bytes)
+[00000309] gp_ipc_init: IPCU Open for virtual channel 2 (wifi_ctrl) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000309] gp_ipc_init: IPCU Open for virtual channel 4 (metadata) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000309] gp_ipc_init: IPCU Open for virtual channel 5 (gptunnel) with send_ipc_id:4 and receive_ipc_id:5 ( 2 items of 8192 bytes)
+[00000310] gp_ipc_init: IPCU Open for virtual channel 6 (rtos_media_db) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000310] gp_ipc_init: IPCU Open for virtual channel 7 (mtp_ipc) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000310] gp_ipc_init: IPCU Open for virtual channel 8 (test_channel) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000310] gp_ipc_init: IPCU Open for virtual channel 9 (gpdev_ipc) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000310] gp_ipc_init: IPCU Open for virtual channel 10 (awe_tuning) with send_ipc_id:0 and receive_ipc_id:1 ( 10 items of 1500 bytes)
+[00000310] db_proxy_init initing db proxy
+[00000310] db_proxy_init created queue with id 0x1000010
+[00000311] db_proxy_init DONE initing db proxy
+[00000311] GoPro IPC intialized
+[00000311] hal_init_testcmds:168: Registering test command "adc"...
+[00000311] hal_init_testcmds:168: Registering test command "gpio"...
+[00000311] hal_init_testcmds:168: Registering test command "debug_enable"...
+[00000311] hal_init_testcmds:168: Registering test command "debug_disable"...
+[00000311] hal_init_testcmds:168: Registering test command "targetinfo"...
+[00000311] hal_init_testcmds:168: Registering test command "i2c"...
+[00000311] hal_init_testcmds:168: Registering test command "irqsrc"...
+[00000311] hal_init_testcmds:168: Registering test command "spi"...
+[00000311] hal_init_testcmds:168: Registering test command "tempsrc"...
+[00000312] hal_init_testcmds:168: Registering test command "regulator"...
+[00000312] hal_init_testcmds:168: Registering test command "uart"...
+[00000312] hal_init_testcmds:168: Registering test command "iaccauth"...
+[00000312] hal_init_testcmds:168: Registering test command "mxm_gpio_ctrl"...
+[00000312] hal_init_testcmds:168: Registering test command "mxm_timer_ctrl"...
+[00000312] hal_init_testcmds:168: Registering test command "st7796s"...
+[00000312] hal_init_testcmds:168: Registering test command "ft6306"...
+[00000312] hal_init_testcmds:168: Registering test command "st7570"...
+[00000312] hal_init_testcmds:168: Registering test command "icm30670"...
+[00000312] hal_init_testcmds:168: Registering test command "dbmd4"...
+[00000312] hal_init_testcmds:168: Registering test command "dbmd7"...
+[00000312] hal_init_testcmds:168: Registering test command "bmi260"...
+[00000312] hal_init_testcmds:168: Registering test command "borg"...
+[00000312] hal_init_testcmds:168: Registering test command "gt1"...
+[00000313] hal_init_testcmds:168: Registering test command "act9150"...
+[00000313] hal_init_testcmds:168: Registering test command "act88326"...
+[00000313] hal_init_testcmds:168: Registering test command "button"...
+[00000313] hal_init_testcmds:168: Registering test command "atsaml22"...
+[00000313] hal_init_testcmds:168: Registering test command "pcf85063a"...
+[00000313] hal_init_testcmds:168: Registering test command "pi3usb9281"...
+[00000313] hal_init_testcmds:168: Registering test command "ublox_m8030"...
+[00000313] hal_init_testcmds:168: Registering test command "mfi"...
+[00000313] hal_init_testcmds:168: Registering test command "cevadsp"...
+[00000313] hal_init_testcmds:168: Registering test command "mxm_coreclk_ctrl"...
+[00000313] hal_init_testcmds:168: Registering test command "anx7816"...
+[00000313] hal_init_testcmds:168: Registering test command "as1130"...
+[00000330] frw_mcu_init: MCU app revision 1.2.11
+[00000348] drv_atsaml22_power_wakeup_reason_get: wakeup reason: 0xb 'Force Reset'
+[00000348] drv_atsaml22_power_wakeup_reason_get: HAL boot reason: 0xc
+[00000354] frw_mcu_init: retval = 0x2e
+[00000360] frw_mcu_init: 0x00   = 0x0b
+[00000366] frw_mcu_init: 0x0e   = 0xb2
+[00000372] frw_mcu_init: 0x2e   = 0x10
+[00000378] frw_mcu_init: 0xc0   = 0x0f
+[00000384] frw_mcu_init: 0xc1   = 0x00
+[0;47;30m[00000390] _frw_mcu_rom_to_mem_load: found MCU binary mcu_chopes_bld, size = 16432
+[00000396] _frw_mcu_mem_check: running BLD Ver:5.0.2 is equal to File Ver:5.0.2
+[0;47;30m[00000396] _frw_mcu_rom_to_mem_load: found MCU binary mcu_chopes_app, size = 65968
+[00000402] _frw_mcu_mem_check: running APP Ver:1.2.11 is equal to File Ver:1.2.11
+[00000402] [FWUPD][MCU] Not running bootloader - Checking file for MCU update.
+[00000402] [FWUPD][MCU] Checked MCU file - Nothing to do.
+[00000402] frw_audio_init,56
+[00000402] drv_dbmd4_dev_init: service_state:0x0000
+[00000402] drv_dbmd4_dev_init: DBMD4 already initialized
+[00000403] Framework Led Task: start
+[00000403] frw_time_init ENTER: REQ to Init Time module
+[00000403] frw_time_init EXIT: 
+[00000403] frw_time_open ENTER: REQ to open time instance.
+[00000403] frw_time_open EXIT: 
+[00000403] time_taskentry ENTER: Thread entry function
+[00000403] frw_time_start ENTER:
+[00000403] frw_time_start EXIT: 
+[00000403] latch_msec_base ENTER: 
+[00000403] act9150_charger_enable: enabling...
+[00000408] lcd_panel_init_nvd_sharp: initializing panel...
+[00000415] drv_dbmd4_pin_toggle_reset: high:1
+[00000496] pcf85063a_time_latch_msec_base latched msec base sec 1, msec 496, RTC phase delta 0.
+[00000496] latch_msec_base EXIT: total delay 90ms
+[00000522] drv_bmi260_c2_setup : device id = 0x27
+[00000522] drv_bmi260_delay_compensation_get : odr[9] bwp[2] delay = 3000 us
+[00000522] drv_bmi260_delay_compensation_get : odr[9] bwp[2] delay = 3000 us
+[00000570] drv_dbmd4_regio_change_speed: spi_speed:5000000
+[00000582] drv_bmi260_task_entry : BMI260 Set-up success
+[00000582] drv_bmi260_enable_dma : Configure and Enable DMA  
+[00000583] drv_bmi260_start_dma 
+[00000650] ======== LCD_DEBUG: cmd_num = 15 =======
+
+[00000664] st7796s_set_brightness: max brightness is 100
+[00000664] mipi_st7796s_enable: EXIT
+[00000673] disp_lcd_resume: Disp Window Config Success
+	  in_x=0  in_y=0  in_width=272  in_height=480
+	 out_x=24 out_y=0 out_width=272 out_height=480
+[00000673] disp_lcd_resume: FJ_Disp_Video_Enable Success
+[00000673] mipi_st7796s_enable: ENTER
+[00000673] mipi_st7796s_enable: LCD vendor id = 0x00d4 (212)
+[00000673] act9150_lcd_backlight_enable: enter
+[00000774] lcd_panel_init_nvd_sharp: initializing panel...
+[00000929] mcu_usb_status: is_charger: 0, max_current: 500 mA
+[00000930] act9150_charger_enable: WARNING - enabling charging from non-charger source!
+[00000939] rtos_mutex_acquire: Failure (Name = "", Error = -18, Caller = 0xa0ba39e8)
+[00000939] frw_tmonitor_register_cb :Error acquiring in frw_tmon_event_handler_lock mutex
+[00000939] frw_power_charger_disable: ERROR - cannot register charger_overtemp_handler to tmonitor!
+[00000939] **************** ERROR: Assertion (err == GP_SUCCESS) failed in frw_power_init()
+			../../framework/power/init.c:135
+[00001003] drv_atsaml22_power_wakeup_reason_get: wakeup reason: 0xb 'Force Reset'
+[00001003] drv_atsaml22_power_wakeup_reason_get: HAL boot reason: 0xc
+[0;43;30m[00001003] act9150_boot_status_update: enter
+[00001003] frw_power_boot_reason_init_early: mcu boot reason: 12
+[00001003] frw_power_boot_reason_init_early: Pre-boot power src state: ibat (1).
+[00001003] frw_power_boot_reason_init_early: standby_was_wifihiber 0.
+[00001003] frw_power_boot_reason_init_early: standby_was_syshiber 0.
+[00001003] frw_power_init: from_standby=1
+[00001003] frw_power_init:166
+[00001004] act9150_charger_init_from_standby: enable NTC function
+[00001004] act9150_ntc_mon_disabled_set: enable NTC function
+[00001004] frw_power_init:183
+[00001004] act88326_buck1_set_voltage: voltage=825mV, vset-code=0x18
+[00001004] platform_run_avs: avs:0xE, dsp_temp:0, core voltage set to 0.825V
+[00001016] ======== LCD_DEBUG: cmd_num = 15 =======
+
+[00001017] ibat_update_mv: new mv [4274] is at least 1V different than previous [0]
+[00001029] ibat_update_pct: new pct [95] is at least 10% different than previous [0]
+[00001033] st7796s_set_brightness: brightness = 50
+[00001033] mipi_st7796s_enable: EXIT
+[00001051] ibat_update_temp: new temp [46] is at least 10 degrees different than previous [0]
+[0;46;30m[00001058] pcf85063a_dev_init: 2019-10-16 21:03:42
+[00001059] pcf85063a_dev_init: EXIT [0]
+[00001059] powerconfd: exit: no power (0), i {N/A (0), 0 mV, nobat (0), 0%, 0C rng=0}, e {N/A (0), 0 mV, nobat (0), 0%}, chg_dis 0
+[00001059] powerconfd: enter: ibat + usb1 (2), i {3 bars (4), 4274 mV, normal (3), 95%, 46C rng=3}, e {N/A (0), 0 mV, nobat (0), 0%}, chg_dis 0
+[00001060] act9150_charger_enable: enabling...
+[00001534] drv_dbmd4_check_crc CHECKSUM ENTRY
+[00001535] drv_dbmd4_regio_change_speed: spi_speed:6000000
+[00001548] drv_dbmd4_device_init:chip version = 0xDBD4
+
+[00001550] drv_dbmd4_device_init: fw version = 0x3637
+
+[00001550] drv_dbmd4_default_config: entered
+[00001617] mcu_usb_status: is_charger: 0, max_current: 500 mA
+[00001619] act9150_charger_enable: WARNING - enabling charging from non-charger source!
+[00001644] drv_atsaml22_power_wakeup_reason_get: wakeup reason: 0xb 'Force Reset'
+[00001644] drv_atsaml22_power_wakeup_reason_get: HAL boot reason: 0xc
+[00001644] frw_power_boot_reason_init mcu_wakeup: 12 frw_power_reason: Reset (debug board reset button, JTAG reset, or frw_power_reset())
+[00001644] Power Framework: BOOT REASON: Reset (debug board reset button, JTAG reset, or frw_power_reset()) (1), from standby = 1 (pre-boot src state = ibat), standby was wifi hibernate = 0.
+[00001644] frw_power: PENDING POWER-DOWN: NONE
+[00001644] ENTER :: drv_atsaml22_irq_register_cb
+[00001645] EXIT :: drv_atsaml22_irq_register_cb
+[00001645] frw_accessory_init accessory initialization
+[00001645] act9150_buck1_set_voltage: voltage=1010mV, vset-code=0x2b
+[00001647] mxm_coreclk_set_freq: setting coreclk to 660 MHz
+[00001652] frw_cpu_freq_boost: ENABLED 660 MHz (err=0)!
+[00001656] drv_dbmd4_default_config: wait_counter:1
+[00001658] temps_pmic_update: ACT88326 die temperature 53 C
+[00001658] temps_pmic_update: ACT9150 die temperature 60 C
+[00001658]  ======= init_sd_storage_peripherals Initing sd storage peripherals ========
+[00001661] ====== init_sd_storage_peripherals successfully sd init'ed all partitions ========
+[00001661] _read_sectors: start_sector=0x00000000 num_sectors=0x00000002
+[00001661] calib_nv_dir_init: valid directory found with 8 entries, crc32=0xbbb7268a
+[00001662] _read_sectors: start_sector=0x00000044 num_sectors=0x00000100
+[00001662] calib_nv_read_region: read region VIGNETTE offset=0x00008800 size=0x00020000
+[00001664] MFG_LOG: Read from Source: 0 SUCCESS
+[00001673] _read_sectors: start_sector=0x00000144 num_sectors=0x00001000
+[00001674] calib_nv_read_region: read region BPC offset=0x00028800 size=0x00200000
+[00001711] MFG_LOG: Read from Source: 0 SUCCESS
+[00001711] _read_sectors: start_sector=0x00001144 num_sectors=0x00000001
+[00001711] calib_nv_read_region: read region WB offset=0x00228800 size=0x00000200
+[00001711] MFG_LOG: Read from Source: 0 SUCCESS
+[00001711] MFG_LOG: Read from Source: 0 FAILURE
+[00001711] calib_geocal_init: No GEOCAL data in NV
+[00001712] _read_sectors: start_sector=0x0000002c num_sectors=0x00000008
+[00001712] calib_nv_read_region: read region IMU offset=0x00005800 size=0x00001000
+[00001712] MFG_LOG: Read from Source: 0 SUCCESS
+[00001712] _read_sectors: start_sector=0x00000002 num_sectors=0x00000002
+[00001712] calib_nv_read_region: read region GPDEBUG offset=0x00000400 size=0x00000400
+[00001712] calib_region_GPDEBUG_verify: version = 0x20174250
+[00001712] calib_region_GPDEBUG_verify: length  = 1012
+[00001712] calib_region_GPDEBUG_verify: crc32   = 0xcfc172af
+[00001712] MFG_LOG: Read from Source: 0 SUCCESS
+[00001712] initialize_and_update_structure: version_in_flash=0x20174250
+[00001713]  ----- Initialize SD MONITOR scan policy is to scan immediately ---- 
+[00001714] _seek_to_entry (229)ERR: could only read 0 bytes, req to read 7 bytes
+[00001715] dfs_nand_write_entry ERROR at line 412 
+[00001715] dfs_sd_monitor_init ERR ==== error when setting committed to false =====
+[00001715] ------- dfs_sd_monitor_SdInsertDispatch , Slot = 0, id = 0-----------
+[00001715] Card Monitor is working, Slot = 0x0
+[00001715] audsrc init: success!
+[00001715] frw_audsink_init: audsink init: success
+[00001715] frw_init: DBMD4 MIC
+[00001715] frw_imgsrc_init: Enter
+[00001715] frw_imgsrc_hw_init: Enter
+[00001719] hal_img_sensor_dev_power_on : Function Pointer Not Initialized 
+[00001719] frw_imgsrc_hw_init: Exit
+[00001719] frw_imgsrc_hw_init: Enter
+[00001719] hal_img_sensor_dev_init : Function Pointer Not Initialized 
+[00001719] hal_img_sensor_dev_power_on : Function Pointer Not Initialized 
+[00001719] frw_imgsrc_hw_init: Exit
+[00001719] frw_imgsrc_init: Exit
+[00001719] frw_imgcap: frw_imgcap_init ENTER: REQ to init IMGCAP instances
+[00001719] imgcap_fshd_apply_strength Apply Strength of 40% on FSHD table
+[00001719] imgcap_fshd_mask_RB Masking out R table from offset 0xc0 to 0x510
+[00001719] imgcap_fshd_mask_RB Masking out B table from offset 0xdb0 to 0x1200
+[00001719] FSHD Color Temp Range [2800K - 4000K]
+[00001719] Table Lines=23  Width=22  GlobalWidth=48
+[00001720] imgcap_fshd_save_gain_map Saved Gain Tables Width=22  BytePitch=48  Lines=24  HeaderSize=88 DataSize=506
+[00001720] imgcap_fshd_table_load: EMMC FSHD Table index 0  tgt=1  size=4608  Load Complete!!!
+[00001720] FSHD MILB  fshd_bin_conv.rb19/08/0600:29:00  19/08/0600:29:00  00:29:00  Lines=23  Width=22  Pitch=48  Temp=2800  Ratio=1000
+[00001720] imgcap_fshd_apply_strength Apply Strength of 40% on FSHD table
+[00001720] imgcap_fshd_mask_RB Masking out R table from offset 0xc0 to 0x510
+[00001720] imgcap_fshd_mask_RB Masking out B table from offset 0xdb0 to 0x1200
+[00001720] FSHD Color Temp Range [2800K - 5000K]
+[00001720] Table Lines=23  Width=22  GlobalWidth=48
+[00001720] imgcap_fshd_save_gain_map Saved Gain Tables Width=22  BytePitch=48  Lines=24  HeaderSize=88 DataSize=506
+[00001720] imgcap_fshd_table_load: EMMC FSHD Table index 1  tgt=1  size=4608  Load Complete!!!
+[00001721] FSHD MILB  fshd_bin_conv.rb19/08/0600:29:00  19/08/0600:29:00  00:29:00  Lines=23  Width=22  Pitch=48  Temp=5000  Ratio=1000
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=2 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=3 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=4 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=5 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=6 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=7 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=8 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=9 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=10 invalid
+[00001721] calib_vig_get_table_info_by_region_id: table_idx=11 invalid
+[00001721] calib_geocal_get_data: GEOCAL region invalid
+[00001721] frw_imgcap:video:eis [imgcap_eis_lens_init:1826] - Lens [0]: LCE LA068A (hemi: FALSE)
+[00001721] frw_imgcap:video:eis [imgcap_eis_lens_init:1847] - No calibration data available --> read info from driver ...
+[00001721] frw_imgcap:video:eis [imgcap_eis_lens_init:1864] -   + Normalized optical center: (0.500000, 0.500000)
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1865] -   + Distortion polynom:
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1866] -      + Near:
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1867] -         + Degrees: 5
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1868] -         + Coeffs:
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           -40.774574
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           145.670410
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           -244.119049
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           320.256805
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           -522.164551
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1870] -           1755.974609
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1872] -      + Far:
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1873] -         + Degrees: 6
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1874] -         + Coeffs:
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           5.838501
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           539.994263
+[00001722] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           -2258.915039
+[00001723] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           3552.152344
+[00001723] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           -2034.986328
+[00001723] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           -1230.011475
+[00001723] frw_imgcap:video:eis [imgcap_eis_lens_init:1876] -           2840.781250
+[00001723] hal_img_sensor_get_lens_desc : Function Pointer Not Initialized 
+[00001723] imgcap_iq_load_single_table_from_emmc():  count=1  file EMMC:COMMON.bin  type=22  size=46  eMMC IQ Load Complete!!!
+[00001723] IQ Header Ver=0232 TotSize=0x2e HdrSize=0x20 Mod# SC2000 MemType=0 AbsAddr=-0x20 BodySize=0xe
+[00001724] imgcap_iq_load_single_table_from_emmc():  count=2  file EMMC:IQ_1.bin  type=1  size=85586  eMMC IQ Load Complete!!!
+[00001724] IQ Header Ver=0232 TotSize=0x14e52 HdrSize=0x51e4 Mod# SC2000 MemType=1 AbsAddr=-0x51e4 BodySize=0xfc6e
+[00001724] 3A Structure initialization for 1 instances
+[00001724] imgcap_3a_init: WB per unit data is available : getting them ...
+[00001724] imgcap_3a_init:   - unitA   [R: 0x0110 (1.06) - B: 0x036e (3.43)]
+[00001724] imgcap_3a_init:   - unitD50 [R: 0x01ab (1.67) - B: 0x0202 (2.01)]
+[00001724] imgcap_3a_init:   - goldA   [R: 0x0114 (1.08) - B: 0x0358 (3.34)]
+[00001724] imgcap_3a_init:   - goldD50 [R: 0x01ae (1.68) - B: 0x01f6 (1.96)]
+[00001724] [0/-/-]Created AE Task
+[00001724] [0/-/-/-]GP_AE_Task() AE Task Starting
+[00001724] [0]AWB Task Starting
+[00001724] [0/-/-]Created AWB Task
+[00001724] [0/-/-]Created ACLS Task
+[00001724] [0]ACLS Task Starting
+[00001725] [0]IQM Task Starting
+[00001725] [0/-/-]Created IQM Task
+[00001725] [0/-/-]Created MS Task
+[00001725] [0]IQM Task Starting
+[00001725] [0/-/-/-]GP_GTM_Task() GTM Task Starting
+[00001725] [0/-/-]Created GTM Task
+[00001725] imgcap_3a_init: convergence_sem_id semaphore created
+00:00:00.000273|16777397|W Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:135:Core ________________ -- GPCC -- Sep 27 2019 - 00:02:29 -- sizeof(Gpcc) = 1117192 bytes
+00:00:00.000485|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:210:Core ________________ Spherical camera... no
+00:00:00.000621|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:213:Core ________________ Initializing AE ...
+00:00:00.001062|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:235:Core ________________ Initializing MS ...
+00:00:00.001271|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:242:Core ________________ Initializing AWB ...
+00:00:00.001710|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:266:Core ________________ Initializing GTM ...
+00:00:00.001914|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:288:Core ________________ Initializing ACLS ...
+00:00:00.002662|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:301:Core ________________ Initializing CCLS ...
+00:00:00.002815|16777397|E Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:310:Core ________________ Unsupported CCLS calibration dimensions: 0x0
+00:00:00.002983|16777397|E Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:343:Core ________________ Invalid CCLS calibration
+00:00:00.003133|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:346:Core ________________ Initializing LEC ...
+00:00:00.003282|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:373:Core ________________ Initializing IQM ...
+[00001729] calib_geocal_get_data: GEOCAL region invalid
+[00001729] frw_imgcap_init: fail to get geocal data
+[00001729] frw_imgcap: frw_imgcap_init EXIT: with GP_SUCCESS 
+[00001729] frw_imgstitch_init: Enter
+[00001729] calib_geocal_get_data: GEOCAL region invalid
+[00001729] frw_imgstitch_init: Exit
+[00001729] frw_usb_init : initializing usb class : 4
+[00001729] (frw_usb_class_init) - Class Init
+[00001729] (frw_usb_class_ctrl_task_entry) - Creating USB Queue
+
+[00001729] frw_usb_class_init : current state : 1 
+[00001730] usb_ipc_task: Init
+[00001730] usb_ipc_task, waiting for Linux usb init flag
+[00001730] usb_ipc_task: Ready
+[00001730] frw_usb_set_cdc_gccb_mode GCCB is already disabled
+[00001730] kw_metadata_task READY
+[00001730] frw_framebuffer_init ENTER: REQ to Init Framebuffer module
+[00001730] ble_metadata_task READY
+[00001757] drv_dbmd4_default_config: wait_counter:2
+[00001766] Monitor_SdTaskEntry: Init'ing sd task on slot 0
+[00001768] act9150_sd_voltage_set: SD voltage has changed to 3000v
+[00001768] FJ_HostSDChangeVoltageCB: SD voltage has changed to 3.3v
+[00001779] frw_framebuffer_init EXIT: 
+[00001779] mft_md_init: allocate mem for md_src_inst, buf_needed 1250000
+[00001779] frw_daf_init: Enter
+[00001779] daf_mgr_engine_init Invalid engine module = 0
+[00001780] daf_mgr_engine_init Invalid engine module = 1
+[00001780] daf_mgr_engine_init Invalid engine module = 2
+[00001780] frw_daf_init: Exit
+[00001780] frw_mft_init DAF framework init success
+[00001780] frw_mft_init: success
+[00001780] ERR: frw_dfs_get_last_file_handle Card state not ready state = 0x1
+[00001780] pb_movie_init: enter
+[00001780] pb_movie_init: exit
+[00001780] frw_medit_init ENTER: REQ to Init Medit module
+[00001780] ERR: frw_dfs_get_last_file_handle Card state not ready state = 0x1
+[00001780] me_trim_init: enter
+[00001781] me_trim_init: exit
+[00001781] frw_medit_init EXIT: 
+[00001781] Button etask hal: start
+[00001781] button_event_init: debounce timer created
+[00001781] button_event_init: debounce timer created
+[00001781] button_gpio_cb_reg: cb: 0xa0ae4974
+[00001781] _read_sectors: start_sector=0x00000004 num_sectors=0x00000008
+[00001781] calib_nv_read_region: read region NVDATA offset=0x00000800 size=0x00001000
+[00001781] MFG_LOG: Read from Source: 0 SUCCESS
+[00001781] calib_camdata_calc_crc32_nv: crc=0x10b7740c len=532 ver=0x20190220
+[00001781] frw_streamer_out_init
+[00001781] _setup_data_io unhandled medium 2
+[00001782] _setup_data_io unhandled medium 2
+[00001782] _setup_data_io unhandled medium 2
+[00001782] _setup_data_io unhandled medium 2
+[00001782] _setup_data_io unhandled medium 1
+[00001782] _setup_data_io unhandled medium 3
+[00001782] Getting...:
+[00001783] FWUPD Partition Info:
+[00001783]     Filename:            
+[00001783]     Current state:       0
+[00001783]     Current retry count: 0
+[00001783]     Step error:          0
+[00001783]     File verified:       0
+[00001783]     Enable Wireless:     1
+00:00:00.057886|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:703:logHostInfo ___________ Platform identification
+[00001783]     Total Steps          2
+00:00:00.058060|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:704:logHostInfo ___________ Name   : HERO8 Black
+[00001783]     Hiber Erase Complete 0
+00:00:00.058200|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:705:logHostInfo ___________ Id     : 50
+[00001783] Other Non-FWUPD items:
+00:00:00.058336|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:706:logHostInfo ___________ Serial : 
+[00001783]     enable_mtp           1
+00:00:00.058468|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:707:logHostInfo ___________ hwVer  : 
+[00001783]     serial_debug         15
+[00001784]     spyd_debug           0x00
+[00001784] Read Success!!
+00:00:00.058788|16777397|I spyd::service     ../src/isg/spyd/target/src/service.cc:335:registerClient ________ mwSpyd (0xa8e4d1c0) | prio=2
+[00001784] audcap_datasrc_init: ENTRY 
+[00001784] audcap_datasrc_task_entry: ENTRY
+[00001784] audcap_datasrc_init: Initialization successful
+00:00:00.059628|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:708:logHostInfo ___________ swVer  : HD8.01.01.20.00
+00:00:00.060255|16777425|I spyd::service     ../src/isg/spyd/target/src/service.cc:435:purgeTxQueue __________ Purging 1 msg from spydTxQueueP2
+00:00:00.060756|16777426|I spyd::service     ../src/isg/spyd/target/src/service.cc:645:rxPumpTsk _____________ spydRxThread Launched (Prio=121|MaxMsg=500)
+[00001786] frw_imgpipe_init: Entering
+[00001786] frw_imgpipe_init: Exiting
+[00001786]  frw_logging_init init success!
+[00001786] Initialize Settings
+
+[00001787] Preferences [538511621->538511621]: 204
+[00001787] settings_user_pref_load: Preferences loaded successfully
+[00001787] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00001787]  FRW Stabalization Algo 0 for res/fps/fov 9/5/0 returns 2
+[00001787] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/8) camera mode (12)
+[00001787] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/8) camera mode (12)
+[00001787] sts_system_status_init: _system_status.broadcast_encode_requested is 0
+[00001787] ../../app_control/appc_settings/test_status.c-test_appc_status_init
+[00001787] ../../app_control/appc_settings/test_settings.c-test_appc_settings_init
+[00001787] csc_wov_is_available: local_voice_control && wake_on_voice - 0
+[00001787] frw_audio_setcontrol: ctrl 1 value 0
+[00001787] frw_audio_setcontrol: ctrl 0 value 0
+[00001787] csc_wake_on_voice_init: WOV enable 0 -- WOV language 0
+[00001788] presets_init
+[00001788] NVM Presets are valid...
+[00001788] csc_pre_init Creating CSC Queue
+
+[00001788] gps_set_version_id: GPS version ID set to 1
+[00001788] Opening SDK Modules...
+
+[00001788] Opening Module : Image_src
+[00001788] frw_imgsrc_open: Entered with id = 0
+[00001789]  LNA not handled from PMIC
+[00001789] frw_imgsrc_open: Exit
+[00001789] GPIO_DBUG: id = 11, int_priority = 30, cpu_target = 2, trigger type=2
+[00001789] Opening Module : Image_capture
+[00001789] gps timepulse isr registered
+
+[00001789] frw_imgcap: frw_imgcap_open ENTER: REQ to open IMGCAP instance. id = 0
+[00001789] uart task entered
+[00001789] [0]imgcap_3a_open EXIT: SUCCESS - Sep 27 2019 - 00:02:06
+[00001789] gps_uart_task_entry: waiting for EVENT_FLAG_GPS_PROCESS_UART_RX
+
+[00001789] frw_imgcap:video:eis [imgcap_eis_open:1958] - frw_imgcap:video:eis: imgcap_eis_open: Enter with ptr_eis_handle=0xa7abc0ac
+[00001789] set 115200
+[00001789] frw_imgcap:video:eis [imgcap_eis_open:1975] - imgcap_eis_open eis_imu instance = 0xa86bd4c0,imu_ops =0xa5231ea8 
+[00001789] gps command: 32 set port_baudrate
+[00001789] frw_imgcap:video:eis [imgcap_eis_open:1988] - imgcap_eis_open eis_datasrc instance = 0xa86bd4d0,hdatasrc_ops =0xa5231fc0 
+[00001789] new baudrate requested: 115200
+[00001789] frw_imgcap:video:eis [imgcap_eis_open:2000] - frw_imgcap:video:eis: imgcap_eis_open: Exit with eis_handle=0xa7c444c8
+[00001789] change_baud_rate: enter, BR:115200
+
+[00001789] IMGCAP_WINDOW [imgcap_windows_open:595] - Enter
+[00001790] port_baud_rate: port_baud_rate:115200
+
+[00001790] IMGCAP_WINDOW [imgcap_windows_open:599] - Exit with windows_handle=0xa7ae1e68
+[00001790] waiting for baud rate change to 115200
+[00001790] imgcap_shdr_open: shdr_handle=00000000
+[00001790] frw_imgcap:roi_mng : imgcap_roi_mng_open Enter 
+[00001790]  frw_imgcap:roi_mng : imgcap_roi_mng_open Exit 
+[00001790] frw_imgcap: frw_imgcap_open EXIT: SUCCESS
+[00001790] Opening Module : Audio_src
+[00001790] audio select_route start! instance 0
+[00001790] current src :0, sink :0
+[00001790] src :0, sink :0
+[00001790] frw_audsrc_open: audsrc0 open success!
+[00001790] Opening Module : Audio_sec_src
+[00001790] audio select_route start! instance 1
+[00001790] current src :0, sink :0
+[00001790] src :0, sink :0
+[00001790] frw_audsrc_open: audsrc1 open success!
+[00001790] Opening Module : Audio_capture
+[00001793] frw_audio_ops_codec,187
+[00001793] Opening Module : Audio_sec_capture
+[00001793] frw_audcap_open_lcl: ERROR - FJ_AudioCapture0_Open(). device_id = 2, err_code 0
+[00001793] Opening Module : Audio_process
+[00001793] awe_device_type = 0
+[00001793] frw_audproc_awe_spk_lookup: awe_spk_device_type = 0
+[00001793] vr_device_type = 0
+
+[00001793] audproc_awe_setup: audproc_awe_setup enter
+[00001793] AWE: awe_needed_heap_size ---> returned heap_size=1375776
+[00001793] hal_lcl_audio_awe_init: _awe_heap addr = 0xa901bcc0
+
+[00001793] awe_init:Initializing AWE...
+
+[00001795] awe_init: ... done
+
+[00001795] hal_lcl_audio_awe_exec_layout Loading normal awb layout
+[00001795] awe_pltAudioStop:awe_pltAudioStop: Enter
+[00001795] awe_destroy_mod_pointers:In awe_destroy_mod_pointers
+[00001795] awe_destroy_mod_pointers: ... done.
+[00001795] awe_destroy_mod_pointers_speaker:In awe_destroy_mod_pointers_speaker
+[00001795] awe_destroy_mod_pointers_speaker: ... done.
+[00001795] awe_pltAudioStop:awe_pltAudioStop: Exit
+[00001796] awe_pltAudioStop:awe_pltAudioStop: Enter
+[00001796] awe_destroy_mod_pointers:In awe_destroy_mod_pointers
+[00001796] awe_destroy_mod_pointers: ... done.
+[00001796] awe_destroy_mod_pointers_speaker:In awe_destroy_mod_pointers_speaker
+[00001796] awe_destroy_mod_pointers_speaker: ... done.
+[00001796] awe_pltAudioStop:awe_pltAudioStop: Exit
+[00001811] awe_pltAudioStart:awe_pltAudioStart: Enter
+[00001811] awe_init_mod_pointers:Initializing tuning instances...
+[00001811] awe_init_mod_pointers: ... done.
+[00001811] awe_init_mod_pointers_speaker:In awe_init_mod_pointers_speaker
+[00001811] awe_init_mod_pointers_speaker:Initializing (speaker processing) tuning instances...
+[00001811] awe_pltAudioStart:awe_pltAudioStart: Exit
+[00001811] awe_exec_layout: ... done
+[00001811] hal_lcl_audio_awe_exec_layout: in: 256 samples, 4 chans ID=1; out: 256 samples, 2 chans ID=2
+[00001811] awe_init_mod_pointers:Initializing tuning instances...
+[00001812] audproc_awe_reload_awb: audproc_awe_reload_awb success 
+[00001812] awe_init_mod_pointers_speaker:In awe_init_mod_pointers_speaker
+[00001812] awe_init_mod_pointers_speaker:Initializing (speaker processing) tuning instances...
+[00001812] audproc_awe_setup: audproc_awe_setup exit
+[00001812] Audio Proc Task: start
+[00001812] audproc_task_create: success
+[00001812] Voice Recog Task: start
+[00001812] frw_audproc_open: done
+[00001812] Opening Module : Hdmi
+[00001812] Open instance_id[1] AV_MOD_HANDLE_DISPLAY_HDMI
+[00001812] frw_disp_set_output_mode: Set HDMI display mode to 0
+[00001812] Registering event handler for Display HDMI
+
+[00001812] frw_disp_register_event_handler: Event Register for HDMI
+[00001812] disp_hdmi_register_event_handler: Events to be registered:0x3
+[00001813] Opening Module : Ext_Lcd
+[00001813] Open instance_id[3] AV_MOD_HANDLE_DISPLAY_EXT_LCD - bacpac LCD
+[00001813] frw_disp_set_output_mode: Disp not supported : 4
+[00001813] Registering event handler for Display - bacpac LCD
+
+[00001813] frw_disp_register_event_handler: Disp not supported : 4
+[00001813] Opening Module : Ext_Av
+[00001813] Open instance_id[2] AV_MOD_HANDLE_DISPLAY_CVBS - 10 pin cable
+[00001813] frw_disp_set_output_mode: Disp not supported : 8
+[00001813] Registering event handler for Display CVBS - 10 pin cable
+
+[00001813] frw_disp_register_event_handler: Disp not supported : 8
+[00001813] Opening Module : Record
+[00001813] Record Service Evt Task: start
+[00001813] Record AudEnc Trig Task: start
+[00001813] Still Record Evt Task: start
+[00001813] frw_daf_open: Enter
+[00001813] frw_daf_open: Exit
+[00001813] frw_mft_open DAF framework Open success
+[00001814] frw_daf_start: 
+[00001814] frw_mft_open DAF framework Start success
+[00001814] frw_mft_open: success
+[00001814] Opening Module : Calibration
+[00001814] Opening Module : FrameBuffer
+[00001814] Open Module[13] AV_MOD_HANDLE_FRAMEBUFFER
+[00001814] frw_framebuffer_open ENTER: REQ to open Framebuffer instance. id = 1
+[00001814] frw_framebuffer_open EXIT: 
+[00001814] Opening Module : Audio_sink
+[00001814] frw_audsink_open: FJ_AudioOut_Start_By_Host (out id 1) called error code =0
+[00001814] frw_audsink_open: has_buzzer = 0
+[00001814] frw_audsink_start: with Audio_Status: 0 & index: 0
+[00001814] audio select_route start! instance 0
+[00001814] current src :0, sink :0
+[00001814] src :0, sink :1
+[00001816] frw_audsink_set_playback_volume: frw_audsink_set_playback_volume: not ready
+[00001816] audsink_beep_init: BEEP index 0 bytes 32608, sample count 8141
+[00001816] audsink_beep_init: BEEP index 1 bytes 81744, sample count 20425
+[00001816] audsink_beep_init: BEEP index 2 bytes 212912, sample count 53217
+[00001816] audsink_beep_init: BEEP index 3 bytes 8208, sample count 2041
+[00001816] audsink_beep_init: BEEP index 4 bytes 12240, sample count 3049
+[00001816] audsink_beep_init: BEEP index 5 bytes 20500, sample count 5114
+[00001816] audsink_beep_init: BEEP index 6 bytes 40868, sample count 10206
+[00001816] audsink_beep_init: BEEP index 7 bytes 61220, sample count 15294
+[00001816] audsink_beep_init: BEEP index 8 bytes 96044, sample count 24000
+[00001816] audsink_beep_init: BEEP index 9 bytes 32052, sample count 8002
+[00001816] frw_audsink_open: awe_spk_device_type = 0
+[00001816] frw_audsink_open: success!
+[00001816] Opening Module : Audio_sec_sink
+[00001816] frw_audsink1_open: FJ_AudioOut_Config now audio_out_id 2, bit_count 24
+[00001816] frw_audsink1_open: success!
+[00001817] Opening Module : Playback
+[00001817] Open Module[0] AV_MOD_HANDLE_PLAYBACK
+[00001817] pb_movie_open: enter
+[00001817] pb_movie_open: exit
+[00001817] pb_task_entry: enter
+[00001817] Error: Current mode is not playback
+[00001817] Opening Module : Stream_out
+[00001817] frw_streamer_open: 0
+[00001817] Opening Module : DataCapture
+[0;44;30m[00001817] frw_mft_instance_get
+[00001817] audcap_datasrc_register: ENTRY
+[00001817] audcap_datasrc_register: Registered successfully
+[00001817] Opening Module : USB MTP
+[00001817] Opening Module : Streamer_in_gp_ipc
+[00001817] av_streamer_in_open: Open instance[0] AV_MOD_HANDLE_STREAMER_IN_GP_IPC
+[00001817] frw_streamer_in_open setting the handle to 0xa5331e74 , 2771590772
+[00001818] Opening Module : Streamer_in_gp_ipc_kw_md
+[00001818] av_streamer_in_open: Open instance[1] AV_MOD_HANDLE_STREAMER_IN_GP_IPC_KW_MD
+[00001818] frw_streamer_in_open setting the handle to 0xa5331ef8 , 2771590904
+[00001818] Opening Module : Record_md
+[00001818] Record Metadata Evt Task: start
+[00001818] frw_mft_open: success
+[00001818] Opening Module : Image_Pipe
+[00001818] frw_imgpipe_open: Entered with id = 0
+[00001818] frw_imgpipe_open: Exiting
+[00001818] button_gpio_long_timer_set: id: 1, msec: 2000
+[00001818] create_button_long_timer: id: 1, name: "SHUTTER_KEY_EP"
+[00001818] button_gpio_long_timer_set: id: 0, msec: 2000
+[00001818] create_button_long_timer: id: 0, name: "POWER_KEY_EP"
+[00001818] button_gpio_long_timer_set: id: 2, msec: 2000
+[00001818] button_gpio_long_timer_set: invalid button ID 2
+[00001818] csc_events_init: Failed to set SETTINGS button long press event
+[00001818] button_gpio_long_timer_set: id: 3, msec: 2000
+[00001819] button_gpio_long_timer_set: invalid button ID 3
+[00001819] csc_events_init: Failed to set LCD button long press event
+[00001819] drv_bmi260_ori_event_set_enabled : enabled = 1
+[00001819] add_tlv_data_analytics_entry: logging before initialized 
+[00001819] **************** ERROR: Assertion (0) failed in add_tlv_data_analytics_entry()
+			../../app_control/data_analytics/data_analytics.c:864
+[00001819] frw_audproc_set_beep_volume: AWE change beep volume from 100 to 100
+[00001819] csc_utils_system_led_init: leds enabled 2
+[00001819] csc_task_entry: WKUP REASON: Reset (debug board reset button, JTAG reset, or frw_power_reset())(1)
+[00001819] csc_analytics_log_init
+[00001819] ENTER:: test_dana_init
+[00001819] EXIT:: test_dana_init
+[00001819] buffer_init	buffer max_count = 1048576
+[00001819] analytics_restore_log_from_file
+[00001821] analytics_restore_log_from_file: Read 1249 records from J:\save\data_analytics.bin
+[00001823] got version string:HD8.01.01.20.00, length=16, offset=7
+[00001823] Major version '01' = 01
+[00001823] Minor version '20' = 20
+[00001823] Revision version '00' = 00
+[00001823] csc_check_for_silent_boot: WKUP REASON: Reset (debug board reset button, JTAG reset, or frw_power_reset())(1) RTC_WAKE_REASON: 2
+[00001823] csc_check_for_silent_boot: power_too_low is 0.
+[00001824] csc_check_for_silent_boot: WKUP REASON: Reset (debug board reset button, JTAG reset, or frw_power_reset())(1)
+[00001836] csc_task_entry 579: Charger NOT connected 
+[00001836] csc_utils_system_beep
+[00001836] frw_audsink_beep: asked to BEEP!!!
+[00001836] audio select_route start! instance 0
+[00001836] current src :1, sink :1
+[00001836] src :1, sink :1
+[00001836] csc_utils_system_blink num :3
+[00001836] enable_led_timer
+[00001836] silent_boot is to 0
+[00001836] camera serial no set with size = 15
+[00001837] _read_sectors: start_sector=0x0000000c num_sectors=0x00000020
+[00001837] calib_nv_read_region: read region COMM offset=0x00001800 size=0x00004000
+[00001837] MFG_LOG: Read from Source: 0 SUCCESS
+[00001839] bdata_file_from_cal: K:\wifi_bdata.bin is valid (02019612)
+[00001840] validate_file: (K:\wifi_mac.bin)  valid
+[00001841] validate_file: (K:\mfg.json)  valid
+[00001842] validate_file: (K:\wlan_mac.bin)  valid
+[00001842] wiman_task_entry
+[00001842] wireless_offload_register_events
+[00001842] wiman_hs_init: WKUP REASON: Reset (debug board reset button, JTAG reset, or frw_power_reset())(1) Warm boot: 0
+[00001842] frw_power_led_charging_set: Turning charging LED off
+[00001842] gp_linux_hs_init:298
+[00001842] CSC Task create ret_val = 0
+[00001842] add_tlv_time Sending HR ===== (2019/10/16 21:03:42)
+[00001842] =========== FJ_HostProc =============
+
+[00001843] frw_led_charging_set: turning charging LED off
+[00001843] nvdata_cam_sn size is 14
+[00001843] XX 
+[00001843] XX
+[00001843] XX 
+[00001843] XX 
+[00001843] XX 
+[00001843] XX 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] 34 
+[00001843] This is encoded Serial Number
+[00001843] 00 
+[00001843] 00
+[00001843] 00 
+[00001843] 00
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001843] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] 00 
+[00001844] camera_ssid is GPXXXXXXXX
+[00001844]  wifi_region 0 (len 1)
+[00001844] Initialize AV Resource Manager
+
+[00001844] sd_status_callback: changed state: 1, new appc state: 4
+[00001844] csc_utils_switch_to_display: ENTRY, switch_at_init is 1
+[00001844] disp_avail_0: 1, disp_avail_1: 0
+[00001844] _system_status.disp_avail=8
+[00001844] disp_handle = 7
+
+[00001844] frw_disp_set_output: LCD output
+[00001844] Starting Module : Lcd
+[00001844] frw_disp_start: REQ to start LCD display
+[00001844] disp_lcd_start: Entered with handle:2770930756
+[00001844] act9150_lcd_backlight_enable: enter
+[00001845] disp_lcd_start Disp Window Config Success
+	  in_x=0  in_y=0  in_width=272  in_height=480
+	 out_x=24 out_y=0 out_width=272 out_height=480
+I:2:T010000B5: fj_disp_video_enable() ::Wait enable until update address.
+[00001845] disp_lcd_start: FJ_Disp_Video_Enable Success
+[00001845] Attaching Module(13)-[FrameBuffer] with Module(7)-[Lcd]
+[00001845] Ready to attach calling handle_1->attach (0xa0a36218):	
+handle_1->frw_mod_handle 0xa7abbeb8	
+handle_2->frw_mod_handle 0xa7abb40c	
+handle_2->frw_mod_type 9
+[00001845] frw_framebuffer_attach ENTER: REQ to attach handle a7abb40c, type = 9
+[00001845] frw_framebuffer_attach acquired mutex
+[00001845] frw_disp_get_display_id: Returning Display Id as 0
+[00001849] frw_framebuffer_attach: OSD Config:
+				Input  StartX=0 StartY=0 Width=320 Height=480 Pitch=320 Format=0
+				Output StartX=0 StartY=0 Width=320 Height=480 Pitch=320 Format=0
+
+[00001857] audsink_bep_pre_process: Got beep index 3, rpt 1, addr 0xa147b3a4, cnt 20425
+[00001857] awe_set_beep_source:In awe_set_beep_source numBlocks: 79 duckingPeriod: 0
+[00001857] audsink_bep_pre_process: Succeed awe_set_beep_source. Error code: 0
+[00001857] frw_audsink_set_mute: audsink mute: mute flag 0, ref cnt 0
+[00001857] frw_audsink_set_mute: audsink unmute: 0
+[00001857] awe_process_speaker:In awe_process_speaker   playbeep: 1, numRepeats: 1, pauseLen: 0, beepInProgress: 0
+[00001858] drv_dbmd4_default_config: wait_counter:3
+[00001858] drv_dbmd4_default_config: wov_language:0
+[00001858] drv_dbmd4_get_wov_language_array: found a-model (0/US_EN), size:75944
+[00001858] [drv_dbmd4_load_a_model]: Start.
+
+[00001860] DBMD4:Start uploading Trigger Acoustic Model to D4
+
+I:2:T010000B5: fj_osd_set_osd_area_enable(): Im_DISP_Set_OSD_Area_Enable() block value: block = 1
+[00001891] change_baud_rate: exit
+
+[00001891] buad rate change done to 115200
+[00001891] gps command: 69 datasource register
+[00001891] gps_uart_task_entry: received for EVENT_FLAG_GPS_PROCESS_UART_RX
+
+[00001891] gps_comm_init_ublox_M8030_wqi_entry:EVENT_FLAG_GPS_PROCESS_UART_RX sent
+[00001891] gps command: 8 get gnss
+I:2:T010000B5: fj_osd_set_osd_area_enable(): Im_DISP_Set_OSD_Area_Enable() block value: block = 1
+[00001893] frw_framebuffer_attach EXIT: 
+[00001893] Attached Count = 1
+[00001893] Attached Module[7] at index[0] = a66c1b90
+[00001893] LCD DRIVER does not support TOUCH Sensitivity
+[00001893] csc_util_switch_to_audio_src
+[00001893] Audio source mask = 2
+[00001893] _system_status.audsrc_avail[0]=2
+[00001894] frw_audsrc_get_availability(0) returned audsrc_mask 2
+[00001894] returning audsrc 1
+[00001894] Audio source = 1
+[00001894] audio select_route start! instance 0
+[00001894] current src :1, sink :1
+[00001894] src :1, sink :1
+[00001894] frw_audsrc_set_control: audsrc0 selected src 1
+[00001894] csc_util_switch_to_audio_src
+[00001894] sts_audsrc_availability_get(0) returned audsrc_mask 2
+[00001894] returning audsrc 1
+[00001894] frw_imgpipe_set_control ctrl = 0, val=a7abc068
+[00001894] Initialize Picture Capture module
+
+[00001894] picture_capture_init
+[00001894] Initialize Video Capture module
+
+[00001894] Initialize Multishot Capture module
+
+[00001894] multi_shot_capture_init
+[00001894] pb_playback_init
+[00001894] Initialize Broadcast module
+
+[00001894] broadcast_init:sts_broadcast_encode_requested_get() returns 0
+[00001895] frw_medit_open ENTER: REQ to open medit instance. id = 0
+[00001895] medit_main_task ENTER: Thread entry function
+[00001895] me_trim_open: enter
+[00001895] me_trim_open: exit
+[00001895] MEDIT instance opened pMedit = 0xa7f112e8
+[00001895] Return me_xcode_open() = 0x0
+[00001895] frw_medit_open EXIT: 
+[00001895] frw_medit_set_event_callback ENTER: REQ to register event callback instance a7f112e8
+[00001895] frw_medit_set_event_callback EXIT: 
+[00001895] csc_init : Wait for Device init
+[00001895] csc_init : Device init success
+[00001896] frw_imgcap: frw_imgcap_set_control: FRW_IMGCAP_FLICKER_DETECTION NOT YET IMPLEMENTED
+[00001896] appc_presets_active_set: preset id : 0 ,group_id 0
+[00001896] presets_apply: Requested preset_id: 0
+[00001896] presets_load: ENTRY  Preset id: 0
+[00001896] presets_load_video_video: video_res: id = VRES value = 9
+[00001896] presets_load_video_video: video_fps: id = VFPS value = 5
+[00001896] presets_load_video_video: video_fov: id = VFOV value = 0
+[00001896] presets_load_video_video: video_spot_meter: id = VSPM value = 0
+[00001896] presets_load_video_video: video_low_light: id = VLLt value = 0
+[00001896] presets_load_video_video: video_exposure_time: id = VEXT value = 0
+[00001896] presets_load_video_video: video_eis: id = VBST value = 2
+[00001896] presets_load_video_video: video_aspect_ratio: id = VVAR value = 1
+[00001896] presets_load_video_video: video_protune: id = VPRO value = 1
+[00001896] presets_load_video_video: video_protune_color: id = VPCO value = 0
+[00001896] presets_load_video_video: video_protune_sharpness: id = VPSH value = 0
+[00001897] presets_load_video_video: video_protune_iso: id = VPIS value = 1
+[00001897] presets_load_video_video: video_protune_iso_min: id = VVIM value = 8
+[00001897] presets_load_video_video: video_protune_ev: id = VPEV value = 4
+[00001897] presets_load_video_video: video_protune_white_balance: id = VPWB value = 0
+[00001897] presets_load_video_video: video_looping: id = VLPG value = 1
+[00001897] presets_load_video_video: short_clip_length: id = VSCL value = 0
+[00001897] presets_load_video_video: video_protune_bitrate: id = VPBR value = 0
+[00001897] presets_load_video_video: digital_zoom: id = DZVA value = 0
+[00001897] presets_load_video_video: onscreen_control_1: id = OSC1 value = 2
+[00001897] presets_load_video_video: onscreen_control_2: id = OSC2 value = 1
+[00001897] presets_load_video_video: onscreen_control_3: id = OSC3 value = 3
+[00001897] presets_load_video_video: onscreen_control_4: id = VOS4 value = 12
+[00001897] presets_load_video_video: audio_protune_option: id = APOP value = 3
+[00001897] presets_load_video_video: audio_option: id = AOPT value = 2
+[00001897] presets_load_video_video: audio_protune: id = APRO value = 0
+[00001897] presets_load_video_video: video_slomo_baseline_fps: id = SFPS value = 5
+[00001898] presets_load_video_video: video_slomo_state: id = SLST value = 1
+[00001898] presets_load_video_video: slomo_preset: id = SMPR value = 0
+[00001898] presets_load_video_video: video_eis_boost_enable: id = VEBE value = 0
+[00001898] presets_load_video_video: mic_option: id =      value = 0
+[00001898] presets_apply: cur_mode: -1 target_mode: 12
+[00001898] av_mode_switch: mode: 12 delay: 0
+[00001898] av_mode_switch : APPC_MODE_VIDEO
+[00001898] Stopping Module : DataCapture
+[00001898] drv_bmi260_datasrc_enable : enable = 0
+[00001898] drv_bmi260_datasrc_enable:svc_state:0x2, *enabled_prev 0
+[00001898] drv_bmi260_disable : _bmi260_data.svc_state = 2
+[00001898] av_stop ret val = 0
+[00001898] Stopping Module : Streamer_in_gp_ipc
+[00001898] av_stop_module: module was not started
+[00001898] av_encode_mode_display_stop_single: disp_hdl: 7, switch_display: 0
+[00001898] Detaching Module[Lcd] from Module[Image_capture]
+[00001898] Error: No modules attached
+[00001899] Stopping Module : Lcd
+[00001899] frw_disp_stop: REQ to stop LCD display
+[00001899] disp_lcd_stop: Entered with handle:-1524036540
+[00001899] disp_lcd_stop: FJ_Disp_Video_Disable Success
+[00001899] av_stop ret val = 0
+[00001899] frw_disp_set_output: LCD output
+[00001899] Stopping Module : Stream_out
+[00001899] av_stop_module: module was not started
+[00001899] Stopping Module : Image_Pipe
+[00001899] av_stop_module: module was not started
+[00001899] Stopping Module : Image_capture
+[00001899] av_stop_module: module was not started
+[00001899] Stopping Module : Image_src
+[00001899] av_stop_module: module was not started
+[00001899] Suspending Module : Stream_out
+[00001899] av_suspend_module: module already suspended
+[00001899] Suspending Module : Record
+[00001899] av_suspend_module: module already suspended
+[00001899] Suspending Module : Image_Pipe
+[00001899] av_suspend_module: module already suspended
+[00001899] Suspending Module : Image_capture
+[00001899] av_suspend_module: module already suspended
+[00001899] Suspending Module : Image_src
+[00001899] av_suspend_module: module already suspended
+[00001899] Suspending Module : Streamer_in_gp_ipc
+[00001899] av_suspend_module: module already suspended
+[00001900] Detaching Module[Stream_out] from Module[Record]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Record] from Module[DataCapture]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Image_capture] from Module[DataCapture]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Record] from Module[Image_capture]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Image_capture] from Module[Image_src]
+[00001900] Error: No modules attached
+[00001900] Suspending Module : Audio_process
+[00001900] av_suspend_module: module already suspended
+[00001900] Suspending Module : Audio_capture
+[00001900] av_suspend_module: module already suspended
+[00001900] Suspending Module : Audio_src
+[00001900] av_suspend_module: module already suspended
+[00001900] Detaching Module[Record] from Module[Audio_process]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Audio_process] from Module[Audio_capture]
+[00001900] Error: No modules attached
+[00001900] Detaching Module[Audio_capture] from Module[Audio_src]
+[00001900] Error: No modules attached
+[00001900] **************** ERROR: Assertion (0) failed in rtos_mem_info_get()
+			../../rtos/tkernel/rtos_mem.c:120
+[00001901] rtos_mem_info_get: NOT YET IMPLEMENTED
+[00001901] **************** ERROR: Assertion (0) failed in rtos_mem_info_get()
+			../../rtos/tkernel/rtos_mem.c:120
+[00001901] rtos_mem_info_get: NOT YET IMPLEMENTED
+[00001901] APPC: Free noncached mem: -2142240512 vs at boot: 0
+[00001901] **************** ERROR: Assertion (0) failed in rtos_mem_info_get()
+			../../rtos/tkernel/rtos_mem.c:120
+[00001901] rtos_mem_info_get: NOT YET IMPLEMENTED
+[00001901] **************** ERROR: Assertion (sts_sytem_get_free_noncached_mem_at_boot() == free_noncached_mem) failed in av_graph_detach()
+			../../app_control/av_manager/av_graphs.c:264
+[00001901]  Video settings: res 9, fps 5, fov 0
+[00001901] csc_utils_video_capability_res_list_get
+[00001901] csc_utils_video_capability_fps_list_get
+[00001901] csc_utils_video_capability_fov_list_get
+[00001901]  VIDEO settings: res 9, fps 5, fov 0
+[00001901] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00001901] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00001902] res_is_hevc 0
+[00001902] csc_utils_get_slomo_state_from_fps: res: 9 fps: 5 fov: 0
+[00001902] csc_utils_get_slomo_state_from_fps: slomo_state: 1
+[00001902] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00001902] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00001902] frw_audproc_set_awe_mode : awe_mode is not changed
+[00001902] frw_audproc_enable_protune: Audio protune disabled
+[00001902] Audio protune is disabled
+[00001902] frw_audproc_set_bt_weight: BT weight changed: 0 -> 0
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=FRW_IMGCAP_VIDEO_CAPTURE_SETTINGS(0), data=0xab56cdcc
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=ex_ctrl_none_found(9), data=0xab56cdb0
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=ex_ctrl_none_found(8), data=0xab56cdaa
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00001902] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=ex_ctrl_none_found(10), data=0xab56cdab
+[00001903] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00001903]  frw_imgcap_set_control FRW_IMGCAP_VIDEO_ENABLE_EIS is 1 
+[00001903] frw_imgcap_set_control: FRW_IMGCAP_FOV setting to 2
+[00001903]  frw_imgcap_set_control FRW_IMGCAP_ENABLE_DIGITAL_ZOOM_TRANSITION is 1 
+[00001903]  frw_imgcap_set_control FRW_IMGCAP_DIGITAL_ZOOM_CAPTURE_CONFIG is 0 
+[00001903] frw_imgcap_set_control: FRW_IMGCAP_EIS_LEVEL setting to 2
+[00001903] frw_imgcap_set_control: FRW_IMGCAP_EIS_BOOST setting to 0
+[00001903] frw_mft_set_str_bit_rate: Trying to override streaming bit rate from 0bps to 0bps
+[00001903] Attaching Module(0)-[Image_src] with Module(1)-[Image_capture]
+[00001903] Ready to attach calling handle_1->attach (0xa0ac7500):	
+handle_1->frw_mod_handle 0xa7c58d90	
+handle_2->frw_mod_handle 0xa7abc068	
+handle_2->frw_mod_type 1
+[00001903] frw_imgsrc_attach: Enter with imgsrc handle :a7c58d90 to module :a7abc068
+[00001903] frw_imgsrc_attach: Exit
+[00001903] Attached Count = 1
+[00001903] Attached Module[1] at index[0] = a66c1a70
+[00001903] Attaching Module(1)-[Image_capture] with Module(4)-[Record]
+[00001903] Ready to attach calling handle_1->attach (0xa0a3a530):	
+handle_1->frw_mod_handle 0xa7abc068	
+handle_2->frw_mod_handle 0xa52d37a0	
+handle_2->frw_mod_type 5
+[00001904] frw_imgcap: frw_imgcap_attach ENTER: REQ to attach Imgcap instance a7abc068 to cam_module instance a52d37a0
+[00001904] frw_imgcap: frw_imgcap_attach: Attach MFT handle
+[00001904] frw_imgcap: frw_imgcap_attach EXIT: 
+[00001904] Attached Count = 1
+[00001904] Attached Module[4] at index[0] = a66c29d4
+[00001904] Attaching Module(4)-[Record] with Module(6)-[Stream_out]
+[00001904] Ready to attach calling handle_1->attach (0xa09d6990):	
+handle_1->frw_mod_handle 0xa52d37a0	
+handle_2->frw_mod_handle 0xa53322a4	
+handle_2->frw_mod_type 8
+[00001904] Attached Count = 1
+[00001904] Attached Module[6] at index[0] = a66c252c
+[00001904] Attaching Module(14)-[DataCapture] with Module(4)-[Record]
+[00001904] Ready to attach calling handle_1->attach (0xa0bbef50):	
+handle_1->frw_mod_handle 0xa8011340	
+handle_2->frw_mod_handle 0xa52d37a0	
+handle_2->frw_mod_type 5
+[00001904] frw_mft_register_md_src: enter
+[00001904] frw_mft_register_md_src: added metadata source datacapture, assigned src_id 1, registered count 1
+[00001904] frw_mft_register_md_src: exit
+[00001904] Attached Count = 1
+[00001905] Attached Module[4] at index[0] = a66c29d4
+[00001905] Attaching Module(14)-[DataCapture] with Module(1)-[Image_capture]
+[00001905] Ready to attach calling handle_1->attach (0xa0bbef50):	
+handle_1->frw_mod_handle 0xa8011340	
+handle_2->frw_mod_handle 0xa7abc068	
+handle_2->frw_mod_type 1
+[00001905] Attached Count = 2
+[00001905] Attached Module[1] at index[1] = a66c1a70
+[00001905] Registering record complete callbacks
+[00001905] frw_pipeline_set_mode: Mode:0
+[00001905] av_graph_create_video: setting pipeline mode to             FRW_CAPTURE_MODE_MOVIE
+
+[00001905] av_set_pipeline_config: Setting imgcap flicker rate to 60Hz
+[00001905] frw_imgcap_set_control: FRW_IMGCAP_SCENE_HINT is None
+[00001905] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00001905] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00001905] high config in video mode = 222
+[0;42;30m[00001905] settings_get_preview_config_video: flat_mode: 12    frw_pipe_cfg:399
+[00001905] av_get_low_res_config: ret_config = 399
+[00001905] frw_pipeline_set_config: Config:399
+[00001906] frw_pipeline_set_all_config: Config:222
+[00001906] frw_pipeline_set_all_config: Config:399
+[00001906] Video chaptering set to default chaptering
+[00001906] frw_mft_setcontrol: chaptering chapter_in_bytes 4000000000
+[00001906] Resuming Module : Image_src
+[00001906] frw_imgsrc_resume: Entered with SrcHndl:a7c58d90
+[00001906] frw_imgsrc_resume: Exit
+[00001906] Resuming Module : Image_Pipe
+[00001906] frw_imgpipe_resume: Entering 0xa8011300
+I:2:T010000B5: ### fj_stopmode(): prev=BOOT(0x00010000), curr=IDLE(0x00020000), next=INITIALIZER(0x000000ff), req=INITIALIZER(0x000000ff) .
+[00001906] frw_imgpipe_resume: Exiting
+[00001906] Resuming Module : Image_capture
+[00001906] frw_imgcap: frw_imgcap_resume ENTER: REQ to resume imgcap instance a7abc068
+[00001906] frw_imgcap:video: imgcap_video_open ENTER: REQ to open video instance
+[00001906] imgcap_fd_open: fd=A7C27638
+[00001906] frw_imgcap:video: imgcap_video_open EXIT: 
+[00001906] frw_imgcap:roi_mng : imgcap_roi_mng_register_callbacks Enter 
+[00001906]  frw_imgcap:roi_mng : imgcap_roi_mng_register_callbacks Exit 
+[00001907] frw_imgcap:video: imgcap_video_resume: ENTER REQ to resume video
+[00001907] frw_imgcap:video: imgcap_video_resume: demosaic_id=0
+[00001907] frw_imgcap:video: imgcap_video_resume: demosaic_id_hs_ls=1
+[00001907] frw_imgcap:video: imgcap_video_resume: EXIT
+
+[00001907] [0/-/-]imgcap_3a_resume ENTER: 3A Resume Request
+[00001907] [0/-/-]imgcap_3a_resume EXIT: SUCCESS 
+[00001907] frw_imgcap: frw_imgcap_resume EXIT: 
+[00001907] Resuming Module : Record
+[00001907] frw_mft_resume: muxer_index_buf_stream1 size = 12815109
+[00001907] frw_mft_resume: muxer_index_buf_stream2 size = 7031349
+[00001907] frw_mft_resume: muxer_index_buf_md size = 129969
+[00001907] ERR: frw_dfs_get_remaining_space Card state not ready state = 0x1
+[00001907] frw_mft_resume: failed to get SD remaining space
+[00001907] Resuming Module : Stream_out
+[00001907] Resuming Module : DataCapture
+[00001907] Resuming Module : Streamer_in_gp_ipc
+[00001907] av_encode_mode_display_start_single: disp_hdl: 7, switch_display: 0
+[00001908] frw_imgcap_set_control: FRW_IMGCAP_PREVIEW_H_FLIP setting to 0
+[00001908] frw_disp_set_output: LCD output
+[00001908] Attaching Module(1)-[Image_capture] with Module(7)-[Lcd]
+[00001908] Ready to attach calling handle_1->attach (0xa0a3a530):	
+handle_1->frw_mod_handle 0xa7abc068	
+handle_2->frw_mod_handle 0xa7abb40c	
+handle_2->frw_mod_type 9
+[00001908] frw_imgcap: frw_imgcap_attach ENTER: REQ to attach Imgcap instance a7abc068 to cam_module instance a7abb40c
+[00001908] frw_imgcap frw_imgcap_attach: Attach Display Handle
+[00001908] frw_imgcap: frw_imgcap_attach EXIT: 
+[00001908] Attached Count = 2
+[00001908] Attached Module[7] at index[1] = a66c1b90
+[00001908] frw_imgcap: frw_imgcap_get_control_ex ENTER: REQ to resume imgcap instance a7abc068
+[00001908] frw_imgcap: frw_imgcap_get_control_ex Exit with ret_val=0
+[00001908] 115780- aspect ratio
+
+[00001908] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=ex_ctrl_none_found(7), data=0xab56cda0
+[00001908] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00001908] Display Render info passed = a66c18fc
+
+[00001908] Render Info  input.x = 4
+input.y = 2
+input.height = 476
+input.width = 840
+input.pitch = 848
+output.x = 0
+output.y = 24
+output.height = 272
+output.width = 480
+output.pitch = 480
+output.rotation = 0
+
+[00001909] Resuming Module : Lcd
+[00001909] av_resume_module: module already resumed
+[00001909] Starting Module : Lcd
+[00001909] frw_disp_start: REQ to start LCD display
+[00001909] disp_lcd_start: Entered with handle:2770930756
+[00001909] disp_lcd_start Disp Window Config Success
+	  in_x=2  in_y=4  in_width=476  in_height=840
+	 out_x=24 out_y=0 out_width=272 out_height=480
+I:2:T010000B5: fj_disp_video_enable() ::Wait enable until update address.
+[00001909] disp_lcd_start: FJ_Disp_Video_Enable Success
+[00001909] av_encode_mode_display_start_single: Returning 
+[00001909] Starting Module : Streamer_in_gp_ipc
+[00001909] frw_ipc_start --------- starting framework ipc -------- 
+[00001909] Attaching Module(2)-[Audio_src] with Module(3)-[Audio_capture]
+[00001909] Ready to attach calling handle_1->attach (0xa0a25f40):	
+handle_1->frw_mod_handle 0xa528f768	
+handle_2->frw_mod_handle 0xa528f5e0	
+handle_2->frw_mod_type 3
+[00001909] Attached Count = 1
+[00001909] Attached Module[3] at index[0] = a66c23e4
+[00001909] Attaching Module(3)-[Audio_capture] with Module(12)-[Audio_process]
+[00001909] Ready to attach calling handle_1->attach (0xa0a18d00):	
+handle_1->frw_mod_handle 0xa528f5e0	
+handle_2->frw_mod_handle 0xa528f62c	
+handle_2->frw_mod_type 4
+[00001910] Attached Count = 1
+[00001910] Attached Module[12] at index[0] = a66c1928
+[00001910] Attaching Module(12)-[Audio_process] with Module(4)-[Record]
+[00001910] Ready to attach calling handle_1->attach (0xa0a1c548):	
+handle_1->frw_mod_handle 0xa528f62c	
+handle_2->frw_mod_handle 0xa52d37a0	
+handle_2->frw_mod_type 5
+[00001910] audcap attach success! sink type 5
+[00001910] Attached Count = 1
+[00001910] Attached Module[4] at index[0] = a66c29d4
+[00001910] Resuming Module : Audio_src
+[00001910] audio select_route start! instance 0
+[00001910] current src :1, sink :1
+[00001910] src :1, sink :1
+[00001910] Resuming Module : Audio_capture
+[00001910] Resuming Module : Audio_process
+[00001910] Starting Module : DataCapture
+[00001910] drv_bmi260_datasrc_enable : enable = 1
+[00001910] drv_bmi260_datasrc_enable:svc_state:0x2, *enabled_prev 0
+[00001910] drv_bmi260_set_odr : gyro_odr = 200, reg_val = 9, modify_gyro_config = 0, update_bit_pos = 128
+[00001910] drv_bmi260_set_odr : accl_odr = 200, reg_val = 9, modify_accl_config = 0, update_bit_pos = 128
+[00001910] frw_imgcap_get_eis_mode_algo eis_enable=0 eis_mode=0 
+[00001910] Run MODE = 12
+[00001910] Starting Module : Image_src
+[00001911] frw_imgsrc_start: Entered with SrcHndl:a7c58d90
+[00001911] frw_imgsrc_start: Exit
+[00001911] Starting Module : Image_capture
+[00001911] frw_imgcap: frw_imgcap_start ENTER: REQ to start imgcap a7abc068
+[00001911] frw_imgcap: frw_imgcap_start: capture mode = MOVIE (0), config = WQVGA_30_W_SV_LP (399)
+[00001911] tuning = VIDEO, preview = true, capture_fps = 60.000
+[00001911] frw_disp_get_display_id: Returning Display Id as 0
+[00001911] frw_imgcap: imgcap_update_active_video_settings: ----------- active_video_isp_settings -----------------------------
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           AHIP                : 1                        |
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           EIS                 : 1                        |
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |              `--> HYPERSMOOTH_LITE
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           ERS                 : 1                        |
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           DZOOM               : 1                        |
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           FD                  : 30 fps                    |
+[00001911] frw_imgcap: imgcap_update_active_video_settings: |           SMILE               : 0                        |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           3DNR                : 1                        |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           LTM                 : 0                        |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: -------------------------------------------------------------
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           is preview                           : 1       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |              `--> capture mode : MOVIE
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           is spherical mode                    : 0       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           sgde on                              : 1       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           use libgpeis                         : 1       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           use delayed stream                   : 0       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           eis allow extended margin            : 0       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           use IQ bin index                     : 3       |
+[00001912] frw_imgcap: imgcap_update_active_video_settings: |           fov : WIDE (imgcap_config fov : SUPERVIEW)
+[00001913] frw_imgcap: imgcap_update_active_video_settings: -------------------------------------------------------------
+[00001913] frw_imgcap: imgcap_update_active_video_settings: |           dzoom factor : 0 (x1.00)
+[00001913] frw_imgcap: imgcap_update_active_video_settings: ----------- active_video_isp_settings -----------------------------
+[00001913] frw_imgcap: imgcap_setup_image_pipeline ENTER
+[00001913] frw_imgcap: imgcap_setup_image_pipeline: WQVGA_30_W_SV_LP, Sdram map mode = 0, Image macro mode = 4
+[00001913] imgcap_set_clocks: SHDR_CLOCK = 0
+[00001913] frw_imgcap: imgcap_setup_image_pipeline EXIT with GP_SUCCESS
+[00001913] imgcap_iq_start: video iq bin sel = 3
+I:2:T010000B5: IQ file load: idx=3 bytes=79674 max=262144
+[00001914] imgcap_iq_load_single_table_from_emmc():  count=3  file EMMC:IQ_3.bin  type=3  size=79674  eMMC IQ Load Complete!!!
+[00001914] IQ Header Ver=0232 TotSize=0x1373a HdrSize=0x51e4 Mod# SC2000 MemType=1 AbsAddr=-0x51e4 BodySize=0xe556
+[00001914] imgcap_iq_cag_convert_table CAG Conversion from IQ(1) (x=0, y=0, w=4056, h=3044) to IQ(3) (w=1352, h=1014) Success
+[00001914] imgcap_iq_change_iqbin_sen: SEN[0] Initial IQ Table Selection = 3
+[00001914] imgcap_iq_change_iqbin_demosaic: DEMOSAIC[0] Initial IQ Table Selection = 3
+[00001914] [0]imgcap_3a_start ENTER: REQ to Start 3A 
+[00001914] imgcap_3a_start[32m mode change detected from 4K_120_10BIT_W(1) to QVGA_240_12BIT_W(34)
+[0;46;30m[00001914] imgcap_3a_start nominal_frame_rate = 29.97
+[00001914] frw_imgcap_get_control: FRW_IMGCAP_FLICKER_RATE is 60Hz
+[00001914] frw_imgcap_get_control: FRW_IMGCAP_SCENE_HINT is None
+[00001914] frw_imgcap_get_control: FRW_IMGCAP_EIS_MODE is FRW_IMGCAP_EIS_ENABLE
+[00001914] frw_imgcap: frw_imgcap_get_control_ex ENTER: REQ to resume imgcap instance a7abc068
+[00001914] frw_imgcap: frw_imgcap_get_control_ex Exit with ret_val=0
+[00001915] IQ_SETTINGS: for FRW_CAPTURE_MODE_MOVIE (0)
+[00001915] IQ_SETTINGS: meter_mode=0  color_mode=0  min_iso=100  max_iso=1600  sharpness=2
+[00001915] IQ_SETTINGS: wb_mode=0  exposure_comp=0x0  shutter_limit=2.000000
+[00001915] IQ_SETTINGS: manual_shutter=0.000000  manual_iso=0  iso_mode=0  shutter_mode=0  ae_lock=0
+[00001915] IQ_SETTINGS: tuning=0  capture_fps=60.000000  preview=1
+[00001915] PROTUNE: AUTO SHUTTER EXPOSURE
+[0;46;30m[00001915] AUTO-EXPOSURE IS UNLOCKED !!!
+[00001915] MFG_LOG: Exposure set
+[00001915] White Balance Auto
+[00001915] Color Mode - GoPro
+[00001915] Sharpness - High
+00:00:00.190183|16777397|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.h:693:printConfig ___ GPCC Config :
+00:00:00.190337|16777397|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.h:697:printConfig ___   - ImageBitDepth : 10
+00:00:00.190474|16777397|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.h:698:printConfig ___   - Flip : 0 - Mirror : 1
+00:00:00.190668|16777397|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.h:699:printConfig ___   - Stats on SRO unit
+00:00:00.190813|16777397|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.h:700:printConfig ___   - Stats band count : 2
+[00001916] demosaic_id[0]: sensor_id = 0 - sen_id = 0 - acls = ON - gtm = ON
+[00001916]     + aeawb[0]: sensor_id = 0 - sen_id = 0 - inst_id = 0 - location = SRO_1
+[00001916]     + aeawb[1]: sensor_id = 0 - sen_id = 0 - inst_id = 0 - location = SRO_0
+[00001916]     + aeawb[2]: sensor_id = 0 - sen_id = 0 - inst_id = 0 - location = SRO_1
+[00001916]     + aeawb[3]: sensor_id = 0 - sen_id = 0 - inst_id = 0 - location = SRO_0
+[00001916] demosaic_id[1]: sensor_id = 0 - sen_id = 0 - acls = OFF - gtm = OFF
+00:00:00.191363|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:2722:gtmSetMode _________ mode 1
+[00001916] imgcap_3a_set_scene_number() scene=0 (0+0) GTM=on return=0
+00:00:00.191556|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:658:setFrameRate ________ Frame rate = 29.97 (30), Capture framerate = 60.00
+00:00:00.191729|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:675:setFov ______________ set digital lens to wide
+00:00:00.191871|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1599:aeSetFlickeringMode  AFK mode set to 60hz
+00:00:00.192010|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1615:aeSetMetering ______ AE metering set to uniform
+00:00:00.192155|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:2041:awbSetSceneType ____ Set AWB with scene type = AUTO (0)
+[00001917] AUTO LOW LIGHT is DISABLED 
+00:00:00.192342|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1482:clearAeExpoTimeLimit  AE set in safe mode
+00:00:00.192484|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1353:setAeMaxExpoTime ___ AE set max exposure time to 16.67 ms for ISGCC AE mode 6
+00:00:00.192651|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1353:setAeMaxExpoTime ___ AE set max exposure time to 16.67 ms for ISGCC AE mode 6
+00:00:00.192816|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1279:setAeEVBias ________ AE force EV bias to 0.000000
+[00001918] PROTUNE: ISO - Range 100 - 1600
+00:00:00.193011|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1418:setAeIsoLimitMin ___ AE set ISO limit min to 100: gain min = 1.41 for ISGCC AE mode (6)
+[00001918] ISO MIN - MANUAL: 100 for primary mode (3)
+00:00:00.193231|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1418:setAeIsoLimitMin ___ AE set ISO limit min to 100: gain min = 1.41 for ISGCC AE mode (6)
+[00001918] ISO MIN - MANUAL: 100 for secondary mode (3)
+00:00:00.193465|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1403:setAeIsoLimitMax ___ AE set ISO limit max to 1600: gain max = 22.60 for ISGCC AE mode (6)
+[00001919] ISO MAX - MANUAL: 1600 for primary mode (3)
+00:00:00.193686|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:1403:setAeIsoLimitMax ___ AE set ISO limit max to 1600: gain max = 22.60 for ISGCC AE mode (6)
+[00001919] ISO MAX - DEFAULT: 1600 for secondary mode (3)
+00:00:00.193909|16777397|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:2006:awbSetMode _________ Set AWB with wb_mode=0 cm_identity=0
+[00001919] [0]imgcap_3a_start EXIT: SUCCESS
+[00001919] frw_imgcap:video: imgcap_video_start: ENTER REQ to start video
+[00001919] frw_imgcap:video: imgcap_video_start: cap_config=399
+[00001919] frw_mft_still_encoder_get: success handle A52D37A0 has id = 5
+[00001919] frw_disp_get_display_id: Returning Display Id as 0
+[00001919] imgcap_video_start FJ_Demosaic_Connect_Encode PRIMARY 
+
+[00001919] imgcap_video_start FJ_Demosaic_Connect_Encode SECONDARY 
+
+[00001919] imgcap_video_start FJ_Demosaic_Connect_Encode THM 
+
+[00001919] frw_disp_get_display_id: Returning Display Id as 0
+[00001919] imgcap_video_start: Proc Delay Enable Frames 1
+[00001919] imgsrc_set_sensor_window: Entered with SrcHndl:a7c58d90
+[00001920] imgsrc_set_sensor_window: Sensor Window 4m Pipeline 
+	G_W:1368 	 G_H:1027 
+	Ob_x:22 	 Ob_y:7 
+	Ob_in_W:1340 	 Ob_in_H:2 
+[00001920] imgsrc_set_sensor_window: Exit
+[00001920] frw_disp_get_display_id: Returning Display Id as 0
+[00001920] frw_disp_get_display_id: Returning Display Id as 0
+[00001920] frw_imgcap:video: imgcap_print_windows: Begin
+[00001920] frw_imgcap:video: ================= Sen Window ==================
+[00001920] frw_imgcap:video: x_pos = 16, y_pos = 13, in_width = 1352, in_lines = 1014, out_width = 1352, out_lines = 1014
+[00001920] frw_imgcap:video: ===============================================
+[00001920] frw_imgcap:video: =============== Demosaic Window ===============
+[00001920] frw_imgcap:video: x_pos = 0, y_pos = 0, in_width = 1352, in_lines = 1014
+[00001920] frw_imgcap:video: scaler_in.width=1200, scaler_in.lines=678
+[00001920] frw_imgcap:video: scaler_out.width=848, scaler_out.lines=480
+[00001920] frw_imgcap:video: output_window[PRIMARY_VIDEO  ] out_width =  848, out_lines =  480
+[00001920] frw_imgcap:video: output_window[SECONDARY_VIDEO] out_width =  848, out_lines =  480
+[00001920] frw_imgcap:video: output_window[SECONDARY_SPH  ] out_width =    0, out_lines =    0
+[00001920] frw_imgcap:video: output_window[VIDEO_THM      ] out_width =  160, out_lines =  120
+[00001921] frw_imgcap:video: output_window[DISPLAY        ] out_width =  848, out_lines =  480
+[00001921] frw_imgcap:video: output_window[DISPLAY_SPH    ] out_width =    0, out_lines =    0
+[00001921] frw_imgcap:video: output_window[DISP_HDMI      ] out_width =    0, out_lines =    0
+[00001921] frw_imgcap:video: ===============================================
+[00001921] frw_imgcap:video: =================Encode Window ===============
+[00001921] frw_imgcap:video: main  : x_pos=   0, y_pos=   0, in_width=   0, in_lines=   0, out_width=   0, out_lines=   0
+[00001921] frw_imgcap:video: screen: x_pos=   0, y_pos=   0, in_width=   0, in_lines=   0, out_width=   0, out_lines=   0
+[00001921] frw_imgcap:video: thm   : x_pos=   0, y_pos=   0, in_width= 160, in_lines= 120, out_width= 160, out_lines= 120
+[00001921] frw_imgcap:video: ===============================================
+[00001921] frw_imgcap:video: imgcap_print_windows: End
+[00001921] frw_disp_get_display_id: Returning Display Id as 0
+[00001921] frw_imgcap: frw_imgcap_get_control_ex ENTER: REQ to resume imgcap instance a7abc068
+[00001921] frw_imgcap: frw_imgcap_get_control_ex Exit with ret_val=0
+[00001921] hal_img_sensor_get_line_period : Function Pointer Not Initialized 
+[00001921] imgcap_video_start : line_period = 3.611111, readout_period = 3661.666748, readout_shift = 0.000000 gyro_delay_us = -200 frame_delay = 1
+[00001922] frw_imgcap:video:eis [imgcap_eis_start:2023] - frw_imgcap:video:eis: imgcap_eis_start: Enter with eis_handle=0xa7c444c8
+[00001922] frw_imgcap:video:eis [imgcap_eis_lib_open:1559] - Heap area for libgpeis is at 0xb1b8d400 (12582912 bytes)
+[00001939] frw_imgcap:video:eis [imgcap_eis_lib_open:1738] - Queue timeout will be 50 ms
+[00001939] frw_imgcap:video:eis [imgcap_eis_lib_open:1742] - Fifo sleep time will be 3 ms and max retry 11
+[00001939] frw_imgcap:video:eis [imgcap_eis_start:2038] - frw_imgcap:video:eis: imgcap_eis_start: Exit with 0
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1507] - --- Preparing next mode (222)
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1508] - --   + Lens model :
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1509] - --      + opticalCenter         : (1352.000000,1014.000000)
+[00001939] frw_imgcap:video:eis [imgcap_eis_get_diagonal_fov:2068] - frw_imgcap:video:eis: imgcap_eis_get_diagonal_fov: Enter with eis_handle=0xa7c444c8
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1510] - --      + pipeScale             : (1.479290,1.479290)
+[00001939] imgcap_video_start: warp idx=5 crop=1200x678+0+0 in=1200x678 out=880x512 pitch=64x32
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1511] - --   + Early init params :
+[00001939] imgcap_video_start() raw_scale=2
+[00001939] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1514] - --      + size         : [2704x2028] --> [1920x1080]
+[00001940] imgcap_video_start() Demosaic input 1352 x 1014  output 1200 x 678
+[00001940] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1515] - --      + extraCrop    : 32
+[00001940] mft_still_setup_bit_rate_control: capture_mode 0, still_type 6 w = 848 h = 480 compression_ratio = 0.388184
+[00001940] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1519] - --      + fov          : WIDE
+[00001940] imgsrc_set_sen_config_slvs: Entered with SrcHndl:a7c58d90 & sen_id:0
+[00001940] imgsrc_set_sen_config_slvs: Sensor Image Mode read from pipeline 34
+[00001940] Optical Black Mode: capture_mode=MOVIE iq_settings->tuning=VIDEO Preview=true Opt Black Mode=OB_MODE_IQ
+00:00:00.215187|16777408|E ~~~~~~            ../src/isg/ispw/libgpeis/src/gpeis.cpp:1090:prepareMode _________ Constraint model preparation failed: unfeasible model, likely
+[00001940] imgsrc_set_sen_config_slvs: Exit
+[00001940] frw_imgcap:video:eis [imgcap_eis_prepare_next_mode:1523] - --- Done in 371 us
+[00001940] frw_imgcap:video: imgcap_video_start: EXIT
+[00001940] **************** ERROR: Assertion (err==GP_SUCCESS) failed in eis_lib_task_entry()
+			../../framework/imgcap/eis/imgcap_eis.c:1270
+[00001940] IMGCAP_WINDOW [imgcap_windows_start:628] - Enter
+[00001941] IMGCAP_WINDOW [imgcap_windows_start:1678] - Exit
+[00001941] frw_imgcap: Scene Classification is enabled
+[00001941] frw_imgcap: frw_imgcap_start EXIT: 
+[00001941] av_run_current_mode_single: Start streaming
+[00001941] Starting Module : Stream_out
+[00001941] Streaming STATE: STARTED
+[00001941] Starting Module : Streamer_in_gp_ipc
+[00001941] av_start_module: module already started
+[00001941] Starting Module : Image_Pipe
+[00001941] frw_imgpipe_start: Entering
+[00001941] frw_imgcap_get_control: FRW_IMGCAP_MODE is 262144
+I:2:T010000B5: ### fj_setmode(): prev=BOOT(0x00010000), curr=IDLE(0x00020000), next=STOP(0x00008000), req=INITIALIZER(0x000000ff). 
+I:2:T010000B5: ### fj_startmode(): prev=BOOT(0x00010000), curr=IDLE(0x00020000), next=STOP(0x00008000), req=VIDEO(0x00040000) .
+[00001941] frw_imgpipe_start: FJ_WaitModeComp Start
+I:1:T010000A5: >>>>> Macro Error Handler Task Start TID=0x10000a5 CPUID=1.
+D:0:T01000038: bf_still_connect_mng_set_raw_scaling_config_wa(): W.A. for LP. Input window1200
+D:0:T01000038: bf_still_connect_mng_set_raw_scaling_config_wa(): W.A. for LP. Input window1200
+[00001942] GoProIP_GetIpRegister  Initialized BUZZARD Left Config Addr = 0x2840c400                              Right Config Addr = 0x2850c400
+[00001943] GoProIP_GetIpRegister  BayerScalerSelect (0=SNI, 1=GoPro) Left = 0x1  Right = 0x1
+D:0:T01000038: bf_still_connect_mng_calc_r2y_scaling_pitch_sta_yywch0() : 0 0 0 0 0
+D:0:T01000038: h_crop_pos1(0) in_h_sta1(0x0=0.000000) in_h_pit1(0x4000=1.000000) out_width1(0/1) ref_in_width1(262144.000000=>262144) in_width1(616)
+D:0:T01000038: bf_still_connect_mng_calc_r2y_scaling_pitch_sta_yywch0() : 0 0 0 1 1
+D:0:T01000038: h_crop_pos1(-584) in_h_sta1(0x0=0.000000) in_h_pit1(0x4000=1.000000) out_width1(0/1) ref_in_width1(261560.000000=>261560) in_width1(616)
+[00001943] IMGCAP_WINDOW [FJ_HostPipeInfoCB:1702] - [0] Updating windows information ...
+[00001943] IMGCAP_WINDOW [FJ_HostPipeInfoCB:1866] - Update windows done !
+I:2:T0100000C: ** BF_Still_View_Seq_Task_Main() start
+I:1:T0100009F: >>>>> IQ CAG Task Start TID=0x100009f CPUID=1.
+I:1:T010000A4: >>>>> IQ CSHD Task Start TID=0x10000a4 CPUID=1.
+[00001946] hal_img_sensor_power_save_enable : Function Pointer Not Initialized 
+I:2:T01000075: >>>>> Still IQ regwrite Task Start TID=0x1000075 CPUID=2.
+I:2:T01000076: >>>>> Still IQ regwrite Task Start TID=0x1000076 CPUID=2.
+[00001954] GPS sample found since disable
+[00001975] hal_img_sensor_set_multicam_mode sensor=0, mode=0
+[00001975] hal_img_sensor_set_multicam_mode : Function Pointer Not Initialized 
+[00001975] FJ_HostSensorStartCB: Exit
+[00001975] FJ_HostSensorModeChangeCB: Entered with sensor_id:0
+[00001975] imgsrc_sensor_mode_change: Entered with sensor:0
+[00001975] imgsrc_get_sen_id: Entered with sensor_id:0
+[00001975] imgsrc_sensor_stop_sync_gen: Entered with sen_id:0 & stop mode:1
+[00001975] imgsrc_sensor_configure_sync_gen: Entered with sen_id:0
+[00001975] imgsrc_sensor_configure_sync_gen: Sensor timing 4m pipeline 
+	vdocyc:1155 	hdocyc:260
+[00001975] imgsrc_sensor_configure_sync_gen: Exit
+[00001975] imgsrc_sensor_set_mode: Sensor Image Mode read from pipeline 34
+[00001975] imgsrc_sensor_set_mode: Exit
+[00001976] imgsrc_sensor_start_sync_gen: Entered with sen_id:0
+[00001976] imgsrc_sensor_start_sync_gen: Exit 
+[00001976] imgsrc_sensor_mode_change: Exit
+[00001976] imgsrc_get_instance: Entered with sensor_id:0
+[00001976] frw_imgcap: imgcap_imu_start Start IMU 
+[00001976] drv_bmi260_set_enabled, _bmi260_data.dma_enabled = 1, state = 1
+[00001976] drv_bmi260_stop_dma_read
+I:0:INTERRUPT: FJ_GyroIF: SPI Recv HDMAC[3] stop end : line=129, status=2
+[00001982] drv_bmi260_set_enabled : samples_per_read = 4, bytes_per_read = 63, read_data_size = 64
+[00001982] drv_bmi260_enable_dma : Configure and Enable DMA  
+[00001983] drv_bmi260_start_dma 
+[00001995] drv_bmi260_set_enabled : enabled datasrc by workaround
+[00001995] FJ_HostSensorModeChangeCB: Exit
+[00001995] [0/-/0]FJ_Host3AWindowConfigCB -> Entered
+00:00:00.270050|16777272|I [0;1;35mGpcc::AeHistMgt   ../../framework/imgcap/3a/gpcc/ae_history_mgt.cpp:174:[0;1;35mreset _____ New sensor latencies : mEtLatency = 1, mAgLatency = 0, mDgLatency = 0, mIspgLatency = 0, mAeLatency = 1
+00:00:00.270276|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:3607:freeAllSaveRawPacks  Entering
+00:00:00.270436|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:88:setStatWindow  Stats win 1352x1022 overlap=36
+[00001995] IMGCAP_WINDOW [imgcap_windows_add_window:1951] - Connecting '3A_STATS_HW' (7)(inst_id 0) to 'SRO_STATS' (6)(inst_id 0) ...
+[00001996] IMGCAP_WINDOW [imgcap_windows_add_window:1953] -  --> Size info : 1280x960 (left : 0 - right : 0 - overlap : 0)
+[00001996] IMGCAP_WINDOW [imgcap_windows_add_window:1958] -  --> Transform info : pos (36,30) - scale : 1.000000x1.000000 - mirror : FALSE - flip : FALSE
+[00001996] IMGCAP_WINDOW [imgcap_windows_add_window:1951] - Connecting '3A_STATS_SW' (8)(inst_id 0) to 'SENSOR_CALIB_3A' (3)(inst_id 0) ...
+[00001996] IMGCAP_WINDOW [imgcap_windows_add_window:1953] -  --> Size info : 3840x2880 (left : 0 - right : 0 - overlap : 0)
+[00001996] IMGCAP_WINDOW [imgcap_windows_add_window:1958] -  --> Transform info : pos (93,90) - scale : 1.000000x1.000000 - mirror : FALSE - flip : FALSE
+[00001996] [36m imgcap_badpix_table_load():  Bad Pixel - file=EMMC - BADPIX_0.BIN  size=25408  CalibTgt=1 Load Complete!!!
+[00001996] gp_badpix_change_tbl_imx277(): Using E_IQ_CALIB_TGT_2 (1/2.3 inch Mode4) QVGA_240_12BIT_W(34) flip=0
+[00001997] imgcap_badpix_change_table(): src.y_pos=10 dst.y_pos=16 - flip 0 (0 0)
+[00002001] [-/-/-/0]imgcap_badpix_change_table(): Converted Bad Pixel table from CalTgt 1 to CalTgt 3 for QVGA_240_12BIT_W(34)
+[00002001] [-/-/-/0]imgcap_badpix_change_table(): Selected Bad Pixel Table with CalTgt 3 Index 0 for QVGA_240_12BIT_W(34)
+[00002001] [-/-/-/0]imgcap_badpix_change_table: Bad Pixel Table is on for CalTgt 3 Index 0 Flip 0 (0,0)
+[00002001] GP_3A_GTM_ConfigureStats() sampling_vcycle unexpected value 0
+[00002001] [-/-/-/0]GP_3A_GTM_Configure() streaming=29.970030fps capture=60.000000fps fps_sampling=1 tc_resol=1024 identity=0
+[00002001] imgcap_fshd_change_table: demosaic_id=0 calib_tgt=2 enable=1 flip=0
+[00002001] imgcap_fshd_change_table: SRC X/Y=0/0 SRC width/lines=4056/3044 DST width/lines=1200/678
+00:00:00.276741|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:370:setHwConfig _ AEAWB 0 settings:
+00:00:00.276881|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:376:setHwConfig _   + Connected to SRO_1 (6)
+00:00:00.277026|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:383:setHwConfig _   +  Window : Block Count (32x48) - Start (36,30) - Size (20,20) - Gating (255,255,255)
+00:00:00.277251|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:370:setHwConfig _ AEAWB 1 settings:
+00:00:00.277391|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:376:setHwConfig _   + Connected to SRO_0 (5)
+00:00:00.277535|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:383:setHwConfig _   +  Window : Block Count (32x48) - Start (36,30) - Size (20,20) - Gating (255,255,255)
+00:00:00.277761|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:370:setHwConfig _ AEAWB 2 settings:
+00:00:00.277899|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:376:setHwConfig _   + Connected to SRO_1 (6)
+00:00:00.278040|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:383:setHwConfig _   +  Window : Block Count (32x48) - Start (36,30) - Size (20,20) - Gating (239,239,239)
+00:00:00.278266|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:370:setHwConfig _ AEAWB 3 settings:
+00:00:00.278404|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:376:setHwConfig _   + Connected to SRO_0 (5)
+00:00:00.278545|16777272|I Gpcc::AeAwbStats  ../../framework/imgcap/3a/gpcc/ae_awb_stats.cpp:383:setHwConfig _   +  Window : Block Count (32x48) - Start (36,30) - Size (20,20) - Gating (239,239,239)
+[00002004] [0/-/0]FJ_Host3AWindowConfigCB -> Exit
+[00002020] [0/0/0]FJ_Host3AInitCB -> Entered[32m init_type VIDEO(0), fj_mode VIDEO(0x00040000)
+00:00:00.295092|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:609:getTiming ___________ set AWB div to 1 x 1 = 1
+00:00:00.295245|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:613:getTiming ___________ set ACLS div to 2 x 1 = 2
+00:00:00.295385|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:617:getTiming ___________ set IQM div to 1 x 1 = 1
+00:00:00.295523|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:621:getTiming ___________ set MS div to 1 x 1 = 1
+00:00:00.295680|16777272|I Gpcc              ../../framework/imgcap/3a/gpcc/core.cpp:640:getTiming ___________ AeCallRate=9.99 - AEdiv=0 - AWBdiv=3 - AFdiv=1 - FLCKdiv=0
+[00002021] FJ_Host3AInitCB IQ params update sampling count set to 1
+[00002021] [0/-/0]FJ_Host3AInitCB -> Exit
+[00002021] frw_imgcap_get_stillcap_instance:Invalid demosaic port id = 0, Stillcap instance is not found
+[00002021] FJ_HostAhipInitCB: AHIP_OpenPreview: demosaic_id=0, input_width=1200, input_lines=678
+
+[00002021]  Aspect raio is 16:9
+ 
+[00002021] imgcap_fd_start: preview=1 fd=A7C27638 demosaic_id=0 input_width=1200 input_height=678 aspec_ratio=115992 work_width=592 work_height=336
+I:0:T01000038: AhipPre  w 592 h 336
+I:0:T01000038: AhipPreGetFrameNo -1
+[00002025] imgcap_iq_set_sgde_scaler_setting():  demosaic_id=0  scaler_setting=2 (0=Weakest...4=Strongest)
+[00002025] imgcap_iq_get_sgde_scaler_kernel():  demosaic_id=0  scaler_setting=2 (0=Weakest...4=Strongest)
+[00002038] act9150_sd_voltage_set: SD voltage has changed to 1800v
+[00002038] FJ_HostSDChangeVoltageCB: SD voltage has changed to 1.8v
+I:0:T01000038: ____SEN_INIT_WA_VD_wait(0)
+[00002058] frw_imgpipe_start: Exiting
+[00002058] av_flat_mode_switch_sync_send: Sending sync event to UI flat_mode 12 (app_mode 0, sub_mode 0) caller 0
+[00002058] MFG_LOG: Mode Switch SUCCESS, Mode:12
+[00002058] frw_audcap_setcontrol Invalid local ctrl 7
+[00002058] **************** ERROR: Assertion (ret_val == GP_SUCCESS) failed in csc_utils_set_audcap_usecase()
+			../../app_control/cam_sys_control/csc_utils.c:9859
+[00002058] xlate_appc_mic_option_to_frw: lens_mode: 0  lens:0
+I:1:T010000BD: MWSDIO0_Init ok
+I:1:T010000BD: Mount OK.  media_id:7  drive_name:C
+[00002069] Calling dcfInit
+I:0:T01000003: open mode =0x301, accessmode = w+, fname = C:\mdb8.db
+I:1:T010000BD: close file ID = A6285C78 
+[00002072] hero_bus_stat = 0, prod_id = 0
+I:0:T01000003: open mode =0x109, accessmode = a+, fname = c:\accessory.log
+[41;30mE:0:T01000003: mdf_wrapper_convert_path_name(): abnormal drvname=c
+I:0:T01000003: [00002077] Unrecognized accessory detached ID=0x0000
+open mode =0x301, accessmode = w+, fname = C:\mdb_8.log
+[00002077] frw_usb_accessory_detect_callback: 0
+[00002077] frw_accessory_cb: accessory callback framework called with accessory: 0
+[00002077] ENTER :: drv_atsaml22_irq_register_cb
+[00002077] EXIT :: drv_atsaml22_irq_register_cb
+I:1:T010000BD: close file ID = A6285C78 
+[00002083] [VC] Create Voice Control Pseudo UI task
+[00002083] test_appc_voice_init: Adding voice control test cmds
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:\mdb_h_8_1.bk 
+I:1:T010000BD: delete file 
+[00002096] _connect_to_db succesfully connected to the db
+[46;30mH:1:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+I:1:T010000BD: all entry get 
+I:0:T01000003: open mode =0x2, accessmode = r+, fname = J:\.dfs_nand
+[43;30mW:0:T01000003: fread: feof = 1. The point reached the end of the file. 
+[00002113] _seek_to_entry (229)ERR: could only read 0 bytes, req to read 7 bytes
+[00002113] dfs_nand_write_entry ERROR at line 412 
+[00002113] **************** ERROR: Assertion (dfs_nand_write_entry(nand_last_sd_folder_entry, last_valid_sd_folder) == GP_SUCCESS) failed in _update_nand_file_entries()
+			../../framework/media_storage/dfs_sd_monitor.c:236
+I:0:T01000003: open mode =0x2, accessmode = r+, fname = J:\.dfs_nand
+[00002115] _entry_name_to_entry_type unhandled entry name 	"GPHe
+[00002115] dfs_nand_read_and_buffer_all_entries ERROR at line 316 
+[00002115] dfs_nand_read_entry ERROR at line 516 
+[00002115] **************** ERROR: Assertion (dfs_nand_read_entry(&last_encoded_file, &f_entry_found, nand_last_encoded_file_entry) == GP_SUCCESS) failed in _update_nand_file_entries()
+			../../framework/media_storage/dfs_sd_monitor.c:255
+[00002117] drv_dbmd4_load_a_model:Reading: SENSORY_INITIALIZED register
+
+[00002118] [drv_dbmd4_load_a_model]: exit
+
+[00002119] drv_bmi260_get_data_samples : Invalid data_buf[36] = 72  [TimeStamp = 16577 ]
+[00002119] drv_bmi260_get_data_samples : Invalid data_buf[43] = 255  [TimeStamp = 16577 ]
+[00002119] drv_bmi260_get_data_samples : Invalid data_buf[50] = 255  [TimeStamp = 16577 ]
+[00002119] drv_bmi260_get_data_samples : Invalid data_buf[57] = 255  [TimeStamp = 16577 ]
+I:0:T01000003: open mode =0x2, accessmode = r+, fname = J:\.dfs_nand
+[00002121] HAL Battery fuel gauge HAL_FUEL_GAUGE_SN
+[00002121] drv_atsaml22_battery_fg_type_get: Battery fuel gauge 0x3
+[46;30mH:1:T010000BA: DD_I2C ERR:ch=0, line=1354
+[46;30mH:2:T010000BA: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[41;30mE:2:T010000BA: I2C Error:=130012
+[00002124] _i2c_io_write:422: FJ_I2C_Transfer failed for chan: 0! Returning GP_FAILURE (5)...
+[00002124] _wr_u8: ERROR - I2C write reg 0x18 failed (err=-1)
+[43;30mW:0:T01000003: fread: feof = 1. The point reached the end of the file. 
+[00002127] _seek_to_entry (229)ERR: could only read 0 bytes, req to read 7 bytes
+[00002127] dfs_nand_write_entry ERROR at line 412 
+[00002127] **************** ERROR: Assertion (dfs_nand_write_entry(nand_scanned_entry, 1) == GP_SUCCESS) failed in _update_nand_file_entries()
+			../../framework/media_storage/dfs_sd_monitor.c:262
+I:0:T01000003: open mode =0x302, accessmode = w+, fname = C:\MISC\sd_info.txt
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+I:2:T0100000E: BF_Disp_Set_Main_Addr() ::released enable waiting.
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+I:1:T010000BD: close file ID = A6285C78 
+[00002150] sd_event_callback: sd state=3
+[00002150] wrprog: current WIFI region 0
+
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\rn.cfg
+[41;30mE:0:T01000003: fopen error system_error = 2, fname = C:\rn.cfg
+[00002153] wrprog: can't open C:\rn.cfg
+
+[00002153]  _sd_event_callback: sd state=3
+[00002153] sd_status_callback: changed state: 3, new appc state: 0
+[00002160] drv_atsaml22_battery_authentic_get: auth=1 --> authentic=1
+
+[00002160] frw_battery_info_get: chem-id=0x3948, health=99%, cycle-count=0, fg-type=3
+[00002160] Reading fresh battery info:  authentic: 1  health: 0  type: 0
+[00002160] Create Tara UI task
+[00002160] frw_framebuffer_get_control_ex ENTER: REQ
+[00002160] frw_framebuffer_get_control_ex EXIT: 
+[00002160] Ew initialized with width 960, height 540, buf:0xacbb6000
+
+[00002170] csc_task_entry: Authentic Battery detected.
+[00002170] csc_battery_level_init internal battery charging state 1
+[00002174] csc_battery_level_init sending external battery missing
+[00002175] (frw_usb_mtp_task_ready) - Task ready called
+[00002175] (frw_usb_class_ctrl_task_entry) - USB Class set = 0x4 
+[00002175] frw_usb_mtp_init
+[00002175] frw_usb_mtp_host_type_set
+[00002175] Creating csc async task
+[00002175] CSC Async Task create ret_val = 0
+[00002175] Setting brightness 100
+[00002175] frw_disp_set_brightness: type is 1 (FRW_DISPLAY_LCD is 1)
+[00002175] st7796s_set_brightness: brightness = 50
+[00002176] CCL Proxy Task: start
+[00002176] ASSERT CSC_ASYNC queue if return value = 0, RET_VAL = 0
+[00002176] Waiting for a message in csc_async_task
+[00002176] frw_imgcap: frw_imgcap_get_control_ex ENTER: REQ to resume imgcap instance a7abc068
+[00002176] frw_imgcap: frw_imgcap_get_control_ex Exit with ret_val=0
+[00002176] 115780- aspect ratio
+
+[00002176] frw_imgcap: frw_imgcap_set_control_ex Enter ex_ctrl=ex_ctrl_none_found(7), data=0xab56cf90
+[00002176] frw_imgcap: frw_imgcap_set_control_ex Exit with ret_val=0
+[00002176] Display Render info passed = a66c18fc
+
+[00002176] Render Info  input.x = 4
+input.y = 2
+input.height = 476
+input.width = 840
+input.pitch = 848
+output.x = 0
+output.y = 24
+output.height = 272
+output.width = 480
+output.pitch = 480
+output.rotation = 0
+
+[00002177] csc_analytics_log_photo_res Current mode 12 is not the capture mode
+[00002177] csc_analytics_log_photo_res Current mode 12 is not the capture mode
+[00002179] csc_util_switch_to_audio_src
+[00002179] sts_audsrc_availability_get(0) returned audsrc_mask 2
+[00002179] returning audsrc 1
+[00002179] disp_avail_1: 0
+[00002179] disp_avail_1: 0
+[00002181] csc_analytics_log_photo_iso_limit Not a valid Photo mode 12 so exit without event logging
+[00002181] csc_analytics_log_multishot_iso_limit Not a valid Multishot mode 12 so exit without event logging
+[00002181] csc_analytics_log_photo_iso_min Not a valid Photo mode 12 so exit without event logging
+[00002181] csc_analytics_log_multishot_iso_min Not a valid Multishot mode 12 so exit without event logging
+[00002181] 12 Unknown Photo sub mode!!!
+[00002181] 12 Unknown Multi-shot sub mode!!!
+[00002182] sts_sd_status_set SD card status changed to 4
+[00002182] wireless_sd_card_state_set: Sending new state - 4
+[00002182] mtp_update_sd_status : 1
+[00002182] frw_usb_sd_state_change: ENTER
+[00002182] frw_usb_sd_state_change: Refresh state : 1
+[00002182] (frw_usb_class_ctrl_task_entry) - message received - event.id.type = 0x1e 
+[00002182] FRW_USB_SD_CARD_REFRESH
+[00002182] (frw_usb_class_ctrl_task_entry) - Not Sending SD Card Status as Init not received from Linux
+[41;30mE:0:T01000003: fstat error system_error = 22, fname=C:\UPDATE\FWUPD.TXT 
+[00002183] [FWUPD] check_file with R_file:C:\UPDATE\FWUPD.TXT & Bin:C:\UPDATE\DATA.BIN
+[00002183] [FWUPD] Update rules file C:\UPDATE\FWUPD.TXT and update file C:\UPDATE\DATA.BIN are NOT present
+[00002184] [FWUPD] Firmware update not required
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\DCIM\leinfo.sav
+[41;30mE:0:T01000003: fopen error system_error = 2, fname = C:\DCIM\leinfo.sav
+[00002193] dcf_get_fh_from_sd Couldn't open file C:\DCIM\leinfo.sav
+[00002193] csc_utils_sos-frw_dfs_get_last_encoded_file_handle--failed
+[00002194] dcf_get_last_file_handle ERROR at line 2189 
+[00002194] csc_utils_sos-frw_dfs_get_last_file_handle--failed
+[00002194] filename=C:\MISC
+[00002194] filename=C:\MISC\version.txt
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\MISC\version.txt
+I:1:T010000B5: close file ID = A6285C78 
+[00002201] csc_version_info_update Read (161 bytes): C:\MISC\version.txt
+[00002201] csc_version_info_update: success:{
+"info version":"2.0",
+"firmware version":"HD8.01.01.20.00",
+"wifi mac":"000000000000",
+"camera type":"HERO8 Black",
+"camera serial number":"C3300000000000",
+}
+ (161 bytes)
+[00002201] Version.txt camera MAC add invalid, Hence deleting....
+[00002205] drv_dbmd4_default_config: returned
+[00002236] drv_dbmd4_device_init: done successfully
+
+[00002236] drv_dbmd4_task_entry: EVT 0x00400000 received
+[00002236] drv_dbmd4_state_exit_handler: state(1) exited
+[00002236] drv_dbmd4_codec_handler: Start
+I:1:T010000B5: delete file 
+I:0:T01000003: open mode =0x301, accessmode = w+, fname = C:\MISC\version.txt
+I:1:T010000B5: close file ID = A6285C78 
+[00002254] csc_version_info_update: success:{
+"info version":"2.0",
+"firmware version":"HD8.01.01.20.00",
+"wifi mac":"000000000000",
+"camera type":"HERO8 Black",
+"camera serial number":"C3300000000000",
+}
+ (161 bytes)
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\factory_force.txt
+[41;30mE:0:T01000003: fopen error system_error = 2, fname = C:\factory_force.txt
+[00002258] f_handle is 0
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\factory_reset.txt
+[41;30mE:0:T01000003: fopen error system_error = 2, fname = C:\factory_reset.txt
+[00002259] f_handle is 0
+[00002259] Factory reset file not found on SD. Ignoring factory reset
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:\factory_override.txt
+[41;30mE:0:T01000003: fopen error system_error = 2, fname = C:\factory_override.txt
+[00002262] csc_utils_factory_over_ride_support:f_handle is 0
+[00002262] csc_check_for_rtf: NOT YET SUPPORTED
+[41;30mE:0:T01000003: mdf_wrapper_convert_path_name(): abnormal drvname=A
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:\no_shutdown.txt 
+[00002265] sts_sd_status_set SD card status changed to 0
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:\mdb8.db 
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:\mdb_h_8_1.bk 
+[00002284] audsink_beep_process: AWE finished BEEP
+I:2:T010000B5: delete file 
+[00002317] csc_utils_is_raw_enabled: *enabled 0 = (Photo Res 19  && is_raw_supp 0)
+[00002321] frw_mft_get_remaining_still_count: enc_height 3000, enc_width 4000
+[00002321] frw_mft_get_remaining_still_count: sd_size 30397 MB, img_size 7340032, count 4342
+[00002321] Photos Remaining: 4342
+[00002321] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00002321] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00002321] mft_get_overall_bitrate: primary bitrate 45000000
+[00002321] mft_get_overall_bitrate: primary bitrate with margin 50400000
+[00002321] mft_get_overall_bitrate: primary bitrate with audio and etc. 50650000
+[00002322] mft_get_overall_bitrate: lrv bitrate 4000000
+[00002322] mft_get_overall_bitrate: total bitrate 55380000
+[00002326] frw_mft_get_remaining_movie_time: sd_size 31866781696, remaining movie time in seconds 4603
+[00002326] ************************************
+[00002326] Video time Remaining (sec): 4603
+[00002326] UI version: 1.0 for Phase 3 release
+[00002326] ************************************
+[00002326] Photos Count: total 0, group 0
+[00002326] Video Count: total 0, group 0
+[00002326] Live Burst Count: total 0
+[00002333] csc_utils_no_boot_set
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=J:\no_boot.txt 
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:\no_boot.txt 
+[00002335] Nothing to do, just exit
+[00002335] AUTOEXEC Support is Disabled
+[00002335] sts_sd_status_set SD card status changed to 0
+[00002335] wireless_sd_card_state_set: Sending new state - 0
+[00002335] mtp_update_sd_status : 3
+[00002335] frw_usb_sd_state_change: ENTER
+[00002335] frw_usb_sd_state_change: Refresh state : 3
+[00002336] (frw_usb_class_ctrl_task_entry) - message received - event.id.type = 0x1e 
+[00002336] FRW_USB_SD_CARD_REFRESH
+[00002336] (frw_usb_class_ctrl_task_entry) - Not Sending SD Card Status as Init not received from Linux
+[00002340] settings_system_pref_save
+[00002341] UI: Is wakeup from Dead Battery=0
+[00002342] UI: Current Orientaion: 183
+[00002342] settings_system_pref_save
+[00002343] UI: Is wakeup from Dead Battery=0
+[00002343] presets_list_ids: ENTRY
+[00002343] presets_list_ids: ENTRY
+[00002343] presets_list_ids: ENTRY
+[00002343] presets_get_info:Predefined preset settings are modified
+[00002344] presets_list_ids: ENTRY
+[00002344] presets_list_ids: ENTRY
+[00002344] presets_list_ids: ENTRY
+[00002345] csc_utils_video_capability_res_list_get
+[00002345] tara_update_video_res_capability Valid video Resolution, filter: 4, total num: 6
+[00002345] 120
+[00002345] 123
+[00002345] 125
+[00002346] 126
+[00002346] 128
+[00002346] 734
+[00002346] csc_utils_video_capability_fps_list_get
+[00002346] csc_utils_video_capability_fov_list_get
+[00002346] csc_utils_video_capability_fov_list_get
+[00002346] csc_utils_video_capability_fov_list_get
+[00002346] csc_utils_video_capability_fov_list_get
+[00002346] csc_utils_video_capability_fov_list_get
+[00002346] csc_utils_video_capability_fps_list_get
+[00002346] csc_utils_video_capability_fps_list_get
+[00002349] csc_utils_video_capability_res_list_get
+[00002349] tara_update_video_res_capability Valid video Resolution, filter: 4, total num: 6
+[00002349] 120
+[00002349] 123
+[00002349] 125
+[00002349] 126
+[00002349] 128
+[00002349] 734
+[00002349] csc_utils_video_capability_fps_list_get
+[00002349] csc_utils_video_capability_fov_list_get
+[00002349] csc_utils_video_capability_fov_list_get
+[00002349] csc_utils_video_capability_fov_list_get
+[00002349] csc_utils_video_capability_fov_list_get
+[00002350] csc_utils_video_capability_fov_list_get
+[00002350] csc_utils_video_capability_fps_list_get
+[00002350] csc_utils_video_capability_fps_list_get
+[00002350] >>>>tara_get_system_error_message,err:0, errMsg: @@@@@@
+[00002351] settings_system_pref_save
+[00002351] UI: Is wakeup from Dead Battery=0
+[00002352] appc_api_never_paired_alert_date_time_get Entry
+[00002352] appc_api_never_paired_alert_date_time_get Year 2019 month 10 date 16 hour 14 mins 1 secs 0
+
+[00002364] HAL Battery fuel gauge HAL_FUEL_GAUGE_SN
+[00002364] drv_atsaml22_battery_fg_type_get: Battery fuel gauge 0x3
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000ED: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00002424] drv_atsaml22_battery_authentic_get: auth=1 --> authentic=1
+
+[00002424] frw_battery_info_get: chem-id=0x3948, health=99%, cycle-count=0, fg-type=3
+[00002425] Reading fresh battery info:  authentic: 1  health: 0  type: 0
+[00002425] [FWUPD] current_dont_show_alert_checkbox_status is 0
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=K:\firmware.zip 
+[00002426] [FWUPD] firmware.zip file does NOT exist!
+[00002426] [FWUPD] show_prompt is 0
+[00002435] settings_system_pref_save
+[00002436] UI: Is wakeup from Dead Battery=0
+[00002436] tara_system_display_hdmi_status_get, isHdmiPresent:0, isHdmiOn:0
+[00002436] UI<tara_system_display_hdmi_status_get> isHdmiPresent[0], isHdmiOn[0]
+[00002437] drv_dbmd4_codec_handler: finised
+[00002449] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00002449] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00002450] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002450] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002450] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00002450] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00002450] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002450] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002455] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00002455] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00002455] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002455] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00002516] frw gps leap seconds callback goes here: 18
+
+[00002906] gps ack timeout 2906, timeout 2891, retry 0
+[00002906] gps command: 8 get gnss
+[00002918] gnss num_configs: 7
+, 
+[00002918] block 0, flags 0x01010001
+[00002918] block 1, flags 0x01010001
+[00002918] block 2, flags 0x01010001
+[00002918] block 3, flags 0x01000000
+[00002918] block 4, flags 0x03010001
+[00002918] block 5, flags 0x05050001
+[00002918] block 6, flags 0x01000000
+[00002918] gps good fix while booting, no sleep allowed; state BOOTING => AWAKE
+[00002918]  GPS : EVENT_FLAG_GPS_INIT_COMM_GOOD !!!!!!
+[00002918] gps command: 7 get powersave
+[00002918] gnss type changed to GG2(GPS+GALILEO)
+[00002918] port_baud_rate: port_baud_rate:115200
+
+[00002918] gps baudrate already set to required rate: 115200
+[00002918] gps setting solution interval to 55
+[00002918] gps timepulse enabled
+[00002918] gps get navpvt
+[00002918] gps ublox messages only
+[00002936] gps powersave config, maxStartupDur: 0, flags: 0x01421000, updatePeriod: 1000, searchPeriod: 10000, gridOffset: 0, onTime: 0, minAcqTime: 0
+[00002936] power save mode psmct
+[00002936] gps command: 56 powersave off
+[00002936] exiting power save
+[00004431] tara_system_display_hdmi_status_get, isHdmiPresent:0, isHdmiOn:0
+[00004431] UI<tara_system_display_hdmi_status_get> isHdmiPresent[0], isHdmiOn[0]
+[00004431] UI: Current Orientaion: 183
+[00004436] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004436] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004436] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004436] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004436] tara_system_display_hdmi_status_get, isHdmiPresent:0, isHdmiOn:0
+[00004436] UI<tara_system_display_hdmi_status_get> isHdmiPresent[0], isHdmiOn[0]
+[00004438] appc_setup_auto_screen_lock_get: screen_lock 0
+[00004438] woke ublox chip then sent
+[00004438] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004438] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004438] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004438] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004439] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004439] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004439] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004439] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004439] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004439] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004439] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004439] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004445] gps command: 46 subscribe navstatus
+[00004450] gps command: 74 subscribe nav time gps
+[00004468] gps command: 76 subscribe nav velned
+[00004509] presets_list_ids: ENTRY
+[00004510] presets_list_ids: ENTRY
+[00004510] presets_list_ids: ENTRY
+[00004510] presets_get_info:Predefined preset settings are modified
+[00004511] presets_list_ids: ENTRY
+[00004511] presets_list_ids: ENTRY
+[00004511] presets_list_ids: ENTRY
+[00004518] gps command: 71 poll nav time utc
+[00004518] gps command: 71 poll nav time utc
+[00004518] gps command: 84 set gnss gg2
+[00004518] cfg_gnss: gnss_type:0x5, num_blocks:7
+[00004530] gps command: 30 set interval
+[00004536] gps command: 23 timepulse on
+[00004536] enable timepulse messages
+[00004580] appc_onscreen_control_type_set: control id: 0 and control_type: 2
+[00004580] appc_onscreen_control_type_set: control id: 1 and control_type: 1
+[00004581] appc_onscreen_control_type_set: control id: 2 and control_type: 3
+[00004581] appc_onscreen_control_type_set: control id: 3 and control_type: 12
+[00004587] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004587] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004588] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004588] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004620] gps command: 66 subscribe navpvt
+[00004626] gps command: 33 set port_output
+[00004626] port_baud_rate: port_baud_rate:115200
+
+[00004661] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00004661] add_tlv_time Sending HR ===== (2019/10/16 21:03:45)
+[00004735] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004735] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004736] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004736] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004736] appc_onscreen_control_type_get: control id: 0 and control_type: 2
+[00004811] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004811] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004811] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004811] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004812] appc_onscreen_control_type_get: control id: 1 and control_type: 1
+[00004813] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004813] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004813] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004813] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004814] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004814] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004814] appc_onscreen_control_type_get: control id: 2 and control_type: 3
+[00004814] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004814] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004814] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004814] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004815] appc_onscreen_control_type_get: control id: 3 and control_type: 12
+[00004815] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004815] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004816] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004816] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004817] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004817] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004831] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004831] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004831] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004831] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004832] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004832] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004832] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004832] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004832] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004832] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004832] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004832] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004864] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004864] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004864] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004865] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004865] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004865] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004866] settings_get_video_eis_config frw_pipe_cfg_eis is (222) eis_state is 2
+[00004866] settings_get_video_frw_config (4850): sts_eis_active_set(true) 
+[00004880] ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00004880] VIDEO ENTRY csc_utils_is_digital_zoom_supported: res/fps/fov (24/15/0) camera mode (12)
+[00005162] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00005162] add_tlv_time Sending HR ===== (2019/10/16 21:03:46)
+[00005212] temps_pmic_update: ACT88326 die temperature 54 C
+[00005665] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00005665] add_tlv_time Sending HR ===== (2019/10/16 21:03:46)
+[00005683] gps ack timeout 5683, timeout 5626, retry 0
+[00005683] gps command: 33 set port_output
+[00005683] port_baud_rate: port_baud_rate:115200
+
+[00005689] gps command: 39 set cfg
+[00005689] gps command: 35 set nmea
+[00005689] cfg_set_nmea: ver=0x41, gnss_filter=0x00
+[00005851] usb_ipc_task: gp_ipc_receive success
+[00005851] process_arriving_message : cmd : IN, value : MTP
+
+[00005851] usb_init_cmd: ENTER
+[00005851] (frw_usb_class_ctrl_task_entry) - message received - event.id.type = 0x1c 
+[00005852] FRW_USB_INIT
+[00005852] send_usb_init_response: ENTER
+[00005852] Version : HD8.01.01.20.00 16
+[00005852] SN : C3300000000000 15
+[00005852] usb_ipc_init
+[00005852] accessory=0x0, class=2, card_state=3
+[00005852] send_init_response
+[00005852] process_arriving_message : index : 10
+
+[00006168] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00006168] add_tlv_time Sending HR ===== (2019/10/16 21:03:47)
+[00006670] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00006670] add_tlv_time Sending HR ===== (2019/10/16 21:03:47)
+[00007172] gp_linux_hs_init: 328: ERROR! Timed out waiting for response from gpNet (linux)
+[00007172] add_tlv_time Sending HR ===== (2019/10/16 21:03:48)
+[00394883] usb_ipc_task: gp_ipc_receive success
+[00394883] process_arriving_message : cmd : cc, value : 
+
+[00394883] usb_handle_cc_cd_resp: ENTER
+[00394883] resp: 1, class: 3
+[00394884] (frw_usb_class_ctrl_task_entry) - message received - event.id.type = 0x14 
+[00394884] frw_usb_sm_handler: State: FRW_USB_STATE_ENUMERATING, Event: FRW_USB_LINUX_ACK
+[00394884] handle_linux_ack_in_eg_state: Current State: FRW_USB_STATE_ENUMERATING, Event: FRW_USB_LINUX_ACK, Current Class: 3, Linux Class: 3
+[00394884] nack_retry_timer_stop:
+[00394884] nack_retry_timer_stop: nack_retry Timer already stopped!!!
+[00394884] linux_resp_timer_stop:
+[00394884] frw_detect_callback with status:1
+[00394884] Change device class to CDC
+[00394884] (frw_usb_class_ctrl_task_entry) - message received - event.id.type = 0x7 
+[00394884] frw_usb_process_enum_success_event
+[00394884] frw_usb_send_event_to_csc, sending to csc
+[00394884] frw_usb_send_event_to_csc Exit
+[00394884] process_arriving_message : index : 5
+
+[00394897] app_proceed_with_mtp: Don't switch to MTP, Probably USB Class is CDC
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:1:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00486177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:1:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00607177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00728178] wait_ipc_done - event 4 took 2 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00755499] temps_pmic_update: ACT9150 die temperature 59 C
+[00760500] temps_pmic_update: ACT9150 die temperature 60 C
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00849177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00903188] Camera USB is Connected to PC. Reset the Auto Power off timer
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:2:T010000BC: DD_I2C ERR:ch=0, line=1354
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[00970177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:/f0xA6224F20.bin 
+I:0:T01000072: close file ID = A6285C78 
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[01091177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[01174899] ibat_update_temp: new temp [74] is at least 10 degrees different than previous [45]
+[01174899] ibat_update_temp: Skipping temperature update
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AB: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:0:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[01212177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+I:0:T01000072: all entry get 
+I:0:T01000072: reset entry
+I:0:T01000072: all entry get 
+I:0:T01000072: reset entry
+I:0:T01000072: all entry get 
+I:0:T01000072: reset entry
+I:0:T01000072: all entry get 
+I:0:T01000072: reset entry
+I:0:T01000003: open mode =0x0, accessmode = r, fname = C:/memdump_h7
+[41;30mE:0:T01000003: fstat error system_error = 2, fname=C:/read.bin 
+I:0:T01000072: close file ID = A6285CB8 
+I:0:T01000072: close file ID = A6285CB8 
+I:0:T01000003: open mode =0x2, accessmode = r+, fname = C:/read.bin
+[01333177] wait_ipc_done - event 4 took 1 msec
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000AC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[01352354] temps_pmic_update: ACT88326 die temperature 55 C
+[01354392] temps_pmic_update: ACT88326 die temperature 54 C
+[01361615] temps_pmic_update: ACT9150 die temperature 61 C
+[01362547] temps_pmic_update: ACT88326 die temperature 55 C
+[01366624] temps_pmic_update: ACT88326 die temperature 54 C
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[01368670] temps_pmic_update: ACT88326 die temperature 55 C
+[01377821] temps_pmic_update: ACT88326 die temperature 54 C
+[01378855] temps_pmic_update: ACT88326 die temperature 55 C
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+[46;30mH:0:INTERRUPT: DD_I2C ERR:ch=0, line=368
+[46;30mH:2:T010000BC: I2C Bus Idle Error Recovery End:ch=0, BB=0, wait=0
+            

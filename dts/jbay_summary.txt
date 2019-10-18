@@ -1,0 +1,22 @@
+GOPRO HERO8
+CodeName: JBay
+ID: 0xa66
+Model: 50
+Model String: HD8.01
+
+SocioNext Milbeaut SC2000A EVB w/ RTOS VBD (GP1)
+Sony IMX277
+ublox UBX-M8030 GNSS 
+ANX7816 SlimPort transmitter for HDMI over USB-C
+BOSCH BMI260 IMU
+Pericom PI3USB9281
+Microchip SAM L22
+Active Semi ACT9150  PMIC
+Active Semi ACT88326 PMIC (0.9v regulator)
+Sitronix ST7796S 320RGB X 480 dot 262K Color TFT
+FT6306 Touch Controller
+Sitronix st7570 Front Monochrome LCD 128 X 129
+Apple MFI Authentication
+NXP PCF85063A
+DSP Group DBMD4
+Jiangxi Lianchuang Electronic Co. (LCE) Lens la068a

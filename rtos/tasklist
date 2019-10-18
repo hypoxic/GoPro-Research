@@ -1,0 +1,245 @@
+                                 Wait      Wait    Wakeup   Susp     Stack   Stack        Stack
+   ID      Name      Prty State Reason    Obj ID   Req Cnt  Req Cnt  Size    Headroom     Base         Task Long Name
+----------------------------------------------------------------------------------------------------------
+0x0100009b CACHE1      1  dorm                          0     0      8192       0   0%    0xab0b0008
+0x0100009c CACHE2      1  dorm                          0     0      8192       0   0%    0xab0b2808
+0x0100009a CACHE0      1  dorm                          0     0      8192       0   0%    0xab0ad808
+0x01000098 PMU1        2  wasp  flg     0x0100016e      0     0      1024       0   0%    0xaaf56410
+0x01000097 PMU0        2  wasp  flg     0x0100016d      0     0      1024       0   0%    0xaaf53410
+0x01000099 PMU2        2  wasp  flg     0x0100016f      0     0      1024       0   0%    0xaaf59410
+0x01000055 CAP_CTRL    4  dorm                          0     0     16384       0   0%    0xab02c008
+0x0100004a H265SRCN    4  dorm                          0     0      8192       0   0%    0xab008808
+0x01000054 SYNCCTRL    5  dorm                          0     0      4096       0   0%    0xab027808
+0x01000002             6  wasp  rmbf    0x01000001      0     0     16896       0   0%    0xaad3e208
+0x0100008c PAS_VD      8  wasp  flg     0x010000fb      0     0      6144       0   0%    0xab09b808
+0x0100007a B2B1_INT    8  wasp  flg     0x01000075      0     0      6144       0   0%    0xab076008
+0x010000a3 BUF_MNG3    8  dorm                          0     0      2048       0   0%    0xab0c3008
+0x010000a2 BUF_MNG2    8  dorm                          0     0      2048       0   0%    0xab0c2008
+0x01000080 SEN_IF2     8  wasp  flg     0x0100007b      0     0      6144       0   0%    0xab082008
+0x010000a1 BUF_MNG1    8  dorm                          0     0      2048       0   0%    0xab0c1008
+0x010000a0 BUF_MNG0    8  dorm                          0     0      2048       0   0%    0xab0c0008
+0x01000079 SRO2_INT    8  wasp  flg     0x01000074      0     0      6144       0   0%    0xab074008
+0x01000078 SRO1_INT    8  wasp  flg     0x01000073      0     0      6144       0   0%    0xab072008
+0x01000058 LTM_MAP     8  wasp  flg     0x01000045      0     0      6144       0   0%    0xab032008
+0x01000059 LTM_LTM     8  wasp  flg     0x01000046      0     0      6144       0   0%    0xab034008
+0x0100005a R2Y_INT     8  wasp  flg     0x01000047      0     0      8192       0   0%    0xab036808
+0x0100005b CNR_OTF     8  wasp  flg     0x01000049      0     0      6144       0   0%    0xab038808
+0x01000089 B2B1_HD     8  dorm                          0     0      6144       0   0%    0xab095808
+0x0100008a B2B2_VD     8  wasp  flg     0x010000f9      0     0      6144       0   0%    0xab097808
+0x0100008b B2B2_HD     8  dorm                          0     0      6144       0   0%    0xab099808
+0x0100007b B2B2_INT    8  wasp  flg     0x01000076      0     0      6144       0   0%    0xab078008
+0x0100008d PAS_HD      8  dorm                          0     0      6144       0   0%    0xab09d808
+0x01000082 SEN_VD      8  wasp  flg     0x010000f1      0     0     12288       0   0%    0xab087808
+0x0100007e SEN_IF0     8  wasp  flg     0x01000079      0     0      6144       0   0%    0xab07e008
+0x0100007d PAS_INT     8  wasp  flg     0x01000078      0     0      6144       0   0%    0xab07c008
+0x0100007f SEN_IF1     8  wasp  flg     0x0100007a      0     0      6144       0   0%    0xab080008
+0x01000081 SEN_IF3     8  wasp  flg     0x0100007c      0     0      6144       0   0%    0xab084008
+0x01000077 SEN_INT     8  wasp  flg     0x01000042      0     0      6144       0   0%    0xab070008
+0x01000083 SEN_HD      8  dorm                          0     0      6144       0   0%    0xab089808
+0x01000084 SRO1_VD     8  wasp  flg     0x010000f3      0     0      6144       0   0%    0xab08b808
+0x01000085 SRO1_HD     8  dorm                          0     0      6144       0   0%    0xab08d808
+0x01000086 SRO2_VD     8  wasp  flg     0x010000f5      0     0      6144       0   0%    0xab08f808
+0x01000087 SRO2_HD     8  dorm                          0     0      6144       0   0%    0xab091808
+0x01000088 B2B1_VD     8  wasp  flg     0x010000f7      0     0      6144       0   0%    0xab093808
+0x01000056 B2R_INT     8  wasp  flg     0x01000043      0     0      6144       0   0%    0xab02e008
+0x01000057 LTM_RBK     8  wasp  flg     0x01000044      0     0      6144       0   0%    0xab030008
+0x0100007c STAT_INT    9  wasp  flg     0x01000077      0     0      6144       0   0%    0xab07a008
+0x010000b2 mcu_hb     10  wasp  slp                     0     0     17408   15884  91%    0xab147408  MCU Heartbeat Task
+0x010000ba time       10  wasp  rmbf    0x01000011      0     0     20480   19920  97%    0xab177808  Time task
+0x010000eb            11  wasp  flg     0x010001ea      0     0     17408       0   0%    0xab2fb408
+0x010000a6 wqDisp     14  wasp  rmbf    0x01000002      0     0     18432   17580  95%    0xab0cc008  rtos_workq Dispatch
+0x010000a7 wqQuer     14  wasp  rmbf    0x01000003      0     0     18432   17612  95%    0xab0d1008  rtos_workq Queuer
+0x010000aa wqReal0    15  wasp  sem     0x010000ca      0     0     20480   20100  98%    0xab0e1808  systemwq_realtime
+0x0100005d SDRMMONI   15  dorm                          0     0      8192       0   0%    0xab043808
+0x01000004 BOOT       17  dorm                          0     0      8192       0   0%    0xaaf35008
+0x0100003c HDMI_DT    20  dorm                          0     0      8192       0   0%    0xaafe1808
+0x0100000c SEQ_VIEW   24  wasp  mbx     0x01000008      0     0      4096       0   0%    0xaaf4a008
+0x01000038 BASEFW     24  wasp  flg     0x01000032      0     0     24576       0   0%    0xaafd3808
+0x01000031 SEQ_VW36   25  wasp  mbx     0x0100002d      0     0     10240       0   0%    0xaafb9008
+0x010000c6 Photo_Th   25  wasp  flg     0x010001c2      0     0     32768   32344  98%    0xab1e9008  PHOTO_FLOW_TASK
+0x010000bf EIS_Th     25  wasp  flg     0x010001ba      0     0     32768   29228  89%    0xab1ad008  EIS_LIB_TASK
+0x0100000a BF_SUB1    25  dorm                          0     0      8192       0   0%    0xaaf46008
+0x0100000b BF_SUB2    25  dorm                          0     0      8192       0   0%    0xaaf48808
+0x0100000d SEQ_VW0    25  wasp  mbx     0x01000009      0     0     10240       0   0%    0xaaf4d008
+0x0100000e SEQ_VW1    25  wasp  mbx     0x0100000a      0     0     10240       0   0%    0xaaf50008
+0x0100000f SEQ_VW2    25  wasp  mbx     0x0100000b      0     0     10240       0   0%    0xaaf53008
+0x01000010 SEQ_VW3    25  wasp  mbx     0x0100000c      0     0     10240       0   0%    0xaaf56008
+0x01000011 SEQ_VW4    25  wasp  mbx     0x0100000d      0     0     10240       0   0%    0xaaf59008
+0x01000012 SEQ_VW5    25  wasp  mbx     0x0100000e      0     0     10240       0   0%    0xaaf5c008
+0x01000013 SEQ_VW6    25  wasp  mbx     0x0100000f      0     0     10240       0   0%    0xaaf5f008
+0x01000014 SEQ_VW7    25  wasp  mbx     0x01000010      0     0     10240       0   0%    0xaaf62008
+0x01000015 SEQ_VW8    25  wasp  mbx     0x01000011      0     0     10240       0   0%    0xaaf65008
+0x01000016 SEQ_VW9    25  wasp  mbx     0x01000012      0     0     10240       0   0%    0xaaf68008
+0x01000017 SEQ_VW10   25  wasp  mbx     0x01000013      0     0     10240       0   0%    0xaaf6b008
+0x01000018 SEQ_VW11   25  wasp  mbx     0x01000014      0     0     10240       0   0%    0xaaf6e008
+0x01000019 SEQ_VW12   25  wasp  mbx     0x01000015      0     0     10240       0   0%    0xaaf71008
+0x0100001a SEQ_VW13   25  wasp  mbx     0x01000016      0     0     10240       0   0%    0xaaf74008
+0x0100001b SEQ_VW14   25  wasp  mbx     0x01000017      0     0     10240       0   0%    0xaaf77008
+0x0100001c SEQ_VW15   25  wasp  mbx     0x01000018      0     0     10240       0   0%    0xaaf7a008
+0x0100001d SEQ_VW16   25  wasp  mbx     0x01000019      0     0     10240       0   0%    0xaaf7d008
+0x0100001e SEQ_VW17   25  wasp  mbx     0x0100001a      0     0     10240       0   0%    0xaaf80008
+0x0100001f SEQ_VW18   25  wasp  mbx     0x0100001b      0     0     10240       0   0%    0xaaf83008
+0x01000020 SEQ_VW19   25  wasp  mbx     0x0100001c      0     0     10240       0   0%    0xaaf86008
+0x01000021 SEQ_VW20   25  wasp  mbx     0x0100001d      0     0     10240       0   0%    0xaaf89008
+0x01000022 SEQ_VW21   25  wasp  mbx     0x0100001e      0     0     10240       0   0%    0xaaf8c008
+0x01000023 SEQ_VW22   25  wasp  mbx     0x0100001f      0     0     10240       0   0%    0xaaf8f008
+0x01000024 SEQ_VW23   25  wasp  mbx     0x01000020      0     0     10240       0   0%    0xaaf92008
+0x01000025 SEQ_VW24   25  wasp  mbx     0x01000021      0     0     10240       0   0%    0xaaf95008
+0x01000026 SEQ_VW25   25  wasp  mbx     0x01000022      0     0     10240       0   0%    0xaaf98008
+0x01000027 SEQ_VW26   25  wasp  mbx     0x01000023      0     0     10240       0   0%    0xaaf9b008
+0x01000028 SEQ_VW27   25  wasp  mbx     0x01000024      0     0     10240       0   0%    0xaaf9e008
+0x01000029 SEQ_VW28   25  wasp  mbx     0x01000025      0     0     10240       0   0%    0xaafa1008
+0x0100002a SEQ_VW29   25  wasp  mbx     0x01000026      0     0     10240       0   0%    0xaafa4008
+0x0100002b SEQ_VW30   25  wasp  mbx     0x01000027      0     0     10240       0   0%    0xaafa7008
+0x0100002c SEQ_VW31   25  wasp  mbx     0x01000028      0     0     10240       0   0%    0xaafaa008
+0x0100002d SEQ_VW32   25  wasp  mbx     0x01000029      0     0     10240       0   0%    0xaafad008
+0x0100002e SEQ_VW33   25  wasp  mbx     0x0100002a      0     0     10240       0   0%    0xaafb0008
+0x0100002f SEQ_VW34   25  wasp  mbx     0x0100002b      0     0     10240       0   0%    0xaafb3008
+0x01000030 SEQ_VW35   25  wasp  mbx     0x0100002c      0     0     10240       0   0%    0xaafb6008
+0x01000032 SEQ_VW37   25  wasp  mbx     0x0100002e      0     0     10240       0   0%    0xaafbc008
+0x01000033 SEQ_VW38   25  wasp  mbx     0x0100002f      0     0     10240       0   0%    0xaafbf008
+0x01000034 SEQ_VW39   25  wasp  mbx     0x01000030      0     0     10240       0   0%    0xaafc2008
+0x01000042 H264LCD    25  dorm                          0     0      8192       0   0%    0xaaff2808
+0x01000043 H264HDMI   25  dorm                          0     0      8192       0   0%    0xaaff5008
+0x0100009d AHIP_ELL   25  dorm                          0     0     32768       0   0%    0xab0bb008
+0x0100004b H265LCD    25  dorm                          0     0      8192       0   0%    0xab00b008
+0x0100004c H265HDMI   25  dorm                          0     0      8192       0   0%    0xab00d808
+0x01000075 IQ_REGWR   24  wasp  flg     0x01000032      0     0      4096       0   0%    0xab06c808
+0x01000076 IQ_REGTC   26  wasp  flg     0x01000072      0     0      4096       0   0%    0xab06e008
+0x0100004e XCD_DECE   26  dorm                          0     0      8192       0   0%    0xab014808
+0x01000091 PCIE_RC    27  dorm                          0     0      4096       0   0%    0xab0a3808
+0x01000092 PCIE_EP    27  dorm                          0     0      4096       0   0%    0xab0a5008
+0x01000093 SLIMBUS    27  dorm                          0     0      4096       0   0%    0xab0a6808
+0x01000053 DEMUX      27  dorm                          0     0     28672       0   0%    0xab026008
+0x01000050 XCD_CNCT   27  dorm                          0     0      8192       0   0%    0xab019808
+0x0100008e 3A_1       27  wasp  flg     0x01000160      0     0      4096       0   0%    0xab09f008
+0x0100008f 3A_2       27  rdy                           0     0      4096       0   0%    0xab0a0808
+0x01000090 3A_3       27  rdy                           0     0      4096       0   0%    0xab0a2008
+0x01000074 SENMDCHG   27  wasp  flg     0x0100006d      0     0      8192       0   0%    0xab06b008
+0x01000037 AUDIO_OT   27  wasp  flg     0x01000039      0     0     12288       0   0%    0xaafcd008
+0x01000036 AUDIO_CP   27  wasp  flg     0x01000038      0     0     12288       0   0%    0xaafc9808
+0x01000035 AUDIO_ED   27  wasp  flg     0x0100003a      0     0     14336       0   0%    0xaafc6008
+0x01000008 3A_0       27  wasp  flg     0x01000033      0     0      4096       0   0%    0xaaf42008
+0x010000d7 audproc    27  wasp  flg     0x010001b9      0     0     28672   28184  98%    0xab259808  Audio Proc Task
+0x0100009e GTM        28  wasp  flg     0x01000175      0     0      4096       0   0%    0xab0bc808
+0x010000a4 IQCSHDtk   28  wasp  flg     0x0100017b      0     0      8192       0   0%    0xab0c5808
+0x0100004f XCD_DECC   28  dorm                          0     0      8192       0   0%    0xab017008
+0x01000051 XCD_ENCC   28  dorm                          0     0      8192       0   0%    0xab01c008
+0x0100009f IQCAGtsk   28  wasp  flg     0x01000176      0     0      8192       0   0%    0xab0bf008
+0x01000052 XCD_ENCE   29  dorm                          0     0      8192       0   0%    0xab01e808
+0x010000da recAETrg   30  wasp  flg     0x010001cf      0     0     18432   18024  97%    0xab275008  Record AudEnc Trig Task
+0x0100004d XCD_CTR    30  dorm                          0     0     16384       0   0%    0xab012008
+0x0100003d H264DISP   31  dorm                          0     0      8192       0   0%    0xaafe4008
+0x01000044 H265DISP   31  dorm                          0     0      8192       0   0%    0xaaff7808
+0x01000047 H265_VEC   32  dorm                          0     0      8192       0   0%    0xaafff008
+0x0100003e H264_CC    32  dorm                          0     0      8192       0   0%    0xaafe6808
+0x01000045 H265_CC    32  dorm                          0     0      8192       0   0%    0xaaffa008
+0x01000048 H265_CC1   32  dorm                          0     0      8192       0   0%    0xab001808
+0x0100003f H264_ENT   33  dorm                          0     0      8192       0   0%    0xaafe9008
+0x01000046 H265_ENT   33  dorm                          0     0      8192       0   0%    0xaaffc808
+0x01000040 H264_VEC   33  dorm                          0     0      8192       0   0%    0xaafeb808
+0x0100003a AHIP_PD    35  dorm                          0     0     32768       0   0%    0xaafdd808
+0x01000039 AHIP_FD    35  wasp  flg     0x0100003c      0     0      4096       0   0%    0xaafd5008
+0x01000041 H264CTRL   36  dorm                          0     0     16384       0   0%    0xaaff0008
+0x01000049 H265CTRL   36  dorm                          0     0     16384       0   0%    0xab006008
+0x010000c1 GP_AWB     41  wasp  flg     0x010001bc      0     0     24576   22508  91%    0xab1ba008  GP_AWB_Task
+0x0100003b AE         41  dorm                          0     0      4096       0   0%    0xaafdf008
+0x010000c0 GP_AE      41  wasp  flg     0x010001bb      0     0     24576   22620  92%    0xab1b3808  GP_AE_Task
+0x01000009 AWB        41  dorm                          0     0      4096       0   0%    0xaaf43808
+0x010000c5 GP_GTM     41  wasp  flg     0x010001c0      0     0     26624   20188  75%    0xab1e0808  GP_GTM_Task
+0x010000d8 audvr      49  wasp  flg     0x010001ce      0     0     36864   36448  98%    0xab263008  Voice Recog Task
+0x010000c8 touchDev   50  wasp  flg     0x010001c3      0     0     18432   17936  97%    0xab1fa008  ft6306_touch_device_task
+0x010000dc frmBuf     50  wasp  flg     0x010001d4      0     0     24576   23236  94%    0xab283008  Frame Buffer Task
+0x010000b4 mcuIRQ     50  wasp  flg     0x0100017e      0     0     24576   24152  98%    0xab152808  MCU IRQ Event Task
+0x010000b3 cevadspD   50  wasp  rmbf    0x0100000f      0     0     18432   18044  97%    0xab14c008  CEVADSP_DEBUG
+0x01000072 IPCUFSRV   51  wasp  flg     0x0100006b      0     0      8192       0   0%    0xab066008
+0x01000003 FS_RECV    51  wasp  mbx     0x01000001      0     0      8192       0   0%    0xaaf32808
+0x010000b7 BMI260Ta   51  wasp  flg     0x01000180      0     0     20480   11324  55%    0xab167008  BMI260 Sensor task
+0x01000073 VBDRECV    51  wasp  flg     0x0100006c      0     0      8192       0   0%    0xab068808
+0x010000b8 dbmd4      55  wasp  flg     0x01000181      0     0     20480   19056  93%    0xab16c808  dbmd4_task
+0x01000007 CMD_OBSR   56  wasp  dly                     0     0     32768       0   0%    0xaaf40808
+0x0100005c UART_RX    56  wasp  dly                     0     0     32768       0   0%    0xab041008
+0x010000c7 Imgstitc   57  wasp  rmbf    0x01000019      0     0     32768   31348  95%    0xab1f5008  Imgstitch Datasrc task
+0x010000d3 Imgcap D   57  wasp  sem     0x010000e3      0     0     32768   32348  98%    0xab242808  Imgcap Datasrc task
+0x010000bd dfsWrt     58  wasp  flg     0x01000186      0     0     25600   25056  97%    0xab19f408  DFS File write task
+0x010000db stillRec   59  wasp  flg     0x010001d1      0     0     28672   28048  97%    0xab27c808  Still Record Evt Task
+0x01000060 IPCU2      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab048008
+0x01000061 IPCU3      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab049808
+0x01000062 IPCU4      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab04b008
+0x0100005e IPCU0      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab045008
+0x010000ea xcJpgIn    60  wasp  flg     0x010001e8      0     0     28672   28216  98%    0xab2f6808  xcode_jpeg_input_task
+0x010000e9 xcDmxOut   60  wasp  flg     0x010001e7      0     0     28672   28208  98%    0xab2ef008  xcode_demux_output_task
+0x01000071 VFS_RECV   60  dorm                          0     0      8192       0   0%    0xab063808
+0x010000e8 xcMuxIn    60  wasp  flg     0x010001e9      0     0     28672   28016  97%    0xab2e7808  xcode_mux_input_task
+0x010000e7 meditTrm   60  wasp  rmbf    0x01000026      0     0     28672   28204  98%    0xab2e0008  medit_trim_task
+0x010000d9 recSrvcE   60  wasp  flg     0x010001cf      0     0     52224   51816  99%    0xab270408  Record Service Evt Task
+0x01000005 BOOTLOAD   60  dorm                          0     0      4096       0   0%    0xaaf36808
+0x010000e2 recMetaE   60  wasp  flg     0x010001dd      0     0     52224   51816  99%    0xab2b3c08  Record Metadata Evt Task
+0x010000e1 datacap    60  wasp  flg     0x010001dc      0     0     24576   24112  98%    0xab2a6808  datacap task
+0x0100006f IPCU17     60  dorm                          0     0      4096       0   0%    0xab05e808
+0x0100006d IPCU15     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab05b808
+0x0100006c IPCU14     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab05a008
+0x0100006e IPCU16     60  dorm                          0     0      4096       0   0%    0xab05d008
+0x01000063 IPCU5      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab04c808
+0x01000064 IPCU6      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab04e008
+0x0100005f IPCU1      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab046808
+0x010000de pbMov      60  wasp  flg     0x010001d5      0     0     28672   27928  97%    0xab293008  pb_movie_task
+0x01000065 IPCU7      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab04f808
+0x01000066 IPCU8      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab051008
+0x01000067 IPCU9      60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab052808
+0x01000068 IPCU10     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab054008
+0x010000c9 usb        60  run                           0     0     32768   30588  93%    0xab202808  USB
+0x01000070 VFS_SEND   60  dorm                          0     0      8192       0   0%    0xab061008
+0x01000069 IPCU11     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab055808
+0x0100006a IPCU12     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab057008
+0x0100006b IPCU13     60  wasp  flg     0x0100005b      0     0      4096       0   0%    0xab058808
+0x010000e0 stilDisp   61  wasp  rmbf    0x01000023      0     0     24576   24244  98%    0xab2a0008  Still Display Task
+0x010000a5 MACROERR   61  wasp  flg     0x0100017c      0     0      4096       0   0%    0xab0c7008
+0x01000006 UART_CTL   62  wasp  slp                     0     0      4096       0   0%    0xaaf38008
+0x010000df stillDec   62  wasp  rmbf    0x01000022      0     0     24576   24244  98%    0xab299808  Still Decoder Task
+0x010000f2 strmIpc    64  wasp  rmbf    0x01000005      0     0     24576   24204  98%    0xab332008  Streamer IPC task
+0x010000c3 GP_IQM     65  wasp  flg     0x010001be      0     0     40960   40560  99%    0xab1cf008  GP_IQM_Task
+0x010000c2 GP_ACLS    65  wasp  flg     0x010001bd      0     0     40960   27100  66%    0xab1c4808  GP_ACLS_Task
+0x010000c4 GP_MS      65  wasp  flg     0x010001bf      0     0     40960   40132  97%    0xab1d9808  GP_MS_Task
+0x010000ed taraApp    80  wasp  rmbf    0x0100002b      0     0     32768   28768  87%    0xab30a008  Tara Application
+0x010000ce dafScene   80  wasp  flg     0x010001c8      0     0     32768   25820  78%    0xab224008  DAF_SceneClass_Th
+0x010000cf yuvCp      80  wasp  flg     0x010001c7      0     0     20480   19508  95%    0xab229808  YUV_Copy_Th
+0x010000ec voiceCUI   80  wasp  rmbf    0x01000029      0     0     24576   24124  98%    0xab301808  Voice Control Pseudo UI
+0x010000bc dfsSDMon   80  wasp  flg     0x01000185      0     0     49152   46700  95%    0xab18a808  dfs_sd_monitor_SD
+0x010000dd playback   80  wasp  rmbf    0x01000020      0     0     32768   32324  98%    0xab28b808  Playback task
+0x010000e6 medit      80  wasp  rmbf    0x01000025      0     0     32768   32380  98%    0xab2d8808  medit_main_task
+0x010000e5 CAH        90  wasp  flg     0x010001e1      0     0     36864   36432  98%    0xab2d0008  CAH task
+0x010000d6 gpsUART    99  wasp  slp                     0     0     18432   17284  93%    0xab252008  GPS_UART
+0x010000b9 frwledta   99  wasp  flg     0x01000182      0     0     20480   19512  95%    0xab172008  Framework Led Task
+0x010000ef remBcPac  100  wasp  rmbf    0x0100002c      0     0     32768   32372  98%    0xab318008  REMOTE_BACPACTask
+0x010000f0 remWIFI   100  wasp  rmbf    0x0100002d      0     0     32768   31888  97%    0xab320808  REMOTE_WIFITask
+0x010000ee cclProxy  100  wasp  flg     0x010001eb      0     0     20480   20088  98%    0xab30f808  CCL Proxy Task
+0x010000d5 gpsComm   100  wasp  flg     0x010001cb      0     0     20480   18452  90%    0xab24d008  GPS COMM
+0x010000d0 btnGPIO_  100  wasp  flg     0x010001c9      0     0     20480   19488  95%    0xab22f008  Button etask hal
+0x010000cd bacpacGn  100  wasp  rmbf    0x0100001b      0     0     20480   19836  96%    0xab21b808  Generic Bacpac Task
+0x010000cc bleMetad  100  wasp  rmbf    0x01000007      0     0     24576   24188  98%    0xab216008  ble metadata task
+0x010000cb kwMetada  100  wasp  rmbf    0x01000008      0     0     24576   24148  98%    0xab20f808  kirkwood metadata task
+0x010000ca usbIPC    100  wasp  rmbf    0x0100000a      0     0     24576   22652  92%    0xab209008  USB IPC task
+0x010000be Dump_Th   100  wasp  sem     0x010000d1      0     0     20480   20028  97%    0xab1a4808  DUMP_TASK
+0x010000bb pollTsk   100  wasp  flg     0x01000184      0     0     24576   22900  93%    0xab17e008  Platform HAL Poll Task
+0x010000b6 DPTask    100  wasp  flg     0x0100017f      0     0     32768   32376  98%    0xab161808  DP Work task
+0x010000b5 ledDrv    100  wasp  rmbf    0x01000010      0     0     24576   23656  96%    0xab159008  act9150_led_driver_task
+0x010000b1 ipcGPDEV  100  wasp  rmbf    0x0100000c      0     0     32768   32420  98%    0xab142808  IPC Gpdev Channel Task
+0x010000b0 ipcTCHAN  100  wasp  rmbf    0x0100000b      0     0     32768   31956  97%    0xab13a008  IPC Test Channel Task
+0x010000af ipcWfiBt  100  wasp  rmbf    0x01000004      0     0     32768   32012  97%    0xab131808  IPC wifibt helper task
+0x010000e3 wiman     100  wasp  rmbf    0x01000024      0     0     36864   35672  96%    0xab2bd008  WiMan task
+0x010000e4 wipc      100  wasp  rmbf    0x01000006      0     0     36864   35556  96%    0xab2c6808  WiMan IPC task
+0x010000ae dbProxy   100  wasp  sem     0x010000cd      0     0     41984   41588  99%    0xab129408  DB Proxy Task
+0x010000ad csc       100  wasp  rmbf    0x0100001d      0     0     36864   18164  49%    0xab0f6008  CSC task
+0x010000ac wqShrt1   100  wasp  sem     0x010000cb      0     0     20480   18732  91%    0xab0ec808  systemwq_short
+0x010000ab wqShrt0   100  wasp  sem     0x010000cb      0     0     20480   18700  91%    0xab0e7008  systemwq_short
+0x010000f1 cscAsync  101  wasp  rmbf    0x0100002e      0     0     43008   42348  98%    0xab32b808  CSC async task
+0x010000d1 spydTxTh  120  wasp  sem     0x010000df      0     0     20480   19108  93%    0xab234808  spydTxThread
+0x010000d2 spydRxTh  121  wasp  sem     0x010000e2      0     0     20480   19436  94%    0xab23a008  spydRxThread
+0x010000a8 wqLong0   125  wasp  sem     0x010000c9      0     0     20480   19852  96%    0xab0d6808  systemwq_long
+0x010000a9 wqLong1   125  wasp  sem     0x010000c9      0     0     20480   20100  98%    0xab0dc008  systemwq_long
+0x010000d4 SD Logge  130  wasp  flg     0x010001ca      0     0     18432   18000  97%    0xab247808  SD Logger Task
+0x01000096 IDLE2     137  rdy                           0     0      4096       0   0%    0xab0ab008
+0x01000094 IDLE0     137  rdy                           0     0      4096       0   0%    0xab0a8008
+0x01000095 IDLE1     137  rdy                           0     0      4096       0   0%    0xab0a9808
+0x01000001 InitTask  250  rdy                           0     0     24576       0   0%    0xaad37808
