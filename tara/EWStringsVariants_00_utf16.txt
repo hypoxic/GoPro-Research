@@ -1,0 +1,1216 @@
+Hypoxic's GoPro Camera Embedded Wizard String Variants Decompressor.
+Extracted from read.bin
+[a38d771c] DONE
+[a3c48ca0] POWERING OFF ...
+[a38d1de8] BACK
+[a38d7c80] EXIT
+[a38e0598] EXIT
+[a38d8bf0] EXIT
+[a38e0ea4] BURST
+[a38d1e48] N/A
+[a38da97c] OFF
+[a38d11ec] OK
+[a38de768] RESET
+[a38d1180] Cancel
+[a38d9e4c] YES
+[a3b4c084] 4K
+[a38de480] Spanish (EU)
+[a38de870] @ %1 fps
+[a38e1524] NO
+[a38dd3fc] NO THANKS
+[a38d5f10] CONNECT
+[a38de558] GET AUTOMATIC EDITS
+[a38d6090] Don't show again
+[a38da298] ON
+[a3b51b44] Delete
+[a3b53210] 1080
+[a2b42550] N/A
+[a3b595e0] Saves your photos as both .jpg and .gpr files.
+
+RAW files cannot be produced if HDR is on or SuperPhoto is set to Auto.
+
+[a3b56478] Sets your GoPro to automatically select the best image processing for your shot. 
+[a3b4d6a4] Captures photos using HDR processing. For use in high contrast scenes with minimal motion.
+[a3b51f4c] Captures photos without additional image processing. 
+
+[a3b4cf44] Tip: 5 hours of recording creates about 10 sec 
+of time lapse video.
+[a3b561cc] Tip: 5 min of recording creates about 20 sec 
+of time lapse video.
+[a3b53590] Tip: 5 min of recording creates about 10 sec 
+of time lapse video.
+[a3b5c22c] Tip: 10 min of recording creates about 10 sec 
+of time lapse video.
+[a3b540e8] Tip: 1 hour of recording creates about 20 sec 
+of time lapse video.
+[a3b51e14] Tip: 1 hour of recording creates about 10 sec 
+of time lapse video.
+[a3b5b11c] Tip: 5 hours of recording creates about 20 sec 
+of time lapse video.
+[a3b4e72c] Select the level of processing to create a raw audio track for your video.
+[a3b5b098] Applies processing based on the Manual Audio Control setting (wind and/or stereo).
+[a3b59f08] Applies minimal processing.
+[a3b53aac] Applies full audio processing including wind and/or stereo and automatic gain.
+[a3b51a9c] Supports line-level output from other audio equipment.
+[a3b53518] Supports self-powered mics.
+[a3b5b7f4] Supports self-powered mics and provides 20db boost.
+[a3b555c4] Supports non-powered mics.
+[a3b53204] Supports non-powered mics and provides 20db boost.
+[a38e0b80] Supports self-powered
+mics and provides
+20dB boost
+[a38d1a10] Supports line-level
+output from other
+audio equipment
+[a3b5aa14] Set Wi-Fi band. Select 5GHz only if your phone supports it.
+[a38d7ab8] Applies only if you are
+connecting to a device that
+can use the 2.4GHz band
+[a38deef0] Downloading Files
+[a2b3f040] OFF
+[a3b5af24] Temporarily disabled
+[a3b4ceb4] Play back your media 
+on a big screen when connected to an HDTV with a micro HDMI cable (sold separately). 
+
+[a3b5a198] Display camera’s live view (including camera info) on an HDTV when connected with a micro HDMI cable (sold separately).
+[a3b59124] Show camera’s live view (without camera info) on an HDTV when connected with a micro HDMI cable (sold separately).
+[a3b4d974] Leave off to keep your screen right-side up when you rotate your camera. 
+[a3b5188c] Locks your screen in landscape orientation (with footage right-side up) when your camera is mounted upside down.
+[a3c3ca24] Keeps your screen right-side up when you rotate your camera.
+[a3b5adc8] RAW temporarily disabled
+[a38dfb48] Camera busy
+[a38d12e8] GO TO:
+
+-SETUP- CAMERA UPDATE
+
+TO UPDATE LATER
+[a38e0874] Go to
+Setup/Camera Update
+to update later
+[a38d5980] UPDATE
+[a3cfdfac] LATER
+[a38dcd8c] A CAMERA UPDATE IS AVAILABLE
+[a38d3a64] Update
+[a38d236c] A camera update is available.
+Update now?
+[a38da634] YOUR CAMERA BATTERY LEVEL IS TOO LOW
+[a38d726c] Your camera battery level
+is too low
+[a38dfb60] Your items have been successfully shared
+[a38de5dc] Delete in progress. . .
+[a38d239c] One or more of the selected files cannot be deleted, because it is currently being shared.
+[a38dafa0] SD CARD IS FULL
+
+BCST WILL CONTINUE
+[a38d2078] SD card is full.
+Recording will stop,
+but live broadcast
+will continue.
+[a38d11b0] STOPPED
+[a38daa54] PAIRING
+[a38d65fc] Pairing stopped
+[a38dfd7c] FAILED
+[a38d5424] Pairing failed
+[a38d23b4] SUCCESS
+[a38da2e0] Wi-Fi Remote mode enabled
+[a38dbcd4] CANCEL
+[a38d1c50] RESET Wi-Fi SETTINGS?
+[a38ddaa4] RESET Wi-Fi
+[a38d8ce0] Reset
+[a38e0964] Reset Wi-Fi Settings?
+[a38e18cc] WIRELESS SETTINGS RESET
+[a38d2004] Wireless settings reset.
+[a3bf2b40] OK
+[a38d4c60] Low Battery
+[a3bea6fc] Format
+[a3bea66c] Cancel
+[a3c0e154] Formatting your card is the only way to fix it, but it will delete your media.
+[a3c18598] SD CARD ERROR
+[a3bf8760] GoPro App
+[a3c2f7e4] Set Manually
+[a3c38b80] Automatically update by connecting to the GoPro app or set them manually.
+[a3bfe334] UPDATE DATE + TIME
+[a3c05188] OK
+[a3bebfec] Open the app and connect your camera. The date and time will be automatically updated.
+[a3c32044] Set Now
+[a3c2e62c] Your Videos and Photos won't have 
+the right time and date.
+[a3bdfbbc] ARE YOU SURE?
+[a3c32454] BATTERY LOW
+POWERING OFF
+[a3c0040c] SD Card Full
+[a38dd288] SD Card is Empty
+[a3bf0a3c] No SD Card
+[a3bf6dec] INSERT SD CARD
+[a38e111c] SD Card is Busy
+[a38da880] BUSY
+[a38e02fc] SD CARD
+ERROR
+[a3c21344] UPDATE COMPLETE
+[a3c14fc4] UPDATE FAILED
+[a3c029ac] DOWNLOAD FAILED
+[a3c22d78] REPAIR FAILED
+[a3c0c604] Your file couldn't be fixed.
+[a2b3ba94] FILE
+CANNOT BE
+REPAIRED
+[a2b42100] REPAIRING
+FILE
+[a3c027e4] REPAIRING YOUR FILE
+[a3be6dd4] Please wait ...
+[a3c05600] FILE REPAIRED
+[a2b41c38] FILE
+REPAIRED
+[a3b4f0f0] Auto Upload will start when
+ your camera's battery is charged.
+[a3c27598] UPLOAD ERROR
+[a3c25174] Connect your GoPro to a 
+power outlet and try again.
+[a38d1384] GoPro Plus currently unavailable
+[a3bed68c] UPLOAD ERROR
+[a3be35d8] 3GB of free space needed on SD card.
+[a3bee734] NO MEDIA TO UPLOAD
+[a3be2888] Cancel
+[a3bf1da4] STARTING UPLOAD
+[a3bfd180] Checking for new media ...
+[a3b50ca4] Not Enough SD Card Space
+[a38dd1f8] NOT
+ENOUGH
+SPACE ON
+SD CARD
+[a3cfde3c] Not Enough SD Card Space
+[a3c09728] USB CONNECTED
+[a38d13fc] GoPro Plus subscription error
+[a38d7bcc] No new media to upload
+[a38d7788] PHOTOS
+[a38d1fe0] MOMENTS
+[a38d6698] HILIGHTS
+[a38debd8] VIDEOS 
+[a3b50d34] Looping
+[a3b5bd1c] PHOTO
+[a2b3e3b8] NIGHT
+[a2b410b4] BURST
+[a2b38f08] VIDEO
+[a3b5b8d8] Time Lapse Photo
+[a2b3f25c] NT LAPSE
+[a38d2b1c] Playback
+[a2b38e00] PLAYBACK
+[a3b5b51c] TimeWarp Video
+[a2b3e670] T L VIDEO
+[a3b5ae28] MAX
+[a38d5fd0] LOCK
+[a3c4885c] Off
+[a3c4a308] 3s
+[a3c4a4fc] 10s
+[a38d1b6c] OFF
+[a38d7800] 15 SEC
+[a38de2dc] 30 SEC
+[a3b4d1e8] VIDEO
+[a38d7a40] VIDEO + PHOTO
+[a38e1950] VID + PHO
+[a38d1af4] LOOPING
+[a38da4c0] LOOPING
+[a3c49208] TimeWarp
+[a38e0c4c] T L VIDEO
+[a38d5084] T LAPSE
+[a38d157c] T L PHO
+[a38e0a18] LINR
+[a38d1264] WIDE
+[a38dd984] SUPER
+[a38d65c0] MED
+[a38de36c] NARROW
+[a38e1008] N
+[a3c065d4] 13mm
+[a3c200dc] Widest, most immersive field of view ever on a GoPro.
+[a38d9058] WIDE
+[a3c4b45c] On
+[a3b59f7c] 16:9
+[a3b534a0] Media
+[a3b5b008] 4:3
+[a3b5a7a0] Live
+[a3bfaba0] ORIENTATION
+[a3bf7768] All
+[a38da778] AUTO
+[a3c0640c] Landscape
+[a38e07cc] NT L PHO
+[a3be0d74] Mode
+[a3c42370] HERO
+[a3c39508] Take traditional videos 
+and photos using the 
+front or back lens. 
+[a3bff004] Capture full 360 spherical videos and photos. 
+[a3c14ccc] Record only in 360 spherical sound.
+[a3bf669c] Match Lens
+[a3c17cfc] Prioritize audio coming from the side of the camera being used. 
+[a3c02874] Back
+[a3c2a8cc] Prioritize audio coming from behind the camera (touch screen side).
+[a3be8920] Front
+[a3c0f7fc] Prioritize audio coming from the front of the camera (non-touch screen side).
+[a3c0d038] Stereo
+[a3c39454] Record only in stereo.
+[a3c2c160] 360 + Stereo
+[a3c179a4] Record simultaneously in stereo and 360 spherical sound.
+[a3bfdd80] Off
+[a3c26bf0] Captures audio with Wind-Noise Reduction off.
+[a3c19030] On
+[a3be0498] Always filters out excessive wind noise. 
+[a3be1080] Auto
+[a3c07b80] Automatically filters out excessive wind (and water) noise.
+[a3c19308] 19mm
+[a38de408] 3 Frames / Second
+[a38de570] 5 Frames / Second
+[a38d16b4] 10 Frames / Second
+[a38d9c0c] INTERVAL
+[a38d4d08] seconds
+[a3c48c04] 0.5s
+[a38d9b64] 0.5 SEC
+[a3c48024] 1s
+[a38de3f0] 1 SEC
+[a3c488ec] 2s
+[a38d2480] 2 SEC
+[a3c47b50] 5s
+[a38de6d8] 5 SEC
+[a3c49660] 10s
+[a38d1998] 10 SEC
+[a3c49b70] 30s
+[a38ddbc4] 30 SEC
+[a3c49898] 60s
+[a38d24ec] 60 SEC
+[a38d8d70] PHOTO INTERVAL
+[a3b4d98c] 60
+[a38d78a8] 60 SEC
+[a3c4b1a4] 30s
+[a3c4a284] 10s
+[a38e0850] 5
+[a38da8ec] 5 SEC
+[a38d9708] 0.5
+[a38e09d0] 10 SEC
+[a38d9304] 30 SEC
+[a38e10a4] second
+[a38d6ef0] 5 MIN
+[a38dbe54] 20 MIN
+[a38d1684] 60 MIN
+[a38e0bd4] 120 MIN
+[a3c4b570] Max
+[a38d89a4] 4K SuperView
+[a38dee78] 4K S
+[a3b4d7e8] 2.7K
+[a38dee48] 2.7K SuperView
+[a38dcd60] 2.7K S
+[a38e12f0] 2.7K 4:3
+[a3b5aa2c] 1440
+[a38daa3c] 1080 SuperView
+[a38daa18] 1080 S
+[a3b5a984] 960
+[a3b580c4] 720
+[a38da2ec] 720 SuperView
+[a38d1030] 720 S
+[a38dd408] 480
+[a38dee0c] 480
+[a3b50cb0] 240
+[a3b59a34] 120
+[a3b56130] 100
+[a38d5f40] 90
+[a38d50fc] 80
+[a38d2a68] 48
+[a3b5bcb0] 30
+[a3b51574] 24
+[a38da67c] 15
+[a3b5beb4] FRAMES PER SECOND
+[a3b5c034] 200
+[a38d2e58] 50
+[a38d1b90] 25
+[a3c47a48] 2300K
+[a3b54058] 2800K
+[a3c48b80] 2800K
+[a3b59ad0] 3200K
+[a38d7430] 3000K
+[a38d8b6c] 3000K
+[a3b4f078] 4000K
+[a38d148c] NATIVE
+[a38d34e4] AUTO
+[a3b4d280] 4500K
+[a38d93a0] 4800K
+[a38d6764] 4800K
+[a3b54118] 5000K
+[a3b5a0a8] 5500K
+[a3b53fe0] 6000K
+[a3b5b860] 6500K
+[a38d9a44] NATIVE
+[a38e0610] FLAT
+[a38e1440] GOPRO
+[a38e129c] FLAT
+[a38d1c38] AUTO
+[a3b51784] 400
+[a3b51778] 800
+[a38dea2c] 1000
+[a38d4c6c] 1200
+[a3b50f74] 1600
+[a3b5ac18] 3200
+[a3b51b50] 6400
+[a38d1ec0] LOW
+[a38ddb1c] MED
+[a38d3a40] HIGH
+[a38de258] LOW
+[a38d9ca8] MED
+[a3b4dd58] -2.0
+[a3b5bc08] -1.5
+[a3b5bba8] -1.0
+[a3b564cc] -0.5
+[a3b5aeac]  0
+[a3b54ddc] 0 
+[a3b5aff0] +0.5
+[a3b54034] +1.0
+[a3b53f38] +1.5
+[a3b4da40] +2.0
+[a38d79c8] NIGHT
+[a38da724] BURST
+[a38d80e8] BURST
+[a38d7ce0] 12MP / Wide
+[a38def5c] 2 SEC
+[a38dbd7c] 5 SEC
+[a38d1150] 10 SEC
+[a38d9d20] 15 SEC
+[a38dfcec] 20 SEC
+[a38dd384] 30 SEC
+[a38d204c] Video Settings
+[a3b59a28] MODE
+[a38e0d78] FPS
+[a38e102c] Field Of View
+[a38d1cd4] LOW LIGHT
+[a38e1434] Spot Meter
+[a3b53bc0] SPOT METER
+[a3b5b800] Protune
+[a3b4c588] PROTUNE
+[a38d1f68] WHITE BAL
+[a3b5c588] COLOR
+[a38d2dd4] ISO Limit
+[a38e174c] ISO LIMIT
+[a3b4d71c] SHARPNESS
+[a38d2d98] EV Compensation
+[a3b51bec] EV COMP
+[a38d4ef8] Reset Protune
+[a38da358] RESET PT
+[a3b4d8e4] RESET
+[a38d1618] CANCEL
+[a38d4f28] RESET
+PROTUNE
+DEFAULTS?
+[a38d8064] Reset Protune to defaults?
+[a3b4eebc] SHUTTER
+[a38d99cc] Photo Settings
+[a38d7d04] Megapixels
+[a38d8d88] MEGAPIXELS
+[a38d1198] Rate
+[a38e1890] RATE
+[a38d66c8] WDR
+[a3c4abf8] HDR
+[a38e0754] 1/12.5
+[a38e1a58] 1/12.5
+[a38dd9c0] 1/15
+[a38d56cc] 1/15
+[a38de1c8] 1/24
+[a38d600c] 1/24
+[a38de1d4] 1/25
+[a38d6018] 1/25
+[a38e0be0] 1/30
+[a38dd6d0] 1/30
+[a38d4d98] 1/48
+[a38d6c1c] 1/48
+[a38dfb9c] 1/50
+[a38d76a4] 1/50
+[a3b5bdb8] 1/60
+[a38e13f8] 1/80
+[a38d93ac] 1/80
+[a38e180c] 1/90
+[a38d23c0] 1/90
+[a38e1818] 1/96
+[a38d9c24] 1/96
+[a38d743c] 1/100
+[a38dfb18] 1/100
+[a3b5b1ac] 1/120
+[a38da670] 1/160
+[a38d1588] 1/160
+[a38dbc50] 1/180
+[a38d23d8] 1/180
+[a38dcdbc] 1/192
+[a38d2b04] 1/192
+[a38da730] 1/200
+[a38d1630] 1/200
+[a3b51b68] 1/240
+[a38dfc80] 1/320
+[a38d6264] 1/320
+[a38daa6c] 1/360
+[a38def68] 1/360
+[a38e195c] 1/400
+[a38dbc44] 1/400
+[a3b53428] 1/480
+[a3b50f80] 1/960
+[a38d575c] 1/800
+[a38dfb6c] 1/1600
+[a38d89b0] 1/3200
+[a38de96c] 1/3840
+[a3b515ec] RAW AUDIO
+[a38d2f80] OFF
+[a3c4a074] Low
+[a3c4aec0] Medium
+[a38e13ec] MED
+[a3c49fe4] High
+[a38d58f0] HIGH
+[a3c26318] QUIKCAPTURE DEFAULT
+[a3c07fa0] Choose the default QuikCapture camera mode.
+[a3c2cf9c] Last Used
+[a3c0c574] HERO
+[a3b52538] RESOLUTION
+[a38ddf48] 2.7K4:3
+[a38d16cc] WVGA
+[a38d7818] T LAPSE VID
+[a38d61bc] NIGHT LAPSE PHOTO
+[a38e1380] NIGHT
+[a3c49d9c] 10s
+[a3c4a0f8] 15s
+[a3c4a200] 30s
+[a38d9480] photos per second
+[a3c47acc] 3/1s
+[a3c47bec] 5/1s
+[a3c4b3d8] 10/1s
+[a3c48d24] 30/1s
+[a3b4cda0] 10/2s
+[a3b518d4] 30/2s
+[a3c49814] 10/3s
+[a3c4af50] 30/3s
+[a3b5844c] 30/6s
+[a38d5744] Shutter Dependent
+[a38e1224] 4 SEC
+[a38d8154] 5 SEC
+[a38daef0] 15 SEC
+[a38e0b08] 20 SEC
+[a38d6740] 1 MIN
+[a38e08ec] minute
+[a38d6f50] 2 MIN
+[a38d7338] 5 MIN
+[a38d57dc] minutes
+[a38dc8e4] 30 MIN
+[a38dc3cc] 60 MIN
+[a38dee30] Multi-Shot Settings
+[a38d7950] AUTO LOCK
+[a38d937c] Locks the touch display
+after a period of
+inactivity
+[a38d1f38] 5 SEC
+[a3b5856c] 1 Min
+[a3b5613c] English
+[a3b5b830] Français
+[a3b54064] Deutsch
+[a3b5bf44] Italiano
+[a3b51ac0] Español
+[a3b5b534] 日本語 
+[a3b5acb4] 한국어 
+[a3b5b014] Português
+[a3b50cbc] Pусский 
+[a38dd300] Supports self-powered mics
+[a38d9fb4] Supports non-powered mics
+[a38e19d4] Supports non-powered
+mics and provides
+20dB boost
+[a3c47858] Auto
+[a3b5bda0] 2x
+[a3b4d9a4] 5x
+[a3b584f4] 10x
+[a3b5c040] 15x
+[a3b52790] 30x
+[a3b59aac] 60x
+[a3b5aab0] 150x
+[a3c09154] Record stereo sound using all microphones.
+[a38de960] Select supported fps
+[a3b5ac0c] Turn On Protune for manual control of Color, ISO Limit, Exposure and more.
+[a3c2484c] Lens
+[a3be7698] Wide (16mm)
+[a3bf8448] Wind
+[a3bfb150] WIND REDUCTION
+[a38de9c0] 90
+[a38de4d4] 80
+[a38dbc38] 48
+[a38d9edc] 15
+[a3b5bec0] 200
+[a38dcd6c] 50
+[a38ddabc] 25
+[a38e0a6c] 12.5
+[a38d2ecc] 12.5
+[a38dab20] 30/1
+[a3be8480] CAMERA MODE
+[a3b5b950] Large field of view that captures as much as possible in the frame.
+[a3b53ed8] Speed up and stabilize your video by 30x.
+
+Tip: 5 min of recording creates about 10 sec 
+of TimeWarp video.
+[a38dd6dc] 10
+[a3b519c4] If you connect to a network or use wireless offload, the camera will turn off connection to Remote Control.
+[a38e15a8] CONNECTED
+[a38d73f8] CONNECTED DEVICES
+[a3b51664] Remo (Voice Remote)
+[a3b4c078] FORGET %1?
+[a3b5b9e0] FACTORY RESET
+[a3b51808] YES
+[a3b5c124] Yes
+[a38e1530] REMO
+[a38dceb8] Disconnected
+[a38e1800] Connected
+[a3b53fb0] With Remo off, press the Power button on Remo for 8 seconds.
+[a3b5bd94] CONNECT REMO
+[a38d9aec] Smart Remote
+[a38dec74] Sorry, the use of the Wi-Fi remote is not compatible with Network Mode
+[a3b53b48] Keep
+[a38d500c] as Voice Control language?
+[a3b5554c] 中文 
+[a38da448] ENABLE
+[a38d7b54] DISABLE
+[a38da5b0] DEVICE FORGOTTEN 
+[a3b5120c] Beep Volume
+[a3c33768] QuikCapture 
+Default
+[a38da658] DISP BRT
+[a38d6258] ON CAMERA VOICE
+CONTROL
+[a38d1a88] OFF
+[a3bfbe8c] Orientation
+[a38ddcb4] DISP SLEEP
+[a3b5c510] Never
+[a3b5c19c] REGULATORY
+[a3b4d2f8] Regulatory
+[a3b50d40] NTSC
+[a3b5c594] PAL
+[a3b4f048] LEDs
+[a3b55540] Monitor
+[a3b4bee0] Reset Defaults
+[a3b5ab94] No
+[a3c4b4f8] Burst
+[a38d4f94] WIND
+[a38d804c] Wind Only
+[a38d7fd4] Stereo Only
+[a38ddc9c] STEREO
+[a3b50db8] Resolution
+[a38d66ec] Frames Per Second
+[a38d8b30] INTERVAL
+[a3b5bfbc] Interval
+[a38da9e8] VID STB
+[a3b5aca8] VIDEO STABILIZATION
+[a3b50f44] Color
+[a38dfc74] WHT BAL
+[a3b5bb48] Shutter
+[a3b509cc] ISO Min
+[a3b4efd0] ISO Max
+[a3b4bf7c] Sharpness
+[a3b56358] RAW AUDIO
+[a38d9db0] MAN AUDIO
+[a38da538] RESET
+[a38dda80] RESET
+PROTUNE
+DEFAULTS
+?
+[a3b51d84] Reset
+[a3b5af9c] Cancel
+[a38d7cb0] MP
+[a38d7c98] Mode
+[a3b4d394] White Balance
+[a3c487d8] Native
+[a38dd414] 2
+[a38d4d38] 5
+[a38def80] 10
+[a38d69b8] 15
+[a38dcd98] 20
+[a3c4ae30] 4s
+[a3b53c38] 20s
+[a3c49928] 30s
+[a3c4ab40] 1m
+[a3c4a17c] 2m
+[a3c491d8] 5m
+[a3b51e8c] 30m
+[a3c48b38] 60m
+[a38d8488] 1/125
+[a38e0d90] 1/125
+[a38de1bc] 1/250
+[a38d4bc4] 1/250
+[a38d3a4c] 1/500
+[a38dbb20] 1/500
+[a38e0fa8] 1/1000
+[a38d7ad0] 1/1000
+[a38d7cbc] 1/2000
+[a38d9f0c] 1/2000
+[a3b5c07c] FOV
+[a3bfb024] Horizon Leveling
+[a3c23910] Capture video with a 
+level horizon.
+[a3c0cdec] Wind Reduction
+[a3b9ce20] Select level of processing to create a RAW Audio track for your video.
+[a3c0cd5c] Microphones
+[a3b5b194] Burst Rate
+[a3b562e0] Set how many photos your camera will take in a 1, 2, 3 or 6 second burst. 
+[a3bf52a8] Horizon Leveling
+[a3b51544] Interval
+[a38d9d38] White Balance
+[a3c175b8] Set the level of detail in your videos and photos.
+[a3b51c64] VIDEO SETTINGS
+[a3c48868] RAW
+[a3b4d848] SUPERPHOTO
+[a3c1c170] Off
+[a3c0a324] HERO Video
+[a3c0a2a0] 360 Video
+[a3c2791c] HERO Photo
+[a3c38af0] HERO PowerPano
+[a3bf6d5c] 360 Photo
+[a3bf2ccc] HERO TimeWarp
+[a3c02754] 360 TimeWarp
+[a38dd9a8] LOW LIGHT DISABLED DUE TO FPS
+[a38d7350] Low Light disabled due to FPS
+[a38d8cf8] N/A DUE TO SHUTTER SETTING
+[a38dda08] Not available due to shutter setting
+[a38d9ad4] FORGET DEVICE
+[a38decf8] Forget this device?
+[a38dcd00] CONNECTED
+[a3b599bc] Try again: With Remo off, press the Power button on Remo for 8 seconds.
+[a3b50954] EV Comp
+[a38e0cb8] NO
+[a38dea20] RES
+[a38de81c] SAVING
+[a38e0700] No SD Card
+[a2b426c4] RESET
+[a2b4231c] CANCEL
+[a38da808] FILE CANNOT BE PLAYED
+[a38deaa4] HiLight limit reached
+[a38e0e14] HiLight tagged
+[a38d1504] MEDIA
+[a38e0d30] MEDIA FILTER
+[a2b3f914] RESET
+PROTUNE
+DEFAULTS?
+[a2b3ac54] RESET PT
+[a2b41af4] BUSY
+[a2b41fc8] NO SD
+[a2b38e84] FULL
+[a2b39ea8] SD ERR
+[a2b38ce0] 2.7K S
+[a2b3e244] 120
+[a2b39f44] 60
+[a2b3e5f8] 20
+[a2b3cf3c] 5
+[a2b3b254] 4
+[a2b3adc8] 30
+[a2b37f68] 2
+[a2b4060c] 20
+[a2b42aac] 15
+[a2b3b290] 60
+[a2b3b878] 30
+[a2b3828c] 10
+[a2b42394] 5
+[a2b39208] 2
+[a2b3e340] 1
+[a2b3ed20] 0.5
+[a2b3d0ec] 4K
+[a2b3f65c] 1080
+[a2b3e718] 1080 S
+[a2b42dac] 1440
+[a2b42d28] 100
+[a2b39b90] 2.7K 4:3
+[a2b3e730] 120
+[a2b4115c] 12.5
+[a2b3c858] 4K
+[a2b3ce04] 15
+[a2b3cfc0] 4K S
+[a2b3df74] 24
+[a2b3fae8] 480
+[a2b38e0c] 720
+[a2b3bab8] 240
+[a2b42c68] 720 S
+[a2b42f8c] 30
+[a2b3b3bc] 960
+[a2b41dac] 25
+[a2b3fb18] 48
+[a2b38c68] 200
+[a2b41a7c] 60
+[a2b40d90] 50
+[a2b42ad0] 80
+[a2b4350c] 90
+[a2b3e5e0] DONE
+[a2b4090c] TIME
+[a38da3d0] DONE
+[a2b3ca44] AM
+[a2b3caec] CONNECT
+[a2b40df0] PREF
+[a2b4103c] FORGET
+[a2b3e2ec] SMT RC
+[a2b3b524] VIDEO
+[a2b3bb6c] VIDEO
+[a2b40fc4] VID + PHO
+[a2b39e18] LOOPING
+[a2b3cb7c] MODE
+[a2b3cee8] PHOTO
+[a2b39334] BURST
+[a2b3d0d4] NIGHT
+[a2b3a640] MAX
+[a38d8a40] Min
+[a2b3ae40] L
+[a2b40d6c] W
+[a2b3b650] M
+[a2b3ca08] S
+[a38da694] Color
+[a2b3cc60] FLAT
+[a2b391e4] GOPRO
+[a2b3be60] ISO LIMIT
+[a2b40810] 6400
+[a2b39f38] 3200
+[a2b3f1c0] 1600
+[a2b3f1d8] 1200
+[a2b3b038] 800
+[a2b3fba8] 400
+[a2b4264c] 200
+[a2b3cf9c] 100
+[a2b3e4a8] SHARPNESS
+[a2b402bc] HIGH
+[a2b39ca4] MED
+[a2b3b98c] LOW
+[a38daddc] EV Compensation
+[a2b435b4] -2.0
+[a2b41108] -1.5
+[a2b43560] -1.0
+[a2b3b608] -0.5
+[a2b40648] 0
+[a2b3bfbc] +0.5
+[a2b4069c] +1.0
+[a2b3b1e8] +1.5
+[a2b406f0] +2.0
+[a2b42b18] AUTO
+[a2b42010] 1/12.5
+[a2b3bc98] 1/15
+[a2b3c984] 1/24
+[a2b3e55c] 1/25
+[a2b3d0e0] 1/30
+[a2b42034] 1/48
+[a2b3f364] 1/50
+[a2b4063c] 1/60
+[a2b3be78] 1/80
+[a2b3cf18] 1/90
+[a2b4273c] 1/96
+[a2b3c96c] 1/100
+[a2b3bb9c] 1/120
+[a2b3ace4] 1/160
+[a2b41388] 1/180
+[a2b41e48] 1/192
+[a2b3ca80] 1/200
+[a2b42700] 1/240
+[a2b39a58] 1/320
+[a2b3adb0] 1/360
+[a2b3c840] 1/400
+[a2b42c80] 1/480
+[a2b40f28] 1/720
+[a2b41b0c] 1/960
+[a2b3cf0c] 1/640
+[a2b3c9e4] MAX
+[a2b3fac4] LOCK
+[a2b4228c] WIND
+[a2b3fa4c] STEREO
+[a2b3c4a4] MED
+[a2b38928] HIGH
+[a2b43500] COLOR
+[a2b421fc] EV COMP
+[a2b41878] SHUTTER
+[a2b3f394] 2
+[a2b3bbb4] 5
+[a2b3b3b0] 10
+[a2b3a2e0] 15
+[a2b42d1c] 20
+[a2b3ef50] 30
+[a2b38f20] 3/1
+[a2b3c78c] 5/1
+[a2b3fb00] 10/1
+[a2b3aedc] 10/2
+[a2b41db8] 10/3
+[a2b3c780] 30/1
+[a2b37528] 30/2
+[a2b3e568] 30/3
+[a2b3b398] 30/6
+[a2b3d1a0] AUTO
+[a2b3cf90] FOV
+[a2b3ccd8] T L VID 
+[a2b3aec4] T LAPSE
+[a38d2aec] Sec
+[a2b3cdc8] GPS
+[a2b43270] ON
+[a2b3d044] BEEP VOL 
+[a2b425c8] HIGH
+[a2b42e24] MED
+[a2b416d4] LOW
+[a2b4240c] MUTE
+[a2b391fc] ENG
+[a2b418f0] ENGLISH
+[a2b3abdc] FRA
+[a2b3bb90] DEU
+[a2b42ac4] ITA
+[a2b3caf8] ESP
+[a2b3af00] 简中 
+[a2b42b24] 日本語 
+[a2b38310] 한국어 
+[a2b38c5c] POR
+[a2b40d78] РУС 
+[a2b37aa0] GERMAN
+[a2b427cc] CHINESE
+[a2b3bf50] 1 MIN
+[a2b42f80] 2 MIN
+[a2b3e334] 3 MIN
+[a2b3f34c] NEVER
+[a2b42bb4] MON
+[a2b41e30] MEDIA
+[a2b42da0] LIVE
+[a3b585e4] DATE FORMAT
+[a3b5c028] 15s
+[a3b52238] 30s
+[a3b5c600] 3s
+[a3b584d0] 10s
+[a2b40ef8] LOW LIGHT
+[a38d4e10] OFF
+[a38dd978] AUTO
+[a2b3bdac] AUTO
+[a2b3bc50] 2300K
+[a2b3af3c] 2800K
+[a2b3b278] 3000K
+[a2b3ca74] 3200K
+[a2b43494] 4000K
+[a2b41e60] 4500K
+[a2b38bfc] 4800K
+[a2b3cf00] 5500K
+[a2b392bc] 6000K
+[a2b419ec] NATIVE
+[a2b37cdc] 6500K
+[a2b3d428] RES
+[a2b3b164] 4K S
+[a2b3b23c] 2.7K
+[a2b424f0] 2.7K
+[a2b38034] 2.7K S
+[a2b388b0] 2.7K
+[a2b42298] 1440
+[a2b38d70] 1080
+[a2b3bad0] 1080 S
+[a2b3b044] 960
+[a2b3ab70] 720
+[a2b393d0] 720 S
+[a38de1a4] WVGA
+[a2b3c4c8] 480  
+[a2b41b9c] WHITE BAL
+[a2b38844] INTERVAL
+[a2b3cb04] 1
+[a2b3dfec] ROTATE
+[a2b37d54] UP
+[a2b39070] DOWN
+[a2b407d4] ALL ON
+[a2b3c8dc] OFF
+[a2b40e74] FT OFF
+[a2b3ca50] NTSC
+[a2b39214] PAL
+[a2b3cbe8] AUTO OFF
+[a2b42634] 5 MIN
+[a2b39ab8] 10 MIN
+[a2b38304] 15 MIN
+[a2b3f740] DISP BRT
+[a2b3a358] LOW
+[a2b3f6d4] ON CAM
+[a3b51ed4] HEVC
+[a3b57558] H.264 & HEVC
+[a3b5ad44] RAW
+[a38d898c] HDR
+[a2b38bd8] YES
+[a2b3cdbc] NO
+[a2b390f4] PAIRING
+[a2b377e4] CON-
+NECTED
+[a2b3b848] PUT APP
+IN PAIRING
+MODE
+[a2b39dac] FINISH
+PAIRING
+ON APP
+[a2b3b440] CAM NAME:
+[a2b42c38] PASSWORD:
+[a2b3acd8] YEAR
+[a2b4249c] DAY
+[a2b39178] MONTH
+[a2b41740] DATE
+[a2b3bcd4] AM/PM/24
+[a2b40894] MINUTE
+[a2b40600] HOUR
+[a2b3ea00] ACCY MIC
+[a2b3ce70] MIC
+[a2b42220] QUIKCAP
+[a38dab08] Shutter button auto-powers
+up your GoPro and starts recording:
+Short press for video
+Long press for time lapse
+[a3b5bf38] WAKE ON VOICE
+[a38d2d80] Lets you use voice commands to turn on your GoPro or start recording video (lasts 8 hours after powering off)
+[a2b3928c] DFLT MODE
+[a2b3a964] VID+PH
+[a2b3f818] LOOP
+[a2b3c834] BURST
+[a2b42178] NIGHT
+[a2b39fbc] T L VID 
+[a2b3f7a0] T LAP
+[a2b42388] NT LAP
+[a2b3b02c] PHOTO
+[a2b41a70] PUT RC IN PAIRING MODE
+[a2b3ae1c] APP
+[a2b3f1e4] REMO
+[a2b3e238] OK
+[a2b42a94] HILIGHT
+TAGGED
+[a2b393b8] FORGET
+TING
+DEVICE
+[a3b4c0cc] Auto
+[a3b572a4] EXPOSURE LOCK TEMPORARILY DISABLED
+[a3b4be68] Turn HDR off to lock exposure.
+[a2b41d94] N/A
+UNDER
+APP
+CONTROL
+[a2b3b4b8] N/A
+UNDER
+WIRELESS
+CONTROL
+[a2b3bef0] N/A
+UNDER
+Wi-Fi RC
+CONTROL
+[a2b3776c] VERSION:
+[a2b3f9f8] STOPPED
+[a2b3a2d4] PRESS
+SHUTTER
+TO CANCEL
+[a2b3b320] BACK
+[a2b3b134] AUT UPLD
+[a2b3bcb0] GOPRO+
+[a2b3bd64] RESET CAM
+[a2b3abd0] I/O
+[a2b3afc0] GENERAL
+[a2b407e0] HDMI
+[a2b4075c] AUDIO IN
+[a2b3fc2c] NM & PWD
+[a2b42d10] ALL CONNEC-
+TIONS RESET
+[a2b3ba10] DEFAULTS
+[a2b3f974] REGIONAL
+[a2b3c954] LANGUAGE
+[a2b39c08] VID FRMT
+[a2b3f13c] VOICE CTL
+[a3b5b224] VOICE CONTROL
+[a3b5be3c] Wake on Voice
+[a2b3c7bc] APP
+[a2b41974] CONN DEV
+[a2b41d10] WI-FI RC
+[a2b3e430] TOUCH DIS
+[a2b41ca4] SCRNSAVER
+[a38d2e4c] Auto Lock
+[a2b39d34] TCH DSPLY
+[a38d2034] Brightness
+[a38d6000] Orientation
+[a38d9a5c] To turn display on
+please use front display
+[a38da61c] Camera Reset
+[a2b391d8] LEDs
+[a2b39f20] CAM INFO
+[a2b3b5a8] UPDATE
+[a38d6144] CAMERA INFORMATION
+[a2b37910] DATE FRMT
+[a2b37fe0] CAM INFO
+[a2b3ad98] VOICE CTL
+[a2b41ee4] DELETE
+[a2b42f14] EXIT
+[a2b38ff8] DELETE
+[a2b3879c] ENABLE
+[a2b3a5e0] ENTER PIN
+INTO
+APP
+[a2b38280] FPS
+[a3b4dddc] SHORT CLIPS
+[a2b3b38c] VID STB
+[a2b3ad08] PROTUNE
+[a2b3dab8] ISO MIN
+[a2b43204] ISO MAX
+[a38d9b88] Sharpness
+[a2b3b6d4] RAW AUDIO
+[a2b42e9c] MAN AUDIO
+[a2b3fb9c] RESET PT
+[a38d2cfc] Interval
+[a2b39b30] ISO MODE
+[a2b3e544] SPOT MTR
+[a3b56250] Speed
+[a38d1bfc] INTRVL
+[a2b39cbc] ISO
+[a3b59ff4] PHOTO TIMER
+[a2b41f68] RATE
+[a38d69c4] Protune
+[a3b4cf68] RAW
+[a2b3bb0c] RAW
+[a3b4ce18] CONNECTIONS
+[a2b3efc8] RESET CONN
+[a2b3f0b8] RESET
+ALL
+CONN?
+[a2b41400] PAIR
+[a2b3e2c8] NETWORK
+[a2b38d64] A TOUCH
+DISPLAY IS
+REQUIRED
+TO ADD A
+NETWORK
+[a2b3c540] NETWORK
+[a2b417e8] TRY AGAIN
+[a2b3b8f0] FAILED
+[a2b3b0bc] LAST
+[a38d93d0] All / Format
+[a2b38f80] FRMT SD
+[a38e0a90] ALL / FORMAT
+[a2b3f1b4] DELETE
+[a2b3a8e0] DELETE
+LAST?
+[a2b3f644] FORMAT
+[a2b39454] FORMAT
+WILL
+DELETE
+ALL
+FILES
+[a2b3d4c4] SD CARD 
+ IS EMPTY
+[a2b37880] RESET
+DEFAULTS
+[a2b3cd5c] RESET TO
+CAMERA
+DEFAULTS?
+[a2b3b758] RST DFLT
+[a2b3b7d0] FAC RESET
+[a2b3bc2c] UPDATE
+[a2b3e6e8] RST/FRMT
+[a38e14b8] I acknowledge that I have read
+and agree to GoPro's Terms of Use
+and Privacy Policy
+[a38d8a28] CANCEL
+[a38e1194] TRY AGAIN
+[a38daf74] NEXT
+[a3b541d8] DOWNLOADING UPDATE ...
+[a38de8e8] LATER
+[a3b5bad0] READY
+[a38d5e8c] Install the GoPro app on
+your phone, then follow the
+steps for QuikStories
+[a38e0054] Set Up QuikStories
+[a38db018] SETUP CANCELED
+[a38ddc3c] You can set up QuikStories later through the GoPro app
+[a38d10e4] UPLOADING
+[a38e1ae8] UPLOAD STOPPED
+[a38dbdf4] UPLOAD STOPPED
+[a38daa78] A B C
+[a38dee00] Sorry, the Wi-Fi network type is not supported
+[a38da220] WIRELESS
+[a38d7830] PUT RC IN PAIRING MODE
+[a38d8a58] PAIRING FOR:
+
+[a38dae84] To resume upload, reconnect to outlet
+[a38d5968] GoPro Plus storage full
+[a38d4ea8] 3GB needed to upload media
+[a38d72e4] Check Wi-Fi connection and try again
+[a38d8c68] Set up this feature on the GoPro app
+[a38d3204] CONN TO
+[a38d93e8] Your HERO4 is now connected to SSID
+
+[a3b59aa0] Stop
+[a38d7380] No Network available
+[a38d50e4] NO SD
+[a2b3da34] HILIGHT
+TAGGED
+[a3bb5a64] LiveBurst
+[a3bf3ac8] 360 Video
+[a3becb44] PowerPano
+[a3c27634] 360 Photo
+[a3c21650] 360 TimeWarp
+[a3c2ad60] 360 TIMEWARP
+[a3b5ab1c] 120m
+[a3b5ba4c] 20m
+[a38d8b3c] 10/2
+[a38d1594] 10/3
+[a38d2da4] 30/6
+[a38d5114] 5/1
+[a38d12f4] 10/1
+[a38d2e64] 3/1
+[a38d653c] 30/2
+[a38dadf4] 30/3
+[a38deb58] 2.0
+[a38de5c4] 1.5
+[a38deb10] 1.0
+[a38da604] 0.5
+[a38d7c08] 100
+[a38d8ac4] NAR
+[a3b5a734] English (UK)
+[a3b5a06c] English (US)
+[a3b590ac] English (AUS)
+[a3b563dc] Portuguese (BR)
+[a3b516dc] Spanish (NA)
+[a3b5194c] English (IND)
+[a3b5aaa4] Spanish (EU)
+[a38dedd0] Delete the upload in progress?
+[a38dae00] BUSY
+[a38de66c] NO SD
+[a38d1d58] FULL
+[a3b5a120] Try again?
+[a38d586c] Pairing
+[a3b58b9c] Stabilization Not Supported
+[a3b59e6c] HyperSmooth Stabilization
+[a3b50e9c] Standard Stabilization
+[a3c0c370] Timer Off
+[a3c33a50] 3 Sec
+[a3be22cc] 3 Seconds
+[a38ded58] Med
+[a38dfbfc] Med
+[a3c0824c] POWERPANO
+[a3bf9b4c] Take epic panoramic photos without having to scan the horizon.
+[a3bfa5a8] POWERPANO
+[a3c4519c] Take epic panoramic  photos without having to scan the horizon.
+[a3c015b4] Tap to switch between HERO mode
+and 360 mode.
+[a3bfdc54] LENS SWITCH
+[a3c09554] CAMERA MODE
+[a3c33de8] Tap to switch between HERO mode and 360 mode. 
+[a3c2a340] LENS SWITCH
+[a3bfb4e4] ORIENTATION LOCK
+[a3c473dc] Rotate your camera
+to the orientation
+you want, then
+tap to lock.
+[a3b4d7a0] Delete media from your 
+SD card to free up space.
+[a3b5ad2c] CAMERA STORAGE FULL
+[a3b4ef58] GoPro Capture
+GoPro Stop Capture
+GoPro Start Recording (Wake on Voice)
+GoPro Stop Recording
+GoPro HiLight
+GoPro Take a Photo
+GoPro Shoot Burst
+GoPro Start Time Lapse
+GoPro Stop Time Lapse
+GoPro Video Mode
+GoPro Photo Mode
+GoPro Time Lapse Mode
+GoPro Burst Mode
+GoPro Turn Off
+GoPro Turn On (Wake on Voice)
+[a38d9ed0] SAVING
+[a38e1644] CAMERA NAME
+[a3b4c000] RAW files cannot be generated while using SuperPhoto. The RAW Setting will remain set to ON.
+[a3b4c144] RAW DISABLED
+[a3b51754]  For best results, try speeds 10x and up when shooting footage that may get bumpy. 
+[a3b51d0c] TIMEWARP VIDEO SPEED
+[a3ba556c] REAL TIME
+[a3b868d0] Speed things up, plus switch back and forth to real time with just a tap.
+[a3c1bf90] 360 STABILIZATION
+[a3bfedac] Use the GoPro app 
+to stabilize your 
+360 footage.
+[a3c04ca0] PLAYBACK VIEW

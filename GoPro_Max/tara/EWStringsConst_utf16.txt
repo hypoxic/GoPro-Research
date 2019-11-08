@@ -1,0 +1,2326 @@
+Hypoxic's GoPro Camera Embedded Wizard String Decompressor.
+Extracted from read.bin
+[a2acea8c] Traditional Chinese
+[a2ac6f50] English
+[a2ace80c] French
+[a2ace814] Italian
+[a2ace81c] German
+[a2ac2650] Spanish
+[a2ace824] Chinese
+[a2ace82c] Japanese
+[a2acea6c] Korean
+[a2acea74] Russian
+[a2acea7c] Portuguese
+[a2acea84] Swedish
+[a2abf7cc] MESSAGE
+[a2ac80e8] Text
+[a2ac9d50] Alert Text
+[a2ac9d58] 0
+[a2ac82cc] Warpable Text
+[a2ac6f78] Label
+[a2ace46c] MESSAGE
+LINE TWO
+[a2ac5f50] FDS
+[a2ac6fe8] Value
+[a2ac615c] The property MediaInfo is read-only.
+[a2ac6164] The property MediaType is read-only.
+[a2ac8418] No 'string' value available in the desired system event parameter.
+[a2ac8408] Wrong number of system event parameter.
+[a2ac8410] Access to uninitialized system event parameter.
+[a2ac8420] No 'char' value available in the desired system event parameter.
+[a2ac8428] No 'float' value available in the desired system event parameter.
+[a2ac8430] No 'uint32' value available in the desired system event parameter.
+[a2ac849c] No 'bool' value available in the desired system event parameter.
+[a2ac7694] NoOfItems is READ ONLY
+[a2ac9ce8] You can't restack the views within the list component.
+[a2ac9cf0] You can't remove views from the list component.
+[a2ac9cf8] You can't add views to the list component.
+[a2ac769c] The item doesn't belong to this group
+[a2ac7b88] Item already in a menu
+[a2ac7b90] The aAfter item doesn't belong to this menu
+[a2ad17dc] No item to insert
+[a2ac7b98] No item to append
+[a2ac76ac] The item doesn't belong to this menu
+[a2ac76a4] No item to remove
+[a2ac6154] The dialog is already active.
+[a2ace404] Root::ExternBitmap.OnSetGroupIndex
+[a2aca24c] outside of the rear LCD touch area : 
+[a2aca424] AppE1TakeScreenshot
+[a2aca42c] AppE1EmWiGetDetailedStatus
+[a2ac7a60] Set to:
+[a2ac0034] layout:
+[a2ac1334] Root::UnlockScreen.onActivate
+[a2ac9c50] Root::UnlockScreen.onMove
+[a2ac26b0] Root::UnlockScreen.onHide
+[a2ad134c] >>>>> ON Contextual view, shutter release called
+[a2ad2090] >>>> ResFps Menu Screen, onReleaseMode, Cycle mode is called
+[a2ac6184] Entering function getTagsDuringDecode with fileIndex = 
+[a2ace3fc] Render info: input, output, bufferorientation
+[a2ac7000] Owner dialog is not current, ignore shutter press
+[a2ac84ac] Dialog not exists
+[a2aca28c] Root::Application.onLockScreen
+[a2ac8d68] Root::ToastNotificationRear.onShutterPress
+[a2ac8d70] Root::ToastNotificationRear.onShutterRelease
+[a2ac8d80] Root::ToastNotificationRear.onLongShutterPress
+[a2ac8d88] Root::ToastNotificationRear.onLongShutterRelease
+[a2ac8d78] Root::ToastNotificationRear.onModeRelease
+[a2ac8d90] Root::ToastNotificationRear.onLongModePress
+[a2ac8d98] Root::ToastNotificationRear.onLongModeRelease
+[a2ace4a8] Mode button pressed on File Repair Alert screen
+[a2ace540] Root::BrightnessSlider.onReleaseSlot
+[a2ac9c58] Root::UnlockScreen.onAutoHide
+[a2ac9c60] Root::UnlockScreen.onUnlock
+[a2ac26c8] Root::UnlockScreen.onExitTimer
+[a2ac9c68] Root::UnlockScreen.onShowDrawer
+[a2ac9d20] Root::LockScreenDialog.onLock
+[a2ada1fc] Root::gpSliderControl.ResetControl
+[a2ac53f4] Root::gpZoomSliderControl.onUISync
+[a2acaf78] Root::gpZoomSliderControl.onPresetEditStore
+[a2ad1444] Root::ResFpsScreenRear.UpdateResScreen
+[a2ad144c] Root::ResFpsScreenRear.UpdateFpsScreen
+[a2abfd34] Root::PresetPicker.RemoveViews, remove all views after custom delete operation
+[a2ac616c] AssignBitmap:: Decode Failure- isFileDecoded
+[a2ac61bc] The header should be created with the 'new' operator and may not be added to any other owner component.
+[a2abf080] Root::PresetPicker.onStartMove, start reordering
+[a2ac5404] Root::PresetPicker.onEndMove, stop reordering
+[a2ac80e0] ItemFront.onSetMenuItem: Unknown item type: 
+[a2aca130] Root::ResFpsScreenRear.GetValidResOptionCount
+[a2ad145c] Root::ResFpsScreenRear.GetValidFpsOptionCount
+[a2ad0bc0] Root::ResFpsScreenRear.onActivateItem
+[a2aca7f0] Item with caption 
+[a2aca7f8]  pressed.
+[a2ac61c4] Only subclasses of 'Root::Menu' can be assigned to this property.
+[a2ac26b8] Root::UnlockScreen.onAnimateIcon
+[a2ac26c0] Root::UnlockScreen.onAnimateFinish
+[a2ad1ad4] Root::ResFpsItem.onPressShutter
+[a2adadb0] Invalid system event parameter.
+[a2ac55d4] %%
+[a2ac41b4] 
+
+[a2ad0bd8] Item:
+[a2aca7e8]  is null
+[a2ac84b4] The dialog has no content to show.
+[a2ac9c70] Root::UnlockScreen.onAnimateHeaderDone
+[a2ac9c78] Root::UnlockScreen.onAnimateHeader
+[a2ac84cc] Transition in progress.
+[a2aca414] The dialog is not opened.
+[a2aca41c] The dialog is already opened.
+[a2aca284] __________________________ Root::Application.onRecreateUI _________________________
+[a2aca3ec] ----------SwitchToLowRes------------
+[a2aca3f4] -----------------SwitchToHiRes---------------
+[a2aca40c] Root::Application.LockScreenNow
+[a2aca404] Root::Application.UnlockScreenNow
+[a2ac6874] Caption
+[a2ace67c] 1
+[a2ac6f38] HighLighted item:
+[a2ac6f40] out of 
+[a2ac9834] Remote device pair view, Long shutter press called
+[a2ad1344] >>>>> Contextual view, Long shutter press called
+[a2ad1354] >>>>> ON Contextual view, shutter press called
+[a2acac4c] SUB MODE
+[a2ace310] OFF
+[a2ac6fd0] Label:
+[a2ace484] Default
+[a2ac82b4] ROOT
+[a2ad15f8] 1080
+[a2ad1618] 60
+[a2ad15b0] *********************Root::ResFpsScreenRear.ArrangeResItemsInRow_16_9 top row overflow *************** INVALID
+[a2ad15b8] Root::ResFpsScreenRear.ArrangeResItemsInRow_4_3
+[a2ad15c0] *********************Root::ResFpsScreenRear.ArrangeResItemsInRow_4_3 top row overflow *************** INVALID
+[a2ad9cb0] *********************Root::ResFpsScreenRearCo.ArrangeResItemsInRow top row overflow *************** INVALID
+[a2ad15a0] Root::ResFpsScreenRear.ArrangeFpsItemsInRows
+[a2ad15a8] *********************Root::ResFpsScreenRear.ArrangeFpsItemsInRows bottom row overflow *************** INVALID
+[a2ac4ee8] Root::gpSliderControl.updateLines
+[a2acab2c] snapLine:
+[a2ace6a4] offset:
+[a2ac8460] Show Help
+[a2ac8eb0] Message
+[a2ad1a68] NA
+[a2ad1ac4] 4:3
+[a2ac9f0c] Root::LockScreenDialog.onUpdateLock
+[a2aca188] SSID
+[a2acaf48] x
+[a2ad0bc8] Root::ResFpsScreenRear.onSave
+[a2ad0bd0] >>>> setting the video resolution
+[a2ac4378] Root::ResFpsScreenRearCo.UpdateResValueItems
+[a2aca150] Root::ResFpsScreenRear.ProcessResScreen Activate , focusedItem:
+[a2aca158] Root::ResFpsScreenRear.ProcessResScreen, MAP Index : 
+[a2ad13e4] Root::ResFpsScreenRear.ProcessResScreen
+[a2ad13ec] Activate , focusedItem:
+[a2ad13f4] Root::ResFpsScreenRear.ProcessFpsScreen, MAP Index : 
+[a2ad13fc] Root::ResFpsScreenRear.UpdateResValues
+[a2ad1434] Root::ResFpsScreenRear.UpdateFpsValues
+[a2ad1acc] .
+[a2aca800] Content
+[a2aca35c] Standard
+[a2aca364] Activity
+[a2ac414c] Cinematic
+[a2ad01c4] Custom
+[a2aca38c] Tavel
+[a2aca394] Ski
+[a2aca3e4] Snow
+[a2ac4194] Travel1
+[a2ac419c] Bike
+[a2ac41ac] Air
+[a2acae20] Root::PresetPicker.traceList, preset order changed
+[a2abf054] Root::PresetPicker.traceList, Focus is null
+[a2ace5d4] Root::PresetPickerCo.fillList, populate list
+[a2abf398] Root::PresetPicker.onAddPreset, Add a new preset
+[a2abf640] Root::PresetPicker.SetPreset, set index: 
+[a2abf648] Root::PresetPicker.SetPreset, invalid current profile mode: 
+[a2acc8f8] Root::PresetPicker.HilightActivePreset, current profile: 
+[a2acc900] Root::PresetPicker.HilightActivePreset, invalid current profile mode: 
+[a2acc908] Root::PresetPicker.onEdit, Item with caption 
+[a2acc910]  start edit.
+[a2acc918] Root::PresetPicker.onEdit, Invalid profile mode: 
+[a2ac5d68] Root::PresetPicker.onDeletePreset, Item with caption 
+[a2acc920]  is tapped for deletion operation
+[a2acc928] Root::PresetPicker.onDeletePreset, Invalid CurrentProfileMode: 
+[a2acc930] Root::PresetPicker.onYes, Delete or restore preset.
+[a2acc938] Root::PresetPicker.updateCurrPresetCount
+[a2acc940] Root::PresetPicker.updateCurrPresetCount, invalid current profile mode: 
+[a2ace5dc] Root::PresetPickerCo.LoadPresetData, currentProfile: 
+[a2ace5e4] Root::PresetPickerCo.LoadPresetData, invalid current profile preset: 
+[a2ad143c]  | 
+[a2ace63c] Invalid choice
+[a2acec08] -
+[a2ac7bf8] Remaining photos = 
+[a2ac7be0] AvStillCaptureStart param = 
+[a2ac7bc8] AVRECORD DONE--
+[a2ac7bd0] Total videos = 
+[a2ac7bd8] Remaining video time = 
+[a2ac8d60] Root::ToastNotificationRear.OnSetAlertText
+[a2ac9898] Upload Error
+[a2ac6b44] EXIT
+[a2ac8efc] YES
+[a2ac8f04] NO
+[a2ac9cd0] Enter Edit mode: 
+[a2ad0bb0] Root::ResFpsScreenRear.Init
+[a2acb068]  fps
+[a2ad055c] Require FPS changes
+[a2ac9b88] 240
+[a2ac5f58] Root::ResFpsScreenRear.UpdateResValueItems
+[a2ac53ec] Root::PresetPicker.fillList, populate list
+[a2ac558c] Root::PresetPicker.LoadPresetData, currentProfile: 
+[a2abf638] Root::PresetPicker.LoadPresetData, invalid current profile preset: 
+[a2adf584] ItemRear.onSetMenuItem: Unknown item type: 
+[a2adf764] SSID
+[a2ae014c] Header
+[a2ae02ec] Body
+[a2adc41c] VideoProtuneAudio: hnge method called
+[a2adc414]  ######## selitem
+[a2adf110] alpha:
+[a2adcd1c]  thinFont 
+[a2addbdc] %%
+[a2addd5c] ItemFront.onSetMenuItem: Unknown item type: 
+[a2adf108] RootTav::ToastNotification.onModeRelease
+[a2adb8bc] Invalid OSC button id
+[a2adf194]  | 
+[a2adf19c]  
+[a2adf1a4]  (
+[a2adf1ac] )
+[a2addba0] Ignore the battery status during transfer is progress
+[a2adc424] RootTav::SecondaryMenuScreenRearB.onExternalMicStatusChange MicConnectStatus :
+[a2adc5b0] RootTav::SecondaryMenuScreenRearA.onExternalMicStatusChange MicConnectStatus :
+[a2adf148] RootTav::SecondaryMenuScreenSliderRear.onExternalMicStatusChange MicConnectStatus :
+[a2adc43c] Setupscreen
+[a2adc5a8] RootTav::SecondaryMenuScreenRearA.Init
+[a2ae0708] RefreshDialogs()
+[a2ae07d0] Delete Complete
+[a2ae0718]  OnCardStatus:: Card Status Changed from [
+[a2ae0720] ] to [
+[a2ae0758] ]
+[a2ae0768] language changed to 
+[a2ae0770] Capture Photo Started
+[a2ae0710] Received RealTimeFocus event in Dialogs::Application
+[a2ae07fc] Input key: 
+[a2ae0728] BT Connected status
+[a2ae0730]  Scan param2 No of Bt sensors %d
+[a2ae0740] KIRKWOOD: Application->onKirkwoodConnectedStatus
+[a2ae0748] RootDialogs::Application.onAutoScreenLockTimer
+[a2ae0750] Locking screen
+[a2ae0760] RootDialogs::Application.onTouchDisplayLock
+[a2ae06f8] Start Photo Capture
+[a2ae0778]  ms
+[a2ae0738] ##MIC Connected status
+[a2ae0780] Mode button long press
+[a2ae0788] >>>> Dialog application Offload Network Scan Status
+[a2ae0700] GpUI 1.0
+[a2ae07c8] RootDialogs::Application
+[a2ae06f0] Later
+[a2ae1090] ignore the UI sync, Preset edit via APP in Progress
+[a2ae10a0] Application onUISync: New flat mode: 
+[a2ae10a8] THIS PHOTO COMBINATION iS ALLOWED
+[a2ae10b8] >>>>>> 2 driver UI flat mode : 
+[a2ae0de4] >>>>>> 3 driver UI class  : 
+[a2ae0dec] >>>>>> 4 driver UI sync : 
+[a2ae0e34] onUISync: New mode 
+[a2ae1534]  does not match current mode 
+[a2ae0df4] >>>>>> Calling Application, close to Dialog : 
+[a2ae10b0] APPC and UI flat modes dont match. RETURN
+[a2ae153c] RootDialogsCo::ApplicationCo.ShowCardStatus
+[a2ae10f0] RootDialogsCo::ApplicationCo.onPressShutterExt onShutterHandlerExt
+[a2ae154c] RootDialogsCo::ApplicationCo.onFwUpdate
+[a2ae0d2c] FWUpdateNotifyDownloadCanceled
+[a2ae0e14] SETUP CANCELLED
+[a2ae0d8c] Powering down
+[a2ae0d34] Update Available Alert Ready to Show
+[a2ae0dcc] FWUpdateNotifyBatteryLow
+[a2ae0d1c] FWUpdateNotifyDownloading
+[a2ae1554] FWUpdateNotifyStart - Step = 
+[a2ae0d24] FWUpdateNotifyDownloadFailed
+[a2ae0e0c] SETUP ERROR
+[a2ae0d44] Press and hold the Mode button
+to power off camera, and try again
+[a2ae0dbc] FWUpdateNotifyDone
+[a2ae0d14] FWUpdateNotifyFailed
+[a2ae0d94] RootDialogsCo::ApplicationCo.onUSBInserted 
+[a2ae0db4] Mode button long press
+[a2ae10d0] File Repair failed = 
+[a2ae10c0] File Repair start = 
+[a2ae10c8] File Repair success = 
+[a3b5c690] UPLOAD PENDING
+[a2ae17a8] RootDialogsCo::ApplicationCo.switchToIdleMode
+[a2ae17c0] RootDialogsCo::ApplicationCo.onOffloadSDError
+[a2ae0d3c] RootDialogsCo::ApplicationCo.onOffloadNoNewMedia - Offload no new  media showing error screen
+[a2ae0d4c] Application returnToIdleMode: Returning to: 
+[a2ae0d54] Application returnToIdleMode: Idle Dialog class: 
+[a2ae0d64] RootDialogsCo::ApplicationCo.CameraRestart
+[a2ae0dc4] RootDialogsCo::ApplicationCo.onOTAFwUpdateLater Flatmode = 
+[a2ae0ddc] RootDialogsCo::ApplicationCo.onOTAFwUpdateLoaderShown
+[a2ae0d6c] RootDialogsCo::ApplicationCo.onShutDownOnVoice
+[a2ae1544] >>>> Dialog application Connect Status
+[a2ae17b0] BT pairing status
+[a2ae17b8] Unknown BT Pairing status 
+[a2ae0d9c] RootDialogsCo::ApplicationCo.OrientationUpdateHandler
+[a2ae0da4] RootDialogsCo::ApplicationCo.OrientationUpdateHandler, orientation change during video play, do not recreate UI
+[a2ae0dac] Incorrect orientation value:
+[a2ae10e0] RootDialogsCo::ApplicationCo.onNotifyPairing
+[a2ae10d8] RootDialogsCo::ApplicationCo.onNotifyPairing exitLaunchScreenCalled
+[a2ae17a0] Dialogs::Application -> mode release
+[a2ae10e8] Shutter button long press
+[a2ae1100] dialog.IsBlocking
+[a2ae1108] Dialogs::Application.onPressShutter: Calling Shutter-press handler in 
+[a2ae10f8] no current dialog
+[a2ae17c8] RootDialogsCo::ApplicationCo.onOffloadTrigger
+[a2ae1f60] showAlert event sent for invalid alert selector -- no alert shown.
+[a2ae0d5c] BatteryAuthenticationFail: Show warning Alert
+[a2ae0d74] RootDialogsCo::ApplicationCo.onBootUpFromDeadBattery
+[a2ae0ce4] RootDialogsCo::ApplicationCo.onOTAFwUpdateNow
+[a2ae0d7c] RootDialogsCo::ApplicationCo.onMediaOffloadStatus>>> CAH Status event received on Root Dialog
+[a2ae0d84] RootDialogsCo::ApplicationCo.onOrientationFallback
+[a2ae0dd4] RootDialogsCo::ApplicationCo.onOTAFwUpdate
+[a2ae0e3c] onExitLaunchScreen: GetSystemFlatMode() returned 
+[a2ae0e44] onExitLaunchScreen: setting flat mode, entering dialog
+[a2ae0e2c] factory reset
+[a2ae0e24] Application->onExitlaunchScreen: Calling onHDMIStatus 
+[a2ae1e40] RootDialogs::ApplicationTAS
+[a2ae0e1c] Don't show launch screen in case of camera is boot up by settings button
+[a2ae0cec] Sorry, the Wi-Fi network
+ connection has been lost
+[a2ae3940] onSetPhotoStorageChanged: remainingPhotoCount = 
+[a2ae3948] totalPhoto:
+[a2ae2f58] Driver::DriverClass.OnSetTouchDisplayBrightnessRC
+[a2ae550c] Driver::ExposureControllerClass.OnSetIsLocked
+[a2ae3078] Time set to 
+[a2ae3070] A valid Time object expected
+[a2ae7774] Driver::DriverClassTav_Target.OnSetPhotoFOV
+[a2ae5504] Driver::ExposureControllerClass.OnSetIsSet
+[a2ae4dac] Driver::DriverClass.OnGetDefaultVideoClipLength
+[a2ae5600] Multishot ISO limit: value fetached: 
+[a2ae5608] Orientation value Updated
+[a2ae5610] Driver::DriverClassTav_Target.OnGetSetupLEDs
+[a2ae678c] Multishot ISO Lower limit: value fetached: 
+[a2ae773c] Driver::DriverClassTav_Target.OnGetTouchDisplayBrightness
+[a2ae824c] Driver::DriverClassTav_Target.OnGetAspectRatio aspect ratio 
+[a2ae3d98]  UI : Driver::DriverClassTav_Target.OnGetSetupQuickCaptureDefaultMode Received default quick capture mode = 
+[a2ae3da8]  UI : Driver::DriverClassTav_Target.OnGetWindNoiseReduction WindNoiseReduction = 
+[a2ae2ca0]  UI : Driver::DriverClassTav_Target.OnGetLevelHorizon Level horizon = 
+[a2ae676c] Driver::DriverClassTav_Target.ContextualMenuExit Exiting contextual/Preferneces hence toggling the UI Variable --> IsPrefCtxOpened
+[a2ae6794] ExposureSelGetType received error 
+[a2ae8bd0] Driver::DriverClassTav_Target.ResetFactoryDefaults
+[a2ae8ac4] Driver::DriverClassTav_Target.ResetOnScreenControls
+[a2ae6750] Driver::DriverClassTav_Target.ContextualMenuEnter Exntering contextual/Preferneces hence toggling the UI Variable --> IsPrefCtxOpened
+[a2ae8888] Driver::DriverClassTav_Target.SwitchSystemFlatMode 
+[a2ae8890] Driver::DriverClassTav_Target.SwitchSystemFlatMode
+[a2ae4ce0] RESULT:
+[a2ae8b90] Driver::DriverClassTav_Target.SwitchPresetMode 
+[a2ae26f4] Driver::DriverClassTav_Target.SwitchPresetMode
+[a2ae55c0] Year = 
+[a2ae55c8] Month= 
+[a2ae55d0] Day= 
+[a2ae55d8] minutes= 
+[a2ae55e8] Seconds= 
+[a2ae6740] Driver::DriverClassTav_Target.UpdateVideoFPS
+[a2ae6718] Driver::DriverClassTav_Target.GetMainMode
+[a2ae3dc8] :
+[a2ae3ff0] K
+[a2ae4b9c] F
+[a2ae4ba4] ERROR 
+[a2ae4bac]  OCCURRED.
+[a2ae4b94] E
+[a2ae4b8c] D
+[a2ae4b84] C
+[a2ae4b7c] B
+[a2ae4024] A
+[a2ae3068] 9
+[a2ae3060] 8
+[a2ae3058] 7
+[a2ae3038] 6
+[a2ae3030] 5
+[a2ae3028] 4
+[a2ae3020] 3
+[a2ae7f90] 2
+[a2ae401c] 0
+[a2ae2fe4] 1
+[a2ae4ca8] H:
+[a2ae76d4] Driver::DriverClassTav_Target.SwitchMainMode 
+[a2ae76dc] Driver::DriverClassTav_Target.Photo_StartCapture
+[a2ae6730] Target Here
+[a2ae776c] Driver::DriverClassTav_Target.Generic_StopCapture
+[a2ae6738] UpdatePhotoRemainingCount: remainingPhotoCount set via query to 
+[a2ae6748] Driver::DriverClassTav_Target.IsValidFPS
+[a2ae6774] --------------RESTART CAMERA----------------------
+[a2ae677c] SetAnalyticsCancelActions ERROR from appc = 
+[a2ae8898] Driver::DriverClassTav_Target.UpdateVideoCapabilityForResPerFPS
+[a2ae7764] Driver::DriverClassTav_Target.IsValidVideoResForFps
+[a2ae7784] **********************INFO: Clip Ready Status is :: 
+[a2ae77a4] *********************
+[a2ae77ac] *************************************INFO: SD Card Indexed***************************
+[a2ae4034] ##GPS Locked State received is
+[a2ae40bc] isBrightnessSet? = 
+[a2ae895c] ---------RES
+[a2ae77b4] ---------FPS
+[a2ae77bc] ---------FOV
+[a2ae77c4] Driver::DriverClassTav_Target.UpdateVideoCapabilityForFPSPerMobileFriendlyRES
+[a2ae8234] Driver::DriverClassTav_Target.UpdateVideoCapabilityForRESPerMobileFriendlyFPS
+[a2ae823c] Driver::DriverClassTav_Target.IsFPSValidForMobileFriendlyRES
+[a2ae8244] Driver::DriverClassTav_Target.IsRESValidForMobileFriendlyFPS
+[a2ae3c44] UI system error message is: 
+[a2ae8ca0] Driver::DriverClassTav_Target.CancelPhotoTimer
+[a2ae826c] Driver::DriverClassTav_Target.GetValidFPSForRes
+[a2ae8274] Driver::DriverClassTav_Target.GetVideoStabilization
+[a2ae82b4] Driver::DriverClassTav_Target.OnGetisSpherical
+[a2ae2428] Driver::DriverClassTav_Target.GetValidCameraMode
+[a2ae8b78] Driver::DriverClassTav_Target.GetValidLensView
+[a2ae82bc] Driver::DriverClassTav_Target.GetValidCameraMode_LensView
+[a2ae82c4] Driver::DriverClassTav_Target.getBatteryHealth
+[a2ae82cc] Driver::DriverClassTav_Target.getBatteryHealth BatteryAuthentication, BatteryHealth, BatteryType
+[a2ae26fc] Driver::DriverClassTav_Target.GetCurrentPresetID 9 presetID=
+[a2ae891c] Driver::DriverClassTav_Target.OnGetCurrentPhotoProfile
+[a2ae8924] Driver::DriverClassTav_Target.OnGetCurrentTimelapseProfile
+[a2ae8acc] Driver::DriverClassTav_Target.OnGetCurrentVideoProfile
+[a2ae892c] Driver::DriverClassTav_Target.OnSetCurrentVideoProfile
+[a2ae8934] Driver::DriverClassTav_Target.OnSetCurrentPhotoProfile
+[a2ae96e0] Driver::DriverClassTav_Target.OnSetCurrentTimelapseProfile
+[a2ae3d88] Driver::DriverClassTav_Target.OnSetCurrentBroadcastProfile
+[a2ae96e8] Driver::DriverClassTav_Target.LoadPresetList
+[a2ae96f0]  
+[a2ae3048] Invalid choice
+[a2ae8abc] Driver::DriverClassTav_Target.StoreEditPreset, GP_Failure
+[a2ae81e8] Gallery_EndSelection
+[a2ae55a8] Live Stream
+[a2ae21f0] --------Driver::DriverClassTav_Target.OnGetCurrentBroadcastProfile
+[a2ae2410] Driver::DriverClassTav_Target.SetValidLensView
+[a2ae8aec] Driver::DriverClassTav_Target.SetValidCameraMode
+[a2ae8b88] Driver::DriverClassTav_Target.GetValidResForFps
+[a2ae3dc0]  UI : Is horizon levelling available = 
+[a2ae64cc] file1
+[a2ae64d4] file2
+[a2ae64dc] file3
+[a2ae64e4] file4
+[a2ae64ec] file5
+[a2ae64f4] file6
+[a2ae64fc] file7
+[a2ae6710] file8
+[a2ae8678] file9
+[a2ae6720] file10
+[a2ae6728] file11
+[a2ae76e4] file12
+[a2ae7a38] file13
+[a2ae76ec] file14
+[a2ae76f4] file15
+[a2ae76fc] file16
+[a2ae7704] file17
+[a2ae770c] file18
+[a2ae7714] file19
+[a2ae771c] file20
+[a2ae7724] file21
+[a2ae772c] file22
+[a2ae7734] file23
+[a2ae7744] file24
+[a2ae774c] file25
+[a2ae3fe0] RemoveFaceRects(): Removing 
+[a2ae9a80] CloseToDialog(): closing 
+[a2ae4bb4] )
+[a2ae4bbc] Error 
+[a2ae4bc4] %
+[a2ae3c70] IN DEFAULT Driver::HelperClass.UpdateContextualMenus
+[a2ae5570] ,
+[a2ae55b8] Driver::ExposureControllerClass.InitState
+[a2ae55b0] Unknown value returned from ExposureSelGetType(): 
+[a2ae64b4] Incorrect orientation value:
+[a2aeaf54] Driver::DriverClassTav_Playback_Target.Playback_GetMediaType
+[a2aeaf6c] UI::Playback_Begin: Screen Nail opened for file :
+[a2ae96f8] Driver::DriverClassTav_Playback_Target.Multishot_Begin ScreenNail: 
+[a2ae82e4] Driver::DriverClassTav_Playback_Target.Playback_Delete
+[a2ae894c] Driver::DriverClassTav_Playback_Target.Multishot_Pause
+[a2ae88b0] Driver::DriverClassTav_Playback_Target.Multishot_Next
+[a2ae3080] Driver::DriverClassTav_Playback_Target.Multishot_Prev
+[a2ae3164] Driver::DriverClassTav_Playback_Target.Multishot_Delete
+[a2ae9744] ---------------------Driver::DriverClassTav_Playback_Target.Video_Play
+[a2ae8964] Driver::DriverClassTav_Playback_Target.Video_Play
+[a2ae896c] Video_Pause:: Current Media = 
+[a2ae8974] and State = 
+[a2ae8f34] Driver::DriverClassTav_Playback_Target.Video_FastForwardStop
+[a2ae3428] Driver::DriverClassTav_Playback_Target.Video_SlowMo 
+[a2ae81d8] UI::Gallery_Begin
+[a2ae81e0] Gallery_End
+[a2ae9a40] -----------Driver::DriverClassTav_Playback_Target.Video_Stop
+[a2ae89bc] Driver::DriverClassTav_Playback_Target.Multishot_Stop
+[a2ae9a60] Video_JumpToPrevTag
+[a2ae8264] Video_JumpToNextTag
+[a2ae88c0] Playback_SaveClip:  fileIndex:
+[a2ae88d0] start:
+[a2ae88e0] end:
+[a2ae2408] Playback_SaveClip: Result: 
+[a2ae8ad4] Playback_CancelClipSave invoked
+[a2ae2640] Playback_SaveStillPhotoClip: Result: 
+[a2ae777c] Playback_ExitClip invoked
+[a2ae8b28] Driver::DriverClassTav_Playback_Target.Playback_SeekOneFrameFwd
+[a2ae8b30] Playback_SeekClip_ONE_FRAME
+[a2ae8bb8] Driver::DriverClassTav_Playback_Target.Playback_ExitMoment
+[a2ae8914] Playback_EnterClip invoked
+[a2ae8bb0] Driver::DriverClassTav_Playback_Target.Playback_EnterMoment
+[a2ae3174] Driver::DriverClassTav_Playback_Target.Playback_SeekMoment
+[a2ae8adc] start
+[a2ae8ae4] Playback_PauseClip invoked
+[a2ae88f4] Playback_ResumeClip invoked
+[a2ae778c]  Get Group Name called: for grp index: 
+[a2ae2648] >>>> get group Name, group ID fetched: 
+[a2ae8b18] >>>> get group Name, group Name fetched: 
+[a2ae8b20] Driver::DriverClassTav_Playback_Target.setPhotoTag
+[a2ae2740] Driver::DriverClassTav_Playback_Target.setMultishotPhotoTag, fileIndex: 
+[a2ae899c] tag availability: 
+[a2ae89ac]  Current Photo 
+[a2ae8b98] Driver::DriverClassTav_Playback_Target.Playback_RemoveTag
+[a2ae8ba0] >>>> get file Name: 
+[a2ae8ba8] Driver::DriverClassTav_Playback_Target.Multishot_PhotoGrab: Result: 
+[a2ae3184] Driver::DriverClassTav_Playback_Target.UpdateVideoPlaybackTime, currentVideoPlayTime = 
+[a2ae3194] Driver::DriverClassTav_Playback_Target.UpdateGroupFileIndex, current group index = 
+[a2ae8284] ********************INFO: Tag Ready Status is :: 
+[a2ae828c] ******************
+[a2ae912c] ---------------------Driver::DriverClassTav_Playback_Target.LiveBurst_Play
+[a2ae922c] Driver::DriverClassTav_Playback_Target.LiveBurst_Play
+[a2ae4b3c] Save to Phone
+[a2ae4b44] Save to Camera
+[a2ae4b4c] Facebook
+[a2ae4b5c] YouTube
+[a2ae9440] Vimeo
+[a2aeaef0] >>>: 
+[a2aeaf08] Pairing start for ID on camera
+[a2aeaf10] Pairing error from appc = 
+[a2aeaf30]  Network Connect with Password Initiated
+[a2aeaf38] Network Connect with Password Failed %d
+[a2aeaf5c] WiFi Reset... 
+[a2aeaf64] WiFi reset error from appc = 
+[a2ae31b0] set method called for No of netwworks, val: 
+[a2aeaf74] set method called for No of netwworks COMPLETE, val: 
+[a2aeaf7c]  Wireless Scan Initiated
+[a2aeaf84] Network Scan Failed %d
+[a2ae2660]  Wireless Connection Initiated for Open Network
+[a2ae89e8] Network connect
+[a2ae9460] ButtonPressType = 
+[a2ae26bc] AppcButtonPressType = 
+[a2ae26c4] WiFiEnableIfPaired called ......
+[a2ae26cc]  calling aIndex: 
+[a2ae26d4]  connected index: 
+[a2ae97c0] GP23456
+[a2ae97c8] UI tara_get_ssid: 
+[a2ae97d8] gopro
+[a2ae97e0] UI tara_get_wifi_password 
+[a2ae26ec] BT sensor forget called, aIndex
+[a2ae21e8] GoPro Phone
+[a2ae9a38] UI tara_get_ssid 
+[a2ae8a5c] >>> Setting BT sensor status to: 
+[a2ae2748] BT sensor  aIndex
+[a2ae278c] DISCoNNECTINF BT sensor  aIndex
+[a2ae89e0]  Wireless BT Sensors Scan Initiated
+[a2ae81a0] Wireless BT Sensors paring cancelled
+[a2ae27a4] Media upload, clould ready flag value: 
+[a2ae2f74] Media upload, called tara_confirm_progress_with_offload()
+[a2ae2f7c] Get method for WIFI state called
+[a2ae2f8c] SET method for WIFI state called with value: 
+[a2ae2f84]  same value, no need to call appc
+[a2ae2f94] >>>> Sniper index fetched: 
+[a2ae2f9c] >>>> Sniper Conntected: 
+[a2ae9a48] GoProabcd
+[a2ae9a50] UI Camera_Serial_Number_get
+[a2ae2fb4]  connected SSID returned from APPC:
+[a2ae2fbc] Calling Media upload Exit to inform system about user action
+[a2ae9410] Calling Media upload to inform system about user action on FTU screen
+[a2ae81d0] Media upload, called tara_manual_offload_start()
+[a2ae1f9c] Media upload, called tara_power_charger_status_get()
+[a2ae4b6c] Calling SoftTube upload Exit to inform system about user action
+[a2ae8224] Driver::DriverClassTav_Connections_Target.SetMFIResponse response in Hexadecimal 
+[a2ae822c] Driver::DriverClassTav_Connections_Target.setBroadcastCancel  
+[a2ae4b74] Driver::HelperClassTav_Target.CycleModeFromFrontMenu: Invalid current mode
+[a2ae9448] Driver::HelperClassTav_Target.CycleModeFromFrontMenu, nextFlatMode: 
+[a2ae970c] Driver::HelperClassTav_Target.CycleModeFromFrontMenu, SwitchSystemFlatMode called, switchErr: 
+[a2ae4dbc] Driver::DriverClass.GetGroupId, Invalid choice
+[a2aeaf00] Driver::DriverClass_Connections.SetPureHDMIFlatMode
+[a2ae968c] >>>>>>>>>>>> INside set Video FPS
+[a2ae3418] Driver::DriverClass.SwitchMainMode 
+[a2aeadf8] Simulating multi-shot capture start
+[a2ae3958] Driver::DriverClass.UpdateVideoFPS
+[a2ae3950] Unsupported reslution
+[a2ae3fd8] Driver::DriverClass.IsValidFPS
+[a2ae2ee0] Driver::DriverClass.IsValidVideoResForFps
+[a2ae4c98] Driver::DriverClass.OnSetVideoFormat
+[a2ae9a28] Driver::DriverClassTav_Target.OnSetAspectRatio
+[a2ae4cd0] Driver::DriverClass.SwitchSystemFlatModeNoDelay 
+[a2ae4cd8] Driver::DriverClass.SwitchSystemFlatModeNoDelay
+[a2ae88a8] Driver::DriverClass_Playback.Playback_Next
+[a2ae82d4] Driver::DriverClassTav_Playback_Target.Playback_Next
+[a2ae8bc0] Driver::DriverClass_Playback.Playback_Prev
+[a2ae82dc] Driver::DriverClassTav_Playback_Target.Playback_Prev
+[a2ae7794] /03/2016
+[a2ae8ca8] Driver::DriverClass_Playback.Playback_PlayMoment
+[a2ae8f24] Driver::DriverClassTav_Playback_Target.Playback_PlayMoment
+[a2afbe44] ISO MODE
+[a2aef340] 4:3
+[a2aef348] 16:9
+[a3b5c908] Narrow
+[a3b5c938] Max
+[a3b5c900] Natural
+[a2afbe54] 1
+[a2afbe5c] 2
+[a2afbe64] 5
+[a2afbe6c] 10
+[a2afbe74] 30
+[a2afbe7c] 60
+[a2afc9f4] frames per second
+[a2afc9fc] 3
+[a3b5c8f0] 20 min
+[a3b5c8e8] 60 min
+[a3b5c678] 120 min
+[a2afbe84] FRAMES PER SECOND
+[a2afbe8c] 240
+[a2afc3a8] 120
+[a2afc3b0] 100
+[a2afc3b8] 90
+[a2afc3c0] 80
+[a2afc3c8] 48
+[a2afc3d0] 24
+[a2afc9dc] 15
+[a2afca1c] 200
+[a2afca24] 50
+[a2afcbe8] 25
+[a2afcbf0] 12.5
+[a2afd1ac] 4K 4:3
+[a2afd1b4] Pano_SQ
+[a2afd1bc] PANO_SQ
+[a2afd1d4] 2.7K_SQ
+[a2afd1dc] 1.5K_SQ
+[a2afd1a4] AUTO
+[a2afc9e4] Menus::VideoIsoLimit.OnLeave
+[a2aef728] Pairing Failed
+[a2aeb1ec] Menus::VideoSetting.onUISync
+[a2aeb3b4] Menus::VideoSetting.onPresetEditStore
+[a2aeb3ec] Menus::PhotoSetting.onUISync
+[a2aeb3f4] Menus::PhotoSetting.onPresetEditStore
+[a2aeb5c0] Menus::TLVideoSetting.onUISync
+[a2aeb5c8] Menus::TLVideoSetting.onPresetEditStore
+[a2afc9ec] 12
+[a2afcbf8] YES
+[a2afcc00] NO
+[a2afcc08] 1/640
+[a2afcc10] 1/720
+[a2afd174] 1/1920
+[a2afd17c] 1/800
+[a2afbe94] 1/384
+[a2afd18c] 1/1600
+[a2afd194] 1/3200
+[a2afd19c] 1/3840
+[a3b5c930] 360
+[a2af20e0] COCO_TODO
+[a2afdb18] TEST
+[a2afdb20] DESC
+[a2afe40c] Command Options
+[a2afe414] TODO
+[a2afe41c] ASPECT RATIO
+[a2af8db4] CAMERA LENS
+[a2af03c0] FRONT
+[a2af03c8] REAR
+[a2af03b8] Landscape
+[a2b6c684] 4K 4:3
+[a2af9258] 2.7K 4:3
+[a2af3fb4] 50 FPS
+[a2aef320] 25 FPS
+[a2aef328] 24 FPS
+[a2af0430] ALL ON
+[a2af0440] 4
+[a2afd1e4] V + P
+[a2afd1ec] Looping
+[a2afd1f4] Single
+[a38d2e88] LiveBurst
+[a2afd1fc] V-Tlapse
+[a3b5c670] 19mm
+[a2afd590] 7
+[a2afd598] 90/3s
+[a38dcd78] 60/6s
+[a38d4e34] 30/10s
+[a38deb64] 60/10s
+[a2aef330] Menus::FrontMultiShotIntervalNightLapse.UpdateMenu
+[a2afd5a8] WIDE
+[a2afcc18] MEDIUM
+[a2afd788] NARROW
+[a2afd790] 5 SEC
+[a2afd798] 15 SEC
+[a2afcc28] 30 SEC
+[a2afd7a0] 1 MIN
+[a2afdaf8] OFF
+[a2afdb00] 简体中文 
+[a2afdb08] 繁體中文 
+[a2afdb10] Svenska
+[a2afe404] STD
+[a2b6caa0] If you connect to Network / Wireless Offload, the camera will turn off connection to Remote Control.
+[a2afe424] 900x
+[a2aeb1a8] CUSTOM SETTINGS
+[a2afe434] QUICK TOUR
+[a2afe43c] Camera Overview
+[a2aeafe8] Resolution
+[a2aeaff8] ON
+[a2aeb1e4] 1 min
+[a2aeb3fc] PHOTO PROTUNE
+[a2aeb3bc] 5.6K
+[a2aeb3c4] 5.7K
+[a2aeb3d4] Menus::VideoFPS_NTSC_Tas.UpdateMenu
+[a2aeb3dc] Wide
+[a2b6c808] Lens
+[a2aeb3e4] 8
+[a2aeb5e0]  ^^^^^^^ aWithAnimation
+[a2aeb5d0] System Messages
+[a2aeb5d8] Test Only
+[a3b5c970] Camera Lens
+[a2aeb5e8] %
+[a2aebd78] OFFLOAD
+[a3b5c698] Auto Upload will start when your camera's battery is changed.
+[a2aebd80] SCANNING FOR NETWORKS
+[a2aebd88] NO NETWORKS FOUND
+[a2aede44] ##MicConnectStatus :
+[a2aebf58] >>>>>>>>> Connection menu -- isRCAlreadyPaired
+[a2aebf60] >>>>>>>>> Connection menu -- isGoProAppAlreadyPaired
+[a2aed768] Connection menu -- Wifi state variable
+[a2b6c65c] Wi-Fi Not Ready
+Try Again Later.
+[a2afbc64] Description of BLE
+[a2aec39c] Network 1
+[a2aec56c] ????????
+[a2aec574] :
+[a2aec57c]  
+[a2aee9f4] /
+[a2aec5bc] Video compression ...
+[a2aeebf4] 5 min
+[a2aec5cc] 15 min
+[a2aec5d4] 30 min
+[a3b5c910] DEFAULT MODE
+[a2aec5dc] HIGH
+[a2aec5e4] LOW
+[a3b5c8e0] Orientation
+[a2aef710] 10%%
+[a2aed1e4] 20%%
+[a2aed1ec] 20
+[a2aed1f4] 30%%
+[a2aed1fc] 40%%
+[a2af2d90] 40
+[a2aed20c] 50%%
+[a2af2da0] 60%%
+[a2af5008] 70%%
+[a2af5010] 70
+[a2aed59c] 80%%
+[a2aed5a4] 90%%
+[a2aefe78] 100%%
+[a2aefe80] 11%%
+[a2aeddf4] 11
+[a2aeddfc] 21%%
+[a2aede04] 21
+[a2aede0c] 12%%
+[a2aede14] 13%%
+[a2aede1c] 13
+[a2aede24] 14%%
+[a2aede2c] 14
+[a2aede34] 31%%
+[a2af4994] 31
+[a2af0f44] 41%%
+[a2af0f4c] 41
+[a2aee054] 51%%
+[a2aee05c] 51
+[a2af20b8] 61%%
+[a2af20c0] 61
+[a2af2f64] 71%%
+[a2af2f6c] 71
+[a2af2f74] 81%%
+[a2af2f7c] 81
+[a2af2f84] 91%%
+[a2af2f8c] 91
+[a2af2f94] 22%%
+[a2af2f9c] 22
+[a2af2fa4] 23%%
+[a2af2fac] 23
+[a2af2fb4] 33%%
+[a2af2fbc] 33
+[a2af2fc4] 42%%
+[a2af2fcc] 42
+[a2af2fd4] 43%%
+[a2afc3d8] 43
+[a2af36dc] 52%%
+[a2af36e4] 52
+[a2af36ec] 53%%
+[a2af36f4] 53
+[a2af36fc] 62%%
+[a2af3704] 62
+[a2af370c] 63%%
+[a2af3714] 63
+[a2af371c] 72%%
+[a2af3724] 72
+[a2af38d4] 73%%
+[a2afd1cc] 73
+[a2af38e4] 82%%
+[a2af38ec] 82
+[a2af38f4] 83%%
+[a2af38fc] 83
+[a2af4174] 92%%
+[a2af417c] 92
+[a2af4184] 93%%
+[a2af418c] 93
+[a2af4194] 32%%
+[a2af419c] 32
+[a2af41a4] 24%%
+[a2af41ac] 34%%
+[a2af41b4] 34
+[a2af41bc] 44%%
+[a2af436c] 44
+[a2af4374] 54%%
+[a2aeafe0] 54
+[a2af4384] 64%%
+[a2af4b44] 64
+[a2af4534] 74%%
+[a2af4d48] 74
+[a2af4d50] 84%%
+[a2aebd58] 84
+[a2af4d58] 94%%
+[a2af4d60] 94
+[a2af4d68] 15%%
+[a2af4d70] 25%%
+[a2af4d78] 35%%
+[a2af4d80] 35
+[a2af4d88] 45%%
+[a2af4d98] 45
+[a2af4da0] 55%%
+[a2af4da8] 55
+[a2af4db0] 65%%
+[a2af4db8] 65
+[a2af4dc0] 75%%
+[a2af4f90] 75
+[a2af4f98] 85%%
+[a2af4fa0] 85
+[a2af4fa8] 95%%
+[a2af4fb0] 95
+[a2af4fb8] 16%%
+[a2af4fc0] 16
+[a2af4fc8] 26%%
+[a2af4fd0] 26
+[a2af4fd8] 36%%
+[a2af4fe0] 36
+[a2af4fe8] 46%%
+[a2af4ff0] 46
+[a2af4ff8] 56%%
+[a2aed5ac] 56
+[a2af5000] 66%%
+[a2af5a54] 66
+[a2af5a5c] 76%%
+[a2af5a64] 76
+[a2af5a6c] 86%%
+[a2aee0b0] 86
+[a2af5c1c] 96%%
+[a2af5c24] 96
+[a2af5c2c] 17%%
+[a2af5c34] 17
+[a2af5c3c] 27%%
+[a2af5c4c] 27
+[a2af5c54] 37%%
+[a2af5c5c] 37
+[a2af5c64] 47%%
+[a2af5c6c] 47
+[a2aee9fc] 57%%
+[a2aebf68] 57
+[a2aebf70] 67%%
+[a2aebf78] 67
+[a2aebf80] 77%%
+[a2aebf88] 77
+[a2aebf90] 87%%
+[a2aebf98] 87
+[a2aebfa0] 97%%
+[a2aebfa8] 97
+[a2aebfb0] 18%%
+[a2aec188] 18
+[a2aec190] 19%%
+[a2aec198] 19
+[a2aec1a0] 28%%
+[a2aec1a8] 28
+[a2aec1b0] 29%%
+[a2af0994] 29
+[a2aec584] 38%%
+[a2aec58c] 38
+[a2aec594] 39%%
+[a2aec59c] 39
+[a2aec5a4] 48%%
+[a2aec5ac] 49%%
+[a2aec5b4] 49
+[a2aeebfc] 58%%
+[a2aec5c4] 58
+[a2aec5f4] 59%%
+[a2aec5fc] 59
+[a2aec604] 68%%
+[a2aec60c] 68
+[a2aec614] 69%%
+[a2aec61c] 69
+[a2aed214] 78%%
+[a2af2f5c] 78
+[a2aed3c4] 79%%
+[a2aed3cc] 79
+[a2aed3d4] 88%%
+[a2aefcb0] 88
+[a2aefe60] 89%%
+[a2aefe68] 89
+[a2aed58c] 98%%
+[a2aed594] 98
+[a2af03a0] 99%%
+[a2aed770] 99
+[a2af03a8] 2 min
+[a2af03b0] 3 min
+[a3b5c918] English
+[a2aedc30] NTSC
+[a2aede3c] PAL
+[a2aeea04] Night
+[a2aef338] Auto Audio Mode
+[a2aef170] SHUTTER SPEED
+[a2aef358]  number of netowrks rcvd: 
+[a2aef360] Current netork name : 
+[a2af4dd0] >>>>>>>>>>>>, NetworkConnected found, name: 
+[a2aef718] , at index: 
+[a2aef6f8] N/W already connected
+[a2aef700] N/W already connected, CurrentNtwkName : 
+[a2aef708] >>> N/W NOT connected, resetting CurrentNetwkName
+[a2aef720] >>>>> Network selected by user: 
+[a2b6c68c] SlowMo
+[a2b6c63c] None
+[a2b6c6a4] Timer
+[a2b6c7e8] Ev Comp
+[a2b6c6b4] Clips
+[a3b5c928] TIMELAPSE SETTINGS
+[a2af0448] Are You Sure ?
+[a38d7410] STANDARD
+[a3b5c660] FORMAT
+[a2af0450] VideoCustom1
+[a2af0458] VideoCustom2
+[a2aef6d8] VideoCustom4
+[a2af0608] VideoCustom5
+[a2af0d0c] VideoCustom6
+[a2af0d14] VideoCustom7
+[a2af7e00] PhotoCustom1
+[a2af0d24] PhotoCustom3
+[a2af0d2c] PhotoCustom4
+[a2af0d34] PhotoCustom5
+[a2af0d3c] PhotoCustom6
+[a2af0d44] TimeLapseCustom1
+[a2af0d4c] TimeLapseCustom2
+[a2af0d54] TimeLapseCustom4
+[a2af0f04] TimeLapseCustom5
+[a2af0f0c] TimeLapseCustom6
+[a2af0f14] TimeLapseCustom7
+[a2af0f1c] 12MP
+[a2af0f24] 8MP
+[a2af8da4] 19-20mm
+[a2aee660] onTryAgain, Wrong mode option
+[a2aec3a4]  Network enabled, Entering to forget entework.....
+[a2af70e8] Menus::FrontMenu.OnActivate
+[a2aed3dc]  Scan param1 %d No of Networks %d
+[a2aebfb8] UnpairedDevice called
+[a2af0438] Menus::Connections.onCameraInfo = cameraNameString received from the camera: 
+[a2aeddec] Menus::Connections.onCameraInfo - Retireved both camera name and password
+[a2aebfd0] Menus::WirelessConnectMenu.onGoProApp = cameraNameString received from the camera: 
+[a2aebfd8] Menus::WirelessConnectMenu.onGoProApp - Retireved both camera name and password
+[a2aec3ac] >>>Connection status for device: 
+[a2aef730]  >>>>>>>>> Pairing Connect Status received
+[a2aef740] >>>>> Error Connect result: current netwk name is blank: 
+[a2aef738] >>>>> SUCCESS Connect result: current netwk name: 
+[a2aef908]  On Connection called: 
+[a2aef910]  On Network Failiure called: 
+[a2aef920]  Entering to Passpowrd dialog.....
+[a2aef918]  Netowrk enabled, Entering to forget entework.....
+[a2b6c644] OFFLOAD
+[a2b6ca68] CONFIGURE
+[a2b6c674] CONFIGURE
+[a2b6ca48] Choose network to offload camera 
+ content to the cloud.
+[a2b6c7f8] Use the GoPro app to setup media offload. You will need  a cloud subscription to offload media content to the cloud.
+[a2b6c69c] SCANNING FOR NETWORKS
+[a2b6c6ac] NO NETWORKS FOUND
+[a2b6cab0] NETWORK SCAN ERROR
+[a2aec3b4] Quickcapture
+[a2af2da8] 03.08.15
+[a2aef350] ActionNetwork
+[a2af20d0] NAME
+[a2aee814] PWD
+[a2aee81c] password received from the camera: 
+[a2aebf40] Camera Password
+[a2aebf48] If you want to use Sniper, you
+will need to pair the device to
+the camera
+[a2aebf50] Wi-Fi Not Ready
+Try Again Later.
+[a2afca04] Lower ISO
+[a2afca0c] ISO LOWER
+[a2afca14] ISOL
+[a2afbe4c] ISOM
+[a2afd5a0] Speed
+[a2aee824] Main Mode
+[a2aee82c] Aspect ratio
+[a2af6af8] Clip
+[a38d5768] OUTPUT
+[a2aee83c] SPOT MTR
+[a2b6c654] Output
+[a2aee844] SPEED
+[a2b11480] December
+[a2b11228] November
+[a2b114f8] October
+[a2b11b4c] September
+[a2b0e530] August
+[a2b11170] July
+[a2b0e5e8] June
+[a2b0e520] May
+[a2b110a4] April
+[a2b11500] March
+[a2b11488] February
+[a2b11070] January
+[a2b11478] Dec
+[a2b0e5d8] Nov
+[a2b11180] Oct
+[a2b11bb0] Sep
+[a2b11178] Aug
+[a2b11470] Jul
+[a2b11b80] Jun
+[a2b0d8fc] May
+[a2b11068] Apr
+[a2b0d8e8] Mar
+[a2b1152c] Feb
+[a2b0d904] Jan
+[a2b110ac] Saturday
+[a2b11ba8] Sun
+[a2b11510] Mon
+[a2b114f0] Tue
+[a2b11b44] Wed
+[a2b11508] Thu
+[a2b11078] Fri
+[a2b11468] Sat
+[a2b0dac8] Sunday
+[a2b11460] Monday
+[a2b11bb8] Tuesday
+[a2b11168] Wednesday
+[a2b11188] Thursday
+[a2b0e528] Friday
+[a2afea60] EndAnimation() called without corresponding BeginAnimation()
+[a2aff3cc] You can't restack the views within the list component.
+[a2afea48] You can't remove views from the list component.
+[a2aff408] You can't add views to the list component.
+[a2afea10] The view does not belong to this group
+[a2afea70] The group is not modal.
+[a2afea68] No group to end the modal state.
+[a2aff2c4] The group is already modal.
+[a2aff2bc] The group serves already as the 'virtual keyboard'.
+[a2afea78] No group to obtain the modal state.
+[a2afea20] View is not in this group
+[a2afea28] Sibling view does not belong to the group
+[a2afea18] No view to restack
+[a2afea30] No view to remove
+[a2afea40] View already in a group
+[a2afea38] No view to add
+[a2afea58] Virtual keyboard component doesn't belong to the application.
+[a2afea50] Recursive invalidate during active update cycle.
+[a2aff410] -
+[a2aff418] :
+[a2aff420]  
+[a2aff108] .
+[a2aff4a0] %
+[a2b00078] No matrix to perform 3D transformation
+[a2b0d728] No graphics engine bitmap attached to this canvas
+[a2b0d738] WarpMatrix.Pop() without corresponding Push()
+[a2b0d710] Can not change the number of frames for explicitly attached graphics engine bitmaps
+[a2b0d720] Can not resize explicitly attached graphics engine bitmaps
+[a2b0dab8] The property 'Mutable' is READ ONLY.
+[a2b0dac0] The property 'Animated' is READ ONLY.
+[a2b0e538] The property 'FrameDelay' is READ ONLY.
+[a2b0dad0] The property 'NoOfFrames' is READ ONLY.
+[a2b0dad8] The property 'FrameSize' is READ ONLY.
+[a2b0dae0] The property 'ExtLeading' is READ ONLY.
+[a2b0dae8] The property 'Descent' is READ ONLY.
+[a2b0daf0] The property 'Ascent' is READ ONLY.
+[a2b152e0] Hdmi::LiveCameraPhotoScreen.onHiLight
+[a2b18ac8] -----------------Switch to Recording
+[a2b1a300] Hdmi::HdOutPhotoScreen.onHiLight
+[a2b18fb4]  fastChargingState  event received: 
+[a2b130a0] +++++++++++++++++++++++++++++Long released.
+[a2b13098] +++++++++++++++++++++++++++++Long pressed.
+[a2b14570] ERROR: Invalid Filter.
+[a2b16e40] INFO: Hdmi::PlaybackVideoScreen.onStartLongReverseScrub()
+[a2b16e48] INFO: Hdmi::PlaybackVideoScreen.onStartLongForwardScrub()
+[a2b177ec] Hdmi::PlaybackVideoScreenRear.onPlaybackEnded
+[a2b141d8] Hdmi::PlaybackControlsVideo.onPlaybackEnded
+[a2b14c88] Hdmi::LiveCameraPhotoScreenRear.UpdateView
+[a2b18dc4] -----------------Switch to Idle
+[a2b12e24] ResetAllTags
+[a2b130c0] Hdmi::LiveCameraVideoFooter.UpdateView
+[a2b14c68] Hdmi::LiveCameraPhotoFooter.UpdateView
+[a2b16c80] Hdmi::LiveCameraMultiShotFooter.UpdateView
+[a2b13338] Hdmi::MediaGalleryScreen.OnActivate: Entered Perform GalleryBegin
+[a2b19968] Hdmi::LiveCameraVideoScreen.onUpdateVideoStorage
+[a2b14c70] Hdmi::LiveCameraPhotoScreenRear.DispatchEvent
+[a2b156c0] Hdmi::LiveCameraPhotoScreen.onChangePhotoStorage
+[a2b173ec] Hdmi::LiveCameraMultiShotScreen.onChangePhotoStorage
+[a2b18d9c] Hdmi::LiveCameraMultiShotScreen.refreshViews
+[a2b18a80] Hdmi::HdOutVideoScreen.onChangeVideoStorage
+[a2b18e24] Hdmi::HdOutPhotoScreen.onChangePhotoStorage
+[a2b1a0d0] Hdmi::HdOutMultiShotScreen.onChangePhotoStorage
+[a2b1a0b8] Hdmi::LiveCameraVideoScreen:: Create Invoked
+[a2b13f9c] Hdmi::LiveCameraPhotoScreen.OnCreate
+[a2b173b4] Hdmi::LiveCameraMultiShotScreen:: Create Invoked
+[a2b13340] ERROR: Can't hadle media type.
+[a2b14c90] Hdmi::LiveCameraPhotoHeader.switchToCapturing
+[a2b16ca8] Hdmi::LiveCameraMultiShotHeader.switchToCapturing
+[a2b14578] ERROR: Invalid Filer!
+[a2b15758] Hdmi::LiveCameraVideoScreenRear.ShowIdle
+[a2b15760] ShowIdle
+[a2b14c78] Hdmi::LiveCameraPhotoScreenRear.ShowIdle
+[a2b13ba0] Hdmi::MediaGalleryScreenRear.onReloadList
+[a2b13ba8] <Hdmi::MediaGalleryScreenRearonReloadList>noOfItems
+[a2b19bf0] Hdmi::GenericControls : No button was found.
+[a2b19be8] Caption
+[a2b143a4] decodeFailedHandler:: isFileDecoded
+[a2b14504] :
+[a2b1450c] 00:
+[a2b12e1c] H:
+[a2b14c48] Hdmi::LiveCameraFooterControls.onReloadMenu
+[a2b14edc] Hdmi::LiveCameraPhotoHeader.UpdateView
+[a2b16cb8] Hdmi::LiveCameraMultiShotHeader.UpdateView
+[a2b16c90] update view Called for TL modes: 
+[a2b14efc] Leaving Photo screen
+[a2b18e00] Leaving HDMI Photo screen
+[a2b177fc] Hdmi::HdOutPhotoScreen.refreshViews
+[a2b156d8] Hdmi::LiveCameraPhotoScreen.refreshViews
+[a2b15730] Hdmi::LiveCameraPhotoScreen.onCapture
+[a2b152d8] Invalid Photo mode 
+[a2b18da4] Hdmi::LiveCameraMultiShotScreen.onCapture
+[a2b190fc] Hdmi::HdOutPhotoScreen.onCapture
+[a2b15750] Hdmi::LiveCameraPhotoScreen.onStop
+[a2b16c88] Hdmi::LiveCameraMultiShotScreenRear.DispatchEvent
+[a2b18a50] ERROR: No known main mode is defined.
+[a2b18a58] Hdmi::HdOutScreenRear: Invalid Mode 
+[a2b1b8c4] ************ KIRKWOOD STATUS : ***********:, 
+[a2b1a328] Hdmi::HdOutPhotoScreen.onStop
+[a2b17844] Hdmi::HdOutPhotoScreen.onShutterRelease
+[a2b1a0fc] PlaybackRear: AvPbStateIdle Playback_Begin called
+[a2b1a2f8] UI::PlaybackMultishotRear.onAvEventHandler: Current state PbActionJumpToNext. Signal OnNext
+[a2b18bf8] UI::PlaybackMultishotRear.onAvEventHandler: Current state PbActionExitPbMode. Signal OnClose
+[a2b18c00] UI::PlaybackMultishotRear.onAvEventHandler: Current state PbActionJumpToPrevious. Signal OnPrev
+[a2b18d54] UI::MultishotRear.onPlaybackStatus: picNo:
+[a2b18d5c] noOfPics:
+[a2b1a340] INFO: Hdmi::PlaybackMultishotScreen.OnDeactivate()
+[a2b13330] INFO: Hdmi::PlaybackMultishotScreen.onPause()
+[a2b1b2f4] INFO: Hdmi::PlaybackMultishotScreen.onPlay()
+[a2b190e4] %%
+[a2b19990] Hdmi::PlaybackSlideShowScreenRear.ShowSlideshowPause called
+[a2b15094] Hdmi::PlaybackSlideShowScreenRear.ShowSlideshowStart called
+[a2b199c0] Hdmi::PlaybackSlideShowScreenRear.startSlideshow called
+[a2b1509c] Hdmi::PlaybackSlideShowScreenRear.onSlideshowProgress called
+[a2b11f90] Hdmi::PlaybackSlideShowScreenRear.onSlideshowProgress SS_Handler: Received :
+[a2b1b2d4] Alert Text
+[a2b14f30] 0
+[a2b16d08] INFO: Hdmi::PlaybackVideoScreen.onReplay()
+[a2b13308] INFO: Hdmi::PlaybackMultishotScreen.onReplay()
+[a2b19960] Hdmi::LiveCameraVideoScreen.onHDMIStatus
+[a2b19988] INFO: Hdmi::PlaybackPhotoScreen.onClose()
+[a2b16c78] Hdmi::LiveCameraPhotoScreen.onHDMIStatus
+[a2b19104] Hdmi::LiveCameraVideoScreen.onGallery
+[a2b152f0] Hdmi::LiveCameraPhotoScreen.onGallery
+[a2b18dac] Hdmi::LiveCameraMultiShotScreen.onGallery
+[a2b16cf8] INFO: Hdmi::PlaybackVideoScreen.onPlay()
+[a2b16d10] INFO: Hdmi::PlaybackVideoScreen.onHiLight()
+[a2b177b4] onTag:: TagStatus= 
+[a2b1b774] Hdmi::LiveCameraVideoScreen.onHiLight
+[a2b177bc] Hdmi::LiveCameraMultiShotScreen.onHiLight
+[a2b18a48] Hdmi::LiveCameraMultiShotScreen.handleCaptureError
+[a2b19958] Hdmi::LiveCameraVideoScreen.onChangeMainMode
+[a2b15464] Hdmi::LiveCameraPhotoScreen.onChangeMainMode
+[a2b177d4] Hdmi::LiveCameraMultiShotScreen.onChangeMainMode
+[a2b19980] INFO: Hdmi::PlaybackPhotoScreen.onHilight()
+[a2b14518] Hdmi::PlaybackControlsPhoto.onUpdateTag ..... UnSuccess
+[a2b12e54] Hdmi::PlaybackControlsPhoto.onUpdateTag ..... Success
+[a2b14c40] 1 Minute over
+[a2b16cf0] Hdmi::LiveCameraMultiShotScreen.stopCapture
+[a2b1bc04] IdleScreenMultiShot.stopCapture()
+[a2b18a78] Hdmi::HdOutVideoScreen.onModeSwitch
+[a2b1784c] Hdmi::HdOutPhotoScreen.onModeSwitch
+[a2b18ad0] Hdmi::HdOutMultiShotScreen.onModeSwitch
+[a2b16d18] INFO: Hdmi::PlaybackMultishotScreen.onClose()
+[a2b18f8c] INFO: Hdmi::PlaybackMultishotScreen.onPreviousInSet()
+[a2b18f94] INFO: Hdmi::PlaybackMultishotScreen.onNextInSet()
+[a2b19c18] Hdmi::PlaybackSlideShowScreen.onNext() no next media file available
+[a2b19c10] INFO: Hdmi::PlaybackSlideShowScreen.onNext()
+[a2b19c28] Hdmi::PlaybackSlideShowScreen.onPrevious no previous media file available
+[a2b19c20] INFO: Hdmi::PlaybackSlideShowScreen.onPrevious()
+[a2b12e14] onFileDecodeFailed entered with isFileDecoded
+[a2b14f18] Hdmi::SDCardRemainingTime.OnSetCount
+[a2b1b3e0] Hdmi::LiveCameraVideoScreen.startCapture
+[a2b19124] Hdmi::LiveCameraVideoScreen.onSDCardStatus
+[a2b18f9c] Hdmi::LiveCameraVideoScreen.onAvNotify
+[a2b1780c] Hdmi::PlaybackVideoScreen.OnActivate
+[a2b18d6c] INFO: Hdmi::PlaybackMultishotScreen.OnActivate()
+[a2b16cd8] Hdmi::PlaybackScreenAbstract.onUSBRemoved
+[a2b16ce8] Hdmi::PlaybackScreenAbstract.onUSBRemoved playback begin
+[a2b177f4] Hdmi::PlaybackScreenAbstract.onUSBRemoved Multishot_Begin
+[a2b15770] Hdmi::LiveCameraVideoScreenRear.ShowRecording
+[a2b15950] ShowRecording
+[a2b15768] capturing in progress, do nothing
+[a2b1910c] Hdmi::LiveCameraVideoScreen.onStop
+[a2b18f74] Hdmi::LiveCameraVideoScreen.onUISync
+[a2b18f7c] Video UISync Event: IsCurrent = 
+[a2b1b3d0]  IsActive = 
+[a2b1b3d8] Video onUISync -- returning because not isActive!
+[a2b190f4] Hdmi::LiveCameraVideoScreen.onUSBRemoved
+[a2b18f5c] Hdmi::LiveCameraVideoScreen.onCaptureStatus - Received AvPivDone event
+[a2b18d44] Hdmi::LiveCameraVideoScreen.onCaptureStatus - Received AvStartingEncode event
+[a2b18d4c] Capture error = 
+[a2b1a2e0] Caller ID = 
+[a2b18ad8] NO REAR VIEW PRESENT
+[a2b18ae0] Hdmi::LiveCameraVideoScreen.onCaptureStatus - Received AvRecordDone event
+[a2b1a2e8] Hdmi::LiveCameraVideoScreen.onCaptureStatus - Received AvProgressCounter event
+[a2b18d3c] LiveCameraVideoScreen<Quick Capture DONE>:: Invoking Shutdown upon record stop
+[a2b18d34] REMOVE SAVING ALERT
+[a2b1a0b0] Hdmi::LiveCameraVideoScreen<Quick Capture Detected>:: Invoking Record Start for VIDEO
+[a2b11d04] INFO: Hdmi::PlaybackPhotoScreen.onStartPhotoSlideshow()
+[a2b19998] INFO: Hdmi::PlaybackPhotoScreen.onPausePhotoSlideshow()
+[a2b1484c] Hdmi::LiveCameraVideoScreenRear.OnSetFocus
+[a2b17814] Hdmi::PlaybackVideoScreenRear.onTagUntag Tagging is Requested
+[a2b17824] Hdmi::PlaybackVideoScreenRear.onTagUntag playbackTagCount < Header.Tags.MaxNumOfTags
+[a2b1782c] Hdmi::PlaybackVideoScreenRear.onTagUntag Tag adding
+[a2b1781c] Raj-TBD ADD CODE LATER
+[a2b190ec] UI::PlaybackRear.onReleaseMenu: Remove Tag
+[a2b17834] Hdmi::PlaybackVideoScreenRear.onTagUntag Tag successful
+[a2b141d0] Hdmi::LiveCameraPhotoScreen.onCaptureStatus
+[a2b156b0] Photo burst group done
+[a2b14854] Photo still cap done
+[a2b15688] AvStillCaptureStart
+[a2b15690] Photo still cap start
+[a2b156b8] Hdmi::LiveCameraPhotoScreen.onSDCardStatus
+[a2b14c80] Hdmi::LiveCameraPhotoScreenRear.ShowCapture
+[a2b156c8] Hdmi::LiveCameraPhotoScreen.onUISync
+[a2b156d0] photo onSyncEvent
+[a2b156e0] Hdmi::LiveCameraPhotoScreen.onUSBRemoved
+[a2b18d64] Hdmi::LiveCameraMultiShotScreen.onSDCardStatus
+[a2b18a40] Hdmi::LiveCameraMultiShotScreen.onAvNotify
+[a2b177cc] Hdmi::LiveCameraMultiShotScreen.onStop
+[a2b173f4] Hdmi::LiveCameraMultiShotScreen.onUISync
+[a2b173fc] IdleScreenMultiShot: onUISync()
+[a2b17530] Hdmi::LiveCameraMultiShotScreen.onUSBRemoved
+[a2b173bc] Hdmi::LiveCameraMultiShotScreen.onCaptureStatus
+[a2b173e4] AvProgressCounter
+[a2b173c4] AvRawCapturDone
+[a2b173cc] AvStillCaptureDone
+[a2b16d00] Hdmi::LiveCameraMultiShotScreen.onCaptureStatus - Received AvStartingEncode event
+[a2b173dc] AvRecordDone
+[a2b173d4] IdleScreenTimelapse <Quick Capture Detected>:: Invoking Shutdown upon record stop
+[a2b17994] stillCaptureParam = 1
+[a2b18e0c] Hdmi::HdOutPhotoScreen.onCaptureStatus
+[a2b18ac0] Multishot shutter open
+[a2b1a0c0] NightLapse cap start
+[a2b17804] Hdmi::HdOutPhotoScreen.onUSBRemoved
+[a2b18e34] Hdmi::HdOutPhotoScreen.onUISync
+[a2b1a2a0] INFO: Hdmi::PlaybackSlideShowScreen.onPausePhotoSlideshow()
+[a2b1a298] INFO: Hdmi::PlaybackSlideShowScreen.onStartPhotoSlideshow()
+[a2b19c30] INFO: Hdmi::PlaybackSlideShowScreen.onClose()
+[a2b14228] UI<ShowTagMarkers: tag counts
+[a2b14230] UI<ShowTagMarkers: No tags in current file
+[a2b13460] >>>>> ON Banner view, shutter release called
+[a2b13b98] Hdmi::MediaGalleryScreenRear.UpdateLayout Bounds = 
+[a2b1a2b8] Hdmi::PlaybackControlsSlideShow.UpdateLayout
+[a2b1b2c4] /
+[a2b14c50] Default
+[a2b11d14] Hdmi::PlaybackSlideShowScreenRear.Init called
+[a2b13088] Hdmi::PlaybackVideoTag.Init
+[a2b152c8] Text
+[a2b18d94] mediaTyp = 
+[a2b19f80] kirkwood status is: 
+[a2b1b784] kirkwood status is connected: 
+[a2b35bd0] H:
+[a2b35bd8] :
+[a2b36708] H
+[a2b363bc] ???
+[a2b363c4] -
+[a2b363dc] MAX
+[a2b363cc] 2.7K      
+[a2b363d4]       
+[a2b35da0] 2.7K
+[a2b35da8] 5.6K
+[a2b363b4] PAN_SQ
+[a2b35db0] 5.7K
+[a2b35db8] 3K
+[a2b353f4] 1.5K_SQ
+[a2b363ac] 2.7K_SQ
+[a2b3153c] 14
+[a2b2b068] 
+
+[a2b32820] ?
+[a2b2a700] unsupportef fps:
+[a2b29448] SetDate -- Invalid Format value!
+[a2b2e7bc] onTryAgain, Wrong mode option
+[a2b30d68] SINGLE
+[a2b30d70] BURST
+[a2b30d78] NIGHT
+[a2b36700]  
+[a2b37520] 1200
+[a2b37518] FRAMES PER SECOND
+[a2b28690] 200
+[a2b28698] 90 FPS
+[a2b286a0] 80 FPS
+[a2b286a8] 50 FPS
+[a2b288c8] 48 FPS
+[a2b286b0] 25 FPS
+[a2b288d8] 24 FPS
+[a2b288e0] 12.5 FPS
+[a2b2ae80] OFF
+[a2b2ae88] LOW
+[a2b2d99c] 1600
+[a2b2d9a4] 800
+[a2b2b030] 400
+[a2b2b038] 100
+[a2b374e8] -2.0
+[a2b374f0] -1.5
+[a2b374f8] -1.0
+[a2b37500] -0.5
+[a2b37508] 0
+[a2b37510] +0.5
+[a2b2f020] +1.0
+[a2b2f028] +1.5
+[a2b2f030] +2.0
+[a2b3351c] 4:3
+[a2b33524] 16:9
+[a2b3677c] 2300K
+[a2b36784] 2800K
+[a2b374d0] 3200K
+[a2b374d8] 4500K
+[a2b6ca98] 5000K
+[a2b2a6e8] 4K 4:3
+[a2b2a6f0] 2.7K 4:3
+[a2b2a6f8] PANO_SQ
+[a2b2ae90] 3000K
+[a2b2fea0] 4000K
+[a2b2ae98] 4800K
+[a2b2aea0] 5500K
+[a2b2aea8] 6000K
+[a2b2aeb0] 6500K
+[a2b2aeb8] NATIVE
+[a2b2aec0] FLAT
+[a2b2d994] GO PRO
+[a2b2b040] HIGH
+[a2b3676c] MEDIUM
+[a2b288f8] AUTO
+[a2b2f038] 2
+[a2b2f040] 2 SEC
+[a2b2f048] 5
+[a2b2f050] 5 SEC
+[a2b2f058] 10
+[a2b2f060] 10 SEC
+[a2b2f068] 15
+[a2b2f078] 15 SEC
+[a2b2f080] 20
+[a2b2f088] 20 SEC
+[a2b2f090] 30
+[a2b2f098] 30 SEC
+[a2b6c66c] Linear
+[a2b30848] Fisheye
+[a2b30850] NARROW
+[a2b36774] NR
+[a2b30858] Superview
+[a2b30be8] TimeWarp
+[a2b30bf0] V TLAPSE
+[a2b2a474] PH TLAPSE
+[a2b30d60] PH NLAPSE
+[a2b30d80] GOPRO
+[a2b30eb4] LINEAR
+[a2b30ebc] Wide
+[a2b30ec4] WIDE
+[a2b32848] HDMI OUTPUT
+[a2b2bfd8] 10%%
+[a2b2c4b4] 25%%
+[a2b2c4bc] 50%%
+[a2b2c4c4] 75%%
+[a2b2c4cc] 100%%
+[a2b288e8] SHUTTER
+[a2b288f0] seconds
+[a2b28900] 1/12.5
+[a2b28908] 1/12.5 FPS
+[a2b28910] 1/15
+[a2b28918] 1/15 FPS
+[a2b28920] 1/24
+[a2b28adc] 1/24 FPS
+[a2b28ae4] 1/25 FPS
+[a2b28aec] 1/30 FPS
+[a2b28af4] 1/48 FPS
+[a2b28afc] 1/50
+[a2b28b04] 1/50 FPS
+[a2b29260] 1/60
+[a2b29268] 1/60 FPS
+[a2b29270] 1/80
+[a2b29278] 1/80 FPS
+[a2b2f010] 1/90
+[a2b29428] 1/90 FPS
+[a2b29430] 1/96
+[a2b29438] 1/96 FPS
+[a2b2a710] 1/100
+[a2b29440] 1/100 FPS
+[a2b2aaf8] 1/120
+[a2b2ab00] 1/120 FPS
+[a2b29640] 1/160
+[a2b29648] 1/160 FPS
+[a2b2ab18] 1/180
+[a2b29658] 1/180 FPS
+[a2b29b50] 1/192
+[a2b29b58] 1/192 FPS
+[a2b29b60] 1/200
+[a2b29b68] 1/200 FPS
+[a2b29b70] 1/240
+[a2b2d5d4] 1/240 FPS
+[a2b29d20] 1/320
+[a2b29d28] 1/320 FPS
+[a2b29d30] 1/360
+[a2b2d5dc] 1/360 FPS
+[a2b2d8d0] 1/400
+[a2b2c1ac] 1/400 FPS
+[a2b29f2c] 1/480
+[a2b29f34] 1/480 FPS
+[a2b29f3c] 1/960
+[a2b29f44] 1/960 FPS
+[a2b2f008] 1/1920
+[a2b2a63c] 1/1920 FPS
+[a2b2a644] 1/384
+[a2b2a64c] 1/384 FPS
+[a2b2a654] 1/3840
+[a2b2a65c] 1/3840 FPS
+[a2b2a664] 1/800
+[a2b2a66c] 1/800 FPS
+[a2b2a674] 1/1600
+[a2b2ccb4] 1/1600 FPS
+[a2b2cd10] 1/3200 FPS
+[a2b2f0a0] BURST RATE
+[a2b2f280] photos per second
+[a2b2f288] 3/1
+[a2b2f290] 3/1 SEC
+[a2b2f298] 5/1
+[a2b2f2a0] 5/1 SEC
+[a2b2f2a8] 10/1
+[a2b2f2b0] 10/1 SEC
+[a2b2f2b8] 10/2
+[a2b2f2c0] 10/2 SEC
+[a2b2f2c8] 30/1
+[a2b2f488] 30/1 SEC
+[a2b2f490] 30/2
+[a2b2f498] 30/2 SEC
+[a2b2f4a0] 30/3
+[a2b2f4a8] 30/3 SEC
+[a2b2f4b0] 30/6
+[a2b6c67c] 90/3
+[a2b2fe20] SHUTTER INTERVAL
+[a2b2fe28] 0.5
+[a2b2fe30] 0.5 SEC
+[a2b2fe38] 1
+[a2b2fe40] 1 SEC
+[a2b2fe48] 60
+[a2b2fe50] 60 SEC
+[a2b2fe58] 4s
+[a2b2fe60] 4 SEC
+[a2b2fe68] 5s
+[a2b2fe70] 10s
+[a2b2fe78] 15s
+[a2b2fe80] 20s
+[a2b2fe88] 30s
+[a2b2fe90] 1m
+[a2b30640] 1 MIN
+[a2b30648] 2m
+[a2b30650] 2 MIN
+[a2b30658] 5m
+[a2b30660] 5 MIN
+[a2b30668] 30m
+[a2b30670] 30 MIN
+[a2b30678] 60m
+[a2b30680] 1 HR
+[a2b30688] Lower ISO Limit
+[a2b30be0] TimeLapseMenu.UpdateMenu(): unknown flat mode: 
+[a2b32dc4] Rc::PhotoProtuneShutter.onExposureStatus
+[a2b30eac] RC::PhotoMenu: onUISync -- ProtunePhoto = 
+[a2b314d4] 012345
+[a2b314ec] Password received from the camera: 
+[a2b29618] 24H
+[a2b29620] 12
+[a2b2e7a4] DEVICE TYPE
+[a2b2b070] : 
+[a2b31554] /
+[a2b29688] %
+[a2b29d48] Bresola biltong tenderloin pastrami pork belly doner brisket vension, capicola ribeye tail.
+[a2b29d70] LED
+[a2b29d78] Sets which status lights are on or off.
+[a2b2c364] Sets the volume of
+camera sounds.
+[a2b2c4a4] Sets frame rates for
+recording and
+playback on TVs.
+[a2b2a0f4] Turns the camera
+off after a period of
+inactivity.
+[a2b2a0fc] 2 min
+[a2b2a104] 3 min
+[a2b2a10c] 5 min
+[a2b2a114] 10 min
+[a2b2a67c] 15 min
+[a2b2a8d8] EXTERNAL MIC INPUT
+[a2b2a8e0] LOW SENSE
+[a2b2a8e8] SELF POWERED
+[a2b2d97c] STD
+[a2b2aec8] STD+
+[a2b2aed0] NON-PWRD
+[a2b2aed8] PWRD
+[a2b2aee0] LINE IN
+[a2b2aee8] BLUETOOTH
+INPUT
+[a2b2aef0] Sets how much of
+the audio comes
+from a BT device
+when you record.
+[a2b2aef8] BT MIXED
+[a2b2af00] BT ONLY
+[a2b32838] Never
+[a2b32850] DD.MM.YY
+[a2b32858] DD/MM/YY
+[a2b32860] MM.DD.YY
+[a2b32868] MM/DD/YY
+[a2b32d94] YY.MM.DD
+[a2b32d9c] YY/MM/DD
+[a2b3352c] Hybrid
+[a2b32840] ##MIC Connected status
+[a2b29d58] Sets how the
+camera is oriented
+so you can
+prevent upside
+down footage.
+[a2b29d60] UP
+[a2b29d68] DOWN
+[a2b2bf48] ENGLISH-US
+[a2b31c2c] ENG-US
+[a2b2bf58] ENGLISH-UK
+[a2b2bf60] ENG-UK
+[a2b2bf68] ENGLISH-AUS
+[a2b2bf70] ENG-AUS
+[a2b2bf78] GERMAN
+[a2b2bf80] FRENCH
+[a2b2bf88] ITALIAN
+[a2b2bf90] ITALAIN
+[a2b2bfb0] SPAIN-EU
+[a2b2bfb8] SPAIN-NA
+[a2b2bfc0] CHINESE
+[a2b2ccbc] WiFi Reset cancel invoked :: Log analystics for WIFI_RESET_CANCEL
+[a2b2a68c] Sets the mode that
+appears when you
+power on the
+camera.
+[a2b2a694] Video
+[a2b2a69c] V + P
+[a2b2a6a4] Burst
+[a2b2a6ac] V-Tlapse
+[a2b2a6b4] N-Lapse
+[a2b2e9ac] PUT REMO
+ IN PAIRING 
+ MODE
+[a2b2c504] RCMenuRear.onPress
+[a2b2c53c] Caption
+[a2b34d18] Camera was already connected to a device
+[a2b2ccdc] Connection menu -- Wifi state variable
+[a2b2d3cc] MESSAGE
+[a2b321b8] CAPTION
+[a2b2d938] AUTO UPLOAD
+[a2b2d948] Uploads media to GoPro Plus when the camera is connected to a wall outlet and fully charged
+[a2b2d950] If you connect to Network / Wireless Offload, the camera will turn off connection to Remote Control.
+[a2b2d964] CONNECT TO NETWORK?
+[a2b2c9e8] SPANISH-NA
+[a2b327f0] SPANISH
+[a2b2bfc8] JAPANESE
+[a2b32da4] 1/125
+[a2b32dac] 1/250
+[a2b288b8] 1/500
+[a2b32db4] 1/1000
+[a2b32f6c] 2X
+[a2b32f74] 5X
+[a2b32f7c] 10X
+[a2b334e4] 15X
+[a2b334ec] 30X
+[a2b334f4] 60X
+[a2b334fc] 150X
+[a2b33504] 300X
+[a2b3350c] 900X
+[a2b32810]  Network enabled, Entering to forget entework.....
+[a2b2e98c] Notify PIN event: 
+[a2b31574] UnpairedDevice called
+[a2b2e7b4] Connect to the Gopro App to pair compatible bluetooth devices to camera
+
+[a2b2e7ac]  Scan param1 %d No of Networks %d
+[a2b32818] >>>Connection status for device: 
+[a2b29680] Camera Update %1
+[a2b2d384] password received from the camera: 
+[a2b2e984] Go pRo app, NotifyPairing event, status = 
+[a2b2e9a4] Remote device --- NotifyPairing event, status = 
+[a2b2d940] Upload
+[a2b3544c] 2H:28
+[a2b32f54] 5 GHz
+[a2b6ca70] 5 GHz
+[a2b6c7f0] 2.4 GHz
+[a2b327f8] SELECT
+[a2b2af08] Auto Power Off
+[a2b29660] UPDATES
+[a2b29668] CAMERA
+[a2b29670] Sniper Update
+[a2b29678] SNIPER
+[a2b2a8c0] EXTERNAL
+[a2b2a8c8] AUDIO - MIC INPUT
+[a2b2a8d0] BLUETOOTH
+ MICROPHONE
+[a2b2cd18] GPS
+[a2b2a6e0] V-Format
+[a2b29628] ON CAM
+[a2b29630] WAK ON VOC
+[a2b35a10] PT
+[a2b32800] Forget Remo
+[a2b32808] BT DEVICE CONNECTED
+[a2b2b048] >
+[a2b2b050] 05:08 AM
+[a2b2b058] 03.08.15
+[a2b2b060] Date Format
+[a2b29d50] Sleep
+[a2b29d38] ORIENTATION
+[a2b29d40] VID COMP
+[a2b29638] VOICE COMM
+[a2b35464] 00:00
+[a2b359e8] 1080 - 30
+[a2b2cbc8] DEVICES
+[a2b2cbd0] DEVICE
+[a2b2cbd8] CONN DEVICES
+[a2b2cbe0] CONN MGMT
+[a2b2cbe8] GOPRO PLUS
+[a2b2cbf0] Exit
+[a2b30a28]      X
+[a2b2d96c] CONNECT NEW
+[a2b2d974] Smart remote
+[a2b334dc] Bluetooth Device
+[a2b2d984] SENSOR
+[a2b2e77c] Network
+[a2b2e784] Join Network
+[a2b2e78c] Cancel
+[a2b33c34] A TOUCH DISPLAY IS REQUIRED TO ADD A NETWORK
+[a2b2e79c] Connect to the GoPro App to 
+ pair compatible bluetooth 
+ devices to camera
+[a2b2a684] One or more of the selected files cannot be deleted, because it is currently being shared.
+[a2b2ccc4] CONNECTED DEVICES
+[a2b2cccc] CONN NEW
+[a2b2ccd4] Connect New
+[a2b36764] >>>> CycleMode(), SwitchSystemFlatMode called, switchErr: 
+[a2b36754] Aspect ratio
+[a38d4ed8] ASP RATIO
+[a2b3675c] Clip
+[a2b30860] RESOLUTION
+[a2b30868] FOV
+[a2b30d88] Timer
+[a2b30ea4] Camera Overview
+[a2b630f0] Calibration Mode
+[a2b63c70] RUN
+[a2b63c38] Animation
+[a2b63c60] EXIT
+[a2b63c08] Gesture Test
+[a2b64050] Image Stack
+[a2b6401c] 1
+[a2b64038] Press Power button to advance,
+Shutter button to dismiss
+[a2b6347c] number:
+[a2b6371c] Samples::PreSetList.onOption4
+[a2b62978] Error 
+[a2b62980] BACK
+[a2b62b24] FRONT
+[a2b629a8] 0000
+[a2b630a8] RTF timer triggered
+[a2b630c8] RTF
+CALIBRATION
+ON
+REAR/HDMI
+SCREEN
+[a2b627dc] Samples::CtxSettings.OnSetCurrentSubMenuNo INVALID SUBMENU: FLAT MODE NOT SUPPORTED
+[a2b6370c] Samples::PreSetList.onEdit
+[a2b63714] Samples::PreSetList.onEdit ..............
+[a2b63724]  | 
+[a2b636ac] Incorrect photo mode
+[a2b63750] Invalid timelapse mode
+[a2b63758] Samples::PreSetList.onDeletePreset, Invalid MainMode
+[a2b63768] reorder is triggered, cursor:
+[a2b63770]  focusedItem:
+[a2b63778]  Samples::PreSetList.moveElements focused:
+[a2b63780] cursor:
+[a2b63a1c]  topVisible:
+[a2b63c78] STOP
+[a2b63c68] INFO
+[a2b636f4] dx:
+[a2b636fc] dy:
+[a2b63760] Swipe Right
+[a2b63c94] something is wrong, set to the new dialog
+[a2b634c8] ModeMenu: Invalid list item number!
+[a2b63bd0] release on item
+[a2b647b4] Text
+[a2b63bb8] 1080|60|W
+[a2b6572c] warp
+[a2b64f28] 0
+[a2b656c8] %%
+[a2b656e8] 1
+[a2b65710] :
+[a2b656d0] GO
+[a2b65f50] Dismiss
+[a2b66ff4]  FTU::OobeLogo.onNext
+[a2b69370] SPRACHE
+[a2b69348]  ######## selitem
+[a2b69790] SETUP CANCELLED
+[a2b66fc4] Powering down
+[a2b671a8] start the FW update
+[a2b69710] FWUpdateNotifyDownloadFailed
+[a2b69708] FWUpdateNotifyDownloading
+[a2b672d8] FTU::ConnectDialog.onNotifyPairing GopRo app, NotifyPairing event, status = 
+[a2b684d4] SETUP ERROR
+[a2b69788] Press and hold the Mode button
+to power off camera, and try again
+[a2b6c7e0] When the update is done,
+your GoPro is ready to go
+[a2b6a380] #&@?<>:!_^~'$%*()+-={}[]|\/;.," 
+[a2b6a734] send evet called
+[a2b6b63c]  On enterring password dialog
+[a2b6b6ac] %^
+[a2b6b6cc] "SPC"
+[a2b6b6b4] %~
+[a2b6b6bc] $
+[a2b6b6c4] %%
+[a2b6bb14] Key
+[a2b6bb3c] SSID
+[a2b6bd88] 100%%
+[a2b6c570] Total
+[a2b6a5a8] init
+[a2b6c57c] offloadfile count: 
+[a2b6a5d8] Dispatching Error event
+[a2b6b76c] Dispatching Complete event
+[a2b6bde8] Remote device pair view, Long shutter press called
+[a2b6bdf0] >>>>> Remote Device pair, shutter Release called
+[a2b69808] >>>> Exiting media offload alerts
+[a2b6b624] ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[a2b6aff8] 1234567890
+[a2b69858] abcdefghijklmnopqrstuvwxyz
+[a2b6a8bc] Password Entered is
+[a2b6ca60] NETWORK
+ MODE
+[a2b6b270] Cam IP: 
+[a2b6b2c0] Connections::SetupLandingScreen.OnCreate, page = 
+[a2b6b564] Connections::SetupLandingRear.onPress
+[a2b6b60c] %
+[a2b6bf48] BT pairing status
+[a2b6bf60] pairing STARTed event received.....
+[a2b6bf70] onPairing Fail
+[a2b6bf78]  pairing FAILED event received.....
+[a2b6bf68] pairing SUCCESS event received.....
+[a2b6bdc0] :
+[a2b6c5d4] >>>> CAH MISC error event received
+[a2b6c5dc] >>>> Offload, CAH MISC error event, code: 
+[a2b697e0] CAH complete event received
+[a2b697e8] >>> CAH Status event received
+[a2b697f0] >>>> Status other events received
+[a2b6a8cc] Connect Status
+[a2b6bdf8] Sniper pairing STARTed event received.....
+[a2b6be00] Sniper pairing SUCCESS event received.....
+[a2b69810] Connections::AusMediaOffload.onHDMIStatus
+[a2b69f7c] Connections::AusMediaOffloadTrigger.onHDMIStatus
+[a2b69850] Connections::AusMediaOffloadTrigger.onMediaOffloadStopped
+[a2b697f8] >>> CAH error event received
+[a2b69800] >>>> CAH error event, code: 
+[a2b69818] Connections::AusMediaOffloadTrigger.onStop
+[a2b69840] >>>> Connections::AusMediaOffloadTrigger.onMediaOffloadErrorMisc CAH MISC error event received
+[a2b69848] >>>> CAH MISC error event, code: 
+[a2b69f74] >>> Connections::AusMediaOffloadTrigger.onMediaOffloadError CAH error event received
+[a2b6b2c8] SetupPage set to illegal value: 
+[a2b6c5e4] >>>> offload progress event
+[a2b6c5ec] >>>> offload progress event, params: 
+[a2b6c5f4] /
+[a2b6c5fc]  >>>> Already uploaded progress Percent : 
+[a2b697d0]  >>>> Each file percent: 
+[a2b697d8]  >>>> percentageProgress calculated and displayed is : 
+[a2b69828] >>>> Connections::AusMediaOffloadTrigger.onMediaOffloadProgress CAH offload progress event
+[a2b69830] >>>> offload progress event, params form APPC: 
+[a2b6a884] >>>> offload PREPARE event
+[a2b6ca80] PREPARING
+[a2b6c5c4] ITEM 
+[a2b6c5cc] Total: 
+[a2b69838] >>>> Connections::AusMediaOffloadTrigger.onMediaOffloadPrepare  CAH offload prepare event
+[a2b69f6c] >>> Connections::AusMediaOffloadTrigger.onMediaOffloadStatus  CAH Status event received
+[a2b6b74c] Notify PIN event: 
+[a2b6b754]  
+[a2b6b744] Go pRo app, NotifyPairing event, status = 
+[a2b6b764] Remote device --- NotifyPairing event, status = 
+[a2b6b524] onSniperPairing Fail
+[a2b6bf40] Sniper pairing FAILED event received.....
+[a2b6b75c] remainingSeconds value: 
+[a2b6b664] 1234567890
+[a2b6a8c4]  Keyoboard Init method........
+[a2b6b58c] 012345
+[a2b6b71c] Pairing Text
+[a2b6b258] Cam IP: 10.5.5.9
+[a2b6c64c] CHOOSE NETWORK
+[a2cc9a0c] Text
+[a2cc9a14] 0
+[a2cca5f0] Tav::IdleScreenAbstractRear.onDoubleTap
+[a2ccc474]  fastChargingState  event received: 
+[a2ccf414] Tav::PhotoTimer.startPhotoTimer
+[a2ccbb54] Tav::LockScreen.onMove
+[a2ccbc60] Tav::LockScreen.onPress
+[a2ccbc68] Tav::LockScreen.onAnimateIcon
+[a2ccc1a4] Tav::LockScreen.onAnimateFinished
+[a2ccf37c] onShowHide not overfritten for 
+[a2cc9930] Mode button long press in front update alert
+[a2cd3c6c] Long mode press handling hence returning 
+[a2cc35dc] ----Tav::SettingsButton.onLongPress
+[a2cd23cc] Tav::IdleScreenAbstractRear.onHideMiddleControl
+[a2cc4298] Tav::IdleScreenAbstractRear.onShutterRelease
+[a2cca998] Tav::IdleScreenAbstractRear.onLongShutterPress
+[a2cca9a8] Tav::IdleScreenAbstractRear.onLongShutterRelease
+[a2cca9b0] Tav::IdleScreenAbstractRear.onLongModePress
+[a2cca9b8] Tav::IdleScreenAbstractRear.onLongModeRelease
+[a2ccb440] Tav::IdleScreenPhotoRear.onCountDownDone
+[a2ccf41c] Tav::PhotoTimer.onCountDownDone
+[a2cc832c] Tav::ExposureSelectRear.onLongHold
+[a2ccf490] Tav::ExposureSelectRear.onLock
+[a2ccfe58] Tav::HelperClass.CycleModeFromFrontMenu
+[a2ccbc58] Tav::LockScreen.onShowDrawer
+[a2ccbc48] Tav::LockScreen.onAutoHide
+[a2ccbc70] Tav::LockScreen.onExit
+[a2cd3164] Tav::SubModeMenu.onOption2
+[a2ccc854] Tav::SubModeMenu.onOption3
+[a2cd3230] Tav::SubModeMenu.onOption4
+[a2ccbc88] Tav::IdleScreenVideoDialog.stopClipEncodingOnVoiceCommand
+[a2cd53c0] Tav::SimpleModePicker.onSingleTap
+[a2cd53c8] Tav::SimpleModePicker.onDoubleTap
+[a2ccffb4] Tav::SimpleModePicker.onLongPress
+[a2cd5a14] Tav::SimpleModePicker.onLongShutterPress
+[a2cd5a1c] Tav::SimpleModePicker.onLongShutterRelease
+[a2ccb0d4] Tav::IdleScreenAbstractRear.UpdateZoom
+[a2ccac24] Tav::IdleScreenAbstractRear.ShowCapture
+[a2ccaf08] Tav::IdleScreenAbstractRear.HideButtons
+[a2cca894] Tav::IdleScreenAbstractRear.onAnimateChromeDone
+[a2ccac5c] Tav::IdleScreenAbstractRear.onMiddleControlShowDone
+[a2cca9c8] Tav::IdleScreenAbstractRear.onBottomControlHideDone
+[a2ccbb34] Tav::LockScreen.onDrag
+[a2cd5a5c] full swipe down,
+[a2cca9c0] Tav::IdleScreenAbstractRear.onBottomControlShowDone
+[a2cca9d0] Tav::IdleScreenAbstractRear.ShowIdle
+[a2ccac64] Tav::IdleScreenAbstractRear.onMiddleControlHideDone
+[a2ccb428] Tav::IdleScreenPhotoRear.ShowIdle
+[a2ccaf00] Tav::IdleScreenAbstractRear.HandleFTU
+[a2ccac98] ----------------Tav::IdleScreenAbstractRear.onZoomChangeEvent
+[a2ccfb2c] ???
+[a2cd2dac] Tav::IdleScreenAbstractRear.ActivateControl
+[a2ccaf28] Tav::IdleScreenAbstractRear.HideControls
+[a2cd4bac] Tav::SimpleModeItem.onSwipe
+[a2ccfa3c] Remote device pair view, Long shutter press called
+[a2ccffbc] Tav::SimpleModePicker.onShutterPress
+[a2cd5a04] Tav::SimpleModePicker.onShutterRelease
+[a2ccc270] Tav::IdleScreenPhotoDialog.refreshViews
+[a2ccb614] Tav::IdleScreenVideoDialog.refreshViews
+[a2cd2f94] Tav::IdleScreenTimeLapseDialog.refreshViews
+[a2cd5a0c] Tav::SimpleModePicker.onModePress
+[a2ccfb24] Tav::StorageInfoRear.OnTapBanner Alert tapped
+[a2ccb314] Tav::IdleDialogAbstract.onShowChrome SET AUTO SHUTTER PRESET
+[a2ccb448]  Tav::IdleScreenVideoDialog.OnCreate 
+[a2ccc3b8]  Tav::IdleScreenTimeLapseDialog.OnCreate
+[a2ccb338] H:
+[a2ccb340] :
+[a2cd2180] H
+[a2cd2928] sec
+[a2ccdf34] 00:
+[a2ccf40c] 10
+[a2ccbc50] Tav::LockScreen.onUnlockUpdate
+[a2cd65e0] Tav::IdleScreenBroadcastRear.ShowCapture
+[a2ccb438] Count Down timer=
+[a2cd2d84] Tav::IdleScreenTimeLapseDialog.OnActivate
+[a2cd2d8c] Tav::IdleScreenTimeLapseDialog.OnActivate - ButtonActionOnMenuScreen = 
+[a2cd2d94] >>>> ScreenVideo, Activate(), ShowIdle flag:
+[a2ccb458] IdleScreenVideo<Quick Capture Detected>:: Invoking Record Start for VIDEO
+[a2cd1f5c] Tav::DrawerScreen.OnCreate
+[a2ccb61c] Tav::IdleScreenVideoDialog.onCaptureStatus
+[a2ccb624] IdleScreenVideo<Quick Capture CHECK>:: Is quick mode: 
+[a2ccb634] Tav::IdleScreenVideoDialog.onCaptureStatus - Received AvStartingEncode event
+[a2ccbb3c] Capture error = 
+[a2ccbb44] Caller ID = 
+[a2ccb62c] IdleScreenVideo<Quick Capture DONE>:: Invoking Shutdown upon record stop
+[a2cd5a74] >>>Tag moment calling record hilight: 
+[a2ccf9dc] Tav::IdleScreenBroadcastDialog.tagMoment
+[a2ccbc78] ---------Tav::IdleScreenVideoDialog.onAVNotify
+[a2ccbc40] Ignored
+[a2ccbc80] -----------------Tav::IdleScreenVideoDialog.onAVNotify LEAVE DIALOG
+[a2cc82cc] Tav::IdleScreenBroadcastDialog.onAVNotify
+[a2cc82dc] Tav::IdleScreenBroadcastDialog.onAVNotify, received AV notify: AvBroadcastError
+[a2cc82d4] Tav::IdleScreenBroadcastDialog.onAVNotify LEAVE DIALOG
+[a2ccbc90] IdleScreenPhoto:: Activate Invoked
+[a2ccbc98] IdleScreenPhoto.OnActivate: Simulating photo capture due to external Shutter key
+[a2ccbca0]  Tav::IdleScreenPhotoDialog.OnCreate 
+[a2cc8290] Tav::IdleScreenBroadcastDialog.stopCapture
+[a2ccc20c] Tav::IdleScreenPhotoDialog.onCaptureStatus
+[a2ccc268] Tav::IdleScreenPhotoDialog.onCaptureStatus - Received AvLastRawCaptureDone event
+[a2ccc21c] Tav::IdleScreenPhotoDialog.onCaptureStatus - Received AvStillCaptureStart event
+[a2ccc22c] Tav::IdleScreenPhotoDialog.onCaptureStatus - Received AvStillCaptureDone event
+[a2ccc214] Tav::IdleScreenPhotoDialog.onCaptureStatus - Received AvStartingEncode event
+[a2ccc224] Tav::IdleScreenPhotoDialog.onCaptureStatus - Received event
+[a2ccc278] Tav::IdleScreenPhotoDialog.StartPhotoCapture
+[a2cd761c] Tav::IdleScreenPhotoDialog.onChangePhotoStorage
+[a2ccc420] Tav::IdleScreenPhotoDialog.onAvNotify
+[a2ccc46c] %%
+[a2cce8a8] Tav::IdleHeaderRear.onSDCardStatus Card status is 
+[a2cce8b0] Unknown event received at UI
+[a2cce8b8] Tav::IdleHeaderRear.OnSetReadyText
+[a2cd65e8] Tav::IdleScreenBroadcastRear.OnSetLiveText
+[a2cd0214] Tav::FWUpdateAlert.OnCreate - Creating rear view
+[a2cce03c] Tav::IdleScreenBroadcastRear.GetTextSize
+[a2cc8314] Tav::ExposureSelectRear.onExit
+[a2ccfa9c] Tav::ExposureSelectRear.onSave
+[a2cc833c] ExposureSelect Tap
+[a38daf80] LIVEBURST
+[a2ccfdf0] 3K
+[a2ccfb34] 2.7K 4:3
+[a2ccfb3c] 4K 4:3
+[a2ccfb44] 5.6K
+[a2ccfb4c] 5.7K
+[a38d2064] 30/10
+[a38e0f94] 60/6
+[a38d940c] 60/10
+[a2b6c664] 90/3
+[a2b6c7d0] 1/3840
+[a2b6c800] 1/384
+[a2b6ca88] 1/640
+[a2b6c694] 1/720
+[a2b6ca90] 1/800
+[a2b6ca58] 1/1920
+[a2ccfe08] P
+[a2ccfe00] 360
+[a2ccfe34] ***************** Tav::HelperClass.GetFlatModeDlog - isHDMIConnected ********
+[a2ccfe50] GetFlatModeDlog: Unknown mode 
+[a2ccfe40] CycleMode: Broadcast mode not supported
+[a2ccfe48] CycleMode: USB MTP mode
+[a2ccfe60] %
+[a2cd36f0] PROTUNE
+[a2ccc3f0] selected after scroll
+[a2ccc3e8] SetDate -- Invalid Format value!
+[a2ccc3f8] PrevFormat
+[a2ccd5b4] 14
+[a2ccc6ec] Lineone========================
+[a2cc9938] Tav::FWUpdateErrorAlert.OnCreate - Creating rear view
+[a2ccb2ec] Message
+[a2cd3cac] Body copy for this dialog goes here.
+Body copy for this dialog goes here.
+[a2cd3cc4] HEADER
+[a2cd61e0] ????????
+[a2ccd5cc] /
+[a2cd20f8]  
+[a2ccbae4] 0000
+[a2cd2178] 00
+[a2cd2740] Tav::IdleScreenAbstractRearCo.UpdatePillarBoxing
+[a2cd2920] ?
+[a2ccfe20] W
+[a2cc91cc] L
+[a2cd2188] >;<
+[a2cd2940] -
+[a2cd2990] Tav::IdleScreenTimeLapseRear.ShowIdle RETURN
+[a2cd2d4c] Alert Text
+[a2cd312c] Tav::IdleScreenTimeLapseDialog.onChangePhotoStorage
+[a2cd2fb4] Tav::IdleScreenTimeLapseDialog.onCaptureStatus - Received AvStillCaptureDone event
+[a2cd2f9c] Tav::IdleScreenTimeLapseDialog.onCaptureStatus - Received AvStartingEncode event
+[a2cd2fa4]  Tav::IdleScreenTimeLapseDialog.onCaptureStatus - Received AvProgressCounter event
+[a2cd2fac] Received AvStillCaptureStart event
+[a2cd3124] -----------------Tav::IdleScreenTimeLapseDialog.onAVNotify LEAVE DIALOG
+[a2cd3218] Tav::SubModeMenu.SetTLapseMode
+[a2cd3228] Tav::SubModeMenu.SetPhotoMode
+[a2cccd44] SubMenu:
+[a2cd53d8] Tav::SimpleModePicker.onSwipeRight, 
+[a2cd5a2c] Tav::SimpleModePicker.highlightSelected, 
+[a2cd53d0] Tav::SimpleModePicker.onSwipeLeft, 
+[a2ccd654] >>> 29102 : group count
+[a2ccdeec] Mode
+[a2ccdf04] Aspect Ratio
+[a2cc6738] Item:
+[a2ccdf1c] MENU NULL, RETURN
+[a2ccdf24]  | 
+[a2cc6730] Tav::CtxItemRear.onUpdateInfo newItem is null
+[a2cc6740] x
+[a2cce838] Tav::ContextualButtonVideoRear.onUpdateAdvancedSettings : Invalid Mode 
+[a2cce840] Tav::ContextualButtonPhotoRear.onUpdateAdvancedSettings
+[a2ccf394] MESSAGE
+LINE TWO
+[a2ccf39c] MESSAGE
+[a2cd3c84] Tav::ModeFrontView.updateMainMode
+[a2cd5a6c] Hide Scrim
+[a2cd5a24] Cursor:
+[a2ccfa84]  Tav::IdleScreenBroadcastDialog.onModeSwitch :: driver.isShutDownInProgress, Driver::Driver.GetCaptureStatus()
+[a2cd1c90] Tav::IndicatorRear.onConnectionStatus, wifiState: 
+[a2cd6730] init
+[a2cc82e4] Tav::IdleScreenBroadcastDialog.onBroadcastAlertConfirm Broadcast Exit path
+[a2ccc34c] Tav::OSCButton.onChangeControl
+[a2ccfe18] N
+[a2cc93d8] 8MP
+[a2cd0094] 12MP
+[a2ccc7dc] dx:
+[a2ccd1c4] dy:
+[a2ccc280] Tav::IdleScreenPhotoDialog.ShowPhotoAfterTimer
+[a2ccac90] Tav::IdleScreenAbstractRear.ShowMiddleControl
+[a2ccaef8] --------------------Tav::IdleScreenAbstractRear.ShowBottomControl
+[a3b5c688] 10 Sec
+[a3b5c948] 10 Seconds
+[a2ccaf20] Tav::IdleScreenAbstractRear.InitOnScreenControls
+[a2ccc288] Invalid Photo mode 
+[a2ccdf7c] Tav::CtxDialog.onSavePreset
+[a2ccb304] >>>> ScreenVideo, onReleaseMode, Cycle mode is called
+[a2ccd1d4] Tav::ModeListDialog.onExitError something is wrong
+[a2ccfce0] BLEPairingAlert: BT pairing status
+[a2ccfce8] Unknown BT Pairing status 
+[a2cd5a64] IdleScreenVideo<CAPTURE STOP>:: STOPPING CAPTURE
+[a2ccc1e4] Tav::IdleScreenPhotoDialog.onShutterPress
+[a2cd2fbc] IdleScreenTLVideo<CAPTURE STOP>:: STOPPING CAPTURE
+[a2cd6700] Tav::IdleScreenPhotoDialog.onShutterRelease
+[a2ccc1f4] Tav::IdleScreenPhotoDialog.onShutterRelease In Night Photo and with delay timer hence returning
+[a2cd6708] Tav::IdleScreenPhotoDialog.onModeRelease
+[a2ccfdf8] ??????
+[a2ccffd4] Menu Header Rear Wifi state variable
+[a2cd1f6c] Tav::DrawerScreen.onUnlock
+[a2cd1f64] Tav::DrawerScreen.onLockUnlockExit
+[a2cd1f74] Tav::DrawerScreen.onScreenLock
+[a2cd61b0] Tav::IndicatorRear.onOffloadStatusHandler, Offload status charger: 
+[a2cc9b84] Swipe Right
+[a2cc35d4] ----Tav::SettingsButton.onChangeValue
+[a2cc9f84] ++++++++++++++Tav::SettingsButton.onChangeValue
+[a2cd002c] IdleScreenVideo<Quick Capture Detected>:: Invoking Record Start
+[a2cd4178] Tav::IdleScreenBroadcastDialog.onSystemReadyEventHandler<Quick Capture Detected>:: Invoking Record Start
+[a2ccb0cc] Tav::IdleScreenAbstractRear.onSelectControlOption
+[a2cca86c] Tav::IdleScreenAbstractRear.onSwipeRight
+[a2cca89c] Tav::IdleScreenAbstractRear.onShutterPress
+[a2cd1fc8] Tav::IdleScreenAbstractRear.onModeRelease
+[a2cca87c] Tav::IdleScreenAbstractRear.onSwipeDown
+[a2cc4cfc] Tav::IdleScreenAbstractRear.onContextualMenu
+[a2cd2998] Tav::IdleScreenTimeLapseRear.onCheckCameraMode
+[a2cca874] Tav::IdleScreenAbstractRear.onSwipeUp
+[a2ccb30c] Tav::IdleDialogAbstract.onUISync
+[a2ccb460]  Tav::IdleScreenVideoDialog.onModeRelease :: driver.isShutDownInProgress, Driver::Driver.GetCaptureStatus()
+[a2ccb468]  UNEXPECTED :: this option is not handled
+[a2cc7d60] Tav::IdleScreenBroadcastDialog.onModeRelease, UNEXPECTED :: this option is not handled
+[a2ccb430] 1
+[a2ccd1cc] something is wrong, set to the new dialog
+[a2cce6dc] Tav::LockScreen_Co.onActivate
+[a2ccbb2c] Tav::LockScreen.onRelease
+[a2ccb450] Tav::IdleScreenVideoDialog.OnActivate
+[a2ccf3c4] Tav::IdleScreenBroadcastDialog.OnActivate
+[a2ccbb5c] Tav::IdleScreenVideoDialog.startCapture
+[a2ccbc28] Tav::IdleScreenVideoDialog.onSDCardStatus
+[a2ccbc30] IdleScreenVideo<Quick Capture Detected>:: Invoking Shutdown upon card error
+[a2ccbc38] IdleScreenVideo<Quick Capture Detected>:: Invoking Record Start for Video On Card OK
+[a2ccf9e4] Tav::IdleScreenBroadcastDialog.onSDCardStatus
+[a2ccf9f4] Tav::IdleScreenBroadcastDialog.onSDCardStatus<Quick Capture Detected>:: Invoking Record Start for Video On Card OK
+[a2ccf9ec] Tav::IdleScreenBroadcastDialog.onSDCardStatus<Quick Capture Detected>:: Invoking Shutdown upon card error
+[a2ccc290] Tav::IdleScreenPhotoDialog.onSDCardStatus
+[a2cd3114] Tav::IdleScreenTimeLapseDialog.startCapture
+[a2cca884] Tav::IdleScreenAbstractRear.onLongHold
+[a2cc837c] Low Storage Alert is already been shown
+
+[a2cd311c] Tav::IdleScreenTimeLapseDialog.onSDCardStatus
+[a2cccd3c] ModeMenu: Invalid list item number!
+[a2cccd78] Menu, Swipe Up 
+[a2cc4208]  isShifted:
+[a2cd2078] Tav::ModeMenuListCo.onSwipeDown, Swipe down 
+[a2cccd4c] Tav::ModeMenuList.OnSetCurrentSubMenuNo INVALID SUBMENU: FLAT MODE NOT SUPPORTED
+[a2ccd64c] Tav::CtxViewRear.OnActivateItem : No file present in card
+[a2cce6a0] Tav::ContextualButtonAbstractRear.onContextualMenu
+[a2ccb330] Tav::IdleScreenVideoRear.ShowCapture
+[a2cd53e0] Tav::SimpleModePicker.onSwipeUp
+[a2cd53e8] Tav::SimpleModePicker.onSwipeDown
+[a2cd5a3c] --------------------Tav::SimpleModePicker.onButton, 
+[a2cd5a34] Tav::SimpleModePicker.onButton, 
+[a2ccf9d4] Tav::IdleScreenBroadcastDialog.startCapture
+[a2cc7d70] Tav::IdleScreenBroadcastDialog.onCaptureStatus
+[a2cc7d78] Tav::IdleScreenBroadcastDialog.onCaptureStatus - Received AvStartingEncode event
+[a2cc4d14] Tav::IdleScreenAbstractRear.onControlButtonPressed
+[a2ccac54] OSC button empty: Noting to log for Analytics
+[a2ccaf10] Tav::IdleScreenAbstractRear.ShowButtons
+[a2ccaf30] ----------Tav::IdleScreenAbstractRear.InitButton------------
+[a2ccaf38] Tav::IdleScreenAbstractRear.InitButton CONTROL_NONE
+[a2ccb0dc] Tav::IdleScreenAbstractRear.onLongPress
+[a2cd2b0c] Tav::OSCButton.onChangeValue
+[a2cd2b04] ----Tav::OSCButton.onPress
+[a2ccc354] Tav::OSCButton.onLockUnlock
+[a2b6ca78] HERO RC
+[a2cd2978] v00.00.00.00
+[a2ccf354] Upload Error
+[a2ccdfe4] Caption
+[a2cd20f0] 00:00
+[a2cd4ba4] LAPSE
+[a2cd61d8] 00/00/00
+[a2cd6748] Tav::ModePreviewFront.Init
+[a2cd237c] 1080 60 W
+[a2ccb2d4] 32:10
+[a2ccbadc] 123456
+[a2ccb60c] Tav::IdleScreenVideoDialog.onUISync
+[a2cd2d9c] Tav::IdleScreenTimeLapseDialog.onUISync
+[a2ccc204] Tav::IdleScreenPhotoDialog.onUISync
+[a2ccfaf4] 0H:00
+[a2cc7d68] Tav::IdleScreenBroadcastDialog.onUISync
+[a2cca88c] Tav::IdleScreenAbstractRear.ShowChrome
+[a2ccf460] AUTO EXPOSURE
+[a2ccbb4c] Tav::LockScreen.onActivate
+[a2ccc3e0] update view
+[a2cc71ac] Set Time
+[a2cc4210] Tav::ModeMenuList.onSwipeDown, Swipe down 
+[a2ccd624] Invalid flatmode
+[a2ccd320] Event 1
+[a2cce828] Tav::ContextualButtonVideoRear.onUpdateMainSettings
+[a2cce830]  Invalid flat mode 
+[a2cc74a8] Tav::ContextualButtonVideoRear_Co.onUpdateMainSettings
+[a2cd4ea4] -------------Tav::SimpleModePicker.Init
+[a2cce6d4]  UI : Tav::PresetModeIndicator.Init Invalid Current profile mode.
+[a38d09e4] +++++++++++++++++++++++++++++++Playback::PlaybackRear.OnSetCurrentScreenNailNo
+[a38cdb80] Playback::PlaybackControl.onBounceDone
+[a38ca830] Playback::PlaybackMediaBase.GetHilightInfoFromDriver
+[a38ca838] Playback::PlaybackMediaBase.CreateMediaState
+[a38cc5e4] Playback::PlaybackMediaBase.Stop
+[a38cb294] >>>>>>>>>Playback::PlaybackMediaBase.IsHilightPresent
+[a38cdcfc] Playback::PlaybackMediaBase.Pause
+[a38ce9e4] Playback::PlaybackMediaPhoto.onPause No action for photo Pause
+[a38cee48] NOT IMPLEMENTED -> Create and enter the gallery menu screen.
+[a38cf6b0] Playback::PlaybackTags.RemoveTag videoDuration: 
+[a38cf6b8] scalePercentage:
+[a38cf6c0] timeStamp:
+[a38cf508] Tag ID: 
+[a38cf6c8] Playback::PlaybackTags.RemoveTag Tag ID: 
+[a38cf6a8] Out of Bounds
+[a38d0a24] Playback::PlaybackRear.InitializeWithMedia
+[a38d0cbc] Playback::PlaybackRear.DeInit
+[a38cdda0] Playback::PlaybackMediaBase.onEnableHilightTap
+[a38c9494] Playback::PlaybackMediaVideo.onEnableSlowMoTap
+[a38c9648] Playback::PlaybackControl.InitScreen
+[a38c9650] Playback::PlaybackControl.InitScreen Set EXIT slot
+[a38c96c8] Playback::PlaybackControl.SetupScreenWithMedia
+[a38ce9cc] Playback::PlaybackMediaMultiShot.onHDMIStatus
+[a38ce43c] ----------------Playback::PlaybackMediaVideo.UpdateSeekBar
+[a38d0a2c] Playback::PlaybackRear.onAnimateSlideDone
+[a38cea1c] Playback::PlaybackMediaPhoto.IsHilightPresent
+[a38d027c] Playback::PlaybackMediaBase.UpdateControls
+[a38ca5e8] Playback::PlaybackMediaBase.onDelete
+[a38cb1cc] Playback::PlaybackMediaBase.onDeleteConfirm
+[a38ce280] Playback::PlaybackMediaVideo.onRewind
+[a38d0cac] Playback::PlaybackRear.ScreenNailVisible
+[a38c8b24] Playback::PlaybackRear.ClearScreens
+[a38c8b14] ********************Playback::PlaybackRear.SetupMultiShotScreens***************************
+[a38ce464] Playback::PlaybackMediaVideo.PlaySlowMo
+[a38d0fd8] Playback::PlaybackRear.SetCurrentTimeSeekBar
+[a38cf72c] Playback::SeekBarRear.RemoveTag Invalid time
+[a38c8a9c] Playback::PlaybackRear.StopEffects
+[a38d088c] Playback::PlaybackRear.Bounce
+[a38d0894] Playback::PlaybackRear.Scroll
+[a38d09fc] Playback::PlaybackRear.UpdateScreen
+[a38cb070] Playback::PlaybackButton.onPressShutter
+[a38cba9c] ---------Playback::ThumbViewScreen.onSelectDeleteHeader
+[a38d089c] ----------------------Playback::PlaybackRear.onMediaNext
+[a38d08a4] ----------------------Playback::PlaybackRear.onMediaPrev
+[a38d0c84] Playback::PlaybackRear.onZoom
+[a38d0c8c] Playback::PlaybackRear.onPan
+[a38d0c94] Playback::PlaybackRear.onScrollDone
+[a38c9590] Playback::PlaybackFooterRear.onDelete
+[a38c9630] Playback::PlaybackControl.onGrid
+[a38c9638] Playback::PlaybackControl.onExit
+[a38cc048] Playback::PlaybackMediaBase.onExit
+[a38c9620] Playback::PlaybackControl.onPrev
+[a38ce57c] Playback::PlaybackMediaMultiShot.PostDeleteAction
+[a38ce63c] Playback::PlaybackMediaMultiShot.onNextPhoto
+[a38ce644] Playback::PlaybackMediaMultiShot.onPrevPhoto
+[a38c9810] ---------Playback::ThumbViewRear.OnSelectItem
+[a38cc078] Playback::NoNewMediaAlertRear.onExit
+[a38d08ac] ---------Playback::PlaybackRear.UpdateScreenNails
+[a38cff6c] -------Total Screen Decoded:
+[a38d094c] -------last file
+[a38d0954] -------first file
+[a38d095c] --------------Decoding temp MS screen in background
+[a38ce584] Playback::PlaybackMediaMultiShot.Stop
+[a38c8b2c] Playback::PlaybackRear.freeScreennailMemory
+[a38d0a14] Playback::PlaybackRear.InitUIElements
+[a38d0a1c] Invalid media type
+[a38cdcf4] Playback::PlaybackMediaBase.onLensConfig
+[a38c9568] Playback::PlaybackMediaMultiShot.onPause
+[a38ce99c] Playback::PlaybackMediaMultiShot.Multishot_Next_Photo
+[a38ce9a4] Playback::PlaybackMediaMultiShot.Multishot_Prev_Photo
+[a38ca5e0] Playback::PlaybackControl.onStartPlay
+[a38ca608] ---------Playback::ThumbViewRear.onDeleteItem
+[a38d0a58] Playback::PlaybackRear.ToggleChromeSlide
+[a38d0cc4] Playback::PlaybackRear.ToggleChromeShow
+[a38d0a80] Playback::PlaybackRear.InitMultishotUIElements
+[a38ce654] Playback::PlaybackMediaMultiShot.UpdateButtons
+[a38d0c7c] Playback::PlaybackRear.InitVideoUIElements
+[a38ce41c] Playback::PlaybackMediaBase.PostDeleteAction
+[a38c9618] Playback::PlaybackControl.onNext
+[a38d0cb4] Playback::PlaybackRear.onMediaScreenDecoded
+[a38d0ff0] Playback::PlaybackRear.onDecodeFailedSmoothAnimation
+[a38c8abc] Playback::PlaybackRear.onMediaScreenDecodedFailed
+[a38d1028] ----------------------------Playback::PlaybackRear.onMultishotScreenDecoded
+[a38d0c9c] Playback::PlaybackRear.Initialize
+[a38d0fe0] Playback::PlaybackRear.onEntryAnimationDone
+[a38d0fe8] Playback::PlaybackRear.onExitAnimation
+[a38d0ff8] Playback::PlaybackRear.onReleaseMode
+[a38d1000] Playback::PlaybackRear.onReleaseShutter
+[a38c8b1c] Playback::PlaybackRear.onLongPressShutter
+[a38cf6a0] Playback::PlaybackTags.AddTag Tag ID: 
+[a38cf698] Max Tags Reached
+[a38c8b34] Playback::PlaybackDialog.OnCreate
+[a38cf73c] Playback::NoNewMediaAlert.OnCreate
+[a38c8b3c] Playback::PlaybackDialog.onGrid
+[a38cf5f0] Playback::PlaybackMediaBase.DeleteMedia
+[a38c8b44] Playback::PlaybackDialog.onExit
+[a38c8b4c] Playback::PlaybackDialog.onExit 
+[a38c8b54] Playback::PlaybackDialog.onExit rearView is null
+[a38cba8c] Playback::ThumbViewScreen.onDeleteCancel
+[a38c8cf8] Playback::PlaybackDialog.EnterGalleryAfterPlaybackLeave thumbview screen entered
+[a38cb25c] Text
+[a38cb080] Playback::PlaybackControl.Initialize
+[a38c95a0] Playback::PlaybackControl.DeInit
+[a38cbd90] ---------------Playback::PlaybackControl.onNextDone
+[a38ca5a8] ---------------Playback::PlaybackControl.onPrevDone
+[a38c9628] Playback::PlaybackControl.onDelete
+[a38c9640] null obj created
+[a38cbadc] ----- Playback::PlaybackControl.SetupCurrentMedia ---- 
+[a38c96c0] Playback::PlaybackControl.SetupCurrentMedia 
+[a38c96b0] create next media 
+[a38c96b8] Playback::PlaybackControl.SetupCurrentMedia create curr media 
+[a38cbaf4] create prev media 
+[a38ca5b8] Playback::PlaybackControl.InitPlayback noOfMediaFiles 
+[a38ce47c] Playback::PlaybackMediaMultiShot.DeInit
+[a38ca5f0] Playback::PlaybackMediaBase.onHilight
+[a38ca840] Playback::PlaybackMediaBase.InitMediaState
+[a38cea04] Playback::PlaybackMediaPhoto.InitMediaState
+[a38ce55c] Playback::PlaybackMediaMultiShot.InitMediaState
+[a38ca848] Playback::PlaybackMediaBase.onAvEventHandle
+[a38cb1c4] Playback::PlaybackMediaBase.HandleEventDelete
+[a38cb1ec] Playback::PlaybackMediaBase.HandleDeleteCancel
+[a38cb1d4] Playback::PlaybackMediaBase.onDeleteCancel
+[a38cb1e4] Playback::PlaybackMediaBase.CallDriverDelete
+[a38cdcdc] >>>>>>>>>Playback::PlaybackMediaBase.GetHilightSec
+[a38cdcd4] Playback::PlaybackMediaBase.FreeHilightMem
+[a38cc0b8] :
+[a38cc0c0] 00:
+[a38cc0b0] H:
+[a38ce9b4] Playback::PlaybackMediaMultiShot.onSeekEnd
+[a38cddd0] /
+[a38ce258] Playback::PlaybackMediaVideo.Stop
+[a38ce278] Playback::PlaybackMediaVideo.onFastForward
+[a38ce288] Playback::PlaybackMediaVideo.onSlowMo
+[a38ce290] SlowMo and hilight disabled till toast is shown
+[a38ce2a0] Playback::PlaybackMediaVideo.onVolume
+[a38ce2b0] Playback::PlaybackMediaVideo.onFastForwardStop
+[a38ce2b8] Playback::PlaybackMediaVideo.onRewindStop
+[a38c94e4] 0
+[a38ce2c0] Playback::PlaybackMediaVideo.onOrientationChange
+[a38ce46c] Playback::PlaybackMediaVideo.onNextFrame
+[a38ce474] Playback::PlaybackMediaVideo.onPrevFrame
+[a38ce54c] Playback::PlaybackMediaMultiShot.GetHilightInfoFromDriver
+[a38ce9bc] Playback::PlaybackMediaMultiShot.JumpToPhoto
+[a38ce9c4] Next multishot position
+[a38ce634] Playback::PlaybackMediaMultiShot.InitDone Current multishot position
+[a38ce64c] Playback::PlaybackMediaMultiShot.onDeleteConfirmSinglePhoto
+[a38ce9d4] Playback::PlaybackMediaMultiShot.HandleTag fileName: 
+[a38cea24] points
+[a38cc288] ScreenItem - FileName is set to:
+[a38c9660] Playback::ScreenItem.onDecodeSuccess FileIndex, groupIndex, MediaType
+[a38cee50] Playback::LivePreviewBufferForEntryExitTransition.OnRenderInfoUpdate buffer orientation 
+[a38cdcc4] ThumbViewRear.OnActivateItem:: Add File =
+[a38ce86c] ---------------Playback::ThumbViewRear.onDeleteUnselect
+[a38c97f8] ----------------Playback::ThumbViewRear.onDeleteUnselect
+[a38c9808] -------------------Playback::ThumbViewRear.onReloadList NoOfFiles
+[a38c9818] ThumbViewRear.OnActivateItem:: Remove File =
+[a38ca600] Playback::ThumbViewRear.OnActivateItem : No file present in card
+[a38ca5f8] ThumbViewRear.OnActivateItem:: Reached Max Limit
+[a38ca628] ThumbViewRear:: updateFileDelteList: Exit numFiles 
+[a38ca868] .
+[a38ca860] Junk Value of Date Received thus not dosplaying any date
+[a38cc080] >>> 29102 : group count
+[a38cb234] Playback::ThumbViewRear.onSlideEnd
+[a38cb2dc] Test Message
+[a38cdb68] ThumbViewScreen.OnActivate:PbActionExitPbMode, Signal onExit
+[a38cba50] ThumbViewScreen.OnActivate:PbActionReloadTV, Signal onReloadList
+[a38cba60] ThumbViewScreen.OnActivate: Entered Perform GalleryBegin
+[a38cba84] Playback::ThumbViewScreen.onDeleteConfirm
+[a38cbb24] %
+[a38cc0a8] decodeFailedHandler:: isFileDecoded
+[a38cf734] -----------------Playback::SeekBarRear.onSeekStart
+[a38c9610] Playback::PlaybackControl.OnSetOrientation
+[a38c95b0] Playback::PlaybackMediaStateBase.OnSetCurrentFileNo
+[a38d0a68] Playback::PlaybackRear.StartChromeTimer
+[a38cb1dc] Playback::PlaybackMediaBase.ShowDeleteAlert
+[a38c8cd8] Playback::PlaybackDialog.EnterGalleryAfterIndexing
+[a38c8ce0] Playback::PlaybackDialog.EnterGalleryAfterIndexing initiating sd indexing
+[a38c8ce8] Playback::PlaybackDialog.EnterGalleryAfterIndexing initiate sd indexing done
+[a38c8cf0] Playback::PlaybackDialog.EnterGalleryAfterIndexing thumbview screen entered
+[a38c96a8] Playback::ThumbViewRear.onDeleteComplete
+[a38cdcec] Playback::PlaybackMediaBase.onExitDeleteAlert
+[a38cdce4] Playback::PlaybackMediaBase.onExitPlayback, preset id: 
+[a38cbaa4] Playback::ThumbViewScreen.onExitGallery, preset id: 
+[a38c9680] RETURN Playback::ScreenItem.OnSetGroupIndex
+[a38cc050] File = 
+[a38cc060]  is not present in Deleted list
+[a38ca828]  is present in Deleted list
+[a38cba68] UI::ThumbViewScreen.onDeleteComplete: state:
+[a38cba70] ThumbViewScreen.onDeleteComplete:: FAILURE
+[a38cba78] Temp string
+[a38d0a60] Playback::PlaybackRear.ResetChromeTimer
+[a38d09f4] Playback::PlaybackRear.MediaPresent
+[a38d0fd0] Playback::PlaybackRear.OnSetShowUI
+[a38d09ec] -------------Playback::PlaybackRear.OnSetMaxUI
+[a38d0ca4] Playback::PlaybackRear.PrepareUI
+[a38d0a0c] Playback::PlaybackRear.onExit
+[a38d0a70] Playback::PlaybackRear.onNextPhoto
+[a38d0a78] Playback::PlaybackRear.onPrevPhoto
+[a38d0c5c] Playback::PlaybackRear.onFastForward
+[a38d0c64] Playback::PlaybackRear.onRewind
+[a38d0c6c] Playback::PlaybackRear.onFastForwardStop
+[a38d0c74] Playback::PlaybackRear.onRewindStop
+[a38d0a04] Playback::PlaybackRear.onHilight
+[a38d0c4c] Playback::PlaybackRear.onSlowMo
+[a38c8b5c] Playback::PlaybackDialog.onUSBRemoved ------- calling UpdateScreenNails
+[a38ca5b0] Playback::PlaybackControl.SetupScreen
+[a38cdfb0] Playback::PlaybackMediaVideo.onPause
+[a38cdfb8] ERROR IN PAUSE-- EXIT
+[a38c9658] Playback::PlaybackControl.InitMedia
+[a38ca5c0] Playback::PlaybackControl.onInitDone
+[a38ca5c8] Playback::PlaybackControl.onInitDone Scroll direction is not 0 hence returning
+[a38ce44c] Playback::PlaybackMediaVideo.onSeekStart
+[a38cb28c] Playback::PlaybackMediaBase.ShowHilights
+[a38cb284] Playback::PlaybackMediaBase.ShowHilights No tags
+[a38ce65c] Playback::PlaybackMediaMultiShot.HandlePlayTimer
+[a38c9540] Playback::PlaybackCenterRear.onNext
