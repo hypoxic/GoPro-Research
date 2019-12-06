@@ -1,0 +1,6 @@
+package wsdk_commands;
+
+message WSDK_RequestSetTimeWarpSpeed1X {
+ required bool on = 1;
+}
+

@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumCAHServer {
+ WSDK_CAH_SERVER_PRODUCTION = 0;
+ WSDK_CAH_SERVER_STAGING = 1;
+ WSDK_CAH_SERVER_QA = 2;
+}

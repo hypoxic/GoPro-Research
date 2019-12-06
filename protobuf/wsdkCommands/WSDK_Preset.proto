@@ -1,0 +1,18 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumPresetIcon.proto";
+import "wsdkCommands/WSDK_EnumFlatMode.proto";
+import "wsdkCommands/WSDK_EnumPresetTitle.proto";
+import "wsdkCommands/WSDK_PresetSetting.proto";
+
+message WSDK_Preset {
+ optional int32 id = 1;
+ optional WSDK_EnumFlatMode mode = 2;
+ optional WSDK_EnumPresetTitle title_id = 3;
+ optional int32 title_number = 4;
+ optional bool user_defined = 5;
+ optional WSDK_EnumPresetIcon icon = 6;
+ repeated WSDK_PresetSetting setting_array = 7;
+ optional bool is_modified = 8;
+}
+

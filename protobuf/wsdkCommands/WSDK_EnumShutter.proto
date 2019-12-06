@@ -1,0 +1,7 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumShutter {
+ WSDK_SHUTTER_OFF = 0;
+ WSDK_SHUTTER_ON = 1;
+}

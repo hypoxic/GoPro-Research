@@ -1,0 +1,7 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumRegisterPresetStatus {
+ WSDK_REGISTER_PRESET_STATUS_PRESET = 1;
+ WSDK_REGISTER_PRESET_STATUS_PRESET_GROUP_ARRAY = 2;
+}

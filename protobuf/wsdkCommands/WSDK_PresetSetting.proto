@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+message WSDK_PresetSetting {
+ optional int32 id = 1;
+ optional int32 value = 2;
+ optional bool is_caption = 3;
+}
+

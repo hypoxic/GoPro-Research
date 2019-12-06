@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumWindowSize {
+ WSDK_WINDOW_SIZE_480 = 4;
+ WSDK_WINDOW_SIZE_720 = 7;
+ WSDK_WINDOW_SIZE_1080 = 12;
+}

@@ -1,0 +1,10 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumSystemNotifyEvent {
+ WSDK_ACTIVITY_UNKNOWN = 0;
+ WSDK_ACTIVITY_ST_START = 1;
+ WSDK_ACTIVITY_ST_POWER_ON = 2;
+ WSDK_ACTIVITY_ST_STOP = 3;
+ WSDK_ACTIVITY_APP_POWER_UP = 4;
+}

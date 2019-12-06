@@ -1,0 +1,82 @@
+s:>t appc status show
+        editing_preset_id               -1
+        creating_preset_id              -1
+        prev_active_preset_id           0
+        target_flat_mode        12
+        current_flat_mode       12
+        return_to_flat_mode     -1
+        target_app_mode 0
+        current_app_mode        12
+        current_video_sub_mode  0
+        current_photo_sub_mode  0
+        current_multi_shot_sub_mode     0
+        current_broadcast_sub_mode      0
+
+Broadcast Status
+
+        broadcast_wms_state             0
+        broadcast_request               0
+        broadcast_encode_requested              0
+        broadcast_setup_inprogress              0
+        sd_insert_needed                0
+System Status
+
+        eis_active              1
+        cold_temp_status                0
+        file_delete_status              0
+        system_busy             0
+
+        photo_timer_state               0
+
+        reset_reason            2
+        wake_on_voice_cmd               -1
+        contextual_menu_active          0
+
+        softtube_activity               0
+        softtube_activity_usr_interupt          0
+
+        first_time_use          0
+        sd_status               0
+        shutdown_now            0
+        shutdown_inprogress             0
+        reset_inprogress                0
+
+        wireless_init_state             4
+        wireless_traffic_timeout                -1
+        wireless_init_finished          1
+        rewrite_wakeup_csi              0
+        wifi_region             0
+
+        mobile_friendly_video   1
+
+        record_status           0
+        timelapse_active                0
+        quick_capture_active            0
+        continuous_capture_active               0
+        encode_stopping         0
+
+        remote_voice_control_enable             0
+        remote_voice_narration_enable           0
+        voice_control_enable            1
+        voice_control_state             0
+        voice_control_used              0
+
+        ibat_percent            78
+        ibat_bars               3
+        ibat_charge_state               0
+        charger_is_fast_charger         0
+        ibat_removed            0
+
+        current_disp_handle     7
+        hdmi_cable_inserted     0
+
+        digital_zoom_active             0
+        orientation             0
+        kirkwood_status         Not-Connected
+        exposure_select_type            2
+        avoid_camera_charging           0
+        charger_is_normal_charger               0
+        media_filter            0
+        livecapture_enable              0
+        livecapture_preview             0
+        dual_photo_calib_enable         0

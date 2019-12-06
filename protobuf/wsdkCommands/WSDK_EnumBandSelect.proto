@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumBandSelect {
+ WSDK_BAND_SELECT_2_4GHZ = 0;
+ BAND_SELECT_5GHZ = 1;
+ BAND_SELECT_MAX = 2;
+}

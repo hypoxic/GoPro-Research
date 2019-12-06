@@ -1,0 +1,10 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumAssociationState.proto";
+import "generic/EnumResultGeneric.proto";
+
+message WSDK_ResponseGetAssociationState {
+ required WSDK_EnumAssociationState association_state = 1;
+ required EnumResultGeneric result = 2;
+}
+

@@ -1,0 +1,7 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumRegisterOTAStatus {
+ WSDK_REGISTER_OTA_STATUS_STATE = 1;
+ WSDK_REGISTER_OTA_STATUS_PERCENTAGE = 2;
+}
