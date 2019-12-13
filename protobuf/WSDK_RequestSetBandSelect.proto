@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumBandSelect.proto";
+
+message WSDK_RequestSetBandSelect {
+ required WSDK_EnumBandSelect band_select = 1;
+}
+

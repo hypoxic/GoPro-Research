@@ -1,4 +1,7 @@
+syntax = "proto2";
+
 package wsdk_commands;
+
 
 import "wsdkCommands/WSDK_EnumPresetGroup.proto";
 import "wsdkCommands/WSDK_Preset.proto";

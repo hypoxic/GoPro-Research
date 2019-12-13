@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumWindowSize.proto";
+
+message WSDK_RequestSetLiveStreamMode {
+ optional string url = 1;
+ optional bool encode = 2;
+ optional WSDK_EnumWindowSize window_size = 3;
+ optional string token1 = 4;
+ optional string token2 = 5;
+ optional bytes cert = 6;
+}
+

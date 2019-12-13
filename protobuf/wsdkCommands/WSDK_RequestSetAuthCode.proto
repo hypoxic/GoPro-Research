@@ -1,6 +1,0 @@
-package wsdk_commands;
-
-message WSDK_RequestSetAuthCode {
- required string auth_code = 1;
-}
-

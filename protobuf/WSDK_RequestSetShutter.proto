@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumShutter.proto";
+
+message WSDK_RequestSetShutter {
+ required WSDK_EnumShutter shutter = 1;
+}
+

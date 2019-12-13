@@ -1,9 +1,0 @@
-package wsdk_commands;
-
-import "wsdkCommands/WSDK_EnumRegisterCAHStatus.proto";
-
-message WSDK_RequestGetCAHStatus {
- repeated WSDK_EnumRegisterCAHStatus register_cah_status = 1;
- repeated WSDK_EnumRegisterCAHStatus unregister_cah_status = 2;
-}
-

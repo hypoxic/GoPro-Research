@@ -1,0 +1,29 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumDeviceMgrState.proto";
+import "wsdkCommands/WSDK_EnumWOM.proto";
+import "wsdkCommands/WSDK_EnumCAHA.proto";
+import "wsdkCommands/WSDK_EnumAuthState.proto";
+
+message WSDK_NotifyCAHStatus {
+ optional WSDK_EnumDeviceMgrState device_mgr_state = 1;
+ optional WSDK_EnumDeviceMgrCat device_mgr_cat = 2;
+ optional WSDK_EnumDeviceMgrSub device_mgr_sub = 3;
+ optional WSDK_EnumDeviceMgrErr device_mgr_err = 4;
+ optional WSDK_EnumWOMState wom_state = 5;
+ optional WSDK_EnumWOMCat wom_cat = 6;
+ optional WSDK_EnumWOMSub wom_sub = 7;
+ optional WSDK_EnumWOMErr wom_err = 8;
+ optional WSDK_EnumCAHAState caha_state = 9;
+ optional WSDK_EnumCAHACat caha_cat = 10;
+ optional WSDK_EnumCAHASub caha_sub = 11;
+ optional WSDK_EnumCAHAErr caha_err = 12;
+ optional bool cah_active = 13;
+ optional bool cah_feature_enable = 14;
+ optional WSDK_EnumAuthState cah_auth_state = 15;
+ optional bool cah_busy = 16;
+}
+

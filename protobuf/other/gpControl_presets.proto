@@ -1,0 +1,93 @@
+syntax = "proto2";
+
+package gpcontrol.presets;
+
+message Setting {
+ optional uint32 setting_id = 1;
+ optional uint32 value = 2;
+ optional string name = 3;
+}
+
+message Preset_Info {
+ optional uint32 preset_id = 1;
+ optional uint32 flat_mode = 2;
+ optional uint32 preset_icon = 3;
+ optional uint32 preset_name = 4;
+ optional uint32 preset_name_iterator = 5;
+ optional bool predefined_preset = 7;
+ repeated Setting settings = 6;
+}
+
+message Preset_Group {
+ optional uint32 group_id = 1;
+ repeated Preset_Info presets = 2;
+}
+
+message GPC_Preset_Group_List_Resp {
+ repeated uint32 preset_groups = 1;
+}
+
+message GPC_Preset_List_Req {
+ optional uint32 group_id = 1;
+ optional bool include_info = 2;
+}
+
+message GPC_Preset_List_Resp {
+ repeated uint32 presets = 1;
+ optional Preset_Group preset_group = 2;
+}
+
+message GPC_Preset_Info_Req {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Info_Resp {
+ optional Preset_Info preset = 1;
+}
+
+message GPC_Preset_Custom_Create_Req {
+ optional uint32 group_id = 1;
+ optional uint32 flat_mode = 2;
+ optional uint32 preset_icon = 3;
+ optional uint32 preset_name = 4;
+ optional uint32 preset_name_iterator = 5;
+}
+
+message GPC_Preset_Custom_Create_Resp {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Custom_Remove_Req {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Set_Order_Req {
+ optional uint32 preset_id = 1;
+ optional uint32 order = 2;
+}
+
+message GPC_Preset_Load_Req {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Edit_Start_Req {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Factory_Reset_Req {
+ optional uint32 preset_id = 1;
+}
+
+message GPC_Preset_Get_Presets_Resp {
+ repeated Preset_Group groups = 1;
+}
+
+message GPC_Preset_Switch_Flatmode_Req {
+ optional uint32 flat_mode = 1;
+}
+
+message GPC_Preset_Set_Title_Icon_Req {
+ optional uint32 preset_name = 1;
+ optional uint32 preset_icon = 2;
+}
+

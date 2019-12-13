@@ -1,9 +1,0 @@
-package wsdk_commands;
-
-import "generic/EnumResultGeneric.proto";
-
-message WSDK_ResponseGetClientId {
- required string client_id = 1;
- required EnumResultGeneric result = 2;
-}
-

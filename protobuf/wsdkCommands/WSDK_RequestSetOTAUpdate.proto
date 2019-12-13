@@ -1,8 +1,0 @@
-package wsdk_commands;
-
-import "wsdkCommands/WSDK_EnumOTACmd.proto";
-
-message WSDK_RequestSetOTAUpdate {
- optional WSDK_EnumOTACmd ota_cmd = 1;
-}
-

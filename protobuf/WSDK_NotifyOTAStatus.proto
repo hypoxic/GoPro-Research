@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumOTAState.proto";
+import "wsdkCommands/WSDK_EnumOTAError.proto";
+
+message WSDK_NotifyOTAStatus {
+ optional WSDK_EnumOTAState ota_state = 1;
+ optional int32 ota_percentage = 2;
+ optional WSDK_EnumOTAError ota_error = 3;
+}
+

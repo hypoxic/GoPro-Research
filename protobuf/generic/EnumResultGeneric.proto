@@ -1,4 +1,6 @@
-package ;
+syntax = "proto2";
+
+package wsdk_commands;
 
 
 enum EnumResultGeneric {

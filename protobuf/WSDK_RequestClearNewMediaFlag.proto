@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+message WSDK_RequestClearNewMediaFlag {
+}
+

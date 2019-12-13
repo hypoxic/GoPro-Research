@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package wsdk_commands;
+
+
+import "wsdkCommands/WSDK_EnumRegisterLiveStreamStatus.proto";
+
+message WSDK_RequestGetLiveStreamStatus {
+ repeated WSDK_EnumRegisterLiveStreamStatus register_live_stream_status = 1;
+ repeated WSDK_EnumRegisterLiveStreamStatus unregister_live_stream_status = 2;
+}
+
