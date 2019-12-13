@@ -8,6 +8,13 @@ To compile for pyhton
 ````../protoc/protoc -I=./ --python_out=../wdskout/ *.proto````
 Use the protoc compiler from google, scroll down and used precompiled [protoc](https://developers.google.com/protocol-buffers/docs/downloads.html)
 
+Requirements  
+pip install protobuf
+
+Example of usage
+See example.py
+note that the protobuf's resources need to be added to the module search path i.e. ````sys.path.append('./wsdk/')````
+
 BLE Commands   
 most are not tested
 ````

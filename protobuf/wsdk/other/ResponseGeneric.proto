@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package generic;
 
-import "generic/EnumResultGeneric.proto";
+import "other/generic/EnumResultGeneric.proto";
 
 message ResponseGeneric {
  required EnumResultGeneric result = 1;
