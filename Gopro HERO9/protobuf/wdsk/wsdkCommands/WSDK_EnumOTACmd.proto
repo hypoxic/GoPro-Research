@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumOTACmd {
+ WSDK_OTA_START = 5;
+ WSDK_OTA_START_FORCED = 6;
+ WSDK_OTA_CANCEL = 2;
+}

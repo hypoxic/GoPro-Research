@@ -1,0 +1,5 @@
+package wsdk_commands;
+
+message WSDK_RequestClearNewMediaFlag {
+}
+

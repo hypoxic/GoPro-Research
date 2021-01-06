@@ -1,0 +1,7 @@
+package wsdk_commands;
+
+
+enum WSDK_EnumTimeWarpSpeedRamp {
+ WSDK_TIMEWARP_SPEED_RAMP_1X = 11;
+ WSDK_TIMEWARP_SPEED_RAMP_1_2X = 12;
+}

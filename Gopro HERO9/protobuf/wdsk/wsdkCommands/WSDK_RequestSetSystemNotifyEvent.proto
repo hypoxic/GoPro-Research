@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumSystemNotifyEvent.proto";
+
+message WSDK_RequestSetSystemNotifyEvent {
+ required WSDK_EnumSystemNotifyEvent notify_event = 1;
+}
+

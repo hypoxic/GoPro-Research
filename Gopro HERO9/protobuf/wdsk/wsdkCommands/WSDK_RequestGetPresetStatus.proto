@@ -1,0 +1,9 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumRegisterPresetStatus.proto";
+
+message WSDK_RequestGetPresetStatus {
+ repeated WSDK_EnumRegisterPresetStatus register_preset_status = 1;
+ repeated WSDK_EnumRegisterPresetStatus unregister_preset_status = 2;
+}
+

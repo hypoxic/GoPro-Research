@@ -1,0 +1,6 @@
+package wsdk_commands;
+
+message WSDK_RequestSetTimeWarpSpeedRampActive {
+ required bool active = 1;
+}
+

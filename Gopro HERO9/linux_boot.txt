@@ -1,0 +1,187 @@
+
+[    0.000000] Booting Linux on physical CPU 0xf03
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 4.4.15 (ubuntu@3db71c881892) (gcc version 4.9.2 (GCC) ) #1 SMP PREEMPT Mon Jun 15 23:25:50 UTC 2020
+[    0.000000] CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=50c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Socionext SC2000A EVB w/ RTOS VBD
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 20992
+[    0.000000] free_area_init_node: node 0, pgdat 80642780, node_mem_map 85150000
+[    0.000000]   DMA zone: 164 pages used for memmap
+[    0.000000]   DMA zone: 0 pages reserved
+[    0.000000]   DMA zone: 20992 pages, LIFO batch:3
+[    0.000000] PERCPU: Embedded 12 pages/cpu @8511d000 s19712 r8192 d21248 u49152
+[    0.000000] pcpu-alloc: s19712 r8192 d21248 u49152 alloc=12*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 20828
+[    0.000000] Kernel command line: consoleblank=0 loglevel=4 init=/sbin/finit root=/dev/nandblk rootwait ro nr_cpus=2 maxcpus=1 console=ttyUSI0,115200n8 console=/dev/tty1
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Memory: 76212K/83968K available (3600K kernel code, 296K rwdata, 2284K rodata, 200K init, 310K bss, 7756K reserved, 0K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0x85800000 - 0xff800000   (1952 MB)
+[    0.000000]     lowmem  : 0x80000000 - 0x85200000   (  82 MB)
+[    0.000000]     pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+[    0.000000]     modules : 0x7f800000 - 0x7fe00000   (   6 MB)
+[    0.000000]       .text : 0x80008000 - 0x805c7618   (5886 kB)
+[    0.000000]       .init : 0x805c8000 - 0x805fa000   ( 200 kB)
+[    0.000000]       .data : 0x805fa000 - 0x806443c0   ( 297 kB)
+[    0.000000]        .bss : 0x80646000 - 0x80693b40   ( 311 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000]  Build-time adjustment of leaf fanout to 32.
+[    0.000000]  RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] NO_HZ: Clearing 0 from nohz_full range for timekeeping
+[    0.000000] NO_HZ: Full dynticks CPUs: 1.
+[    0.000000]  Note: kernel parameter 'rcu_nocbs=' contains nonexistent CPUs.
+[    0.000000]  Offload RCU callbacks from CPUs: 1.
+[    0.000000] clocksource: peri-timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 70787423951 ns
+[    0.000000] Architected cp15 timer(s) running at 40.00MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x939a85c40, max_idle_ns: 440795202120 ns
+[    0.000011] sched_clock: 56 bits at 40MHz, resolution 25ns, wraps every 4398046511100ns
+[    0.000035] Switching to timer-based delay loop, resolution 25ns
+[    0.001348] Console: colour dummy device 80x30
+[    0.001383] Calibrating delay loop... 79.87 BogoMIPS (lpj=399360)
+[    0.079754] pid_max: default: 32768 minimum: 301
+[    0.079969] Security Framework initialized
+[    0.080067] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.080086] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.081335] Initializing cgroup subsys debug
+[    0.081411] CPU: Testing write buffer coherency: ok
+[    0.081933] Setting up static identity map for 0x40008280 - 0x400082cc
+[    0.082291] MCPM boot on cpu_3 cluster_15
+[    0.130426] Brought up 1 CPUs
+[    0.130447] SMP: Total of 1 processors activated (79.87 BogoMIPS).
+[    0.130460] CPU: All CPU(s) started in SVC mode.
+[    0.131547] devtmpfs: initialized
+[    0.150352] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+[    0.151001] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.160243] pinctrl core: initialized pinctrl subsystem
+[    0.160957] regulator-dummy: no parameters
+[    0.162021] NET: Registered protocol family 16
+[    0.162713] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.190115] cpuidle: using governor ladder
+[    0.220152] cpuidle: using governor menu
+[    0.228350] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.228368] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.228789] find no power domain device.
+[    0.301688] SCSI subsystem initialized
+[    0.302216] usbcore: registered new interface driver usbfs
+[    0.302343] usbcore: registered new interface driver hub
+[    0.302486] usbcore: registered new device driver usb
+[    0.302752] media: Linux media interface: v0.10
+[    0.302878] Linux video capture interface: v2.00
+[    0.304930] clocksource: Switched to clocksource arch_sys_counter
+[    0.305543] FS-Cache: Loaded
+[    0.323097] NET: Registered protocol family 2
+[    0.324387] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.324431] TCP bind hash table entries: 1024 (order: 1, 8192 bytes)
+[    0.324478] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.324583] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.324644] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.325103] NET: Registered protocol family 1
+[    0.325194] PCI: CLS 0 bytes, default 64
+[    0.327078] Lineo Warp!! module loaded
+[    0.328555] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.340203] VFS: Disk quotas dquot_6.6.0
+[    0.340319] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.341412] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.
+[    0.356132] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.356169] io scheduler noop registered
+[    0.356196] io scheduler deadline registered
+[    0.356244] io scheduler cfq registered (default)
+[    0.356501] milbeaut-pinctrl 1d022000.pinctrl: continuing without EXIU support
+[    0.361231] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.364220] 1e700010.usio_uart: ttyUSI0 at MMIO 0x1e700010 (irq = 21, base_baud = 6250000) is a sn-usio-uart
+[    0.368748] console [ttyUSI0] enabled
+[    0.549814] brd: module loaded
+[    0.572705] loop: module loaded
+[    0.583146] sni_ipcu_ch_init:225 [ERROR] request_irq ACK is failed. ret=-22 IRQ=0 devname=[]
+[    0.583166] vblk_ipcu_init:242 Cannot init send ipcu channel. -retry probe-
+[    0.584643] tun: Universal TUN/TAP device driver, 1.6
+[    0.584659] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.588178] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.588208] ehci-pci: EHCI PCI platform driver
+[    0.588340] ehci-platform: EHCI generic platform driver
+[    0.588592] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.588632] ohci-platform: OHCI generic platform driver
+[    0.589369] usbcore: registered new interface driver usb-storage
+[    0.589878] usbcore: registered new interface driver uvcvideo
+[    0.589891] USB Video Class driver (1.1.1)
+[    0.590123] sdhci: Secure Digital Host Controller Interface driver
+[    0.590136] sdhci: Copyright(c) Pierre Ossman
+[    0.590505] f_sdh30 1b000000.mmc: sdhci_f_sdh30_probe: starting host
+[    0.625034] f_sdh30 1b000000.mmc: Looking up vmmc-supply from device tree
+[    0.625064] f_sdh30 1b000000.mmc: Looking up vmmc-supply property in node /mmc@1b000000 failed
+[    0.625094] f_sdh30 1b000000.mmc: Looking up vqmmc-supply from device tree
+[    0.625118] f_sdh30 1b000000.mmc: Looking up vqmmc-supply property in node /mmc@1b000000 failed
+[    0.625141] f_sdh30 1b000000.mmc: No vmmc regulator found
+[    0.625160] f_sdh30 1b000000.mmc: No vqmmc regulator found
+[    0.690028] mmc0: SDHCI controller on f_sdh30 [1b000000.mmc] using ADMA
+[    0.708077] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.709221] usbcore: registered new interface driver usbhid
+[    0.709234] usbhid: USB HID core driver
+[    0.713698] exFAT: FS Version 1.2.4
+[    0.713781] exFAT: Core Version 1.2.4
+[    0.713942] Netfilter messages via NETLINK v0.30.
+[    0.714097] nf_conntrack version 0.5.0 (1190 buckets, 4760 max)
+[    0.714432] ctnetlink v0.93: registering with nfnetlink.
+[    0.714813] xt_time: kernel timezone is -0000
+[    0.715731] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    0.716224] NET: Registered protocol family 10
+[    0.727706] sit: IPv6 over IPv4 tunneling driver
+[    0.728984] NET: Registered protocol family 17
+[    0.729024] tipc: Activated (version 2.0.0)
+[    0.729121] NET: Registered protocol family 30
+[    0.729437] tipc: Started in single node mode
+[    0.729797] Registering SWP/SWPB emulation handler
+[    0.730980] registered taskstats version 1
+[    0.743570] Key type encrypted registered
+[    0.798620] EXT4-fs (nandblk): couldn't mount as ext3 due to feature incompatibilities
+[    0.810173] EXT4-fs (nandblk): couldn't mount as ext2 due to feature incompatibilities
+[    0.822836] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+[    0.830702] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+[    0.834048] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+[    0.834734] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+[    0.840971] EXT4-fs (nandblk): mounted filesystem with ordered data mode. Opts: (null)
+[    0.841024] VFS: Mounted root (ext4 filesystem) readonly on device 254:0.
+[    0.851214] devtmpfs: mounted
+[    0.851712] Freeing unused kernel memory: 200K (805c8000 - 805fa000)
+[    0.851722] This architecture does not have kernel memory protection.
+[    0.852268] mmc0: queuing unknown CIS tuple 0x80 (1 bytes)
+[    0.852398] mmc0: queuing unknown CIS tuple 0x81 (1 bytes)
+[    0.852473] mmc0: queuing unknown CIS tuple 0x82 (1 bytes)
+[    0.852516] mmc0: new ultra high speed 1SDR104 SDIO card at address 0001
+[    1.124818] random: dbus-daemon urandom read with 31 bits of entropy available
+[    2.602986] Loading modules backported from Linux version v4.4.2-0-g1cb8570
+[    2.603009] Backport generated by backports.git v4.4.2-1-0-gbec4037
+[    2.627952] cfg80211: World regulatory domain updated:
+[    2.627973] cfg80211:  DFS Master region: unset
+[    2.627983] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    2.627999] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[    2.628014] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[    2.628028] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm), (N/A)
+[    2.628043] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (300 mBi, 2000 mBm), (N/A)
+[    2.628057] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (300 mBi, 2000 mBm), (N/A)
+[    2.628104] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    2.703834] random: nonblocking pool is initialized
+[    3.940299] usb mtp memalloc init
+[    4.054712] configfs-gadget gadget: unbind function 'mtp'/84fff200
+[    4.075042] android_work: did not send uevent (0 0   (null))
+[    4.146624] sh (188): drop_caches: 3
+[   10.356578] android_work: sent uevent USB_STATE=CONNECTED
+[   10.383061] configfs-gadget gadget: high-speed config #1: c
+[   10.383288] android_work: sent uevent USB_STATE=CONFIGURED
+[   10.427303] configfs-gadget gadget: unbind function 'mtp'/84128200
+[   10.436882] android_work: sent uevent USB_STATE=DISCONNECTED
+[   11.787553] android_work: did not send uevent (0 0   (null))
+[   11.835731] android_work: sent uevent USB_STATE=CONNECTED
+[   11.853714] configfs-gadget gadget: high-speed config #1: c
+[   11.853971] android_work: sent uevent USB_STATE=CONFIGURED
+root@gopro:~#

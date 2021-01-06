@@ -1,0 +1,6 @@
+package wsdk_commands;
+
+message WSDK_RequestGetAssociationState {
+ optional string gopro_user_id = 1;
+}
+

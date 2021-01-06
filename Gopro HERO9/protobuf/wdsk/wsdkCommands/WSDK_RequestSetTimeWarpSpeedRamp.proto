@@ -1,0 +1,8 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumTimeWarpSpeedRamp.proto";
+
+message WSDK_RequestSetTimeWarpSpeedRamp {
+ required WSDK_EnumTimeWarpSpeedRamp timewarp_speed_ramp = 1;
+}
+

@@ -1,0 +1,76 @@
+ps -a
+PID   USER     COMMAND
+    1 root     /sbin/finit
+    2 root     [kthreadd]
+    3 root     [ksoftirqd/0]
+    4 root     [kworker/0:0]
+    5 root     [kworker/0:0H]
+    6 root     [kworker/u4:0]
+    7 root     [rcu_preempt]
+    8 root     [rcu_sched]
+    9 root     [rcu_bh]
+   10 root     [migration/0]
+   11 root     [kdevtmpfs]
+   12 root     [netns]
+   13 root     [perf]
+   14 root     [writeback]
+   15 root     [kworker/0:1]
+   16 root     [crypto]
+   17 root     [bioset]
+   18 root     [kblockd]
+   19 root     [kworker/u4:1]
+   20 root     [kswapd0]
+   21 root     [vmstat]
+   22 root     [fsnotify_mark]
+   23 root     [ipcufs_recv]
+   38 root     [bioset]
+   39 root     [bioset]
+   40 root     [bioset]
+   41 root     [bioset]
+   42 root     [bioset]
+   43 root     [bioset]
+   44 root     [bioset]
+   45 root     [bioset]
+   46 root     [bioset]
+   47 root     [bioset]
+   48 root     [bioset]
+   49 root     [bioset]
+   50 root     [bioset]
+   51 root     [bioset]
+   52 root     [bioset]
+   53 root     [bioset]
+   54 root     [bioset]
+   55 root     [bioset]
+   57 root     [irq/23-mmc0]
+   58 root     [ipv6_addrconf]
+   68 root     [deferwq]
+   69 root     [vblk_recv]
+   70 root     [bioset]
+   72 root     [jbd2/nandblk-8]
+   73 root     [ext4-rsv-conver]
+   74 root     -sh
+   77 root     /sbin/udevd
+   90 root     /sbin/syslogd -n -S -s 400 -b 2 -O /tmp/messages
+   94 root     /sbin/klogd -n
+  108 root     /usr/local/gopro/bin/gpChpIpc
+  110 root     /usr/local/gopro/bin/gpChpTestChannel
+  111 root     /usr/local/gopro/bin/gpUsb
+  135 root     /usr/local/gopro/bin/gpCamApi
+  137 root     /usr/local/gopro/bin/gpNet
+  138 root     /usr/bin/dswitchcpu
+  142 root     /usr/local/gopro/bin/gpBtMan
+  147 root     [cfg80211]
+  151 root     /usr/local/gopro/bin/gpAth
+  153 root     /usr/local/gopro/bin/gpUdp
+  165 root     avahi-daemon: running [C3441324970584.local]
+  190 root     /usr/local/gopro/bin/gpPlatform
+  191 root     {respawn} /bin/sh /usr/local/gopro/scripts/respawn /usr/local/gopro/bin/gpHttpServer
+  192 root     {respawn-pid} /bin/sh /usr/local/gopro/scripts/respawn-pid /usr/local/gopro/bin/gpControlD
+  199 root     /usr/local/gopro/bin/gpHttpServer
+  213 root     /usr/local/gopro/bin/gpControlD
+  216 root     /usr/local/gopro/bin/womDaemon
+  257 root     [irq/39-dwc3]
+  307 root     /bin/sh /usr/bin/enable_cdc_linux_script.sh
+  308 root     -sh
+  331 root     /bin/sleep 20
+

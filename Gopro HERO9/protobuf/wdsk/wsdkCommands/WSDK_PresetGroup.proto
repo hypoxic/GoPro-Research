@@ -1,0 +1,11 @@
+package wsdk_commands;
+
+import "wsdkCommands/WSDK_EnumPresetGroup.proto";
+import "wsdkCommands/WSDK_Preset.proto";
+
+message WSDK_PresetGroup {
+ optional WSDK_EnumPresetGroup id = 1;
+ repeated WSDK_Preset preset_array = 2;
+ optional bool can_add_preset = 3;
+}
+
