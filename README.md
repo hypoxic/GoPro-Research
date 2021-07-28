@@ -3,7 +3,7 @@
 This Repo has logs, utilities, and legally extracted assests for various GoPro Cameras. Older camera's assets are in their own unique repos within Hypoxic's Github.
 
 ## Camera Teardowns 
-[Boilers Teardown - Coming Soon]()   
+[GoPro HERO9 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero9-teardown)   
 [GoPro HERO MAX Physical Teardown](https://gethypoxic.com/blogs/technical/gopro-max-teardown)  
 [GoPro HERO8 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero8-teardown)    
 [GoPro HERO7 Silver & White Research](https://gethypoxic.com/blogs/technical/gopro-hero7-silver-gopro-hero7-white-research)  
