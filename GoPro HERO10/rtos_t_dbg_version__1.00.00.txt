@@ -1,0 +1,9 @@
+cmd: t version
+[00310722][I] gp_test
+[00310722][I] gp_test
+[00310723][I] gp_test  ******************* HERO10 Black - kongs ********************************************
+[00310723][I] gp_test   Release H21.01.01.00.00 compiled Aug 12 2021, 04:38:32 git-c261981
+[00310723][I] gp_test   SDK Version 00030106
+[00310723][I] gp_test   DSPC AWE Release AWE_Core V6 - Build 1532 - AWB KONG-2-1-0-5-6-2021
+[00310723][I] gp_test                   Sensory SDK 4.6.1-5+g15b3755
+[00310723][I] gp_test  ***********************************************************************************

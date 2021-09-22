@@ -1,0 +1,1464 @@
+==> /proc/device-tree/#address-cells <==
+
+==> /proc/device-tree/memory@50000000/device_type <==
+memory
+==> /proc/device-tree/memory@50000000/reg <==
+P
+==> /proc/device-tree/memory@50000000/name <==
+memory
+==> /proc/device-tree/gpio-leds/led87/linux,default-trigger <==
+off
+==> /proc/device-tree/gpio-leds/led87/lavel <==
+lled87
+==> /proc/device-tree/gpio-leds/led87/status <==
+disabled
+==> /proc/device-tree/gpio-leds/led87/name <==
+led87
+==> /proc/device-tree/gpio-leds/led87/gpios <==
+7
+==> /proc/device-tree/gpio-leds/led27/linux,default-trigger <==
+off
+==> /proc/device-tree/gpio-leds/led27/lavel <==
+lled27
+==> /proc/device-tree/gpio-leds/led27/status <==
+disabled
+==> /proc/device-tree/gpio-leds/led27/name <==
+led27
+==> /proc/device-tree/gpio-leds/led27/gpios <==
+
+==> /proc/device-tree/gpio-leds/led25/linux,default-trigger <==
+off
+==> /proc/device-tree/gpio-leds/led25/lavel <==
+lled25
+==> /proc/device-tree/gpio-leds/led25/status <==
+disabled
+==> /proc/device-tree/gpio-leds/led25/name <==
+led25
+==> /proc/device-tree/gpio-leds/led25/gpios <==
+
+==> /proc/device-tree/gpio-leds/compatible <==
+gpio-leds
+==> /proc/device-tree/gpio-leds/name <==
+gpio-leds
+==> /proc/device-tree/gpio-leds/led26/linux,default-trigger <==
+off
+==> /proc/device-tree/gpio-leds/led26/lavel <==
+lled26
+==> /proc/device-tree/gpio-leds/led26/status <==
+disabled
+==> /proc/device-tree/gpio-leds/led26/name <==
+led26
+==> /proc/device-tree/gpio-leds/led26/gpios <==
+
+==> /proc/device-tree/model <==
+Socionext KARINE EVB
+==> /proc/device-tree/soc/dma-ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/i2c@e005600/interrupts <==
+
+==> /proc/device-tree/soc/i2c@e005600/clocks <==
+
+==> /proc/device-tree/soc/i2c@e005600/clock-frequency <==
+Ü†
+==> /proc/device-tree/soc/i2c@e005600/compatible <==
+socionext,karine-i2c
+==> /proc/device-tree/soc/i2c@e005600/status <==
+disabled
+==> /proc/device-tree/soc/i2c@e005600/reg <==
+V
+==> /proc/device-tree/soc/i2c@e005600/name <==
+i2c
+==> /proc/device-tree/soc/spi@f003000/spi3@3/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f003000/spi3@3/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f003000/spi3@3/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f003000/spi3@3/reg <==
+
+==> /proc/device-tree/soc/spi@f003000/spi3@3/name <==
+spi3
+==> /proc/device-tree/soc/spi@f003000/#address-cells <==
+
+==> /proc/device-tree/soc/spi@f003000/num-cs <==
+
+==> /proc/device-tree/soc/spi@f003000/fifo-size <==
+@
+==> /proc/device-tree/soc/spi@f003000/interrupts <==
+]
+==> /proc/device-tree/soc/spi@f003000/clocks <==
+
+==> /proc/device-tree/soc/spi@f003000/#size-cells <==
+
+==> /proc/device-tree/soc/spi@f003000/dma-names <==
+txrx
+==> /proc/device-tree/soc/spi@f003000/compatible <==
+socionext,milbeaut-spi
+==> /proc/device-tree/soc/spi@f003000/spi0@0/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f003000/spi0@0/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f003000/spi0@0/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f003000/spi0@0/reg <==
+
+==> /proc/device-tree/soc/spi@f003000/spi0@0/name <==
+spi0
+==> /proc/device-tree/soc/spi@f003000/status <==
+disabled
+==> /proc/device-tree/soc/spi@f003000/reg <==
+0
+==> /proc/device-tree/soc/spi@f003000/dmas <==
+"!
+==> /proc/device-tree/soc/spi@f003000/spi1@1/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f003000/spi1@1/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f003000/spi1@1/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f003000/spi1@1/reg <==
+
+==> /proc/device-tree/soc/spi@f003000/spi1@1/name <==
+spi1
+==> /proc/device-tree/soc/spi@f003000/spi2@2/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f003000/spi2@2/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f003000/spi2@2/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f003000/spi2@2/reg <==
+
+==> /proc/device-tree/soc/spi@f003000/spi2@2/name <==
+spi2
+==> /proc/device-tree/soc/spi@f003000/name <==
+spi
+==> /proc/device-tree/soc/spi@f003000/dma-mode <==
+
+==> /proc/device-tree/soc/snrtos0@4/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@4/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@4/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@4/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@4/direction <==
+recv
+==> /proc/device-tree/soc/snrtos0@4/name <==
+snrtos0
+==> /proc/device-tree/soc/spi@f000000/spi3@3/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f000000/spi3@3/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f000000/spi3@3/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f000000/spi3@3/reg <==
+
+==> /proc/device-tree/soc/spi@f000000/spi3@3/name <==
+spi3
+==> /proc/device-tree/soc/spi@f000000/#address-cells <==
+
+==> /proc/device-tree/soc/spi@f000000/num-cs <==
+
+==> /proc/device-tree/soc/spi@f000000/fifo-size <==
+Ä
+==> /proc/device-tree/soc/spi@f000000/interrupts <==
+Z
+==> /proc/device-tree/soc/spi@f000000/clocks <==
+
+==> /proc/device-tree/soc/spi@f000000/#size-cells <==
+
+==> /proc/device-tree/soc/spi@f000000/dma-names <==
+txrx
+==> /proc/device-tree/soc/spi@f000000/compatible <==
+socionext,milbeaut-spi
+==> /proc/device-tree/soc/spi@f000000/spi0@0/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f000000/spi0@0/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f000000/spi0@0/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f000000/spi0@0/reg <==
+
+==> /proc/device-tree/soc/spi@f000000/spi0@0/name <==
+spi0
+==> /proc/device-tree/soc/spi@f000000/status <==
+disabled
+==> /proc/device-tree/soc/spi@f000000/reg <==
+
+==> /proc/device-tree/soc/spi@f000000/dmas <==
+
+==> /proc/device-tree/soc/spi@f000000/spi1@1/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f000000/spi1@1/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f000000/spi1@1/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f000000/spi1@1/reg <==
+
+==> /proc/device-tree/soc/spi@f000000/spi1@1/name <==
+spi1
+==> /proc/device-tree/soc/spi@f000000/spi2@2/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f000000/spi2@2/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f000000/spi2@2/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f000000/spi2@2/reg <==
+
+==> /proc/device-tree/soc/spi@f000000/spi2@2/name <==
+spi2
+==> /proc/device-tree/soc/spi@f000000/name <==
+spi
+==> /proc/device-tree/soc/spi@f000000/dma-mode <==
+
+==> /proc/device-tree/soc/exsint@1ba01010/#address-cells <==
+
+==> /proc/device-tree/soc/exsint@1ba01010/interrupts <==
+˜
+==> /proc/device-tree/soc/exsint@1ba01010/#size-cells <==
+
+==> /proc/device-tree/soc/exsint@1ba01010/compatible <==
+socionext,exsint-karine
+==> /proc/device-tree/soc/exsint@1ba01010/status <==
+disabled
+==> /proc/device-tree/soc/exsint@1ba01010/reg <==
+††$
+==> /proc/device-tree/soc/exsint@1ba01010/ret-names <==
+intstatintmsk
+==> /proc/device-tree/soc/exsint@1ba01010/name <==
+exsint
+==> /proc/device-tree/soc/#address-cells <==
+
+==> /proc/device-tree/soc/clk@d152000/clock-names <==
+UCLKXIAUMCLKIGENCLK
+==> /proc/device-tree/soc/clk@d152000/clocks <==
+
+==> /proc/device-tree/soc/clk@d152000/#clock-cells <==
+
+==> /proc/device-tree/soc/clk@d152000/compatible <==
+socionext,milbeaut-karine-ccu
+==> /proc/device-tree/soc/clk@d152000/reg <==
+ 0
+==> /proc/device-tree/soc/clk@d152000/phandle <==
+
+==> /proc/device-tree/soc/clk@d152000/name <==
+clk
+==> /proc/device-tree/soc/snrtos0@2/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@2/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@2/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@2/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@2/direction <==
+send
+==> /proc/device-tree/soc/snrtos0@2/name <==
+snrtos0
+==> /proc/device-tree/soc/pinctrl@d151000/#address-cells <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/exiu1@0xc86f000/pin_list <==
+ !"#$%&'()*+,-./
+==> /proc/device-tree/soc/pinctrl@d151000/exiu1@0xc86f000/status <==
+disabled
+==> /proc/device-tree/soc/pinctrl@d151000/exiu1@0xc86f000/reg <==
+Ü
+==> /proc/device-tree/soc/pinctrl@d151000/exiu1@0xc86f000/name <==
+exiu1
+==> /proc/device-tree/soc/pinctrl@d151000/usb3/pin_list <==
+†°¢£§
+==> /proc/device-tree/soc/pinctrl@d151000/usb3/name <==
+usb3
+==> /proc/device-tree/soc/pinctrl@d151000/reg-names <==
+pinctrl
+==> /proc/device-tree/soc/pinctrl@d151000/exiu0@c86e000/pin_list <==
+	
+
+==> /proc/device-tree/soc/pinctrl@d151000/exiu0@c86e000/status <==
+disabled
+==> /proc/device-tree/soc/pinctrl@d151000/exiu0@c86e000/reg <==
+Ü‡
+==> /proc/device-tree/soc/pinctrl@d151000/exiu0@c86e000/name <==
+exiu0
+==> /proc/device-tree/soc/pinctrl@d151000/gpio-controller <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/bank-offset <==
+ `Ä†¿–‡Pp
+==> /proc/device-tree/soc/pinctrl@d151000/io_pin_offset <==
+∏º¿ƒ»Ã–‘ÿ‹‡‰ËÏÙ¯¸									 	$	(	,	0	4†§®¨∞¥|ÄÑàX\`dh $(,048åêîòú	Ñ	à	å	ê	î	ò	ú	†	§	®	¨	∞
+$
+(
+,
+0	H	L	P
+4
+8
+<
+@	8	<	@	D
+D
+
+==> /proc/device-tree/soc/pinctrl@d151000/interrupts <==
+;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ
+==> /proc/device-tree/soc/pinctrl@d151000/pcie0/pin_list <==
+∏∫ºæ
+==> /proc/device-tree/soc/pinctrl@d151000/pcie0/name <==
+pcie0
+==> /proc/device-tree/soc/pinctrl@d151000/#size-cells <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/compatible <==
+socionext,milbeaut-karine-pinctrl
+==> /proc/device-tree/soc/pinctrl@d151000/ranges <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/#interrupt-cells <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/usb2/pin_list <==
+òôöõú
+==> /proc/device-tree/soc/pinctrl@d151000/usb2/name <==
+usb2
+==> /proc/device-tree/soc/pinctrl@d151000/status <==
+okay
+==> /proc/device-tree/soc/pinctrl@d151000/interrupt-names <==
+pin-0pin-1pin-2pin-3pin-4pin-5pin-6pin-7pin-8pin-9pin-10pin-11pin-12pin-13pin-14pin-15pin-32pin-33pin-34pin-35pin-36pin-37pin-38pin-39pin-40pin-41pin-42pin-43pin-44pin-45pin-46pin-47
+==> /proc/device-tree/soc/pinctrl@d151000/reg <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/phandle <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/blacklist <==
+Ìˇæˇ_ˇˇˇˇˇˇ˝œˇˇ‡ˇ˙‡ˇ
+==> /proc/device-tree/soc/pinctrl@d151000/uart3/pin_list <==
+®™
+==> /proc/device-tree/soc/pinctrl@d151000/uart3/name <==
+uart3
+==> /proc/device-tree/soc/pinctrl@d151000/#gpio-cells <==
+
+==> /proc/device-tree/soc/pinctrl@d151000/pcie1/pin_list <==
+πªΩø
+==> /proc/device-tree/soc/pinctrl@d151000/pcie1/name <==
+pcie1
+==> /proc/device-tree/soc/pinctrl@d151000/uart1/pin_list <==
+5tuy
+==> /proc/device-tree/soc/pinctrl@d151000/uart1/name <==
+uart1
+==> /proc/device-tree/soc/pinctrl@d151000/io_pin_list <==
+	
+01236789:;@ABCDEFGHIJKL`abcdefpqz{|ÄÅÇÉÑÖÜáàâäãòôõúùûü†°£§®©™´∏π∫ªºΩæø
+==> /proc/device-tree/soc/pinctrl@d151000/name <==
+pinctrl
+==> /proc/device-tree/soc/pinctrl@d151000/interrupt-controller <==
+
+==> /proc/device-tree/soc/snrtos1@5/src-int-ch <==
+
+==> /proc/device-tree/soc/snrtos1@5/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@5/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@5/interrupts <==
+&
+==> /proc/device-tree/soc/snrtos1@5/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@5/direction <==
+send
+==> /proc/device-tree/soc/snrtos1@5/dst-int-ch <==
+
+==> /proc/device-tree/soc/snrtos1@5/name <==
+snrtos1
+==> /proc/device-tree/soc/i2c@e005200/interrupts <==
+
+==> /proc/device-tree/soc/i2c@e005200/clocks <==
+
+==> /proc/device-tree/soc/i2c@e005200/clock-frequency <==
+Ü†
+==> /proc/device-tree/soc/i2c@e005200/compatible <==
+socionext,karine-i2c
+==> /proc/device-tree/soc/i2c@e005200/status <==
+disabled
+==> /proc/device-tree/soc/i2c@e005200/reg <==
+R
+==> /proc/device-tree/soc/i2c@e005200/name <==
+i2c
+==> /proc/device-tree/soc/peri_32bus/dma-ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/peri_32bus/#address-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/priority-rotate <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/interrupts <==
+<=>?@ABC
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/clocks <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/compatible <==
+socionext,milbeaut-karine-hdmac
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/status <==
+disabled
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/reg <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/#dma-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e120000/name <==
+hdmac
+==> /proc/device-tree/soc/peri_32bus/#size-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/priority-rotate <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/interrupts <==
+DEFGHIJK
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/clocks <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/compatible <==
+socionext,milbeaut-karine-hdmac
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/status <==
+disabled
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/reg <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/#dma-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e130000/name <==
+hdmac
+==> /proc/device-tree/soc/peri_32bus/compatible <==
+simple-bus
+==> /proc/device-tree/soc/peri_32bus/ranges <==
+ˇˇˇˇ
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/priority-rotate <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/interrupts <==
+,-./0123
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/clocks <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/compatible <==
+socionext,milbeaut-karine-hdmac
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/status <==
+disabled
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/reg <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/phandle <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/#dma-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e100000/name <==
+hdmac
+==> /proc/device-tree/soc/peri_32bus/name <==
+peri_32bus
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/priority-rotate <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/interrupts <==
+456789:;
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/clocks <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/compatible <==
+socionext,milbeaut-karine-hdmac
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/status <==
+disabled
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/reg <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/#dma-cells <==
+
+==> /proc/device-tree/soc/peri_32bus/hdmac@e110000/name <==
+hdmac
+==> /proc/device-tree/soc/snrtos0@0/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@0/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@0/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@0/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@0/direction <==
+recv
+==> /proc/device-tree/soc/snrtos0@0/reg <==
+Ö
+==> /proc/device-tree/soc/snrtos0@0/name <==
+snrtos0
+==> /proc/device-tree/soc/timer@e000040/interrupts <==
+
+==> /proc/device-tree/soc/timer@e000040/clocks <==
+
+
+==> /proc/device-tree/soc/timer@e000040/compatible <==
+socionext,milbeaut-timer
+==> /proc/device-tree/soc/timer@e000040/rating <==
+,
+==> /proc/device-tree/soc/timer@e000040/reg <==
+@ 
+==> /proc/device-tree/soc/timer@e000040/name <==
+timer
+==> /proc/device-tree/soc/reset/#reset-cells <==
+
+==> /proc/device-tree/soc/reset/compatible <==
+socionext,milbeaut-karine-reset
+==> /proc/device-tree/soc/reset/phandle <==
+
+==> /proc/device-tree/soc/reset/name <==
+reset
+==> /proc/device-tree/soc/snrtos1@3/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@3/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@3/interrupts <==
+&
+==> /proc/device-tree/soc/snrtos1@3/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@3/direction <==
+send
+==> /proc/device-tree/soc/snrtos1@3/name <==
+snrtos1
+==> /proc/device-tree/soc/watchdog@c86c000/clock-names <==
+wdog_clkapb_pclk
+==> /proc/device-tree/soc/watchdog@c86c000/interrupts <==
+
+
+==> /proc/device-tree/soc/watchdog@c86c000/clocks <==
+
+==> /proc/device-tree/soc/watchdog@c86c000/compatible <==
+arm,sp805arm,primecell
+==> /proc/device-tree/soc/watchdog@c86c000/status <==
+disabled
+==> /proc/device-tree/soc/watchdog@c86c000/reg <==
+Ü¿
+==> /proc/device-tree/soc/watchdog@c86c000/name <==
+watchdog
+==> /proc/device-tree/soc/usb@19891000/interrupts <==
+
+==> /proc/device-tree/soc/usb@19891000/compatible <==
+generic-ohci
+==> /proc/device-tree/soc/usb@19891000/reg <==
+â
+==> /proc/device-tree/soc/usb@19891000/name <==
+usb
+==> /proc/device-tree/soc/spi@f002000/spi3@3/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f002000/spi3@3/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f002000/spi3@3/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f002000/spi3@3/reg <==
+
+==> /proc/device-tree/soc/spi@f002000/spi3@3/name <==
+spi3
+==> /proc/device-tree/soc/spi@f002000/#address-cells <==
+
+==> /proc/device-tree/soc/spi@f002000/num-cs <==
+
+==> /proc/device-tree/soc/spi@f002000/fifo-size <==
+@
+==> /proc/device-tree/soc/spi@f002000/interrupts <==
+\
+==> /proc/device-tree/soc/spi@f002000/clocks <==
+
+==> /proc/device-tree/soc/spi@f002000/#size-cells <==
+
+==> /proc/device-tree/soc/spi@f002000/dma-names <==
+txrx
+==> /proc/device-tree/soc/spi@f002000/compatible <==
+socionext,milbeaut-spi
+==> /proc/device-tree/soc/spi@f002000/spi0@0/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f002000/spi0@0/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f002000/spi0@0/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f002000/spi0@0/reg <==
+
+==> /proc/device-tree/soc/spi@f002000/spi0@0/name <==
+spi0
+==> /proc/device-tree/soc/spi@f002000/status <==
+disabled
+==> /proc/device-tree/soc/spi@f002000/reg <==
+ 
+==> /proc/device-tree/soc/spi@f002000/dmas <==
+ 
+==> /proc/device-tree/soc/spi@f002000/spi1@1/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f002000/spi1@1/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f002000/spi1@1/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f002000/spi1@1/reg <==
+
+==> /proc/device-tree/soc/spi@f002000/spi1@1/name <==
+spi1
+==> /proc/device-tree/soc/spi@f002000/spi2@2/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f002000/spi2@2/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f002000/spi2@2/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f002000/spi2@2/reg <==
+
+==> /proc/device-tree/soc/spi@f002000/spi2@2/name <==
+spi2
+==> /proc/device-tree/soc/spi@f002000/name <==
+spi
+==> /proc/device-tree/soc/spi@f002000/dma-mode <==
+
+==> /proc/device-tree/soc/#size-cells <==
+
+==> /proc/device-tree/soc/i2c@e005800/interrupts <==
+
+==> /proc/device-tree/soc/i2c@e005800/clocks <==
+
+==> /proc/device-tree/soc/i2c@e005800/clock-frequency <==
+Ü†
+==> /proc/device-tree/soc/i2c@e005800/compatible <==
+socionext,karine-i2c
+==> /proc/device-tree/soc/i2c@e005800/status <==
+disabled
+==> /proc/device-tree/soc/i2c@e005800/reg <==
+X
+==> /proc/device-tree/soc/i2c@e005800/name <==
+i2c
+==> /proc/device-tree/soc/snrtos1@1/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@1/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@1/interrupts <==
+$
+==> /proc/device-tree/soc/snrtos1@1/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@1/direction <==
+send
+==> /proc/device-tree/soc/snrtos1@1/name <==
+snrtos1
+==> /proc/device-tree/soc/pcie@1b000000/#address-cells <==
+
+==> /proc/device-tree/soc/pcie@1b000000/bus-range <==
+ˇ
+==> /proc/device-tree/soc/pcie@1b000000/clock-names <==
+auxclkbusclk
+==> /proc/device-tree/soc/pcie@1b000000/reg-names <==
+dbiconfigctrl
+==> /proc/device-tree/soc/pcie@1b000000/resets <==
+
+==> /proc/device-tree/soc/pcie@1b000000/interrupts <==
+˚¸
+==> /proc/device-tree/soc/pcie@1b000000/clocks <==
+
+==> /proc/device-tree/soc/pcie@1b000000/interrupt-map <==
+
+==> /proc/device-tree/soc/pcie@1b000000/#size-cells <==
+
+==> /proc/device-tree/soc/pcie@1b000000/device_type <==
+pci
+==> /proc/device-tree/soc/pcie@1b000000/interrupt-map-mask <==
+
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/interrupts <==
+˙
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/interrupt-parent <==
+
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/#interrupt-cells <==
+
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/phandle <==
+
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/name <==
+legacy-interrupt-controller
+==> /proc/device-tree/soc/pcie@1b000000/legacy-interrupt-controller/interrupt-controller <==
+
+==> /proc/device-tree/soc/pcie@1b000000/num-lanes <==
+
+==> /proc/device-tree/soc/pcie@1b000000/compatible <==
+socionext,milbeaut-pcie-rc-karinesnps,dw-pcie
+==> /proc/device-tree/soc/pcie@1b000000/ranges <==
+ÅÇ~
+==> /proc/device-tree/soc/pcie@1b000000/#interrupt-cells <==
+
+==> /proc/device-tree/soc/pcie@1b000000/status <==
+disabled
+==> /proc/device-tree/soc/pcie@1b000000/interrupt-names <==
+msidma
+==> /proc/device-tree/soc/pcie@1b000000/num-viewport <==
+
+==> /proc/device-tree/soc/pcie@1b000000/reg <==
+@∞
+==> /proc/device-tree/soc/pcie@1b000000/reset-names <==
+pwrsoftdev
+==> /proc/device-tree/soc/pcie@1b000000/name <==
+pcie
+==> /proc/device-tree/soc/snrtos0@7/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@7/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@7/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@7/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@7/direction <==
+send
+==> /proc/device-tree/soc/snrtos0@7/name <==
+snrtos0
+==> /proc/device-tree/soc/arm_32bus/dma-ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/arm_32bus/#address-cells <==
+
+==> /proc/device-tree/soc/arm_32bus/#size-cells <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/interrupts <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/compatible <==
+socionext,milbeaut-karine-xdmac
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/status <==
+disabled
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/reg <==
+Ñ
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/dma-channels <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/#dma-cells <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c840000/name <==
+dma-controller
+==> /proc/device-tree/soc/arm_32bus/compatible <==
+simple-bus
+==> /proc/device-tree/soc/arm_32bus/ranges <==
+ˇˇˇˇ
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/interrupts <==
+	
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/compatible <==
+socionext,milbeaut-karine-xdmac
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/status <==
+disabled
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/reg <==
+Ö
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/phandle <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/dma-channels <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/#dma-cells <==
+
+==> /proc/device-tree/soc/arm_32bus/dma-controller@c850000/name <==
+dma-controller
+==> /proc/device-tree/soc/arm_32bus/name <==
+arm_32bus
+==> /proc/device-tree/soc/snrtos0@5/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@5/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@5/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@5/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@5/direction <==
+send
+==> /proc/device-tree/soc/snrtos0@5/name <==
+snrtos0
+==> /proc/device-tree/soc/compatible <==
+simple-bus
+==> /proc/device-tree/soc/exs_32bus/dma-ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/exs_32bus/#address-cells <==
+
+==> /proc/device-tree/soc/exs_32bus/#size-cells <==
+
+==> /proc/device-tree/soc/exs_32bus/compatible <==
+simple-bus
+==> /proc/device-tree/soc/exs_32bus/ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/clock-names <==
+coreifacetuningaclk
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/reg-names <==
+uhs1uhs2uhs2_sn
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/bus-width <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/cap-sdio-irq <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/interrupts <==
+Úı
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/default-uhs1 <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/clocks <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/voltage-ranges <==
+‰‰
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/fujitsu,cmd-dat-delay-select <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/compatible <==
+socionext,milbeaut-karine-sdhci-4.0
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/sd40_enable <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/status <==
+disabled
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/interrupt-names <==
+uhs1uhs2
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/reg <==
+Ç@ÇÇÇÄ
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/name <==
+mmc1
+==> /proc/device-tree/soc/exs_32bus/mmc1@19820000/uhs2-power-limit <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/clock-names <==
+coreiface
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/bus-width <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/non-removable <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/interrupts <==
+Ô
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/clocks <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/keep-power-in-suspend <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/fujitsu,cmd-dat-delay-select <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/compatible <==
+socionext,milbeaut-karine-sdhci-3.0
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/status <==
+okay
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/reg <==
+É@
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/quirk-host-off-card-on <==
+
+==> /proc/device-tree/soc/exs_32bus/mmc0@19830000/name <==
+mmc0
+==> /proc/device-tree/soc/exs_32bus/name <==
+exs_32bus
+==> /proc/device-tree/soc/snrtos0@3/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@3/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@3/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@3/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@3/direction <==
+recv
+==> /proc/device-tree/soc/snrtos0@3/name <==
+snrtos0
+==> /proc/device-tree/soc/i2c@e005400/interrupts <==
+
+==> /proc/device-tree/soc/i2c@e005400/clocks <==
+
+==> /proc/device-tree/soc/i2c@e005400/clock-frequency <==
+Ü†
+==> /proc/device-tree/soc/i2c@e005400/compatible <==
+socionext,karine-i2c
+==> /proc/device-tree/soc/i2c@e005400/status <==
+disabled
+==> /proc/device-tree/soc/i2c@e005400/reg <==
+T
+==> /proc/device-tree/soc/i2c@e005400/name <==
+i2c
+==> /proc/device-tree/soc/ranges <==
+ˇˇˇˇ
+==> /proc/device-tree/soc/snrtos2@0/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos2@0/reg <==
+Ö0
+==> /proc/device-tree/soc/snrtos2@0/name <==
+snrtos2
+==> /proc/device-tree/soc/usio_uart@e700040/interrupts <==
+PW
+==> /proc/device-tree/soc/usio_uart@e700040/clocks <==
+
+==> /proc/device-tree/soc/usio_uart@e700040/index <==
+
+==> /proc/device-tree/soc/usio_uart@e700040/compatible <==
+socionext,milbeaut-karine-usio-uart
+==> /proc/device-tree/soc/usio_uart@e700040/status <==
+disabled
+==> /proc/device-tree/soc/usio_uart@e700040/interrupt-names <==
+rxtx
+==> /proc/device-tree/soc/usio_uart@e700040/reg <==
+p@
+==> /proc/device-tree/soc/usio_uart@e700040/name <==
+usio_uart
+==> /proc/device-tree/soc/usb31@19880000/#address-cells <==
+
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/clock-names <==
+refbus_earlysuspend
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/interrupts <==
+Ó
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/clocks <==
+$
+
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/compatible <==
+snps,dwc3
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/snps,has-lpm-erratum <==
+
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/reg <==
+à
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/dr_mode <==
+peripheral
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/maximum-speed <==
+super-speed
+==> /proc/device-tree/soc/usb31@19880000/dwc3@19880000/name <==
+dwc3
+==> /proc/device-tree/soc/usb31@19880000/clock-names <==
+apb_bus
+==> /proc/device-tree/soc/usb31@19880000/reg-names <==
+reg-subsys
+==> /proc/device-tree/soc/usb31@19880000/resets <==
+
+==> /proc/device-tree/soc/usb31@19880000/clocks <==
+$
+==> /proc/device-tree/soc/usb31@19880000/#size-cells <==
+
+==> /proc/device-tree/soc/usb31@19880000/compatible <==
+socionext,f_usb31drd_m20v
+==> /proc/device-tree/soc/usb31@19880000/ranges <==
+
+==> /proc/device-tree/soc/usb31@19880000/reg <==
+¶
+==> /proc/device-tree/soc/usb31@19880000/reset-names <==
+resethif
+==> /proc/device-tree/soc/usb31@19880000/name <==
+usb31
+==> /proc/device-tree/soc/usb@19890000/resets <==
+	
+==> /proc/device-tree/soc/usb@19890000/interrupts <==
+
+==> /proc/device-tree/soc/usb@19890000/compatible <==
+generic-ehci
+==> /proc/device-tree/soc/usb@19890000/reg <==
+â
+==> /proc/device-tree/soc/usb@19890000/name <==
+usb
+==> /proc/device-tree/soc/usio_uart@e700030/interrupts <==
+OV
+==> /proc/device-tree/soc/usio_uart@e700030/clocks <==
+
+==> /proc/device-tree/soc/usio_uart@e700030/index <==
+
+==> /proc/device-tree/soc/usio_uart@e700030/compatible <==
+socionext,milbeaut-karine-usio-uart
+==> /proc/device-tree/soc/usio_uart@e700030/status <==
+okay
+==> /proc/device-tree/soc/usio_uart@e700030/interrupt-names <==
+rxtx
+==> /proc/device-tree/soc/usio_uart@e700030/reg <==
+p0
+==> /proc/device-tree/soc/usio_uart@e700030/name <==
+usio_uart
+==> /proc/device-tree/soc/snrtos0@1/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@1/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@1/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@1/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@1/direction <==
+send
+==> /proc/device-tree/soc/snrtos0@1/name <==
+snrtos0
+==> /proc/device-tree/soc/usio_uart@e700020/interrupts <==
+NU
+==> /proc/device-tree/soc/usio_uart@e700020/clocks <==
+
+==> /proc/device-tree/soc/usio_uart@e700020/index <==
+
+==> /proc/device-tree/soc/usio_uart@e700020/compatible <==
+socionext,milbeaut-karine-usio-uart
+==> /proc/device-tree/soc/usio_uart@e700020/status <==
+disabled
+==> /proc/device-tree/soc/usio_uart@e700020/interrupt-names <==
+rxtx
+==> /proc/device-tree/soc/usio_uart@e700020/reg <==
+p 
+==> /proc/device-tree/soc/usio_uart@e700020/name <==
+usio_uart
+==> /proc/device-tree/soc/spi@f001000/spi3@3/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f001000/spi3@3/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f001000/spi3@3/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f001000/spi3@3/reg <==
+
+==> /proc/device-tree/soc/spi@f001000/spi3@3/name <==
+spi3
+==> /proc/device-tree/soc/spi@f001000/#address-cells <==
+
+==> /proc/device-tree/soc/spi@f001000/num-cs <==
+
+==> /proc/device-tree/soc/spi@f001000/fifo-size <==
+@
+==> /proc/device-tree/soc/spi@f001000/interrupts <==
+[
+==> /proc/device-tree/soc/spi@f001000/clocks <==
+
+==> /proc/device-tree/soc/spi@f001000/#size-cells <==
+
+==> /proc/device-tree/soc/spi@f001000/dma-names <==
+txrx
+==> /proc/device-tree/soc/spi@f001000/compatible <==
+socionext,milbeaut-spi
+==> /proc/device-tree/soc/spi@f001000/spi0@0/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f001000/spi0@0/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f001000/spi0@0/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f001000/spi0@0/reg <==
+
+==> /proc/device-tree/soc/spi@f001000/spi0@0/name <==
+spi0
+==> /proc/device-tree/soc/spi@f001000/status <==
+disabled
+==> /proc/device-tree/soc/spi@f001000/reg <==
+
+==> /proc/device-tree/soc/spi@f001000/dmas <==
+
+==> /proc/device-tree/soc/spi@f001000/spi1@1/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f001000/spi1@1/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f001000/spi1@1/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f001000/spi1@1/reg <==
+
+==> /proc/device-tree/soc/spi@f001000/spi1@1/name <==
+spi1
+==> /proc/device-tree/soc/spi@f001000/spi2@2/ssout-cont <==
+
+==> /proc/device-tree/soc/spi@f001000/spi2@2/spi-max-frequency <==
+òñÄ
+==> /proc/device-tree/soc/spi@f001000/spi2@2/compatible <==
+socionext,milbeaut-spidev
+==> /proc/device-tree/soc/spi@f001000/spi2@2/reg <==
+
+==> /proc/device-tree/soc/spi@f001000/spi2@2/name <==
+spi2
+==> /proc/device-tree/soc/spi@f001000/name <==
+spi
+==> /proc/device-tree/soc/spi@f001000/dma-mode <==
+
+==> /proc/device-tree/soc/usio_uart@e700010/interrupts <==
+MT
+==> /proc/device-tree/soc/usio_uart@e700010/clocks <==
+
+==> /proc/device-tree/soc/usio_uart@e700010/index <==
+
+==> /proc/device-tree/soc/usio_uart@e700010/compatible <==
+socionext,milbeaut-karine-usio-uart
+==> /proc/device-tree/soc/usio_uart@e700010/status <==
+okay
+==> /proc/device-tree/soc/usio_uart@e700010/interrupt-names <==
+rxtx
+==> /proc/device-tree/soc/usio_uart@e700010/reg <==
+p
+==> /proc/device-tree/soc/usio_uart@e700010/uart-flow-enable <==
+
+==> /proc/device-tree/soc/usio_uart@e700010/name <==
+usio_uart
+==> /proc/device-tree/soc/snrtos1@4/src-int-ch <==
+
+
+==> /proc/device-tree/soc/snrtos1@4/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@4/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@4/interrupts <==
+
+==> /proc/device-tree/soc/snrtos1@4/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@4/direction <==
+recv
+==> /proc/device-tree/soc/snrtos1@4/dst-int-ch <==
+
+==> /proc/device-tree/soc/snrtos1@4/name <==
+snrtos1
+==> /proc/device-tree/soc/usio_uart@e700000/interrupts <==
+LS
+==> /proc/device-tree/soc/usio_uart@e700000/clocks <==
+
+==> /proc/device-tree/soc/usio_uart@e700000/index <==
+
+==> /proc/device-tree/soc/usio_uart@e700000/compatible <==
+socionext,milbeaut-karine-usio-uart
+==> /proc/device-tree/soc/usio_uart@e700000/status <==
+disabled
+==> /proc/device-tree/soc/usio_uart@e700000/interrupt-names <==
+rxtx
+==> /proc/device-tree/soc/usio_uart@e700000/reg <==
+p
+==> /proc/device-tree/soc/usio_uart@e700000/name <==
+usio_uart
+==> /proc/device-tree/soc/pcie@1b400000/#address-cells <==
+
+==> /proc/device-tree/soc/pcie@1b400000/clock-names <==
+auxclkbusclk
+==> /proc/device-tree/soc/pcie@1b400000/reg-names <==
+dbiconfigctrl
+==> /proc/device-tree/soc/pcie@1b400000/resets <==
+
+==> /proc/device-tree/soc/pcie@1b400000/interrupts <==
+˛ˇ
+==> /proc/device-tree/soc/pcie@1b400000/clocks <==
+
+==> /proc/device-tree/soc/pcie@1b400000/interrupt-map <==
+				
+==> /proc/device-tree/soc/pcie@1b400000/#size-cells <==
+
+==> /proc/device-tree/soc/pcie@1b400000/device_type <==
+pci
+==> /proc/device-tree/soc/pcie@1b400000/interrupt-map-mask <==
+
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/interrupts <==
+˝
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/interrupt-parent <==
+
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/#interrupt-cells <==
+
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/phandle <==
+	
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/name <==
+legacy-interrupt-controller
+==> /proc/device-tree/soc/pcie@1b400000/legacy-interrupt-controller/interrupt-controller <==
+
+==> /proc/device-tree/soc/pcie@1b400000/num-lanes <==
+
+==> /proc/device-tree/soc/pcie@1b400000/compatible <==
+socionext,milbeaut-pcie-rc-karinesnps,dw-pcie
+==> /proc/device-tree/soc/pcie@1b400000/ranges <==
+ÅˇÇÅÅ~
+==> /proc/device-tree/soc/pcie@1b400000/#interrupt-cells <==
+
+==> /proc/device-tree/soc/pcie@1b400000/status <==
+disabled
+==> /proc/device-tree/soc/pcie@1b400000/interrupt-names <==
+msidma
+==> /proc/device-tree/soc/pcie@1b400000/num-viewport <==
+
+==> /proc/device-tree/soc/pcie@1b400000/reg <==
+@@Ä∏
+==> /proc/device-tree/soc/pcie@1b400000/reset-names <==
+pwrsoftdev
+==> /proc/device-tree/soc/pcie@1b400000/name <==
+pcie
+==> /proc/device-tree/soc/i2c@e005000/interrupts <==
+
+==> /proc/device-tree/soc/i2c@e005000/clocks <==
+
+==> /proc/device-tree/soc/i2c@e005000/clock-frequency <==
+Ü†
+==> /proc/device-tree/soc/i2c@e005000/compatible <==
+socionext,karine-i2c
+==> /proc/device-tree/soc/i2c@e005000/status <==
+disabled
+==> /proc/device-tree/soc/i2c@e005000/reg <==
+P
+==> /proc/device-tree/soc/i2c@e005000/name <==
+i2c
+==> /proc/device-tree/soc/interrupt-controller@d000000/#redistributor-regions <==
+
+==> /proc/device-tree/soc/interrupt-controller@d000000/interrupts <==
+	
+==> /proc/device-tree/soc/interrupt-controller@d000000/compatible <==
+arm,gic-v3
+==> /proc/device-tree/soc/interrupt-controller@d000000/#interrupt-cells <==
+
+==> /proc/device-tree/soc/interrupt-controller@d000000/reg <==
+
+==> /proc/device-tree/soc/interrupt-controller@d000000/phandle <==
+
+==> /proc/device-tree/soc/interrupt-controller@d000000/black-list <==
+
+ !#%'()*,-023679<>@ACEGHIJKLMNOPQRSTUVWXYZ[`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÚÛÙıˆ¯˘	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLNPQRSUWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü
+==> /proc/device-tree/soc/interrupt-controller@d000000/name <==
+interrupt-controller
+==> /proc/device-tree/soc/interrupt-controller@d000000/interrupt-controller <==
+
+==> /proc/device-tree/soc/snrtos1@2/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@2/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@2/interrupts <==
+
+==> /proc/device-tree/soc/snrtos1@2/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@2/direction <==
+recv
+==> /proc/device-tree/soc/snrtos1@2/name <==
+snrtos1
+==> /proc/device-tree/soc/usb20dev@198a0000/clock-names <==
+hclk_hdmac
+==> /proc/device-tree/soc/usb20dev@198a0000/reg-names <==
+udchdmac
+==> /proc/device-tree/soc/usb20dev@198a0000/resets <==
+
+==> /proc/device-tree/soc/usb20dev@198a0000/interrupts <==
+
+==> /proc/device-tree/soc/usb20dev@198a0000/clocks <==
+%
+==> /proc/device-tree/soc/usb20dev@198a0000/compatible <==
+socionext,usb2m9m,f_usb20dc_lfp
+==> /proc/device-tree/soc/usb20dev@198a0000/reg <==
+äÄ
+==> /proc/device-tree/soc/usb20dev@198a0000/name <==
+usb20dev
+==> /proc/device-tree/soc/name <==
+soc
+==> /proc/device-tree/soc/snrtos1@0/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos1@0/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos1@0/interrupts <==
+
+==> /proc/device-tree/soc/snrtos1@0/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos1@0/direction <==
+recv
+==> /proc/device-tree/soc/snrtos1@0/reg <==
+Ö 
+==> /proc/device-tree/soc/snrtos1@0/name <==
+snrtos1
+==> /proc/device-tree/soc/dsp_32bus/dma-ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/dsp_32bus/#address-cells <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/src-int-ch <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/dst-mb <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/interrupts <==
+\
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/compatible <==
+socionext,dsp-ipcu-device
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/direction <==
+send
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/status <==
+okay
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/reg <==
+ 	
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/dst-int-ch <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_0/name <==
+dsp_ipcu_0
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/dma-names <==
+your_xdmac
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/compatible <==
+socionext,dsp-peri-device
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/status <==
+okay
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/reg <==
+Ã 
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/dmas <==
+
+==> /proc/device-tree/soc/dsp_32bus/xm6_peri/name <==
+xm6_peri
+==> /proc/device-tree/soc/dsp_32bus/#size-cells <==
+
+==> /proc/device-tree/soc/dsp_32bus/compatible <==
+simple-bus
+==> /proc/device-tree/soc/dsp_32bus/ranges <==
+ˇˇˇ˛
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/src-int-ch <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/dst-mb <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/interrupts <==
+]
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/compatible <==
+socionext,dsp-ipcu-device
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/direction <==
+recv
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/status <==
+okay
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/dst-int-ch <==
+
+==> /proc/device-tree/soc/dsp_32bus/dsp_ipcu_1/name <==
+dsp_ipcu_1
+==> /proc/device-tree/soc/dsp_32bus/name <==
+dsp_32bus
+==> /proc/device-tree/soc/snrtos0@6/dst-unit <==
+
+==> /proc/device-tree/soc/snrtos0@6/dst-mb <==
+
+==> /proc/device-tree/soc/snrtos0@6/interrupts <==
+
+==> /proc/device-tree/soc/snrtos0@6/compatible <==
+socionext,ipcu-device
+==> /proc/device-tree/soc/snrtos0@6/direction <==
+recv
+==> /proc/device-tree/soc/snrtos0@6/name <==
+snrtos0
+==> /proc/device-tree/clocks/uclk48xi/#clock-cells <==
+
+==> /proc/device-tree/clocks/uclk48xi/clock-frequency <==
+‹l
+==> /proc/device-tree/clocks/uclk48xi/compatible <==
+fixed-clock
+==> /proc/device-tree/clocks/uclk48xi/phandle <==
+
+==> /proc/device-tree/clocks/uclk48xi/name <==
+uclk48xi
+==> /proc/device-tree/clocks/genclk/#clock-cells <==
+
+==> /proc/device-tree/clocks/genclk/clock-frequency <==
+õ¸¿
+==> /proc/device-tree/clocks/genclk/compatible <==
+fixed-clock
+==> /proc/device-tree/clocks/genclk/phandle <==
+
+==> /proc/device-tree/clocks/genclk/name <==
+genclk
+==> /proc/device-tree/clocks/uclk48xi_div2/clock-div <==
+
+==> /proc/device-tree/clocks/uclk48xi_div2/clock-mult <==
+
+==> /proc/device-tree/clocks/uclk48xi_div2/clocks <==
+
+==> /proc/device-tree/clocks/uclk48xi_div2/#clock-cells <==
+
+==> /proc/device-tree/clocks/uclk48xi_div2/compatible <==
+fixed-factor-clock
+==> /proc/device-tree/clocks/uclk48xi_div2/phandle <==
+
+
+==> /proc/device-tree/clocks/uclk48xi_div2/name <==
+uclk48xi_div2
+==> /proc/device-tree/clocks/aumclk/#clock-cells <==
+
+==> /proc/device-tree/clocks/aumclk/clock-frequency <==
+Æπ
+==> /proc/device-tree/clocks/aumclk/compatible <==
+fixed-clock
+==> /proc/device-tree/clocks/aumclk/phandle <==
+
+==> /proc/device-tree/clocks/aumclk/name <==
+aumclk
+==> /proc/device-tree/clocks/name <==
+clocks
+==> /proc/device-tree/psci/method <==
+smc
+==> /proc/device-tree/psci/compatible <==
+arm,psci-0.2
+==> /proc/device-tree/psci/name <==
+psci
+==> /proc/device-tree/#size-cells <==
+
+==> /proc/device-tree/interrupt-parent <==
+
+==> /proc/device-tree/shared_commem/rd-pointer-addr <==
+X(
+==> /proc/device-tree/shared_commem/term-io-size <==
+X`
+==> /proc/device-tree/shared_commem/movie-rec-size <==
+XP
+==> /proc/device-tree/shared_commem/wt-pointer-size <==
+X@
+==> /proc/device-tree/shared_commem/address64 <==
+
+==> /proc/device-tree/shared_commem/term-io-addr <==
+XX
+==> /proc/device-tree/shared_commem/movie-rec-addr <==
+XH
+==> /proc/device-tree/shared_commem/buf-size <==
+X
+==> /proc/device-tree/shared_commem/sync-size <==
+X 
+==> /proc/device-tree/shared_commem/compatible <==
+socionext, shared-commem
+==> /proc/device-tree/shared_commem/rd-pointer-size <==
+X0
+==> /proc/device-tree/shared_commem/wt-pointer-addr <==
+X8
+==> /proc/device-tree/shared_commem/buf-addr <==
+X
+==> /proc/device-tree/shared_commem/name <==
+shared_commem
+==> /proc/device-tree/shared_commem/sync-addr <==
+X
+==> /proc/device-tree/timer/interrupts <==
+
+
+==> /proc/device-tree/timer/compatible <==
+arm,armv8-timer
+==> /proc/device-tree/timer/name <==
+timer
+==> /proc/device-tree/compatible <==
+socionext,milbeaut-karine-evbsocionext,karine
+==> /proc/device-tree/aliases/serial <==
+/soc/usio_uart@e700030
+==> /proc/device-tree/aliases/name <==
+aliases
+==> /proc/device-tree/snipcufs_rtos@0/ipcu_unit <==
+
+==> /proc/device-tree/snipcufs_rtos@0/compatible <==
+socionext,ipcufs-rtos
+==> /proc/device-tree/snipcufs_rtos@0/name <==
+snipcufs_rtos
+==> /proc/device-tree/snipcufs_rtos@0/ipcu_mb <==
+
+==> /proc/device-tree/chosen/bootargs <==
+consoleblank=0 init=/sbin/finit root=/dev/ipcublk rootwait ro console=ttyUSI3,115200n8 nr_cpus=4 maxcpus=1
+==> /proc/device-tree/chosen/name <==
+chosen
+==> /proc/device-tree/chosen/stdout-path <==
+serial:115200n8
+==> /proc/device-tree/cpus/cpu@1/device_type <==
+cpu
+==> /proc/device-tree/cpus/cpu@1/compatible <==
+arm,cortex-a53
+==> /proc/device-tree/cpus/cpu@1/status <==
+disabled
+==> /proc/device-tree/cpus/cpu@1/reg <==
+
+==> /proc/device-tree/cpus/cpu@1/enable-method <==
+psci
+==> /proc/device-tree/cpus/cpu@1/name <==
+cpu
+==> /proc/device-tree/cpus/#address-cells <==
+
+==> /proc/device-tree/cpus/#size-cells <==
+
+==> /proc/device-tree/cpus/cpu@2/device_type <==
+cpu
+==> /proc/device-tree/cpus/cpu@2/compatible <==
+arm,cortex-a53
+==> /proc/device-tree/cpus/cpu@2/status <==
+disabled
+==> /proc/device-tree/cpus/cpu@2/reg <==
+
+==> /proc/device-tree/cpus/cpu@2/enable-method <==
+psci
+==> /proc/device-tree/cpus/cpu@2/name <==
+cpu
+==> /proc/device-tree/cpus/cpu@0/device_type <==
+cpu
+==> /proc/device-tree/cpus/cpu@0/compatible <==
+arm,cortex-a53
+==> /proc/device-tree/cpus/cpu@0/status <==
+disabled
+==> /proc/device-tree/cpus/cpu@0/reg <==
+
+==> /proc/device-tree/cpus/cpu@0/enable-method <==
+psci
+==> /proc/device-tree/cpus/cpu@0/name <==
+cpu
+==> /proc/device-tree/cpus/name <==
+cpus
+==> /proc/device-tree/cpus/cpu@3/device_type <==
+cpu
+==> /proc/device-tree/cpus/cpu@3/compatible <==
+arm,cortex-a53
+==> /proc/device-tree/cpus/cpu@3/status <==
+okay
+==> /proc/device-tree/cpus/cpu@3/reg <==
+
+==> /proc/device-tree/cpus/cpu@3/enable-method <==
+psci
+==> /proc/device-tree/cpus/cpu@3/name <==
+cpu
+==> /proc/device-tree/snvblk_rtos@0/ipcu_unit <==
+
+==> /proc/device-tree/snvblk_rtos@0/compatible <==
+socionext,vblk-rtos
+==> /proc/device-tree/snvblk_rtos@0/name <==
+snvblk_rtos
+==> /proc/device-tree/snvblk_rtos@0/ipcu_mb <==
+
+==> /proc/device-tree/name <==
+
+==> /proc/device-tree/cpuswitch@00000000/#address-cells <==
+
+==> /proc/device-tree/cpuswitch@00000000/#size-cells <==
+
+==> /proc/device-tree/cpuswitch@00000000/compatible <==
+socionext,smp-cpuswitch
+==> /proc/device-tree/cpuswitch@00000000/status <==
+okay
+==> /proc/device-tree/cpuswitch@00000000/reg <==
+CD
+==> /proc/device-tree/cpuswitch@00000000/sgi_no <==
+
+==> /proc/device-tree/cpuswitch@00000000/name <==
+cpuswitch

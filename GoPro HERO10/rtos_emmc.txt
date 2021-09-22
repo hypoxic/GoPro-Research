@@ -1,0 +1,11 @@
+MW_EMMC_Read_Partition()      [OK]
+ - num = 4
+ - partition 0  type=4, LBA=0x26b208, size=0x100000
+ - partition 1  type=4, LBA=0x36b208, size=0x100000
+ - partition 2  type=4, LBA=0x46b208, size=0x200000
+ - partition 3  type=4, LBA=0x66b208, size=0x200000
+
+emmc get_info
+eMMC middleware command execute
+MW_EMMC_Get_Device_Info()     [OK]
+  access mode : 4(HS400)

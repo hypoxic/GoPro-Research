@@ -1,0 +1,170 @@
+[    0.000000] Booting Linux on physical CPU 0x0000000003 [0x410fd034]
+[    0.000000] Linux version 4.19.124 (ubuntu@3356ed46b928) (gcc version 7.5.0 (Linaro GCC 7.5-2019.12)) #1 SMP PREEMPT Sat Jun 26 00:22:55 UTC 2021
+[    0.000000] Machine model: Socionext KARINE EVB
+[    0.000000] cma: Reserved 16 MiB at 0x0000000057000000
+[    0.000000] On node 0 totalpages: 32768
+[    0.000000]   DMA32 zone: 448 pages used for memmap
+[    0.000000]   DMA32 zone: 0 pages reserved
+[    0.000000]   DMA32 zone: 32768 pages, LIFO batch:7
+[    0.000000] psci: probing for conduit method from DT.
+[    0.000000] psci: PSCIv1.0 detected in firmware.
+[    0.000000] psci: Using standard PSCI v0.2 function IDs
+[    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000] psci: SMC Calling Convention v1.0
+[    0.000000] random: get_random_bytes called from start_kernel+0xa4/0x4e8 with crng_init=0
+[    0.000000] percpu: Embedded 22 pages/cpu s53208 r8192 d28712 u90112
+[    0.000000] pcpu-alloc: s53208 r8192 d28712 u90112 alloc=22*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Detected VIPT I-cache on CPU0
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 32320
+[    0.000000] Kernel command line: consoleblank=0 init=/sbin/finit root=/dev/ipcublk rootwait ro console=ttyUSI3,115200n8 nr_cpus=4 maxcpus=1
+[    0.000000] Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.000000] Memory: 85340K/131072K available (7294K kernel code, 914K rwdata, 3272K rodata, 1984K init, 626K bss, 29348K reserved, 16384K cma-reserved)
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+[    0.000000] 	Tasks RCU enabled.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] GICv3: GIC: Using split EOI/Deactivate mode
+[    0.000000] GICv3: Distributor has no Range Selector support
+[    0.000000] GICv3: no VLPI support, no direct LPI support
+[    0.000000] GICv3: CPU0: found redistributor 3 region 0:0x000000000d0e0000
+[    0.000000] rcu: 	Offload RCU callbacks from CPUs: (none).
+[    0.000000] arch_timer: cp15 timer(s) running at 24.00MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+[    0.000007] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+[    0.000086] clocksource: mlb-clksrc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 70787423951 ns
+[    0.000097] sched_clock: 32 bits at 27MHz, resolution 37ns, wraps every 79536431085ns
+[    0.000571] Console: colour dummy device 80x25
+[    0.000608] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=96000)
+[    0.000622] pid_max: default: 32768 minimum: 301
+[    0.000768] Security Framework initialized
+[    0.000833] Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+[    0.000843] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes)
+[    0.024136] ASID allocator initialised with 32768 entries
+[    0.032094] rcu: Hierarchical SRCU implementation.
+[    0.048137] smp: Bringing up secondary CPUs ...
+[    0.048148] smp: Brought up 1 node, 1 CPU
+[    0.048155] SMP: Total of 1 processors activated.
+[    0.048171] CPU features: detected: GIC system register CPU interface
+[    0.048182] CPU features: detected: 32-bit EL0 Support
+[    0.048226] CPU: All CPU(s) started at EL2
+[    0.048242] alternatives: patching kernel code
+[    0.049125] devtmpfs: initialized
+[    0.056555] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.056576] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.057309] pinctrl core: initialized pinctrl subsystem
+[    0.057641] regulator-dummy: no parameters
+[    0.058109] NET: Registered protocol family 16
+[    0.060214] cpuidle: using governor ladder
+[    0.060383] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.061370] DMA: preallocated 256 KiB pool for atomic allocations
+[    0.084720] SCSI subsystem initialized
+[    0.084895] usbcore: registered new interface driver usbfs
+[    0.084940] usbcore: registered new interface driver hub
+[    0.084981] usbcore: registered new device driver usb
+[    0.085057] media: Linux media interface: v0.10
+[    0.085094] videodev: Linux video capture interface: v2.00
+[    0.085129] pps_core: LinuxPPS API ver. 1 registered
+[    0.085137] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.085156] PTP clock support registered
+[    0.086243] clocksource: Switched to clocksource arch_sys_counter
+[    0.139462] VFS: Disk quotas dquot_6.6.0
+[    0.139567] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.139778] FS-Cache: Loaded
+[    0.146168] NET: Registered protocol family 2
+[    0.146957] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes)
+[    0.146977] TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+[    0.147002] TCP bind hash table entries: 1024 (order: 2, 16384 bytes)
+[    0.147030] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.147140] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.147169] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.147339] NET: Registered protocol family 1
+[    0.151817] PCI: CLS 0 bytes, default 64
+[    0.153486] Initialise system trusted keyrings
+[    0.153628] workingset: timestamp_bits=62 max_order=15 bucket_order=0
+[    0.154092] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.
+[    0.162862] Key type asymmetric registered
+[    0.162874] Asymmetric key parser 'x509' registered
+[    0.162917] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[    0.162928] io scheduler noop registered
+[    0.162936] io scheduler deadline registered
+[    0.162967] io scheduler cfq registered (default)
+[    0.162976] io scheduler mq-deadline registered
+[    0.162984] io scheduler kyber registered
+[    0.165678] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.166910] mlb-usio-uart e700010.usio_uart: rx dma alloc failed
+[    0.166921] mlb-usio-uart e700010.usio_uart: interrupt mode used for rx (no dma)
+[    0.166932] mlb-usio-uart e700010.usio_uart: tx dma alloc failed or no properties
+[    0.166942] mlb-usio-uart e700010.usio_uart: interrupt mode used for tx (no dma)
+[    0.166960] e700010.usio_uart: ttyUSI1 at MMIO 0xe700010 (irq = 7, base_baud = 12500000) is a mlb-usio-uart
+[    0.167222] mlb-usio-uart e700030.usio_uart: rx dma alloc failed
+[    0.167233] mlb-usio-uart e700030.usio_uart: interrupt mode used for rx (no dma)
+[    0.167243] mlb-usio-uart e700030.usio_uart: tx dma alloc failed or no properties
+[    0.167253] mlb-usio-uart e700030.usio_uart: interrupt mode used for tx (no dma)
+[    0.167267] e700030.usio_uart: ttyUSI3 at MMIO 0xe700030 (irq = 9, base_baud = 12500000) is a mlb-usio-uart
+[    0.760132] console [ttyUSI3] enabled
+[    0.764434] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    0.776929] brd: module loaded
+[    0.781655] loop: module loaded
+[    0.789161] sni_ipcu_mb_init:226 [ERROR] request_irq ACK is failed. ret=-22 IRQ=0 devname=[]
+[    0.797454] vblk_ipcu_init:251 Cannot init send ipcu channel. -retry probe-
+[    0.805130] libphy: Fixed MDIO Bus: probed
+[    0.809282] tun: Universal TUN/TAP device driver, 1.6
+[    0.814853] usbcore: registered new interface driver usb-storage
+[    0.820753] i2c /dev entries driver
+[    0.824255] usbcore: registered new interface driver uvcvideo
+[    0.829913] USB Video Class driver (1.1.1)
+[    0.834186] sdhci: Secure Digital Host Controller Interface driver
+[    0.840229] sdhci: Copyright(c) Pierre Ossman
+[    0.844919] mmc0 : caps=0x25e9c8b2, caps1=0x2003
+[    0.849392] sdhci-milbeaut 19830000.mmc0: Looking up vmmc-supply from device tree
+[    0.849407] sdhci-milbeaut 19830000.mmc0: Looking up vmmc-supply property in node /soc/exs_32bus/mmc0@19830000 failed
+[    0.849424] sdhci-milbeaut 19830000.mmc0: Looking up vqmmc-supply from device tree
+[    0.849435] sdhci-milbeaut 19830000.mmc0: Looking up vqmmc-supply property in node /soc/exs_32bus/mmc0@19830000 failed
+[    1.002267] mmc0: SDHCI controller on f_sdh30 [19830000.mmc0] using ADMA
+[    1.018599] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.030694] usbcore: registered new interface driver usbhid
+[    1.042238] usbhid: USB HID core driver
+[    1.045901] exFAT: Version 1.3.0
+[    1.054972] sni-ipcu-driver c853000.snrtos2: sni_ipcu_drv_probe:304 No RTOS channel i/f provided
+[    1.074249] sni-ipcu-driver: probe of c853000.snrtos2 failed with error -22
+[    1.088354] sni-dsp-peri-driver 1d000000.xm6_peri: failed to request dma-controller
+[    1.107138] xt_time: kernel timezone is -0000
+[    1.118696] NET: Registered protocol family 10
+[    1.130524] Segment Routing with IPv6
+[    1.138343] NET: Registered protocol family 17
+[    1.146246] tipc: Activated (version 2.0.0)
+[    1.154299] NET: Registered protocol family 30
+[    1.162368] tipc: Started in single node mode
+[    1.170896] registered taskstats version 1
+[    1.182239] Loading compiled-in X.509 certificates
+[    1.198321] Key type encrypted registered
+[    1.249230] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    1.258745] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    1.290596] EXT4-fs (ipcublk): mounted filesystem with ordered data mode. Opts: (null)
+[    1.306274] VFS: Mounted root (ext4 filesystem) readonly on device 254:0.
+[    1.316279] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    1.324818] cfg80211: failed to load regulatory.db
+[    1.339254] devtmpfs: mounted
+[    1.347045] Freeing unused kernel memory: 1984K
+[    1.358377] Run /sbin/finit as init process
+[    1.374186] random: fast init done
+[    1.543104] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+[    1.556940] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+[    1.565863] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+[    1.571932] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+[    1.578431] udevd[76]: starting version 3.2.5
+[    1.588697] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+[    1.617717] random: udevd: uninitialized urandom read (16 bytes read)
+[    1.634605] random: udevd: uninitialized urandom read (16 bytes read)
+[    1.684549] udevd[76]: starting eudev-3.2.5
+[    1.776410] mmc0: queuing unknown CIS tuple 0x80 (1 bytes)
+[    1.782112] mmc0: queuing unknown CIS tuple 0x81 (1 bytes)
+[    1.787995] mmc0: queuing unknown CIS tuple 0x82 (1 bytes)
+[    1.793537] mmc0: new ultra high speed 1SDR104 SDIO card at address 0001
+[    2.472154] random: crng init done
+[    2.486413] random: 2 urandom warning(s) missed due to ratelimiting
+[    3.676635] dwc3-milbeaut 1ba60000.usb31: dwc3: dr_mode is Peripheral
+[    3.989875] sh (182): drop_caches: 3

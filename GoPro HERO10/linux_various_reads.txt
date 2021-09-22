@@ -1,0 +1,33 @@
+Linux version 4.19.124 (ubuntu@3356ed46b928) (gcc version 7.5.0 (Linaro GCC 7.5-2019.12)) #1 SMP PREEMPT Sat Jun 26 00:22:55 UTC 2021
+
+uname 4.19.124
+whoami root
+
+/proc # cat iomem
+0d151000-0d151fff : pinctrl
+0d152000-0d154fff : clk@d152000
+19830000-19833fff : mmc0@19830000
+1988c100-1988ffff : dwc3@19880000
+198a0000-198affff : udc
+1b800000-1b800fff : hdmac
+1ba60000-1ba7ffff : reg-subsys
+50000000-57ffffff : System RAM
+50000000-50005fff : reserved
+50080000-50adffff : Kernel code
+50ae0000-50ccffff : reserved
+50cd0000-50e57fff : Kernel data
+55e00000-55ffffff : reserved
+561de000-56dfffff : reserved
+56f54000-56f84fff : reserved
+56f85000-56fdcfff : reserved
+56fdf000-56fdffff : reserved
+56fe0000-56fe1fff : reserved
+56fe2000-56ff5fff : reserved
+56ff6000-57ffffff : reserved
+
+/proc # cat keys
+0028752b I--Q---     2 perm 1f3f0000     0 65534 keyring   _uid.0: empty
+0f8c11f2 I--Q---     1 perm 1f3f0000     0 65534 keyring   _uid_ses.0: 1
+2201ae7a I------     1 perm 1f0b0000     0     0 keyring   .builtin_trusted_keys: empty
+38128b24 I------     1 perm 1f030000     0     0 asymmetri sforshee: 00b28ddf47aef9cea7: X509.rsa []
+3a3d2f2c I------     1 perm 1f0b0000     0     0 keyring   .builtin_regdb_keys: 1

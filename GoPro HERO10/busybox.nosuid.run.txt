@@ -1,0 +1,37 @@
+BusyBox v1.27.2 (2021-06-26 00:12:45 UTC) multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2015.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices.
+
+Usage: busybox [function [arguments]...]
+   or: busybox --list
+   or: function [arguments]...
+
+	BusyBox is a multi-call binary that combines many common Unix
+	utilities into a single executable.  Most people will create a
+	link to busybox for each function they wish to use and BusyBox
+	will act like whatever it was invoked as.
+
+Currently defined functions:
+	[, [[, addgroup, adduser, arp, ash, awk, basename, blkid, brctl,
+	bunzip2, bzcat, cat, chattr, chgrp, chmod, chown, chroot, chvt, clear,
+	cmp, cp, cpio, cut, date, dc, dd, deallocvt, delgroup, deluser, depmod,
+	devmem, df, diff, dirname, dmesg, dnsd, dnsdomainname, du, dumpkmap,
+	dumpleases, echo, egrep, env, expr, false, fbset, fdisk, fgrep, find,
+	flock, free, fsck, fstrim, ftpd, fuser, getopt, getty, grep, groups,
+	gunzip, gzip, halt, head, hexdump, hostid, hostname, httpd, hwclock,
+	id, ifconfig, ifdown, ifup, insmod, install, ip, iplink, iproute,
+	iprule, kill, killall, klogd, less, link, ln, loadfont, loadkmap,
+	logger, logname, logread, losetup, ls, lsmod, lsof, lspci, lzcat,
+	md5sum, mesg, microcom, mkdir, mkfifo, mknod, mkswap, mktemp, modinfo,
+	modprobe, more, mount, mv, nc, netstat, nice, nohup, nproc, nslookup,
+	ntpd, od, openvt, patch, pgrep, pidof, pipe_progress, pivot_root,
+	pkill, poweroff, printenv, printf, ps, pstree, pwd, rdate, readlink,
+	realpath, reboot, renice, reset, resize, rfkill, rm, rmdir, rmmod,
+	route, run-parts, runlevel, script, sed, seq, setconsole, setserial,
+	setsid, sh, sha1sum, sha256sum, shuf, sleep, sort, start-stop-daemon,
+	stat, strings, stty, sulogin, swapoff, swapon, switch_root, sync,
+	sysctl, syslogd, tail, tar, tee, telnet, test, tftp, time, timeout,
+	top, touch, tr, true, tty, udhcpc, udhcpd, umount, uname, uniq, unlink,
+	unzip, uptime, users, usleep, vi, watch, watchdog, wc, wget, which,
+	who, whoami, xargs, xzcat, yes, zcat

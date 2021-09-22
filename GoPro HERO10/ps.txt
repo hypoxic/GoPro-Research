@@ -1,0 +1,71 @@
+  PID USER       VSZ STAT COMMAND
+    1 root      1652 S    /sbin/finit
+    2 root         0 SW   [kthreadd]
+    3 root         0 IW<  [rcu_gp]
+    4 root         0 IW<  [rcu_par_gp]
+    5 root         0 IW   [kworker/0:0-mm_]
+    6 root         0 IW<  [kworker/0:0H]
+    7 root         0 IW   [kworker/u8:0-ip]
+    8 root         0 IW<  [mm_percpu_wq]
+    9 root         0 SW   [ksoftirqd/0]
+   10 root         0 IW   [rcu_preempt]
+   11 root         0 IW   [rcu_sched]
+   12 root         0 IW   [rcu_bh]
+   13 root         0 SW   [migration/0]
+   14 root         0 SW   [cpuhp/0]
+   15 root         0 SW   [kdevtmpfs]
+   16 root         0 IW<  [netns]
+   17 root         0 SW   [rcu_tasks_kthre]
+   18 root         0 IW   [kworker/0:1-eve]
+   19 root         0 SW   [oom_reaper]
+   20 root         0 IW<  [writeback]
+   21 root         0 IW<  [crypto]
+   22 root         0 IW<  [kblockd]
+   23 root         0 SW   [watchdogd]
+   24 root         0 IW   [kworker/u8:1-ip]
+   25 root         0 IW<  [cfg80211]
+   26 root         0 SW   [kswapd0]
+   27 root         0 IW<  [ipcufs_recv]
+   59 root         0 SW   [irq/43-mmc0]
+   60 root         0 IW<  [ipv6_addrconf]
+   61 root         0 IW   [kworker/0:2-eve]
+   66 root         0 IW<  [vblk_recv]
+   71 root         0 SW   [jbd2/ipcublk-8]
+   72 root         0 IW<  [ext4-rsv-conver]
+   73 root      4484 S    -sh
+   74 root         0 Z    [dbus-daemon]
+   75 root         0 Z    [finit]
+   76 root      3112 S    /sbin/udevd
+   77 root         0 Z    [rc.local]
+   78 root         0 Z    [finit]
+   79 root         0 Z    [finit]
+   80 root         0 Z    [finit]
+   81 root         0 Z    [ifup]
+   88 root         0 Z    [start-stop-daem]
+   92 root         0 Z    [start-stop-daem]
+   94 root      1816 S    /sbin/syslogd -n -S -s 400 -b 2 -O /tmp/messages
+   97 root      1816 S    /sbin/klogd -n
+  106 root      2984 S    /sbin/udevd
+  114 root     12260 R<   /usr/local/gopro/bin/babyblue -c 5
+  116 root         0 IW   [kworker/u8:2]
+  119 root     52880 S    /usr/local/gopro/bin/gpChpIpc
+  120 root      3128 S    /usr/local/gopro/bin/gpChpTestChannel
+  135 root      3116 S    /usr/local/gopro/bin/gpCamApi
+  137 root      3784 S    /usr/local/gopro/bin/gpNet
+  139 root      1784 S    /usr/local/gopro/bin/gpsv /usr/local/gopro/bin/gpCon
+  141 root     94500 S    /usr/local/gopro/bin/gpControlD
+  144 root     88120 S    /usr/local/gopro/bin/gpBleSdkD
+  147 root      3132 S    /usr/local/gopro/bin/gpBtMan
+  149 root     12340 S    /usr/local/gopro/bin/womDaemon
+  150 root      1784 S    /usr/local/gopro/bin/gpsv /usr/local/gopro/bin/gpHtt
+  151 root      1784 S    /usr/local/gopro/bin/gpsv /usr/local/gopro/bin/gpUsb
+  153 root      7664 S    /usr/local/gopro/bin/gpPlatform
+  158 root      5832 S    /usr/local/gopro/bin/gpAth
+  160 root      3024 S    /usr/local/gopro/bin/gpUdp
+  165 root      7056 S    /usr/local/gopro/bin/gpUsb
+  166 root      320m S    /usr/local/gopro/bin/gpHttpServer
+  169 root         0 IW   [kworker/u8:3-ev]
+  176 root         0 Z    [gpsend]
+  180 root         0 Z    [gpsend]
+    184 root      2984 S    /sbin/udevd
+  205 root      4484 R    ps

@@ -1,0 +1,85 @@
+t appc status show
+[00069455][I] gp_test  cmd: t appc status show
+[00069455][I] gp_test   scheduled_capture_preset        524416 (0x80080)
+[00069456][I] gp_test   scheduled_capture_active        4
+[00069456][I] gp_test   scheduled_capture_start_delay   0
+[00069456][I] gp_test   scheduled_capture_starting      0
+[00069456][I] gp_test   current_preset          0 (0x0)
+[00069456][I] gp_test   editing_preset_id               4294967295 (0xffffffff
+[00069456][I] gp_test   creating_preset_id              4294967295 (0xffffffff)
+[00069456][I] gp_test   prev_active_preset_id           4294967295
+[00069456][I] gp_test   target_flat_mode        12
+[00069456][I] gp_test   current_flat_mode       12
+[00069457][I] gp_test   return_to_flat_mode     -1
+[00069457][I] gp_test   target_app_mode 0
+[00069457][I] gp_test   current_app_mode        -1
+[00069457][I] gp_test   current_video_sub_mode  0
+[00069457][I] gp_test   current_photo_sub_mode  0
+[00069457][I] gp_test   current_multi_shot_sub_mode     0
+[00069457][I] gp_test   current_broadcast_sub_mode      0
+[00069457][I] gp_test
+[00069457][I] gp_test  Broadcast Status
+[00069457][I] gp_test
+[00069458][I] gp_test   broadcast_wms_state             0
+[00069458][I] gp_test   broadcast_request               0
+[00069458][I] gp_test   broadcast_encode_requested              0
+[00069458][I] gp_test   broadcast_setup_inprogress              0
+[00069458][I] gp_test   sd_insert_needed                0
+[00069458][I] gp_test  System Status
+[00069458][I] gp_test
+[00069458][I] gp_test   camera_lens_type                0
+[00069458][I] gp_test   eis_active              1
+[00069458][I] gp_test   cold_temp_status                0
+[00069459][I] gp_test   file_delete_status              0
+[00069459][I] gp_test   system_busy             0
+[00069459][I] gp_test   capture_delay_timer_state               0
+[00069459][I] gp_test
+[00069459][I] gp_test   reset_reason            2
+[00069459][I] gp_test   wake_on_voice_cmd               -1
+[00069459][I] gp_test   contextual_menu_active          0
+[00069459][I] gp_test   external_contextual_menu_active         0
+[00069459][I] gp_test
+[00069459][I] gp_test   softtube_activity               0
+[00069460][I] gp_test   softtube_activity_usr_interupt          0
+[00069460][I] gp_test
+[00069460][I] gp_test   first_time_use          1
+[00069460][I] gp_test   sd_status               0
+[00069460][I] gp_test   shutdown_now            0
+[00069460][I] gp_test   shutdown_inprogress             0
+[00069460][I] gp_test   reset_inprogress                0
+[00069460][I] gp_test
+[00069460][I] gp_test   wireless_init_state             4
+[00069460][I] gp_test   wireless_traffic_timeout                -1
+[00069461][I] gp_test   wireless_init_finished          1
+[00069462][I] gp_test   rewrite_wakeup_csi              0
+[00069462][I] gp_test   wifi_region             0
+[00069462][I] gp_test
+[00069463][I] gp_test   mobile_friendly_video   0
+[00069463][I] gp_test
+[00069463][I] gp_test   record_status           0
+[00069463][I] gp_test   timelapse_active                0
+[00069463][I] gp_test   quick_capture_active            0
+[00069463][I] gp_test   continuous_capture_active               0
+[00069463][I] gp_test   encode_stopping         0
+[00069463][I] gp_test
+[00069463][I] gp_test   voice_control_enable            0
+[00069463][I] gp_test   voice_control_state             0
+[00069464][I] gp_test   voice_control_used              0
+[00069464][I] gp_test
+[00069464][I] gp_test   ibat_percent            29
+[00069464][I] gp_test   ibat_bars               1
+[00069464][I] gp_test   ibat_charge_state               1
+[00069464][I] gp_test   charger_is_fast_charger         0
+[00069464][I] gp_test   ibat_removed            0
+[00069464][I] gp_test
+[00069464][I] gp_test   current_disp_handle     7
+[00069464][I] gp_test
+[00069465][I] gp_test   digital_zoom_active             1
+[00069466][I] gp_test   orientation             0
+[00069466][I] gp_test   exposure_select_type            2
+[00069466][I] gp_test   avoid_camera_charging           0
+[00069466][I] gp_test   charger_is_normal_charger               0
+[00069466][I] gp_test   media_filter            0
+[00069466][I] gp_test   livecapture_enable              0
+[00069467][I] gp_test   livecapture_preview             1
+[00069467][I] gp_test   Silent boot             0

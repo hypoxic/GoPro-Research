@@ -1,0 +1,1334 @@
+From RTOS Console 
+exit to get into these various modes
+c for Fujitsu (socionext) commands. Super low level
+s for the vendor "GoPro" commands
+v for evaluation - Nothing here
+
+top test help
+USAGE> top [command]
+USAGE> [command]
+USAGE> top EMMC : test 'FJ_Top_Set_Clock_Select_EMMC'
+USAGE> top SDIO : test 'FJ_Top_Set_Clock_Select_SDIO'
+USAGE> top SD4 : test 'FJ_Top_Set_Clock_Select_SD4'
+USAGE> top SDB : test 'FJ_Top_Set_Clock_Select_SDB'
+USAGE> top DIPIXELCLK0 : test 'FJ_Top_Set_Clock_Select_DIPIXELCLK0'
+USAGE> top DIPIXELCLK1 : test 'FJ_Top_Set_Clock_Select_DIPIXELCLK1'
+USAGE> top FAPCLK : test 'FJ_Top_Set_Clock_Select_FAPCLK'
+USAGE> top GPU2D : test 'FJ_Top_Set_Clock_Select_GPU2D'
+USAGE> top JPEG : test 'FJ_Top_Set_Clock_Select_JPEG'
+USAGE> top NETR : test 'FJ_Top_Set_Clock_Select_NETR'
+USAGE> top HEVCC0 : test 'FJ_Top_Set_Clock_Select_HEVCC0'
+USAGE> top HEVCB0 : test 'FJ_Top_Set_Clock_Select_HEVCB0'
+USAGE> top HEVCB1 : test 'FJ_Top_Set_Clock_Select_HEVCB1'
+USAGE> top HEVCBP : test 'FJ_Top_Set_Clock_Select_HEVCBP'
+USAGE> top NPSEL : test 'FJ_Top_Set_Clock_Select_NPSEL'
+USAGE> top NPCLK : test 'FJ_Top_Set_Clock_Select_NPCLK'
+USAGE> top AP3 : test 'FJ_Top_Set_Clock_Select_AP3'
+USAGE> top AP2 : test 'FJ_Top_Set_Clock_Select_AP2'
+USAGE> top AP1 : test 'FJ_Top_Set_Clock_Select_AP1'
+USAGE> top AP0 : test 'FJ_Top_Set_Clock_Select_AP0'
+USAGE> top APCLK0 : test 'FJ_Top_Set_Clock_Select_APCLK0'
+USAGE> top APCLK1 : test 'FJ_Top_Set_Clock_Select_APCLK1'
+USAGE> top APCLK2 : test 'FJ_Top_Set_Clock_Select_APCLK2'
+USAGE> top APCLK3 : test 'FJ_Top_Set_Clock_Select_APCLK3'
+USAGE> top NETAU : test 'FJ_Top_Set_Clock_Select_NETAU'
+USAGE> top AUM0 : test 'FJ_Top_Set_Clock_Select_AUM0'
+USAGE> top AUM1 : test 'FJ_Top_Set_Clock_Select_AUM1'
+USAGE> top AUM2 : test 'FJ_Top_Set_Clock_Select_AUM2'
+USAGE> top AUM3 : test 'FJ_Top_Set_Clock_Select_AUM3'
+USAGE> top AUM4 : test 'FJ_Top_Set_Clock_Select_AUM4'
+USAGE> top AUM5 : test 'FJ_Top_Set_Clock_Select_AUM5'
+USAGE> top AUM6 : test 'FJ_Top_Set_Clock_Select_AUM6'
+USAGE> top AUM7 : test 'FJ_Top_Set_Clock_Select_AUM7'
+USAGE> top AUM8 : test 'FJ_Top_Set_Clock_Select_AUM8'
+USAGE> top PDM0 : test 'FJ_Top_Set_Clock_Select_PDM0'
+USAGE> top PDM1 : test 'FJ_Top_Set_Clock_Select_PDM1'
+USAGE> top RCLK : test 'FJ_Top_Set_Clock_Select_RCLK'
+USAGE> top RCLK64T : test 'FJ_Top_Set_Clock_Select_RCLK64T'
+USAGE> top SPI0 : test 'FJ_Top_Set_Clock_Select_SPI0'
+USAGE> top SPI1 : test 'FJ_Top_Set_Clock_Select_SPI1'
+USAGE> top SPI2 : test 'FJ_Top_Set_Clock_Select_SPI2'
+USAGE> top SPI3 : test 'FJ_Top_Set_Clock_Select_SPI3'
+USAGE> top RSZ0 : test 'FJ_Top_Set_Clock_Select_RSZ0'
+USAGE> top RSZ1 : test 'FJ_Top_Set_Clock_Select_RSZ1'
+USAGE> top RSZ2 : test 'FJ_Top_Set_Clock_Select_RSZ2'
+USAGE> top RSZ3 : test 'FJ_Top_Set_Clock_Select_RSZ3'
+USAGE> top DCE0 : test 'FJ_Top_Set_Clock_Select_DCE0'
+USAGE> top DCE1 : test 'FJ_Top_Set_Clock_Select_DCE1'
+USAGE> top all : Execute all FJ_Top_Set_Clock_Select_* tests.
+USAGE>--------------------------------------------------
+USAGE> top temp [open|close|ctrl|get_data|get_irq]
+USAGE>   open     : Open Temperature Sensor open
+USAGE>   close    : Close Temperature Sensor open
+USAGE>   ctrl     : Set & Start Temperature Sensor
+USAGE>   get_data : Display Temperature data
+USAGE>   get_irq  : Display IRQ status
+USAGE> top get_peri [RCLK]
+USAGE>   0: 54MHz
+USAGE>   1: 27MHz
+USAGE>   2: 18MHz
+USAGE>   3: 13.5MHz
+USAGE> top cpu [CPUCLK]
+USAGE>   1000: 1000MHz(overdrive)
+USAGE>    800:  800MHz
+USAGE>    700:  700MHz
+USAGE>    600:  600MHz
+USAGE>    500:  500MHz
+USAGE>    400:  400MHz
+USAGE>    300:  300MHz
+USAGE>    200:  200MHz
+USAGE> top dhry [loop]
+USAGE>   Recommended number of loops is 1000000 or more.
+USAGE>--------------------------------------------------
+
+ --- boot ---
+USAGE>system reboot
+USAGE>system suspend
+USAGE>system get_boot_cond
+ --- MBA ---
+USAGE>system mbalog
+USAGE>system mbalog [restart/start/end/clear/test]
+USAGE>system mbalog out [filename]
+USAGE>system mbalog out_sel [0:terminal 1:file] [surface_no] [filename]
+USAGE>system mbalog out_all [0:terminal 1:file] [filename]
+USAGE>system mbalog remove [filename]
+USAGE>system mbalog [setkind/getkind] [kind(Hex)]
+ --- Monitor ---
+USAGE>system bwmoni [msec]
+ --- Debug Test ---
+USAGE>system dbgprinth [printlev]
+USAGE>system dbgprintb [printlev]
+USAGE>system dbgwrite
+USAGE>system dbgdwrite
+USAGE>arm timestamp get
+USAGE>arm time get_us
+USAGE>arm ec-spinpol [id]
+USAGE>arm ec-spinlock [id]
+USAGE>arm ec-spinunlock [id]
+USAGE>arm gic-clear-pending [intid]
+USAGE>audio cap open [audio cap] # Open AudioCaptureInstance
+USAGE>audio cap close [audio cap id] # Close AudioCaptureInstance
+USAGE>audio cap connect out [audio cap id][audio out id] # Connect AudioCaptureInstance with AudioOutInstance
+USAGE>audio cap connect enc [audio cap id][audio enc id] # Connect AudioCaptureInstance with AudioEncoderInstance
+USAGE>audio cap disconnect out [audio cap id][audio out id] # Disconnect AudioCaptureInstance from AudioOutInstance
+USAGE>audio cap disconnect enc [audio cap id][audio enc id] # Disconnect AudioCaptureInstance from AudioEncoderInstance
+USAGE>audio cap cfg [audio cap id][I2s channel][I2s master/slave][freqency of LR Clock][I2s data cycle][I2s format][valid bit][pga_r][pga_l][pdmclko_dly][use_case] # Configuration of AudioCaptureInstance
+USAGE>audio cap smpl [audio cap id][Input sampling rate][Input channel][Output sampling rate][Input channel] # Sample configuration of AudioCaptureInstance
+USAGE>audio cap plugin [audio cap id][enable]# Enable AudioCapturePlugIn1
+USAGE>audio cap start [audio cap id] # Start AudioCapture
+USAGE>audio cap stop [audio cap id] # Stop AudioCapture
+USAGE>audio cap complete [audio cap id][free index] # Free Buffer Area of AudioCapturePlugin1
+USAGE>audio cap test [test mode] # Debug function of AudioCapture
+USAGE>audio cap storewav # store raw PCM data to SDcard for calibration
+USAGE>audio out open [audio out] # Open AudioOutInstance
+USAGE>audio out close [audio out id] # Close AudioOutInstance
+USAGE>audio out cfg [audio out id][I2s channel][I2s master/slave][freqency of LR Clock][I2s data cycle][I2s format][valid bit] # Configuration of AudioOutInstance
+USAGE>audio out stop [audio out id] # Stop AudioOut
+USAGE>audio out test [test mode] # Debug function of AudioOut
+USAGE>audio enc open [audio enc] # Open AudioEncoderInstance
+USAGE>audio enc close [audio enc id] # Close AudioEncoderInstance
+USAGE>audio enc cfg [audio enc id][sampling rate][bit rate][channel] # Configuration of AudioEncoderInstance
+USAGE>audio enc setup [audio enc id] # Setup AudioEncoderInstance
+USAGE>audio enc start [audio enc id] # Start AudioEncoder
+USAGE>audio enc stop [audio enc id] # Stop AudioEncoder
+USAGE>audio enc free [audio enc id][free index][end flag] # Free Buffer Area of AudioStreamData
+USAGE>audio enc mute on [audio enc id] # Mute On
+USAGE>audio enc mute off [audio enc id] # Mute Off
+USAGE>audio dec open [audio dec] # Open AudioDecoderInstance
+USAGE>audio dec close [audio dec id] # Close AudioDecoderInstance
+USAGE>audio dec cfg [audio dec id][sampling rate][channel] # Configuration of AudioDecoderInstance
+USAGE>audio dec connec [audio dec id][audio out id]# Connect AudioDecoderInstance with AudioOutInstance
+USAGE>audio dec disconnect [audio dec id][audio out id] # Disconnect AudioDecoderInstance from AudioOutInstance
+USAGE>audio dec init # Initialize AudioDecoderInstance
+USAGE>audio dec start [audio dec id] # Start AudioDecoder
+USAGE>audio dec stop [audio dec id] # Stop AudioDecoder
+USAGE>audio dec start_out # Start AudioDecoder
+USAGE>audio dec stop_out # Stop AudioDecoder
+USAGE>audio loadwav [filename] # Load Wave data
+USAGE>audio unloadwav [wav id] # Unload Wave data
+USAGE>audio playwav [wav id] # Start playback wav data
+USAGE>audio stopwav [wav id] # Stop playback wav data
+USAGE>audio ctrlwav [audio out id][control] # Set Mix setting
+USAGE>audio src open [audio source] # Open AudioSourceInstance
+USAGE>audio src close [audio src id] # Close AudioSourceInstance
+USAGE>audio src connect [audio src id] [audio cap id] # Connect AudioSourceInstance with AudioCaptureInstance
+USAGE>audio src disconnect [audio src id] # DisConnect AudioSourceInstance
+USAGE>ipcu open [type]
+USAGE>ipcu close [id]
+USAGE>ipcu send [id] [data address] [length]
+USAGE>ipcu setCB [id]
+USAGE>memory conv_phy2log
+USAGE>memory conv_log2phy
+USAGE>memory directpoolalloc [byte size]
+USAGE>memory directpoolfree [memory address]
+USAGE>memory allocinit [start address] [end address]
+USAGE>memory allocperi [byte size] [align]
+USAGE>memory allocimag [byte size] [align]
+USAGE>memory allocprtadr [address]
+USAGE>memory allocprtall
+USAGE>memory allocrestsize
+USAGE>memory putmark
+USAGE>memory movemark
+USAGE>memory de-alloc
+USAGE>memory dcache_all [cache level] [operation]
+USAGE>memory dcache_addr [cache level] [operation] [memory address] [byte size]
+USAGE>memory get_attribute [memory address]
+USAGE>memory dmb_poc
+USAGE>memory dsb_poc
+USAGE>memory dsb_pou
+USAGE>memory get_mpf_fblkcnt [mpfid]
+USAGE>memory get_mpl_fmplsz [mplid]
+USAGE>memory copy_sdram_sync [ch] [src_adr] [dst_adr] [size] [wait_mode]
+USAGE>memory check_cast
+USAGE>memory check_ddim_print
+USAGE>memory test DPA
+USAGE>memory test AI
+USAGE>memory test GMA
+USAGE>memory test MPF
+USAGE>memory test MPL
+USAGE>memory test write_m
+USAGE>memory test check_m
+USAGE>memory dump [w:32bit h:16bit b:8bit] [start address] [size]
+USAGE>gyroif start [ch] [mode] [lsb/msb] [bit length] [baudrate] [wmk_tx] [wmk_rx] [sspol] [cont_trans] [data_count] [total_data_count] [dma_to] [tmr_clk] [edge] [read_regi]
+                    # Start Gyro data read.
+                    #   [ch] Channel (0~3)
+                    #   [mode] mode0:Clock Polarity=0, Clock Phase=0
+                    #          mode1:Clock Polarity=0, Clock Phase=1
+                    #          mode2:Clock Polarity=1, Clock Phase=0
+                    #          mode3:Clock Polarity=1, Clock Phase=1
+                    #   [lsb/msb] lsb:LSB first
+                    #             msb:MSB first
+                    #   [bit length] Transmit bit length (4~16)
+                    #   [baudrate] Baudrate(bps)
+                    #   [wmk_tx] TX FIFO Watermark value
+                    #   [wmk_rx] RX FIFO Watermark value
+                    #   [sspol] Slave Select Polarity(0/1)
+                    #   [cont_trans] 0:ssOut goes inactive between successive transfers
+                    #                1:ssOut become inactive when the TX FIFO is empty
+                    #                2:ssOut remain active even when the TX FIFO is empty
+                    #   [data_count] Count of gyro data per Gyro interrupt (1 to 65536)
+                    #   [total_data_count] Total count of read data buffer (1 to 65536)
+                    #   [dma_to] DMA Receive Timeout
+                    #   [tmr_clk] 64bit Timer count clock select(2/8/32)
+                    #   [edge] 64bit Timer edge select(rise/fall/both)
+                    #   [read_regi] Gyro data read register address
+
+USAGE>gyroif stop
+                    # Stop Gyro data read.
+
+USAGE>gyroif get_read_count
+                    # Get Gyro read count.
+
+USAGE>gyroif get_timer_count
+                    # Get Gyro timer count.
+
+USAGE>gyroif send_data [data]
+                    # Send data to Gyro.
+                    #   [data] Send data
+
+USAGE>gyroif print
+                    # Print Gyro data.
+  USAGE> disp <function> [...]
+    # Disp test command.
+    #   <function>
+    #     open   : Open display instance.
+    #     close  : Close display instance.
+    #     mipi   : MIPI-DSI connection control.
+    #     dp     : DisplayPort connection control.
+    #     video  : Image Layer control.
+    #     osd    : OSD Layer control.
+    # Please input 'disp <function> help' command for more information.
+
+USAGE>mipi init <disp_id>
+                    # mipi init.
+
+USAGE>mipi mode <disp_id> <mode>
+                    # mipi mode.
+
+USAGE>mipi video <disp_id>
+                    # mipi video.
+
+USAGE>mipi cmd <disp_id>
+                    # mipi cmd.
+
+---FILE Command---
+USAGE>fs open [name] [mode]
+     # open the file.
+        [name] : File name with path.
+        [mode] : File Open Mode.
+        [mode] : File Open Mode.
+         create  : create the file.
+         open    : open the file read & write.
+         rd_only : open the file in read only.
+         wr_only : open the file in write only.
+         over_wr : open the file in over write.
+
+         append  : open the file in append.
+USAGE>fs close [fileid]
+     # close the file
+USAGE>fs read [fileid] [address] [read_size]
+     # read the file
+        [address] : The top address of data to read.
+USAGE>fs write [fileid] [address] [write_size]
+     # write the file(sync)
+        [address] : The top address of data to write.
+USAGE>fs write_async [fileid] [address] [write_size]
+     # write the file(aync)
+        [address] : The top address of data to write.
+USAGE>fs get_write_size
+     # Get the Write size.
+USAGE>fs remove [path]
+     # remove the file/directory.
+USAGE>fs copy [src filename] [dst filename]
+     # copy the file.
+     # The following log appears, but the copy was successful:.
+     #  W:0:T01000005: fread: feof = 1. The point reached the end of the file.
+USAGE>fs mkdir [directoy name]
+     # make the directory.
+USAGE>fs chdir [path]
+     # chenge the directory.
+USAGE>fs pwd
+     # Get the current directory path.
+USAGE>fs rename [current name] [after rename]
+     # rename the file/directory.
+USAGE>fs attr_get [name]
+     # Get file/directory attribute information.
+     # 0 : normal file/directory.
+     # 1 : readonly file/directory
+     # 2 : hidden file/directory.
+     # 4 : system file/directory.
+     # 32 : archive file/directory.
+     # 16 : directory.
+USAGE>fs attr_set [name] [attribute info]
+     # Set file/directory attribute information.
+     # 0 : normal file/directory.
+     # 1 : readonly file/directory
+     # 2 : hidden file/directory.
+     # 4 : system file/directory.
+     # 32 : archive file/directory.
+USAGE>fs stat [name]
+     # Get file/directory attribute information.
+USAGE>fs seek [fileid] [offset] [whence]
+     # seek the file.
+        [whence] : Reference position.
+        0 : seek from file top
+        1 : seek from current
+        2 : seek from file end
+USAGE>fs fsync [fileid]
+     # flushes the device on which the specified file resides.
+USAGE>fs sync [device name]
+     # Sync the sepecified device.
+USAGE>fs set_search_entry [entry name]
+     # Sets the name of the entry when searching for files or directories.
+     # The entry name is a wild card can be specified.
+     # It can be used the following wild card.
+     # '*' : The asterisk (*) can be all single characters or any string.
+     # '?' : The question mark (?) can be any single character.
+     # e.g. ) G002*.JPG.
+USAGE>fs get_entry [mode]
+     # Print one entry of the current directory.
+     # Set the target path in set_search_entry command beforehand.
+        [mode]:function mode.
+        0 : start get entry function.
+        2 : get next entry(not read sub directory).
+        3 : reset and end get entry function.
+USAGE>fs combine [base path] [add path]
+     # Divide a file into two.
+        [base path]:The path of the base file.
+        [[add path]:The path of the add file.
+USAGE>fs divide [org path] [new path] [offset]
+     # Divide a file into two.
+        [org path]:The path of the base file.
+        [new path]:The path of the add file.
+        [offset]:The position to divide from the beginning of the file..
+USAGE>fs dir
+     # get all directory entry of current Drive.
+---STORAGE Command---
+USAGE>fs mount [media id] [drive name]
+     # Mount the storage.
+     # media id
+        0 : ---
+        1 : ---
+        2 : ---
+        3 : ---
+        4 : ---
+        5 : ---
+        6 : ---
+        7 : SD card 0
+        8 : ---
+        9 : eMMC Storage 0
+       10 : eMMC Storage 1
+       11 : eMMC Storage 2
+       12 : eMMC Storage 3
+       13 : eMMC Storage 4
+       14 : eMMC Storage 5
+       15 : eMMC Storage 6
+USAGE>fs unmount [drive name]
+     # Unount the storage.
+USAGE>fs geometry_ex [media id]
+     # Get the storage media geometry.
+     # media id
+        0 : ---
+        1 : ---
+        2 : ---
+        3 : ---
+        4 : ---
+        5 : ---
+        6 : ---
+        7 : SD card 0
+        8 : ---
+        9 : eMMC Storage 0
+       10 : eMMC Storage 1
+       11 : eMMC Storage 2
+       12 : eMMC Storage 3
+       13 : eMMC Storage 4
+       14 : eMMC Storage 5
+       15 : eMMC Storage 6
+USAGE>fs format [I/A/B/C/D/E/F/G]
+USAGE>fs format [I_progress/]
+USAGE>fs format [A_progress/]
+USAGE>fs format [B_progress/]
+USAGE>fs format [C_progress/]
+USAGE>fs format [D_progress/]
+USAGE>fs format [E_progress/]
+USAGE>fs format [F_progress/]
+USAGE>fs format [G_progress/]
+     # format media (quick format)
+        I            : extended memory SD0 drive
+        I_progress   : extended memory SD0 drive(with progress)
+        A            : resident memory EM0 drive
+        B            : resident memory EM1 drive
+        C            : resident memory EM2 drive
+        D            : resident memory EM3 drive
+        E            : resident memory EM4 drive
+        F            : resident memory EM5 drive
+        G            : resident memory EM6 drive
+        A_progress   : extended memory EM0 drive(with progress)
+        B_progress   : extended memory EM1 drive(with progress)
+        C_progress   : extended memory EM2 drive(with progress)
+        D_progress   : extended memory EM3 drive(with progress)
+        E_progress   : extended memory EM4 drive(with progress)
+        F_progress   : extended memory EM5 drive(with progress)
+        G_progress   : extended memory EM6 drive(with progress)
+USAGE>fs full_format [I/A/B/C/D/E/F/G]
+USAGE>fs full_format [I_progress/]
+USAGE>fs full_format [A_progress/]
+USAGE>fs full_format [B_progress/]
+USAGE>fs full_format [C_progress/]
+USAGE>fs full_format [D_progress/]
+USAGE>fs full_format [E_progress/]
+USAGE>fs full_format [F_progress/]
+USAGE>fs full_format [G_progress/]
+     # format media (full format)
+        I            : extended memory SD0 drive
+        I_progress   : extended memory SD0 drive(with progress)
+        A            : resident memory EM0 drive
+        B            : resident memory EM1 drive
+        C            : resident memory EM2 drive
+        D            : resident memory EM3 drive
+        E            : resident memory EM4 drive
+        F            : resident memory EM5 drive
+        G            : resident memory EM6 drive
+        A_progress   : extended memory EM0 drive(with progress)
+        B_progress   : extended memory EM1 drive(with progress)
+        C_progress   : extended memory EM2 drive(with progress)
+        D_progress   : extended memory EM3 drive(with progress)
+        E_progress   : extended memory EM4 drive(with progress)
+        F_progress   : extended memory EM5 drive(with progress)
+        G_progress   : extended memory EM6 drive(with progress)
+USAGE>fs set_vollabel [drive name] [vollabel]
+     # Set the volume label.
+USAGE>fs get_vollabel [drive name]
+     # Get the volume label.
+---IPCUFS Command---
+USAGE>fs ipcu start
+     # IFSA_START command processing.
+USAGE>fs ipcu start chk
+     # IFSA_START command processing result.
+USAGE>fs ipcu end
+     # IFSA_END command processing.
+USAGE>fs ipcu end chk
+     # IFSA_END command processing result.
+USAGE>fs ipcu lookup
+     # IFSA_LOOKUP command processing.
+USAGE>fs ipcu lookup chk
+     # IFSA_LOOKUP command processing result.
+USAGE>fs ipcu readdir [drive] [open flag]
+     # IFSA_READDIR command processing.
+USAGE>fs ipcu readdir chk
+     # IFSA_READDIR command processing result.
+USAGE>fs ipcu readpage [read offset] [physical addr] [read length]
+     # IFSA_READPAGE command processing.
+USAGE>fs ipcu readpage chk
+     # IFSA_READPAGE command processing result.
+USAGE>fs ipcu writepage [write offset] [physical addr] [write length]
+     # IFSA_WRITEPAGE command processing.
+USAGE>fs ipcu writepage chk
+     # IFSA_WRITEPAGE command processing result.
+USAGE>fs ipcu get [drive] [path]
+     # IFSA_IGET command processing.
+USAGE>fs ipcu get chk
+     # IFSA_IGET command processing result.
+USA]       : number of write sectors (1sector = 512byte)
+        - [buf_addr]   : address of write area
+emmc bwrite_pio [start_sec] [size] [buf_addr]
+        - [start_sec]  : start sector number
+        - [size]       : number of write sectors (1sector = 512byte)
+        - [buf_addr]   : address of write area
+emmc format
+emmc format_drv [drive_no]
+        - [drive_no]   : drive number
+emmc par_read
+emmc set_phyreg [val]
+        - [val]  : DLL mmcclk delay for eMMC HS mode
+USAGE>
+----- total test -----
+sd test [ch] [sec_count]
+        - [sec_count]  : number of test sectors (1sector = 512byte)
+
+----- function test -----
+sd init [ch]
+sd get_info [ch]
+sd ctrl_cmn [ch] [mode] [uhs2mode] [uhs2range] [uhs1power] [uhs2power] [callback]
+        - [mode]       : 0x01 (Default Speed)
+                       : 0x02 (High Speed)
+                       : 0x04 (UHS-I SDR12)
+                       : 0x08 (UHS-I SDR25)
+                       : 0x10 (UHS-I SDR50)
+                       : 0x20 (UHS-I SDR104)
+                       : 0x40 (UHS-II)
+        - [uhs2mode]   : 0 (FD)
+                       : 1 (2L-HD)
+        - [uhs2range]  : 0 (Range A)
+                       : 1 (Range B)
+        - [uhs1power]  : 0 (0.72W)
+                       : 1 (1.44W)
+                       : 2 (2.16W)
+                       : 3 (2.88W)
+                       : 4 (1.80W)
+        - [uhs2power]  : 0 (0.72W)
+                       : 1 (1.44W)
+                       : 2 (2.16W)
+                       : 3 (2.88W)
+                       : 4 (1.80W)
+        - [callback]   : 0 = NULL, 1 = test callback function
+sd ctrl_trs [ch] [wait_mode]
+        - [wait_mode]  : 0 = interrupt, 1 = polling
+sd bread [ch] [start_sec] [size] [buf_addr]
+        - [start_sec]  : start sector number
+        - [size]       : number of read sectors (1sector = 512byte)
+        - [buf_addr]   : address of read area
+sd bwrite [ch] [start_sec] [size] [buf_addr]
+        - [start_sec]  : start sector number
+        - [size]       : number of write sectors (1sector = 512byte)
+        - [buf_addr]   : address of write area
+sd bread_ex [ch] [start_sec] [addr1] [size1] [addr2] [size2]
+        - [start_sec]  : start sector number
+        - [addr1]      : address of read area
+        - [size1]      : number of read sectors (1sector = 512byte)
+        - [addr2]      : address of read area
+        - [size2]      : number of read sectors (1sector = 512byte)
+sd bwrite_ex [ch] [start_sec] [addr1] [size1] [addr2] [size2]
+        - [start_sec]  : start sector number
+        - [addr1]      : address of read area
+        - [size1]      : number of read sectors (1sector = 512byte)
+        - [addr2]      : address of read area
+        - [size2]      : number of read sectors (1sector = 512byte)
+sd cmd20 [ch] [cmd_arg]
+        - [cmd_arg]    : CMD20 argument
+sd term [ch]
+sd get_info [ch]
+sd get_sds [ch]
+sd card [ch]
+sd format [ch]
+Bus arbitoration command help
+> busarb ctrl [ch] [port] [cyclenum] [latencynum] [swpnumhi] [priority_cat_b] [transsize_cat_c]
+              [enable_cat_b] [enable_cat_r] [enable_cat_b_rr] [enable_cat_swp] [enable_cat_c]
+> busarb set_rate_chg [ch]
+USAGE>
+  update -f [file path]
+  ex. update -f I:\DATA.bin
+  update -m [addr] [size]
+  ex. update -m 0x50400000  18022028
+  update -l [file path] [addr] [size]
+  ex. update -l I:\DATA.bin 0x50400000  0x20000000
+  update set_bootsel [num]
+     [num] 0:PARTITION_TABLE area0.  1: 0:PARTITION_TABLE area1.
+  ex. update set_bootsel 0
+  update get_bootsel
+  ex. update get_bootsel
+[00045824][I] basefw   CMD_DDIM_Sample_Help:139  sample command help
+[00045824][I] basefw   CMD_DDIM_Sample_Help:140  > sample open [ch]
+[00045824][I] basefw   CMD_DDIM_Sample_Help:141  > sample init [ch] [enable]
+[00045824][I] basefw   CMD_DDIM_Sample_Help:142  > sample close [ch]
+[00045825][I] basefw   CMD_DDIM_Sample_Help:143  > sample get
+[00045825][I] basefw   CMD_DDIM_Tmr32_Help:648  Tmr32 command help
+[00045825][I] basefw   CMD_DDIM_Tmr32_Help:649  > tmr32 open [ch] [tmout]
+[00045825][I] basefw   CMD_DDIM_Tmr32_Help:650  > tmr32 ctrl [ch] [cnte] [inte] [reld] [outl] [mod] [csl] [rels] [rtr1] [rtr2] [soft_counter] [pcallback]
+[00045825][I] basefw   CMD_DDIM_Tmr32_Help:651  > tmr32 start [ch]
+[00045825][I] basefw   CMD_DDIM_Tmr32_Help:652  > tmr32 stop [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:653  > tmr32 close [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:654  > tmr32 calculate [ch] [usec]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:655  > tmr32 external_start [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:656  > tmr32 pause [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:657  > tmr32 get_counter [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:658  > tmr32 get_ctrl [ch]
+[00045826][I] basefw   CMD_DDIM_Tmr32_Help:659  > tmr32 set_softcounter [ch] [soft_counter]
+basefw   CMD_DDIM_Tmr64_Help:556  > tmr64 get_extrigger_fh_timestamp
+[00045830][I] basefw   CMD_DDIM_Tmr64_Help:557  > tmr64 get_framestart_timestamp [sensor_no] [lotation_count]
+[00045830][I] basefw   CMD_DDIM_Tmr64_Help:558  > tmr64 get_frameend_timestamp [sensor_no] [lotation_count]
+[00045830][I] basefw   CMD_DDIM_Tmr64_Help:559  > tmr64 get_counter
+[00045830][I] basefw   CMD_DDIM_Tmr64_Help:560  > tmr64 set_dreq_exrd [exrd_en]
+[00045830][I] basefw   CMD_DDIM_Tmr64_Help:561  > tmr64 set_dreq_exfd [exfd_en]
+[00045831][I] basefw   CMD_DDIM_Tmr64_Help:562  > tmr64 get_exstmp_addr
+[00045831][I] basefw   CMD_DDIM_Adc_Help:440  ADC command help
+[00045831][I] basefw   CMD_DDIM_Adc_Help:441  > adc open [tmout]
+[00045831][I] basefw   CMD_DDIM_Adc_Help:442  > adc close
+[00045831][I] basefw   CMD_DDIM_Adc_Help:443  > adc init
+[00045831][I] basefw   CMD_DDIM_Adc_Help:444  > adc ctrl [ch] [cnv_mode] [start_trig] [timer_trig] [tsel] [ext_edge] [sampling_time] [powerdown] [cmp_data]
+[00045831][I] basefw   CMD_DDIM_Adc_Help:445  > adc get_ctrl
+[00045832][I] basefw   CMD_DDIM_Adc_Help:446  > adc set_timer [conv_cycle]
+[00045832][I] basefw   CMD_DDIM_Adc_Help:447  > adc set_dma_transfer [unit] [ch] [sram_address]
+[00045832][I] basefw   CMD_DDIM_Adc_Help:448  > adc start [pcallback]
+[00045832][I] basefw   CMD_DDIM_Adc_Help:449  > adc stop
+[00045832][I] basefw   CMD_DDIM_Adc_Help:450  > adc terminate
+[00045832][I] basefw   CMD_DDIM_Adc_Help:451  > adc get_value
+[00045832][I] basefw   CMD_DDIM_Adc_Help:452  > adc get_value_by_ch [ch]
+[00045833][I] basefw   CMD_DDIM_Adc_Help:453  > adc dump [addr] [ch]
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:968  PWM command help
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:970  > pwm init
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:971  > pwm open [ch] [tmout]
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:972  > pwm close [ch]
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:973  > pwm open_e [ch] [tmout]
+[00045833][I] basefw   CMD_DDIM_Pwm_Help:974  > pwm close_e [ch]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:975  > pwm ctrl_common [ch] [drv_mode] [restart_trig] [clk_sel] [out_mask] [edge]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:976        [int_enable] [trigger] [polarity] [in_trigger] [tim_e_enable] [ch_assign]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:977        [pCallBack]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:978  > pwm get_ctrl_common [ch]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:979  > pwm ctrl_abcd [ch] [cyc_num] [duty_num]
+[00045834][I] basefw   CMD_DDIM_Pwm_Help:980  > pwm ctrl_e [ch] [hold_0] [hold_1] [hold_2] [hold_3] [force_val_0]
+[00045835][I] basefw   CMD_DDIM_Pwm_Help:981        [force_val_1] [force_val_2] [force_val_3] [force_0] [force_1] [force_2]
+[00045835][I] basefw   CMD_DDIM_Pwm_Help:982        [force_3] [empty_dma_req] [undr_run_enable] [undr_run_int_err_enable]
+[00045835][I] basefw   CMD_DDIM_Pwm_Help:983        [force_stop_int_enable] [auto_stop_int_enable] [dma_int_enable] [cyc_num]
+[00045835][I] basefw   CMD_DDIM_Pwm_Help:984        [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link]
+[00045835][I] basefw   CMD_DDIM_Pwm_Help:985        [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num]
+[00045836][I] basefw   CMD_DDIM_Pwm_Help:986        [link] [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num]
+[00045836][I] basefw   CMD_DDIM_Pwm_Help:987        [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link] [cyc_num]
+[00045836][I] basefw   CMD_DDIM_Pwm_Help:988        [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link]
+[00045836][I] basefw   CMD_DDIM_Pwm_Help:989        [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num]
+[00045836][I] basefw   CMD_DDIM_Pwm_Help:990        [link] [cyc_num] [duty_num] [pulse_num] [link]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:991  > pwm start [ch]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:992  > pwm sim_start [ch1] [ch2]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:993  > pwm stop [ch]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:994  > pwm get_timer [ch]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:995  > pwm get_pulse_num [ch]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:996  > pwm get_interrupt_flag [ch]
+[00045837][I] basefw   CMD_DDIM_Pwm_Help:997  > pwm set_interrupt_flag [ch] [int_flg_ctrl_0] [int_flg_ctrl_1]
+[00045838][I] basefw   CMD_DDIM_Pwm_Help:998  > pwm get_channel_assign [ch]
+[00045838][I] basefw   CMD_DDIM_Pwm_Help:999  > pwm set_channel_assign [ch] [ch_assign]
+[00045838][I] basefw   CMD_DDIM_Pwm_Help:1000 > pwm set_cycle_duty_clksel [ch] [cycle] [duty] [clk_sel]
+[00045838][I] basefw   CMD_DDIM_Pwm_Help:1001 > pwm set_cycle_duty_clksel_reverse [ch] [cycle] [duty] [clk_sel]
+[00045838][I] basefw   CMD_DDIM_Pwm_Help:1002 > pwm set_cycle_duty_clksel_queue [ch] [cycle] [duty] [clk_sel]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1003 > pwm set_input_trg [ch] [gcn_tsel]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1004 > pwm set_cycle_duty_switch_factor [ch] [tsel]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1005 > pwm set_control_status [ch] [pcn]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1006 > pwm write_step [pwm_ch] [dma_unit] [dma_ch] [clk_sel] [polarity]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1007       [restart_trig] [ch_assign] [hold_0] [hold_1] [hold_2] [hold_3] [force_0]
+[00045839][I] basefw   CMD_DDIM_Pwm_Help:1008       [force_1] [force_2] [force_3] [step_data_num] [undr_run_data_num]
+[00045840][I] basefw   CMD_DDIM_Pwm_Help:1009       [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num]
+[00045840][I] basefw   CMD_DDIM_Pwm_Help:1010       [link] [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num]
+[00045840][I] basefw   CMD_DDIM_Pwm_Help:1011       [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link] [cyc_num]
+[00045840][I] basefw   CMD_DDIM_Pwm_Help:1012       [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link]
+[00045840][I] basefw   CMD_DDIM_Pwm_Help:1013       [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num] [pulse_num]
+[00045841][I] basefw   CMD_DDIM_Pwm_Help:1014       [link] [cyc_num] [duty_num] [pulse_num] [link] [cyc_num] [duty_num]
+[00045841][I] basefw   CMD_DDIM_Pwm_Help:1015       [pulse_num] [link] [cyc_num] [duty_num] [pulse_num] [link]▒,▒▒▒▒<'▒▒▒C▒62▒▒,▒▒▒▒▒▒▒▒▒U▒P▒9▒▒,▒F▒▒▒󃎊▒.c▒▒▒B▒z,▒▒▒▒<'▒▒▒C▒62▒▒,▒F▒▒▒󃎊▒.c▒▒▒B▒|,▒▒S▒8t&?▒Z▒▒,▒▒S▒8t&?▒Z▒▒,▒▒S▒8t&?▒Z▒▒,▒▒S▒8t&?▒Z▒▒,▒▒▒▒1▒▒v▒▒▒▒▒▒,▒▒▒▒1▒▒v▒▒▒▒▒▒,▒▒▒▒1▒▒v▒▒▒▒▒▒,▒▒▒▒1▒▒v▒▒▒▒▒▒,▒F▒▒▒󃎊▒.c▒▒▒B▒},▒▒▒▒▒▒"▒5▒*▒▒▒▒▒,▒▒▒▒▒▒"▒5▒*▒▒▒▒▒,▒▒▒}~K▒zkIf▒M▒▒▒,▒▒▒}~K▒zkI][I] basefw   CMD_DDIM_Pwm_Help:1019 > pwm set_stopped_output_mask [ch] [mask]
+[00045842][I] basefw   CMD_DDIM_Pwm_Help:1020 > pwm get_stopped_output_mask [ch]
+[00045842][I] basefw   CMD_DDIM_Pwm_Help:1021 > pwm get_stopped_output_status [ch]
+[00045842][I] basefw   CMD_DDIM_Hdmac_Help:1017 Hdmac command help
+[00045842][I] basefw   CMD_DDIM_Hdmac_Help:1018 > hdmac open [unit] [ch] [tmout]
+[00045842][I] basefw   CMD_DDIM_Hdmac_Help:1019 > hdmac close [unit] [ch]
+[00045842][I] basefw   CMD_DDIM_Hdmac_Help:1020 > hdmac ctrl_common [unit] [ch] [tc] [bc] [bt] [is] [st] [dp] [sp] [ss] [ci] [ei] [rd] [rs] [rc] [fd] [fs] [tw] [ms] [tt]
+[00045843][I] basefw   CMD_DDIM_Hdmac_Help:1021                     [lf] [li] [lc] [ls] [le] [tf] [ti] [tz] [comptc] [ic] [ir] [src_addr] [dst_addr] [int_handler] [int_handler_tccomp]
+[00045843][I] basefw   CMD_DDIM_Hdmac_Help:1022 > hdmac ctrl_trns [unit] [ch] [input_sel] [mode_sel] [src_fix] [dst_fix] [beat_type] [loop_enable] [loop_stop] [tccomp_int_enable]
+[00045843][I] basefw   CMD_DDIM_Hdmac_Help:1023                   [trns_width] [trns_size] [src_addr] [dst_addr] [tccomp_size] [inf_loop_cnt] [int_handler] [int_handler_tccomp]
+[00045843][I] basefw   CMD_DDIM_Hdmac_Help:1024 > hdmac set_trns_size [unit] [ch] [trns_width] [trns_size] [src_addr] [dst_addr] [tccomp_size] [inf_loop_cnt]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1025 > hdmac start_sync [unit] [ch] [wait_mode]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1026 > hdmac start_async [unit] [ch]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1027 > hdmac stop [unit] [ch]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1028 > hdmac pause [unit] [ch]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1029 > hdmac resume [unit] [ch]
+[00045844][I] basefw   CMD_DDIM_Hdmac_Help:1030 > hdmac set_wait_time [unit] [ch] [wait_time]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1031 > hdmac wait_end [unit] [ch] [wait_mode]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1032 > hdmac clear_status [unit] [ch]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1033 > hdmac get_status [unit] [ch]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1034 > hdmac get_trns_size [unit] [ch]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1035 > hdmac get_remain_trns_size [unit] [ch]
+[00045845][I] basefw   CMD_DDIM_Hdmac_Help:1036 > hdmac get_total_trns_size [unit] [ch]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1037 > hdmac get_src_addr [unit] [ch]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1038 > hdmac get_dst_addr [unit] [ch]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1039 > hdmac set_src_protect [unit] [ch] [protect_code]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1040 > hdmac set_dst_protect [unit] [ch] [protect_code]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1041 > hdmac set_arbitration [unit] [arbitration]
+[00045846][I] basefw   CMD_DDIM_Hdmac_Help:1042 > hdmac get_arbitration [unit]
+[00045848][I] basefw   CMD_DDIM_Hdmac_Help:1043 > hdmac clear_arbitration [unit]
+[00045848][I] basefw   CMD_DDIM_Hdmac_Help:1044 > hdmac stop_all_ch [unit]
+[00045848][I] basefw   CMD_DDIM_Hdmac_Help:1045 > hdmac resume_all_ch [unit]
+[00045849][I] basefw   CMD_DDIM_Hdmac_Help:1046 > hdmac get_trns_width [src_addr] [dst_addr] [total_size]
+[00045849][I] basefw   CMD_DDIM_Hdmac_Help:1047 > hdmac get_infinite_loop_count [unit] [ch]
+[00045849][I] basefw   CMD_DDIM_Hdmac_Help:1048 > hdmac set_int_handler [unit] [ch] [int_handler]
+[00045849][I] basefw   CMD_DDIM_Hdmac_Help:1049 > hdmac set_int_handler_tc_compare [unit] [ch] [int_handler]
+[00045849][I] basefw   CMD_DDIM_Uart_Help:892  uart command help
+[00045849][I] basefw   CMD_DDIM_Uart_Help:893  > uart open [ch] [tmout]
+[00045850][I] basefw   CMD_DDIM_Uart_Help:894  > uart close [ch]
+[00045850][I] basefw   CMD_DDIM_Uart_Help:895  > uart ctrl [ch] [baud_rate] [psend_callback] [preceive_callback] [receive_buff_addr] [receive_buff_size]
+[00045850][I] basefw   CMD_DDIM_Uart_Help:896              [send_buff_addr] [send_buff_size] [auto_echo] [save_buff] [mode] [bit_direction] [stop_bit_length]
+[00045850][I] basefw   CMD_DDIM_Uart_Help:897              [parity_bit] [data_length] [ext_clk] [inv_nrz] [flow_enable] [flow_polarity] [send_dma_callback] [recv_dma_callback]
+[00045851][I] basefw   CMD_DDIM_Uart_Help:898              [fsel] [fe1] [fe2] [fbyte_recv] [fset] [flste]
+[00045852][I] basefw   CMD_DDIM_Uart_Help:899  > uart get_ctrl [ch]
+[00045852][I] basefw   CMD_DDIM_Uart_Help:900  > uart set_baudrate [ch] [baud_rate]
+[00045852][I] basefw   CMD_DDIM_Uart_Help:901  > uart get_baudrate [ch]
+[00045852][I] basefw   CMD_DDIM_Uart_Help:902  > uart reset_baudrate [ch]
+[00045852][I] basefw   CMD_DDIM_Uart_Help:903  > uart save_send_fifo_pointer [ch] [lost_detect]
+[00045853][I] basefw   CMD_DDIM_Uart_Help:904  > uart reload_send_fifo_pointer [ch]
+[00045853][I] basefw   CMD_DDIM_Uart_Help:905  > uart get_reload_status [ch]
+[00045854][I] basefw   CMD_DDIM_Uart_Help:906  > uart reset_fifo [ch] [fifo_num]
+[00045854][I] basefw   CMD_DDIM_Uart_Help:907  > uart start [ch]
+[00045855][I] basefw   CMD_DDIM_Uart_Help:908  > uart stop [ch]
+[00045855][I] basefw   CMD_DDIM_Uart_Help:909  > uart put_char [ch] [put_char]
+[00045855][I] basefw   CMD_DDIM_Uart_Help:910  > uart set_str [ch] [str]
+[00045855][I] basefw   CMD_DDIM_Uart_Help:911  > uart put_str [ch]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:912  > uart get_char [ch]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:913  > uart clear_overwrite [ch]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:914  > uart get_send_write_position [ch]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:915  > uart get_send_overlap_count [ch]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:916  > uart set_slave_addr [ch] [slave_addr]
+[00045856][I] basefw   CMD_DDIM_Uart_Help:917  > uart send_target_slave_addr [ch] [slave_addr]
+[00045857][I] basefw   CMD_DDIM_Uart_Help:918  > uart initialize_simple [ch] [baud_rate] [preceive_callback] [receive_buff_addr] [receive_buff_size]
+[00045857][I] basefw   CMD_DDIM_Uart_Help:919                           [send_buff_addr] [send_buff_size] [auto_echo] [save_buff] [stop_bit_length] [data_length] [parity_bit]
+[00045857][I] basefw   CMD_DDIM_Uart_Help:920  > uart put_str_dma [ch] [dma_unit] [dma_ch]
+[00045857][I] basefw   CMD_DDIM_Uart_Help:921  > uart set_send_data_dma [ch] [send_addr] [num]
+[00045857][I] basefw   CMD_DDIM_Uart_Help:922  > uart start_send_dma [ch] [dma_unit] [dma_ch]
+[00045858][I] basefw   CMD_DDIM_Uart_Help:923  > uart set_recv_data_dma [ch] [recv_addr] [num]
+[00045858][I] basefw   CMD_DDIM_Uart_Help:924  > uart start_recv_dma [ch] [dma_unit] [dma_ch]
+[00045858][I] basefw   CMD_DDIM_Uart_Help:925  > uart send_recv_disable [ch]
+[00045858][I] basefw   CMD_DDIM_I2c_Help:493  I2c command help
+[00045858][I] basefw   CMD_DDIM_I2c_Help:494  > i2c open [ch] [tmout]
+[00045858][I] basefw   CMD_DDIM_I2c_Help:495  > i2c close [ch]
+[00045858][I] basefw   CMD_DDIM_I2c_Help:496  > i2c ctrl_master [ch] [bps] [dest_slave_addr_len] [dest_slave_addr] [callback] [slvmon_en] [slvmon_pi] [scss] [scl_timeout]
+[00045859][I] basefw   CMD_DDIM_I2c_Help:497  > i2c get_ctrl_master [ch]
+[00045859][I] basefw   CMD_DDIM_I2c_Help:498  > i2c ctrl_slave [ch] [own_slave_addr_len] [own_slave_addr] [callback] [hold_mode_en] [scl_timeout]
+[00045859][I] basefw   CMD_DDIM_I2c_Help:499  > i2c get_ctrl_slave [ch]
+[00045859][I] basefw   CMD_DDIM_I2c_Help:500  > i2c start_master [ch] [rw_mode] [rw_data_len] [rw_address] [timeout] [hold_mode_en] [rw_data1] [rw_data2] [rw_data3] [rw_data4]
+[00045859][I] basefw   CMD_DDIM_I2c_Help:501  > i2c stop_master [ch]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:502  > i2c terminate [ch]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:503  > i2c start_slave [ch]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:504  > i2c stop_slave [ch]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:505  > i2c get_error_cause [ch]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:506  > i2c set_scl [ch] [div_a] [div_b]
+[00045860][I] basefw   CMD_DDIM_I2c_Help:507  > i2c get_scl [ch]
+[00045860][I] basefw   CMD_DDIM_I3c_Help:1817 i3c command help
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1818 > i3c open [eI3c_ch] [Timeout]
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1819 > i3c close [eI3c_ch]
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1820 > i3c set_callback [eI3c_ch]
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1821 > i3c reset_callback [eI3c_ch]
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1822 > i3c set_reg_wd [eI3c_ch] [eI3c_sel_reg] [In_setdata]
+[00045861][I] basefw   CMD_DDIM_I3c_Help:1823 > i3c get_reg_wd [eI3c_ch] [eI3c_sel_reg]
+[00045862][I] basefw   CMD_DDIM_I3c_Help:1824 > i3c set_timing [eI3c_ch] [Timing_bit_map] [I3c_open_drain_hi_ns] [I3c_open_drain_low_ns] [I3c_push_pull_hi_ns] [I3c_push_pull_low_ns] [I3c_sdr_speed1_low_ns] [I3c_sdr_speed2_low_ns] [I3c_sdr_speed3_low_ns] [I3c_sdr_speed4_low_ns] [I3c_sdr_rd_terminate_add_low_ns] [I2c_fm_hi_ns] [I2c_fm_low_ns] [Master_bus_free_ns]
+[00045862][I] basefw   CMD_DDIM_I3c_Help:1825 > i3c get_timing [eI3c_ch]
+[00045862][I] basefw   CMD_DDIM_I3c_Help:1826 > i3c set_dev_char [eI3c_ch] [eDev_char_table_index]
+[00045862][I] basefw   CMD_DDIM_I3c_Help:1827 > i3c get_dev_char [eI3c_ch] [Dev_char_bit_map]
+[00045862][I] basefw   CMD_DDIM_I3c_Help:1828 > i3c set_dev_addr [eI3c_ch] [Dev_addr_bit_map] [Dynamic_addr] [blLegcay_i2c_dev] [Nack_retry_count] [Dev_dynamic_addr] [Dev_static_addr] [blLegcay_i2c_dev] [Nack_retry_count] [Dev_dynamic_addr] [Dev_static_addr] [blLegcay_i2c_dev] [Nack_retry_count] [Dev_dynamic_addr] [Dev_static_addr] [blLegcay_i2c_dev] [Nack_retry_
+[00045863][I] basefw   CMD_DDIM_I3c_Help:1829 > i3c get_dev_addr [eI3c_ch] [Dev_addr_bit_map]
+[00045863][I] basefw   CMD_DDIM_I3c_Help:1830 > i3c set_thld [eI3c_ch] [Ibi_status_thld] [Resp_buf_thld] [Cmd_empty_buf_thld] [eRx_start_thld] [eTx_start_thld] [eRx_buf_thld] [eTx_empty_buf_thld]
+[00045863][I] basefw   CMD_DDIM_I3c_Help:1831 > i3c get_thld [eI3c_ch]
+[00045864][I] basefw   CMD_DDIM_I3c_Help:1832 > i3c set_ibi_reject [eI3c_ch] [blSir_notify_reject] [blHot_join_notify_reject] [Sir_reject_addr_array_num] [pSir_reject_addr_array]
+[00045864][I] basefw   CMD_DDIM_I3c_Help:1833 > i3c get_ibi_reject [eI3c_ch]
+[00045864][I] basefw   CMD_DDIM_I3c_Help:1834 > i3c set_extended [eI3c_ch] [Extended_bit_map] [blSlave_i2c] [eSDA_pull_up_resistance] [eSCL_pull_up_resistance] [eSDA_pull_up_hi_keeper_resistance] [eSCL_pull_up_hi_keeper_resistance] [blSDA_pull_up] [blSCL_pull_up] [blSDA_use_hi_keeper] [blSCL_use_hi_keeper] [SDA_output_delay_time_ns] [SDA_output_en_delay_time_ns]
+[00045864][I] basefw   CMD_DDIM_I3c_Help:1835 > i3c get_extended [eI3c_ch] [Extended_bit_map] [blSlave_i2c]
+[00045865][I] basefw   CMD_DDIM_I3c_Help:1836 > i3c set_intr [eI3c_ch] [blIntr_state_clear] [Tx_thld] [Rx_thld] [Ibi_thld] [Cmd_queue_ready] [Resp_ready] [Transfer_abort] [Transfer_err] [Defslv] [Busowner_update] [Tx_thld] [Rx_thld] [Ibi_thld] [Cmd_queue_ready] [Resp_ready] [Transfer_abort] [Transfer_err] [Defslv] [Busowner_update] [Tx_thld] [Rx_thld] [Ibi_thld]
+[00045865][I] basefw   CMD_DDIM_I3c_Help:1837 > i3c get_intr [eI3c_ch]]
+[00045865][I] basefw   CMD_DDIM_I3c_Help:1838 > i3c reset [eI3c_ch] [Reset_bit_map]
+[00045865][I] basefw   CMD_DDIM_I3c_Help:1839 > i3c start [eI3c_ch] [Start_bit_map]
+[00045865][I] basefw   CMD_DDIM_I3c_Help:1840 > i3c stop [eI3c_ch] [Stop_bit_map]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1841 > i3c resume [eI3c_ch] [Resume_bit_map]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1842 > i3c abort [eI3c_ch] [Abort_bit_map]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1843 > i3c get_tx_buf_addr [eI3c_ch]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1844 > i3c get_rx_buf_addr [eI3c_ch]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1845 > i3c set_tx_buf [eI3c_ch] [Setcount] [pSet_data]
+[00045866][I] basefw   CMD_DDIM_I3c_Help:1846 > i3c get_rx_buf [eI3c_ch] [Getcount]
+[00045867][I] basefw   CMD_DDIM_I3c_Help:1847 > i3c get_cmd_resp_que [eI3c_ch] [Getcount]
+[00045867][I] basefw   CMD_DDIM_I3c_Help:1848 > i3c get_ibi_que [eI3c_ch] [Getcount]
+[00045867][I] basefw   CMD_DDIM_I3c_Help:1849 > i3c set_cmd_que [eI3c_ch] [blAddr_ass_cmd] [blToc] [blRoc] [Dev_indx] [Cmd] [Tid] [blRnw] [eSpeed] [blCp] [Data_length] [blDma] [arTx_data_0] [arTx_data_1] [arTx_data_2] [arTx_data_3] [arTx_data_4] [arTx_data_5] [arTx_data_6] [arTx_data_7] [arTx_data_8] [arTx_data_9] [arTx_data_10] [arTx_data_11] [arTx_data_12] [arT
+[00045867][I] basefw   CMD_DDIM_I3c_Help:1850 > i3c get_state [eI3c_ch]
+[00045867][I] basefw   CMD_DDIM_I3c_Help:1851 > i3c ctrl [eI3c_ch] [Timing_bit_map] [I3c_open_drain_hi_ns] [I3c_open_drain_low_ns] [I3c_push_pull_hi_ns] [I3c_push_pull_low_ns] [I3c_sdr_speed1_low_ns] [I3c_sdr_speed2_low_ns] [I3c_sdr_speed3_low_ns] [I3c_sdr_speed4_low_ns] [I3c_sdr_rd_terminate_add_low_ns] [I2c_fm_hi_ns] [I2c_fm_low_ns] [Master_bus_free_ns] [eDev_c
+[00045868][I] basefw   CMD_DDIM_Spi_Help:619  SPI command help
+[00045868][I] basefw   CMD_DDIM_Spi_Help:620  > spi open [ch] [tmout]
+[00045868][I] basefw   CMD_DDIM_Spi_Help:621  > spi close [ch]
+[00045868][I] basefw   CMD_DDIM_Spi_Help:622  > spi ctrl [ch] [type] [mode] [enable_sig] [bit_direction] [bit_length] [clk_div] [delay_en] [delay_val] [rx_inhibit_en] [half_duplex_en] [fifo_wmark_tx] [fifo_wmark_rx] [dma_en] [dma_recv_to] [ss_info.cont_trans] [ss_info.ssout[0]] [ss_info.ssout[1]] [ss_info.ssout[2]] [ss_info.ssout[3]] [ss_info.sspol] [pcallback] [
+[00045869][I] basefw   CMD_DDIM_Spi_Help:623  > spi get_ctrl [ch]
+[00045869][I] basefw   CMD_DDIM_Spi_Help:624  > spi set_send_data [ch] [send_addr] [num]
+[00045869][I] basefw   CMD_DDIM_Spi_Help:625  > spi start_send [ch]
+[00045869][I] basefw   CMD_DDIM_Spi_Help:626  > spi set_recv_data [ch] [recv_addr] [num]
+[00045869][I] basefw   CMD_DDIM_Spi_Help:627  > spi start_recv [ch]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:628  > spi start_full_duplex [ch]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:629  > spi stop [ch]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:630  > spi set_slave_select [ch] [cont_trans] [ssout[0]] [ssout[1]] [ssout[2]] [ssout[3]] [sspol]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:631  > spi get_slave_select [ch]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:632  > spi set_clock_divisor [ch] [clk_div]
+[00045870][I] basefw   CMD_DDIM_Spi_Help:633  > spi get_clock_divisor [ch]
+[00045871][I] basefw   CMD_DDIM_Spi_Help:634  > spi set_spi_enable [ch] [enable_sig] [enable]
+[00045871][I] basefw   CMD_DDIM_Spi_Help:635  > spi calculate [ch] [baudrate]
+[00045871][I] basefw   CMD_DDIM_Spi_Help:636  > spi start_send_dma [ch] [dma_unit] [dma_ch]
+[00045871][I] basefw   CMD_DDIM_Spi_Help:637  > spi start_recv_dma [ch] [dma_unit] [dma_ch]
+[00045871][I] basefw   CMD_DDIM_Spi_Help:638  > spi start_full_duplex_dma [ch] [dma_unit] [dma_ch_send] [dma_ch_recv]
+[00045871][I] basefw   CMD_DDIM_Peri_Top_Help:272  Peri Top command help
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:274  > peri_top set_sleep_i3c [ch] [val]
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:275  > peri_top get_sleep_i3c [ch]
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:276  > peri_top set_sleep_uart [ch] [val]
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:277  > peri_top get_sleep_uart [ch]
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:278  > peri_top set_sleep_pdm [ch] [val]
+[00045872][I] basefw   CMD_DDIM_Peri_Top_Help:279  > peri_top get_sleep_pdm [ch]
+[00045872][I] basefw   CMD_DDIM_Xdmac_Help:711  XDMAC command help
+[00045873][I] basefw   CMD_DDIM_Xdmac_Help:712  > xdmac open [unit] [ch] [tmout]
+[00045873][I] basefw   CMD_DDIM_Xdmac_Help:713  > xdmac ctrl_common [unit] [CP] [XE]
+[00045873][I] basefw   CMD_DDIM_Xdmac_Help:714  > xdmac ctrl_trns [unit] [ch] [SRL] [SAF] [SBL] [SBS] [DRL] [DAF] [DBL] [DBS] [TI] [EI] [AT] [BR] [BT] [SA] [TF] [SE]
+[00045873][I] basefw   CMD_DDIM_Xdmac_Help:715                    [DCN] [DCA] [src_addr] [dst_addr] [trns_size] [int_handler]
+[00045873][I] basefw   CMD_DDIM_Xdmac_Help:716  > xdmac set_trns_size [unit] [ch] [src_addr] [dst_addr] [trns_size]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:717  > xdmac start_sync [unit] [ch] [status] [wait_mode]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:718  > xdmac start_async [unit] [ch]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:719  > xdmac stop [unit] [ch]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:720  > xdmac set_wait_time [unit] [ch] [wait_time]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:721  > xdmac wait_end [unit] [ch] [status] [wait_mode]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:722  > xdmac clear_status [unit] [ch]
+[00045874][I] basefw   CMD_DDIM_Xdmac_Help:723  > xdmac close [unit] [ch]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:724  > xdmac get_status [unit] [ch]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:725  > xdmac get_trns_size [unit] [ch]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:726  > xdmac get_src_addr [unit] [ch]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:727  > xdmac get_dst_addr [unit] [ch]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:728  > xdmac set_src_protect [unit] [ch] [protect_code]
+[00045875][I] basefw   CMD_DDIM_Xdmac_Help:729  > xdmac set_dst_protect [unit] [ch] [protect_code]
+[00045876][I] basefw   CMD_DDIM_Xdmac_Help:730  > xdmac stop_all_ch [unit]
+[00045876][I] basefw   CMD_DDIM_Xdmac_Help:731  > xdmac set_int_handler [unit] [ch] [int_handler]
+[00045876][I] basefw   CMD_DDIM_Xdmac_Help:732  > xdmac check_copy_data [data size]
+[00045876][I] basefw   CMD_DDIM_Xdmac_Help:733  > xdmac init_data [data size]
+[00045876][I] basefw   CMD_DDIM_Top_Help:861  LSITOP command help
+[00045876][I] basefw   CMD_DDIM_Top_Help:862  ddim_top dump
+[00045876][I] basefw   CMD_DDIM_Top_Help:863  ddim_top out_allclk
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2087 AUDIO command help
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2088 > ddim_audio open [ch]
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2089 > ddim_audio init [i2schin] [i2schout] ([pcmoutdly])
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2090 > ddim_audio init4ch [i2schin] [i2schout] ([pcmoutdly])
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2091 > ddim_audio init6ch [i2schin] [i2schout] ([pcmoutdly])
+[00045877][I] basefw   CMD_DDIM_Audio_Help:2092 > ddim_audio start [i2schin] [i2schout] ([loopcount])
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2093 > ddim_audio start4ch [i2schin] [i2schout] ([loopcount])
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2094 > ddim_audio start6ch [i2schin] [i2schout] ([loopcount])
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2095 > ddim_audio pdmhw [mode]
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2096 > ddim_audio pdmdma [usecase]
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2097 > ddim_audio dump [addr] [size]
+[00045878][I] basefw   CMD_DDIM_Audio_Help:2098 > ddim_audio dumpb [addr] [size]
+[00045879][I] basefw   CMD_DDIM_Audio_Help:2099 > ddim_audio wd [addr] [data]
+[00045879][I] basefw   CMD_DDIM_Audio_Help:2100 > ddim_audio fd [addr] [size] [data]
+[00045879][I] basefw   CMD_DDIM_Audio_Help:2101 > ddim_audio rd [addr]
+[00045879][I] basefw   CMD_DDIM_Audio_Help:2102 > ddim_audio close [ch]
+[00045879][I] basefw   CMD_DDIM_Audio_Help:2103 > ddim_audio get
+USAGE>B2B CT 1 1 1 (=CT 01-01-001)
+USAGE>B2B CT 1 1 2 (=CT 01-01-002)
+USAGE>B2B CT 1 1 3 (=CT 01-01-003)
+USAGE>B2B CT 1 1 4 (=CT 01-01-004)
+USAGE>B2B CT 1 1 5 (=CT 01-01-005)
+USAGE>B2B CT 1 1 6 (=CT 01-01-006)
+USAGE>B2B CT 1 1 7 (=CT 01-01-007)
+USAGE>B2B CT 1 1 8 (=CT 01-01-008)
+USAGE>snr_ltmrbk 1 1 1 (=CT 01-01-001)
+USAGE>snr_ltmrbk 1 1 2 (=CT 01-01-002)
+USAGE>snr_ltmrbk 1 1 3 (=CT 01-01-003)
+USAGE>snr_ltmrbk 1 1 4 (=CT 01-01-004,005,006,007,008,009)
+USAGE>LTMRBK CT 1 1 1 (=CT 01-01-001)
+USAGE>LTMRBK CT 1 1 2 (=CT 01-01-002)
+USAGE>LTMRBK CT 1 1 3 (=CT 01-01-003)
+USAGE>LTMRBK CT 1 1 4 (=CT 01-01-004,005,006,007)
+USAGE>snr_ltm 1 1 1 (=CT 01-01-001)
+USAGE>snr_ltm 1 1 2 (=CT 01-01-002)
+USAGE>snr_ltm 1 1 3 (=CT 01-01-003)
+USAGE>snr_ltm 1 1 4 (=CT 01-01-004~022)
+USAGE>snr_b2r 1 1 1 (=CT 01-01-001)
+USAGE>snr_b2r 1 1 2 (=CT 01-01-002)
+USAGE>snr_b2r 1 1 3 (=CT 01-01-003)
+USAGE>snr_b2r 1 1 4 (=CT 01-01-004)
+USAGE>snr_b2r 1 1 5 (=CT 01-01-005,006,007)
+USAGE>snr_r2y 1 1 1 (=CT 01-01-001)
+USAGE>snr_r2y 1 1 2 (=CT 01-01-002)
+USAGE>snr_r2y 1 1 3 (=CT 01-01-003)
+USAGE>snr_cnr 1 1 1 (=CT 01-01-001)
+USAGE>snr_cnr 1 1 2 (=CT 01-01-002)
+USAGE>snr_cnr 1 1 3 (=CT 01-01-003)
+USAGE>snr_cnr 1 1 4 (=CT 01-01-004)
+USAGE>snr_cnr 1 1 5 (=CT 01-01-005)
+USAGE>snr_me 1 1 1 (=CT 01-01-001)
+USAGE>snr_me 1 1 2 (=CT 01-01-002)
+USAGE>snr_ba init
+USAGE>snr_ba start
+USAGE>snr_ba stop
+USAGE>snr_ba release
+USAGE>snr_rsz 1 1 1 (=CT 01-01-001)
+USAGE>snr_rsz 1 1 2 (=CT 01-01-002)
+USAGE>snr_rsz 1 1 3 (=CT 01-01-003)
+USAGE>snr_rsz 1 1 4 (=CT 01-01-004)
+USAGE>snr_rsz 1 1 5 (=CT 01-01-005)
+USAGE>snr_rsz 1 1 6 (=CT 01-01-006)
+USAGE>snr_rsz 1 1 7 (=CT 01-01-007)
+USAGE>snr_rsz 1 1 8 (=CT 01-01-008)
+USAGE>snr_rsz 1 1 9 (=CT 01-01-009)
+USAGE>snr_rsz 1 1 10 (=CT 01-01-010)
+USAGE>snr_rsz 1 1 11 (=CT 01-01-011)
+USAGE>snr_rsz 1 1 12 (=CT 01-01-012)
+USAGE>snr_rsz 1 1 13 (=CT 01-01-013)
+USAGE>snr_rsz 1 1 14 (=CT 01-01-014)
+USAGE>snr_rsz 1 1 15 (=CT 01-01-015)
+USAGE>snr_rsz 1 1 16 (=CT 01-01-016)
+USAGE>snr_tdnr 1 1 1 (=CT 01-01-001)
+USAGE>snr_tdnr 1 1 2 (=CT 01-01-002)
+USAGE>snr_tdnr 1 1 3 (=CT 01-01-003)
+USAGE>snr_tdnr 1 1 4 (=CT 01-01-004)
+USAGE>snr_tdnr 1 1 5 (=CT 01-01-005)
+USAGE>snr_tdnr 1 1 6 (=CT 01-01-006)
+USAGE>snr_tdnr 1 1 7 (=CT 01-01-007)
+USAGE>snr_tdnr 1 1 8 (=CT 01-01-008)
+USAGE>snr_memory 1 1 1 (=CT 01-01-001)
+USAGE>snr_memory 1 1 2 (=CT 01-01-002,003,004,006)
+USAGE>snr_memory 1 1 5 (=CT 01-01-005)
+USAGE>snr_memory 1 1 7 (=CT 01-01-007)
+USAGE>snr_memory 1 1 8 (=CT 01-01-008)
+USAGE>snr_memory 1 1 9 (=CT 01-01-009)
+USAGE>ME CT 1 1 1 (=CT 01-01-001)
+USAGE>ME CT 1 1 2 (=CT 01-01-002)
+USAGE>snr_hdr 1 1 1 (=CT 01-01-001)
+USAGE>snr_hdr 1 1 2 (=CT 01-01-002)
+USAGE>snr_hdr 1 1 3 (=CT 01-01-003)
+USAGE>snr_hdr 1 1 4 (=CT 01-01-004)
+USAGE>snr_hdr 1 1 5 (=CT 01-01-005)
+USAGE>snr_hdr 1 1 6 (=CT 01-01-006)
+USAGE>snr_fw meminit
+USAGE>snr_fw hdr_dump [ON/OFF(=1/0)]
+USAGE>snr_fw ltm_dump [ON/OFF(=1/0)]
+USAGE>snr_fw tdnr_dump [ON/OFF(=1/0)]
+USAGE>snr_fw dce_dump [ON/OFF(=1/0)]
+USAGE>snr_fw cap_conn [ON/OFF(=1/0)]
+USAGE>snr_fw reg_dump [en/dis]
+USAGE>snr_fw reg_dump_multi [en/dis]
+USAGE>snr_fw [frame work number] init
+USAGE>snr_fw [frame work number] start
+USAGE>snr_fw [frame work number] stop
+USAGE>snr_fw [frame work number] release
+USAGE>snr_fw [frame work number] live [0/1/2/3]
+USAGE>snr_fw [frame work number] cnn [valid/invalid(=1/0)]
+USAGE>snr_fw [frame work number] fa [valid/invalid(=1/0)]
+USAGE>snr_fw [frame work number] grpchange [group_id] [valid/invalid(=1/0)]
+USAGE>snr_fw [frame work number] tblchange [group_id] [table_id] [valid/invalid(=1/0)]
+USAGE>snr_fw [frame work number] delay [frame_count]
+USAGE>snr_fw [frame work number] rect
+USAGE>dce 1 1 1 (=CT 01-01-001)
+USAGE>dce 1 1 2 (=CT 01-01-002)
+USAGE>dce 1 1 3 (=CT 01-01-003)
+USAGE>dce 1 1 4 (=CT 01-01-004)
+USAGE>dce 1 1 5 (=CT 01-01-005)
+USAGE>dce 1 1 6 (=CT 01-01-006)
+USAGE>dce 1 1 7 (=CT 01-01-007)
+USAGE>dce 1 1 8 (=CT 01-01-008)
+USAGE>dce 1 1 9 (=CT 01-01-009)
+USAGE>dce 1 1 10 (=CT 01-01-010)
+USAGE>dce 1 1 11 (=CT 01-01-011)
+USAGE>dce 1 1 12 (=CT 01-01-012)
+USAGE>dce 1 1 13 (=CT 01-01-013)
+USAGE>dce 1 1 14 (=CT 01-01-014)
+USAGE>dce 1 1 15 (=CT 01-01-015)
+USAGE>dce 1 1 16 (=CT 01-01-016)
+USAGE>snr_mfnra 1 (in_mfnra0.yuv)
+USAGE>snr_mfnra 1 1 1 (=CT 01-01-001)
+USAGE>snr_mfnra 1 1 2 (=CT 01-01-002)
+USAGE>snr_fw init
+USAGE>snr_fw start
+USAGE>snr_fw stop
+USAGE>snr_fw release
+USAGE>snr_sen 1 1 1   (=CT 01-01-001) scenario case1 init
+USAGE>snr_sen 1 2 1   (=CT 01-02-001) scenario case1 start
+USAGE>snr_sen 1 3 1   (=CT 01-03-001) scenario case1 stop
+USAGE>snr_sen 1 4 1   (=CT 01-04-001) scenario case1 release
+USAGE>snr_sen 1 1 2 x (=CT 01-01-002) scenario case2 init
+USAGE>snr_sen 1 2 2   (=CT 01-02-002) scenario case2 start
+USAGE>snr_sen 1 3 2   (=CT 01-03-002) scenario case2 stop
+USAGE>snr_sen 1 4 2   (=CT 01-04-002) scenario case2 release
+USAGE>snr_sen 1 1 3 x (=CT 01-01-003) scenario case3 init
+USAGE>snr_sen 1 2 3   (=CT 01-02-003) scenario case3 start
+USAGE>snr_sen 1 3 3   (=CT 01-03-003) scenario case3 stop
+USAGE>snr_sen 1 4 3   (=CT 01-04-003) scenario case3 release
+USAGE>snr_raw [start/stop] [mode0/mode1]                scenario start/stop rawcapture sensor mode.
+USAGE>snr_raw [sro/b2b] [filename]                              sro/b2b raw input.(5600x4200 only)
+----- Mode -----
+The following 9 types of commands ([load | set | get]).
+USAGE>snr_iq load [sel][bank][SD card IQ bin file name]
+ -> Command to load IQ.bin file from SD card to SDRAM.
+      Example
+      snr_iq load 0 0 VideoNormal-Initialize_binary.dat
+USAGE>snr_iq load_stat [sel]
+ -> Command to check load status IQ.bin.
+      Example
+      snr_iq load_stat 0
+USAGE>snr_iq set [sel][scene][ISO][EV][TV][CTemp]
+ -> A command to set the [scene], [ISO], [EV], [TV], and [CTemp] parameters specified in [sel].
+      Example
+      snr_iq set 0 2 200 2.0 3.0 4000
+USAGE>snr_iq get [sel]
+ -> A command to acquire and display the [scene], [ISO], [EV], [TV], and [CTemp] parameters specified by [sel].
+      Example
+      snr_iq get 0
+Parameters.
+  bank  : File load bank. (def = 0)
+              0 Bank0
+              1 Bank1
+              2 Bank0
+              3 Bank1
+  sel   :     0 Video normal (def = 0)
+              1 Still normal
+              2 Video HDR
+              3 Still HDR
+  scene :     1 -    12 (def = 1)
+  ISO   :   100 - 25600 (def = 150)
+  EV    : -5.00 - 16.00 (def = 1.0)
+  TV    : -5.00 - 12.00 (def = 1.0)
+  CTemp :  2000 - 10000 (def = 4200)
+USAGE>snr_iq dump enable [sel][on/off]
+ -> A command to turn on/off IQ dump functionality.
+      Example
+      snr_iq dump enable 0 1
+USAGE>snr_iq dump [sel][SD card IQ bin file name]
+ -> A command to dump IQ parameter.
+      Example
+      snr_iq dump 0 iq_dump.dat
+USAGE>snr_iq bank set [size(byte]
+ -> A command to change size of 1 bank of IQ binary buffer.
+      Example
+      snr_iq bank set 1048576
+USAGE>snr_iq exec calc_task [iq_param_type]
+      Example
+      snr_iq exec calc_task 0
+USAGE>snr_iq framerate [FPS][HIGH][LOW]
+ -> A command to set the VD frequency for IQ calucuration.
+      FPS   : 240/120/60/30)
+      Example
+      snr_iq framerate 240 2 1
+USAGE>cmos sensor spichk [loop count]
+USAGE>cmos sensor bringup [0:mode0 1:mode1 dol 2:mode18 3:mode4 dol 4:mode4 mod dol 5:mode9c]
+USAGE>cmos sensor gain [value]
+USAGE>cmos sensor exp [value]
+USAGE>cmos sensor wreg [sensor chip id] [reg addr] [write value]
+USAGE>cmos sensor rreg [sensor chip id] [reg addr]
+USAGE>cmos rawsave
+USAGE>mov open [0/1/2/10/11]
+USAGE>mov close [enc_id]
+USAGE>mov config [enc_id]
+USAGE>mov setup [enc_id]
+USAGE>mov start [enc_id]
+USAGE>mov stop [enc_id]
+USAGE>mov free [enc_id] [index] [0(off)/1(on) :last free flg]
+USAGE>mov get_264_addr [enc_id]
+USAGE>mov enable [enc_id] [0(off)/1(on)]
+USAGE>mov size [enc_id] [wwww] [hhhh]
+     wwww: image width  (256 to 8192]
+     hhhh: image height (128 to 8192]
+USAGE>mov format [enc_id] [0(ES)/1(TS)]
+USAGE>mov brate [enc_id] [~1000000000(bps)]
+USAGE>mov fr [enc_id] [(ex:30fps=3000/29.97fps=2997)]
+USAGE>mov struct [enc_id] [0(IPPP/1(IBBP)/2(IIII)]
+USAGE>mov gop_num [enc_id] [1/2/3/5/7/8/10/12/13/15/16/24/25/30/36/38/40/45/50/60]
+USAGE>mov cl_gop [enc_id] [0(closed)/1(open)]
+USAGE>mov idr_dist [enc_id] [(gop)]
+USAGE>mov profile [enc_id] [0(high)/1(main)/2(baseline)]
+USAGE>mov level [enc_id] [13(LV1.3)/20(LV2)/21(LV2.1)/22(LV2.2)/30(LV3)/31(LV3.1)/32(LV3.2)/40(LV4)/41(LV4.1)/42(LV4.2)/52(LV5.2)]
+USAGE>mov entropy [enc_id] [0(cabac)/1(cavlc)]
+USAGE>mov scan [enc_id] [0(Progressive/1(Interlace)]
+USAGE>mov buf_ctrl [enc_id] [0(off)/1(on)]
+USAGE>mov pic_struct [enc_id] [0(off)/1(on)]
+USAGE>mov rcv_point [enc_id] [0(off)/1(on)]
+USAGE>mov filler [enc_id] [0(off)/1(on)]
+USAGE>mov vector [enc_id] [0(off)/1(on)]
+USAGE>mov tlapse [enc_id] [0(off)/1(on)]
+USAGE>mov vui [enc_id] [0(off)/1(on) :vstp_flg] [0~255 :video_format] [0(off)/1(on) :vfr_flg] [0(off)/1(on) :cdp_flg] [0~255 :colour_primaries] [0~255 :transfer_characteristics] [0~255 :matrix_coefficients]
+USAGE>mov seq_264 [seq num(ex. 0)]
+USAGE>mov seq_265 [seq num(ex. 0)]
+--- UART ---
+USAGE>dd uart open [ch]
+                    # Open UART channel.
+                    #   [ch] Channel (0~5)
+
+USAGE>dd uart close [ch]
+                    # Close UART channel.
+                    #   [ch] Channel (0~5)
+
+USAGE>dd uart set [ch] [mode] [baudrate] [length] [parity] [stop] [direction] [format] [flow]
+                    # Set control data.
+                    #   [ch] Channel (0~5)
+                    #   [mode] Operation mode (normal or multi)
+                    #   [baudrate] bps (1200,2400,4800,9600,14400,19200,38400,57600,115200)
+                    #   [length] data length (5~8)
+                    #   [parity] parity select (none,even,odd)
+                    #   [stop] stop bit (1 or 2)
+                    #   [direction] Transferring direction (lsb or msb)
+                    #   [format] Inversion serial data format (nrz or inv_nrz)
+                    #   [flow] Hardware flow control enable (flow_en or flow_dis)
+
+USAGE>dd uart start [ch]
+                    # Start UART channel.
+                    #   [ch] Channel (0~5)
+
+USAGE>dd uart stop [ch]
+                    # Stop UART channel.
+                    #   [ch] Channel (0~5)
+
+USAGE>dd uart send [ch] [data] [dma_ch]
+                    # Send data.
+                    #   [ch] Channel (0~5)
+                    #   [data] Send data (string)
+                    #   [dma_ch] DMA Channel (-1~7)(-1 = not use dma)
+
+
+USAGE>dd uart recv [ch] [data-count] [dma_ch]
+                    # Receive data.
+                    #   [ch] Channel (0~5)
+                    #   [data-count] Receive data count
+                    #   [dma_ch] DMA Channel (-1~7)(-1 = not use dma)
+
+
+USAGE>dd uart sendSlaveAddr [ch] [address]
+                    # Send target slave address.
+                    #   [ch] Channel (0~5)
+                    #   [address] slave address (hex string)
+
+
+USAGE>dd uart setSlaveAddr [ch] [address]
+                    # Set slave address.
+                    #   [ch] Channel (0~5)
+                    #   [address] slave address (1~255)
+
+
+USAGE>dd uart dbg_flush [ch]
+                    # Flush debug buffer.
+                    #   [ch] Channel (0~5)
+
+USAGE>dd uart dbg_save [ch] [filename]
+                    # Save uart memory.
+                    #   [ch] Channel (0~5)
+                    #   [filename] file name
+
+USAGE>dd uart dbg_config [ch] [overwrite] [suspend]
+                    # Set configure of uart debug.
+                    #   [ch] Channel (0~5)
+                    #   [overwrite] overwrite (0:not overwrite or 1:overwrite)
+                    #   [suspend] suspend (0:not suspend or 1:suspend)
+
+USAGE>dd uart get_status_overflow [ch]
+                    # Get status of uart overflow.
+                    #   [ch] Channel (0~5)
+--- PWM ---
+USAGE>dd pwm [ch] set [one/pwm] [pole/pold] [cb0/1/2/3] [rate/time] [hz/time1] [rate/time2] [rste/rstd]
+                    # Set control data.
+                    #   [ch] Channel (0~15)
+                    #   [one/pwm]     one:One shot mode
+                    #                 pwm:Continuous mode
+                    #   [pole/pold]   pole:Polarity reverse
+                    #                 pold:Polarity normal
+                    #   [cb0/1/2/3]   cb0:Both pcallback1 and pcallback2 is NULL
+                    #                 cb1:Set cmd_ct_dd_pwm_callback1 to pcallback1(pcallback2 is NULL)
+                    #                 cb2:Set cmd_ct_dd_pwm_callback2 to pcallback2(pcallback1 is NULL)
+                    #                 cb3:Set both pcallback1 and 2(cmd_ct_dd_pwm_callback1 and 2)
+                    #   [rate/time]   rate:Set pwm by ratio
+                    #                 time:Set pwm by time
+                    #   [hz/time1]    When [rate/time] is rate,please set cycle_hz
+                    #                 When [rate/time] is time,please set time1
+                    #   [rate/time2]  When [rate/time] is rate,please set rate
+                    #                 When [rate/time] is time,please set time2
+                    #   [rste/rstd]   rste:Restart enable
+                    #                 rstd:Restart disable
+
+USAGE>dd pwm [ch] set_e [clk0/4/16/64] [poln/polr] [chasn/chasr] [holde/holdd] [forcee/forced] [step_num] [under_num] [cb0/1]
+                    # Set control data.
+                    #   [ch] Channel (0~15)
+                    #   [clk0/4/16/64]  clk0:not dividing frequency
+                    #                   clk4:4 dividing frequency
+                    #                   clk16:16 dividing frequency
+                    #                   clk64:64 dividing frequency
+                    #   [poln/polr]     pole:Polarity reverse
+                    #                   pold:Polarity normal
+                    #   [chasn/chasr]   chasn:Channel assign normal  : A B C D
+                    #                   chasr:Channel assign reverse : C B A D
+                    #   [holde/holdd]   holde:Hold enable(hold[0]-hold[3]=1)
+                    #                   holdd:Hold disable(hold[0]-hold[3]=0)
+                    #   [forcee/forced] forcee:Force to 0(0000)
+                    #                   forced:Force to 1(0110)
+                    #   [step_num]      Number of step data
+                    #   [under_num]     Number of under run step data
+                    #   [cb0/1]         cb0:Callback enable
+                    #                   cb1:Callback disable
+
+USAGE>dd pwm set_e_dt [step] [cyc_num] [duty_num] [pulse_num] [link]
+                    # Set PWM Timer E Test Data.
+                    #   [step]      number (0~16)
+                    #   [cyc_num]   cycle number (1~65535)
+                    #   [duty_num]  duty number (1~65535)
+                    #   [pulse_num] pulse number (1~1024)
+                    #   [link]      0:last data, 1:not last data
+
+USAGE>dd pwm [ch] open
+                    # Open PWM channel.
+                    #   [ch] Channel (0~15)
+
+USAGE>dd pwm [ch] open_e
+                    # Open PWM channel(E_mode).
+                    #   [ch] Channel (0~15)
+
+USAGE>dd pwm [ch] start
+                    # Start PWM channel.
+                    #   [ch] Channel (0~15)
+
+USAGE>dd pwm [ch] stop
+                    # Stop PWM channel.
+                    #   [ch] Channel (0~15)
+
+USAGE>dd pwm [ch] close
+                    # Close PWM channel.
+                    #   [ch] Channel (0~15)
+
+--- Timer32 ---
+USAGE>dd tmr32 open
+                    # Open Timer32 channel.
+                    #   [ch] Channel (0~9)
+
+USAGE>dd tmr32 set [ch] [usec]
+                    # Set Timer32 timer value.
+                    #   [ch] Channel (0~9)
+                    #   [usec] timer value (usec order)
+
+USAGE>dd tmr32 ctrl [ch] [ctrl_status] [reload_counter1] [reload_counter2]
+                    # Set Timer32 control value.
+                    #   [ch]              Channel (0~9)
+                    #   [ctrl_status]     control status (Please set TMCSR  register value.)
+                    #   [reload_counter1] reload count1  (Please set TMRLR1 register value.)
+                    #   [reload_counter2] reload count2  (Please set TMRLR2 register value.)
+
+USAGE>dd tmr32 tout [ch] [enable] [out_level]
+                    # Set to TOUT function.
+                    #   [ch] Channel (0~9)
+                    #   [enable]    TOUT enable. (=true:enable, =false:disable)
+                    #   [out_level] Out level (0/1)
+
+USAGE>dd tmr32 start [ch] [reload]
+                    # Start Timer32.
+                    #   [ch] Channel (0~9)
+                    #   [reload]    Operation mode (=true:Reload mode, =false:One-shot mode)
+
+USAGE>dd tmr32 stop [ch]
+                    # Stop Timer32 channel.
+                    #   [ch] Channel (0~9)
+
+USAGE>dd tmr32 close [ch]
+                    # Close Timer32 channel.
+                    #   [ch] Channel (0~9)
+
+USAGE>wdog init                 # Watchdog timer initialize
+USAGE>wdog open                 # Watchdog timer open
+USAGE>wdog check                # parameter check
+USAGE>wdog set [mode] [msec]    # Watchdog timer set
+                                # - mode = 0:Timer mode (Interrupt only) / 1:Watchdog mode (Assert reset)
+                                # - msec  = timer is started from this value (unit is milli seconds)
+USAGE>wdog get_reset            # Watchdog interrupt status get
+USAGE>wdog refresh              # Watchdog timer refresh
+USAGE>wdog get_cur              # watchdog timer current value get
+USAGE>wdog get_load             # watchdog timer load value get
+USAGE>wdog close                # Watchdog timer close
+ADC command help
+> adc open [tmout]
+> adc close
+> adc ctrl [ch] [cnv_mode] [start_trig] [timer_trig] [tsel] [ext_edge] [sampling_time] [powerdown] [cmp_data]
+> adc set_timer [conv_cycle]
+> adc set_dma_transfer [unit] [ch] [sram_address]
+> adc start [pcallback]
+> adc stop
+> adc get_data
+> adc get_data_by_ch [ch]
+> adc dump [addr] [ch]
+USAGE>imjpeg [test number]
+USAGE>imjpeg load [filepath] [area_no]
+USAGE>imjpeg save [filepath] [area_no] [bytes]
+USAGE>imjpeg dumpon [unit name]
+USAGE>imjpeg dumpoff
+USAGE>imjpeg pixdump [pixid]
+USAGE>imjpeg pclk [on off]
+USAGE>imjpeg hclk [on off]
+--- I2C Master/Slave ---
+USAGE>i2c open [ch(0~2)]
+                    # Open I2C Channel
+USAGE>i2c close [ch(0~2)]
+                    # Close I2C Channel
+USAGE>i2c aclock [ch(0~2)] [KHz] [0:Over, 1:Under]
+                    # Set I2C serial clock frequency
+USAGE>i2c set_slave [ch(0~4)] [0:100KHz, 1:400KHz] [7:7bit, other:10bit] [slave address(0xHH)] [transfer timeout]
+                    # Set I2C Slave (Open-Ctrl)
+USAGE>i2c ctrl_master [ch(0~4)] [0:100KHz, 1:400KHz] [7:7bit, other:10bit] [slave address(0xHH)] [transfer timeout]
+                    # I2C Master control
+USAGE>i2c transfer [ch(0~4)] [0:read, 1:write] [rw_data_len] [rw_address(0xHH)] [timeout_value] [rw_data1(0xHH)] ([rw_data2] [rw_data3] [rw_data4])
+                    # I2C Start master
+
+--- SPI ---
+USAGE>spi loglevel [debug_print_level(default=2)]
+USAGE>spi close [ch]
+USAGE>spi ctrl [ch] [type] [mode] [bitdirection] [length] [baudrate] [fifo_wmark_tx] [fifo_wmark_rx] [dma_en] [dma_recv_to]
+USAGE>spi duplex [ch] [cont_trans]
+USAGE>spi duplex_dma [ch] [cont_trans] [dma_unit] [dma_ch_send] [dma_ch_recv]
+USAGE>spi open [ch]
+USAGE>spi stop [ch]
+USAGE>spi transfar [ch] [direction] [cont_trans] [dma_unit] [dma_ch]
+USAGE>spi repeat transfar [ch0(master)] [ch1(slave)] [times]
+USAGE>                    [mode] [bitdirection] [length] [baudrate] [fifo_wmark_tx] [fifo_wmark_rx] [cont_trans]
+USAGE>                    [ch0dma_unit] [ch0dma_ch_send] [ch0dma_ch_recv] [ch1dma_unit] [ch1dma_ch_send] [ch1dma_ch_recv]
+USAGE>parameter range:
+                       ch:0-3
+                       type:0(slave),1(master)
+                       mode:0-3
+                       bitdirection:0(LSB first),1(MSB first)
+                       length:4-32(bit)
+                       baudrate:bps unit. MAX:ch0=108Mbps,ch1=50Mbps,ch2=50Mbps
+                       fifo_wmark_tx/rx:ch0=128, ch1=64, ch2=16
+                       dma_en:0-1
+                       dma_recv_to:0-16777215
+                       direction:0(SEND),1(RECV)
+                       cont_trans:0(INACT_BETWEEN),1(INACT_FIFO_EMPTY),2(ACT_FIFO_EMPTY)
+                       dma_unit:0-3
+                       dma_ch:0-7
+
+ --- get memory information ---
+USAGE>play getmem
+ --- jpeg decode ---
+USAGE>play dec [main/thm] [jpeg_size] [width] [lines] [img_fmt(0: YCC422)]
+ --- convert image ---
+USAGE>play cnv [main/thm] [src_addr] [src_g_width] [src_width] [src_lines] [img_fmt(0:YCC422, 1:YCC420)] [dst_addr] [dst_g_width] [dst_width] [dst_lines] [img_fmt(0:YCC422, 1:YCC420, 5:RGBA8888)] [resize_mode(0:bi-linear, 1:bi-cubic)] [rotate_degree(0:0, 1:90, 2:180, 2:270)]
+USAGE>play disp [0:Image Layer, 1:OSD Layer] [0:LCD, 1:HDMI] [main/thm] [JPEG filename]
+USAGE>dce [format] [in_width] [in_height] [in_gwidth] [out_width] [out_height] [out_gwidth] [in_filepath] [in_file_size] [out_filepath] [out_file_size]
+ #format        : Image format
+                0...YUV420-8bit / 2...YUV420-10bit #in_width      : input iamge width
+ #in_height     : input iamge height
+ #in_gwudth     : input iamge global width
+ #out_width     : output iamge width
+ #out_height    : output iamge height
+ #out_height    : output iamge global width
+ #in_filepath   : input iamge filepath
+ #in_file_size  : input image file size
+ #out_filepath  : output iamge filepath
+ #out_file_size : output image file size
+
+
+fd start [param]
+******************** IQ function ********************
+USAGE> iq fshd_sro test [src_file] [src_width] [src_lines] [src_g_width] [dst_file] [dst_width] [dst_lines] [dst_g_width]
+USAGE> iq fshd_sro stat [0:print metadata only 1:print metadata and table gain]
+
+: You can quit this mode when input 'exit'.

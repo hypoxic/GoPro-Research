@@ -1,0 +1,101 @@
+t frw util memmon
+[00307990][I] gp_test  *******************************************************
+[00307990][I] gp_test  MEMORY MONITOR : SDRAM linker partition :
+[00307991][I] gp_test  *******************************************************
+[00307991][I] gp_test
+[00307991][I] gp_test   | SECTION                           |   START ADDRESS  |  END ADDRESS   | SIZE IN MBytes |
+[00307991][I] gp_test   | RTOS CODE                         |   0x 40080000    |  0x 40F63790   |      14.89 MB  |
+[00307991][I] gp_test   | RTOS RODATA                       |   0x 40F637C0    |  0x 43AE3820   |      43.50 MB  |
+[00307991][I] gp_test   | RTOS DATA                         |   0x 44080000    |  0x 441E3B00   |       1.39 MB  |
+[00307992][I] gp_test   | RTOS HEAP (malloc)                |   0x 44203B00    |  0x 44303B00   |       1.00 MB  |
+[00307992][I] gp_test   | RTOS PTABLE                       |   0x 44304000    |  0x 44307000   |       0.01 MB  |
+[00307992][I] gp_test   | RTOS BSS                          |   0x 44310000    |  0x 4611E4C0   |      30.06 MB  |
+[00307992][I] gp_test   | RTOS TKERNEL MEM                  |   0x 4611E4C0    |  0x 4E11E4C0   |     128.00 MB  |
+[00307992][I] gp_test   | LINUX OS                          |   0x 50000000    |  0x 58000000   |     128.00 MB  |
+[00307993][I] gp_test   | LINUX RTOS COMMON MEM             |   0x 58000000    |  0x 58000200   |       0.00 MB  |
+[00307993][I] gp_test   | LINUX RTOS IPCU BUFF              |   0x 58100000    |  0x 58100000   |       0.00 MB  |
+[00307993][I] gp_test   | LINUX RTOS IPCU SYNC              |   0x 581C0000    |  0x 581C0060   |       0.00 MB  |
+[00307993][I] gp_test   | DSP                               |   0x 58200000    |  0x 59A00000   |      24.00 MB  |
+[00307993][I] gp_test   | COMMON AUDIO / FS                 |   0x 59A00000    |  0x 5A7DDAC0   |      13.87 MB  |
+[00307993][I] gp_test   | LARGE MEMORY HEAP                 |   0x 5A7DDAC0    |  0x C0000000   |    1624.13 MB  |
+[00307994][I] gp_test
+[00307994][I] gp_test   Test simple malloc => allocates @ 0x4422B260
+[00307994][I] gp_test   Test simple rtos malloc => allocates @ 0x4A1C0C90
+[00307994][I] gp_test
+[00307994][I] gp_test  *******************************************************
+[00307994][I] gp_test  MEMORY MONITOR : HostFw RTOS ALLOC status :
+[00307994][I] gp_test  *******************************************************
+[00307994][I] gp_test
+[00307995][I] gp_test   - Newlib allocator:
+max system bytes =     165120
+system bytes     =     165120
+in use bytes     =     161616
+[00307995][I] gp_test   - TKERNEL alllocator : total 116.00MB available 49.64MB
+[00307995][I] gp_test
+[00307995][I] gp_test  MEMORY MONITOR : HostFw imaging memory status :
+[00307995][I] gp_debug rtos_mem_section_debug_info:303  Host FW Heap Metadata
+[00307995][I] gp_debug rtos_mem_section_debug_info:305   Heap start addr  0x5A7DDAC0
+[00307996][I] gp_debug rtos_mem_section_debug_info:306   Heap current addr 0xBFE219C4
+[00307996][I] gp_debug rtos_mem_section_debug_info:307   Host heap total size 111.69 MB
+[00307996][I] gp_debug rtos_mem_section_debug_info:308   Host available size 1.87 MB
+[00307996][I] gp_debug rtos_mem_section_debug_info:310  ******* Dumping metadata for currently allocated memory buffers  *****
+[00307996][I] gp_debug rtos_mem_section_debug_info:312  ******************** BaseFw Heap **************************
+[00307996][I] gp_debug rtos_mem_section_debug_info:313   Start addr : 0x5A7DDAC0
+[00307997][I] gp_debug rtos_mem_section_debug_info:314   End addr   : 0xB90505C2
+[00307997][I] gp_debug rtos_mem_section_debug_info:315   size       : 1512.448 MB
+[00307997][I] gp_debug rtos_mem_section_debug_info:316   owner id   : BASE FW
+[00307997][I] gp_debug rtos_mem_section_debug_info:321  ******************** Buffer 0 **************************
+[00307997][I] gp_debug rtos_mem_section_debug_info:322   addr       : 0xB90505C2
+[00307997][I] gp_debug rtos_mem_section_debug_info:323   size       : 9.686 MB
+[00307998][I] gp_debug rtos_mem_section_debug_info:324   addr after alignment 0xB90505E0
+[00307998][I] gp_debug rtos_mem_section_debug_info:325   owner id  6 : RTOS_MEM_SECTION_MFT_MUXER_INDEX_BUF_STREAM1
+[00307998][I] gp_debug rtos_mem_section_debug_info:321  ******************** Buffer 1 **************************
+[00307998][I] gp_debug rtos_mem_section_debug_info:322   addr       : 0xB99FFFD3
+[00307998][I] gp_debug rtos_mem_section_debug_info:323   size       : 7.631 MB
+[00307998][I] gp_debug rtos_mem_section_debug_info:324   addr after alignment 0xB99FFFE0
+[00307999][I] gp_debug rtos_mem_section_debug_info:325   owner id  7 : RTOS_MEM_SECTION_MFT_MUXER_INDEX_BUF_STREAM2
+[00307999][I] gp_debug rtos_mem_section_debug_info:321  ******************** Buffer 2 **************************
+[00307999][I] gp_debug rtos_mem_section_debug_info:322   addr       : 0xBA1A19A4
+[00307999][I] gp_debug rtos_mem_section_debug_info:323   size       : 92.500 MB
+[00307999][I] gp_debug rtos_mem_section_debug_info:324   addr after alignment 0xBA1A19C0
+[00307999][I] gp_debug rtos_mem_section_debug_info:325   owner id  9 : RTOS_MEM_SECTION_DFS_VIDEO
+[00308000][I] gp_test
+[00308000][I] gp_test  *******************************************************
+[00308000][I] gp_test  MEMORY MONITOR : BaseFW status :
+[00308000][I] gp_test  *******************************************************
+[00308000][I] gp_test
+[00308000][I] gp_test  Peripheral memory : Start Add = 0x5A7DDAC0 | End Add = 0xB90505C1 | Curr Ptr = 0x66781000 | free 1320.81 MBs / tot 1512.45 MBs
+[00308000][I] gp_test  Imaging memory    : Start Add = 0x5A7DDAC0 | End Add = 0xB90505C1 | Curr Ptr = 0x66781000 | free 1320.81 MBs / tot 1512.45 MBs
+[00308001][I] gp_test
+[00308001][I] basefw   BF_MEMORY_Print_Alloc_Log_All:614  MEM ALLOC INFO 0  Start Add = 0x5A7DDAC0 | End Add = 0xB90505C1 | Curr Ptr = 0x66781000 | free 1320.81 MBs / tot 1512.45 MBs
+[00308001][I] basefw   BF_MEMORY_Print_Alloc_Log_All:616  Total number of elements = 26
+[00308001][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'H265 record groupA              ',  func name:'Sdram_Map_Movie_Record_Set_Video_Enc_Buffer_A' line :   490, address:0x62000000, size=74977280(byte)
+[00308001][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'H265 record groupC recon        ',  func name:'H265_If_Record_Api_Param_Set    ' line :   185, address:0x61000000, size=6168576(byte)
+[00308002][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'H265 record groupB subsample    ',  func name:'H265_If_Record_Api_Param_Set    ' line :   167, address:0x60000000, size=262144(byte)
+[00308002][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'Audio record work 1             ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   127, address:0x5F14D000, size=8192(byte)
+[00308002][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'Audio record work 0             ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   118, address:0x5F14B000, size=8192(byte)
+[00308003][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'Audio record 1                  ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   107, address:0x5E24B000, size=15728640(byte)
+[00308003][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'Audio record 0                  ',  func name:'Sdram_Map_Movie_Record_Initialize' line :    95, address:0x5D34B000, size=15728640(byte)
+[00308003][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem29                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5CE8C000, size=4976640(byte)
+[00308003][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem20                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5CACC000, size=3932160(byte)
+[00308004][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem19                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C97C000, size=1376256(byte)
+[00308004][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem17                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C87B400, size=1036800(byte)
+[00308004][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem16                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C7FD400, size=516096(byte)
+[00308004][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem15                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C798000, size=414720(byte)
+[00308005][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C603000, size=1658880(byte)
+[00308005][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem13                           ',  func name:'bf_memory_init_config           ' line :   277, address:0x5C129000, size=5087232(byte)
+[00308005][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'dce_mbprm                       ',  func name:'bf_analyze_dce_init             ' line :  1354, address:0x5C0ED000, size=245760(byte)
+[00308006][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem1                            ',  func name:'bf_memory_init_config           ' line :   277, address:0x5B7ED000, size=9437184(byte)
+[00308006][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'RDMA_mem_alloc_data_addr        ',  func name:'BF_Rdma_Memory_Alloc            ' line :   261, address:0x5B7EBF54, size=3924(byte)
+[00308006][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'RDMA_mem_alloc_reg_addr         ',  func name:'BF_Rdma_Memory_Alloc            ' line :   248, address:0x5B7EB000, size=3924(byte)
+[00308006][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'RDMA_mem_alloc_data_addr        ',  func name:'BF_Rdma_Memory_Alloc            ' line :   261, address:0x5B7EAA00, size=1360(byte)
+[00308007][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'RDMA_mem_alloc_reg_addr         ',  func name:'BF_Rdma_Memory_Alloc            ' line :   248, address:0x5B7EA400, size=1360(byte)
+[00308007][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'mem1                            ',  func name:'DataMemHolder                   ' line :    44, address:0x5B7E9E00, size=288(byte)
+[00308007][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'EisMblk                         ',  func name:'genDceStaticGrids               ' line :  1072, address:0x5B7E9380, size=960(byte)
+[00308008][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'EisLgrid                        ',  func name:'genDceStaticGrids               ' line :  1036, address:0x5B7E8C00, size=1920(byte)
+[00308008][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'Eis                             ',  func name:'setup                           ' line :   272, address:0x5AE6A600, size=9954216(byte)
+[00308008][I] basefw   BF_MEMORY_Print_Alloc_Log_All:623  Alloc : 'UseCase                         ',  func name:'makeUseCase                     ' line :    15, address:0x5A7DE000, size=6866368(byte)
+[00308008][I] gp_test  T_SUCCESS (frw): 0
+: You can quit this mode when input 'exit'.
+
+t frw util read32 0x0

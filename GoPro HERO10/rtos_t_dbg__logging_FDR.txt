@@ -1,0 +1,156 @@
+t dbg status
+HistoryBuffer:
+  - Recording: ON (0B/2097152B) | WrapCount: 0 | Overwrite: ON
+  - Streaming: OFF
+EventBuffer: OFF (0/0) | Overwrite: ON
+
+-- root FDR --
+Total Errors = 89
+Total Warnings = 52
+
+-- FDR tree --
+root                         [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|- basefw                    [-:-:Fu----Cl][-][OFF] err: 20 warn: 7
+|- gp_debug                  [-:-:Fu----Cl][-][OFF] err: 23 warn: 1
+|- gp_test                   [-:-:--------][-][OFF] err: 6 warn: 0
+|- gp_boot                   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|- framework                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- nvm                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- frw_mcu                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- calib                  [-:-:Fu----Cl][-][OFF] err: 0 warn: 2
+|  |- gp_ipc                 [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|  |- audio                  [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- led                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- battery                [-:-:Fu----Cl][-][OFF] err: 0 warn: 3
+|  |- power                  [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|  |- accessory              [-:-:Fu----Cl][-][OFF] err: 2 warn: 0
+|  |- frw_thermal            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- audsrc                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- audsink                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- audcap                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- imgsrc                 [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|  |- imgcap                 [-:-:Fu----Cl][-][OFF] err: 1 warn: 1
+|  |  \- imgcap_dsrc         [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- gpsm                   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- IspFactory             [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+|  |  \- Isp0                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |     |- HalSensor        [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |     |- Awb              [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |     |- Ae               [-:-:Fu----Cl][-][OFF] err: 0 warn: 3
+|  |     \- Usecase          [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- Eis           [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- Iq            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- Ob            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- Acls          [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- SceneCl       [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+|  |        |- xtmStats      [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmGtmBpEstim [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmGtmBpDrive [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmRtmEstim   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmRtmDrive   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- Fd            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmLceEstim   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- xtmLceDrive   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        |- RoiManager    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |        \- Ms            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- display                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |  |- disp_rear           [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |  |- disp_front          [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |  \- disp_ext            [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- framebuf               [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|  |- mft                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+|  |- frw_usb                [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+|  |- orient                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- imgpipe                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- audcap_datasrc         [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- logging                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- audproc                [-:-:Fu----Cl][-][OFF] err: 1 warn: 0
+|  \- streamer               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|- hal                       [-:-:Fu----Cl][-][OFF] err: 8 warn: 0
+|  |- gpio_ctrl              [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- i2c_ctrl               [-:-:Fu----Cl][-][OFF] err: 11 warn: 0
+|  |- spi_ctrl               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- uart_ctrl              [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- timer_ctrl             [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- adc_ctrl               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- imu_ctrl               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- avs_ctrl               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- mipi_ctrl              [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- imu                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- dsp_temp               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- pmic                   [-:-:Fu----Cl][-][OFF] err: 0 warn: 20
+|  |- drv_button             [-:-:Fu----Cl][-][OFF] err: 2 warn: 0
+|  |- mcu                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |  |- heartbeat           [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |  \- regio               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- drv_batt               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- gpu                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- dma                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- pdm                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  |- gps                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|  \- imx677                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+|- monitor                   [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+|- IsgAssert                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+\- appc                      [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- settings               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- cam_mode               [-:-:Fu----Cl][-][OFF] err: 2 warn: 6
+   |  \- fwupdate            [-:-:Fu----Cl][-][OFF] err: 0 warn: 1
+   |- capture                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- presets                [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- db                     [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- csc                    [-:-:Fu----Cl][-][OFF] err: 7 warn: 0
+   |- log                    [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- wireless               [-:-:Fu----Cl][-][OFF] err: 0 warn: 3
+   |- appc_api               [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   |- stream                 [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+   \- appc_test              [-:-:Fu----Cl][-][OFF] err: 0 warn: 0
+                              | |  |        |   |
+             PRINT LOG LEVEL -' |  |        |   '- EVENT LOGGING
+             RECORD LOG LEVEL --'  |        '- ASSERT LEVEL
+             FORMAT OPTIONS -------'
+
+[00607061][I] gp_test  cmd: t dbg
+[00607061][I] gp_test  FDR (Flight Data Recorder interface)
+[00607062][I] gp_test  Usage:
+[00607062][I] gp_test    t dbg [off|err|warn|info/on|verb|dbg]                               // legacy API to specify log level
+[00607062][I] gp_test    t dbg irq [off|on]                                                  // Enable / Disable IRQ print on UART
+[00607062][I] gp_test    t dbg file                                                          // Dump real time in file (invasive)
+[00607062][I] gp_test    t dbg status                                                        // to display all FDR tree status and names
+[00607062][I] gp_test    t dbg fdr [fdr_name] printLvl[Nr]  [off|err|warn|info|verb|dbg]     // Set FDR print log level (add Nr for non-recursive)
+[00607063][I] gp_test    t dbg fdr [fdr_name] recordLvl[Nr] [off|err|warn|info|verb|dbg]     // Set FDR record log level (add Nr for non-recursive)
+[00607063][I] gp_test    t dbg fdr [fdr_name] eventLvl[Nr]  [off|on]                         // Set FDR event level (add Nr for non-recursive)
+[00607063][I] gp_test    t dbg fdr [fdr_name] fmtOpt[Nr]    [off|all|func|file|thread|class] // Set format option (add Nr for non-recursive)
+[00607063][I] gp_test    t dbg fdr [fdr_name] status                                         // Display this FDR tree status
+[00607063][I] gp_test
+[00607064][I] gp_test    -- Error --
+[00607064][I] gp_test    t dbg fdr error print  // display first errors and warnings with their occurence
+[00607064][I] gp_test    t dbg fdr error reset   // reset the first error buffer
+[00607064][I] gp_test
+[00607064][I] gp_test    t dbg tcmd lastresult   // displays last command status
+[00607064][I] gp_test    t dbg tcmd lastlogs     // display last commands logs (gp_test fdr)
+[00607064][I] gp_test
+[00607064][I] gp_test    -- History --
+[00607065][I] gp_test    t dbg fdr history stream    [on|off] // Set stream of entires to bindump
+[00607065][I] gp_test    t dbg fdr history record    [on|off] // Set record of entries into history
+[00607065][I] gp_test    t dbg fdr history overwrite [on|off] // When 'on' entries will be overwritten when buffer is full
+[00607065][I] gp_test
+[00607065][I] gp_test    t dbg fdr history dump console [lvl] [fdr_name]         // Dump history to console
+[00607065][I] gp_test    t dbg fdr history dump file [lvl] [fdr_name] [filename] // Dump history to SD card
+[00607065][I] gp_test         lvl: minimum severity to dump [err|warn|info|verb|dbg] (defaults to verbose)
+[00607066][I] gp_test         fdr_name: name of fdr to dump value for (if left empty or set to ALL => all FDRs)
+[00607066][I] gp_test         filename: name of file to dump (defaults to rtos.log)
+[00607066][I] gp_test
+[00607066][I] gp_test    -- Events --
+[00607066][I] gp_test    t dbg fdr events init [size]         // Initialize event buffer. size has to be power of 2, by defaut 1MB
+[00607066][I] gp_test    t dbg fdr events start               // Start capturing events
+[00607066][I] gp_test    t dbg fdr events stop                // Stop capturing events
+[00607067][I] gp_test    t dbg fdr events free                // Free Init
+[00607067][I] gp_test    t dbg fdr events overwrite [on|off]  // When 'on' entries will be overwritten when buffer is full
+[00607067][I] gp_test    t dbg fdr events dump vcd [filename] // Dump events to vcd format in a file
+[00607067][I] gp_test    t dbg fdr events taskmon start       // start task scheduling events, one signal per task
+[00607067][I] gp_test    t dbg fdr events taskmon start_mono  // start task scheduling events, one signal per cpu
+[00607067][I] gp_test    t dbg fdr events taskmon stop        // stop task scheduling events
+[00607068][I] gp_test
+[00607068][I] gp_test   -- Sanity --
+[00607068][I] gp_test    t dbg fdr fdr_sanity   // Stress test of fdr sanity
+[00607068][I] gp_test    t dbg fdr printf_sanity   // Stress test of printf alone sanity

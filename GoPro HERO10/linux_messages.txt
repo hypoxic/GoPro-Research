@@ -1,0 +1,471 @@
+Jan  1 00:00:01 syslogd started: BusyBox v1.27.2
+Jan  1 00:00:01 kernel: klogd started: BusyBox v1.27.2 (2021-06-26 00:12:45 UTC)
+Jan  1 00:00:01 kernel: [    0.000000] Booting Linux on physical CPU 0x0000000003 [0x410fd034]
+Jan  1 00:00:01 kernel: [    0.000000] Linux version 4.19.124 (ubuntu@3356ed46b928) (gcc version 7.5.0 (Linaro GCC 7.5-2019.12)) #1 SMP PREEMPT Sat Jun 26 00:22:55 UTC 2021
+Jan  1 00:00:01 kernel: [    0.000000] Machine model: Socionext KARINE EVB
+Jan  1 00:00:01 kernel: [    0.000000] cma: Reserved 16 MiB at 0x0000000057000000
+Jan  1 00:00:01 kernel: [    0.000000] On node 0 totalpages: 32768
+Jan  1 00:00:01 kernel: [    0.000000]   DMA32 zone: 448 pages used for memmap
+Jan  1 00:00:01 kernel: [    0.000000]   DMA32 zone: 0 pages reserved
+Jan  1 00:00:01 kernel: [    0.000000]   DMA32 zone: 32768 pages, LIFO batch:7
+Jan  1 00:00:01 kernel: [    0.000000] psci: probing for conduit method from DT.
+Jan  1 00:00:01 kernel: [    0.000000] psci: PSCIv1.0 detected in firmware.
+Jan  1 00:00:01 kernel: [    0.000000] psci: Using standard PSCI v0.2 function IDs
+Jan  1 00:00:01 kernel: [    0.000000] psci: MIGRATE_INFO_TYPE not supported.
+Jan  1 00:00:01 kernel: [    0.000000] psci: SMC Calling Convention v1.0
+Jan  1 00:00:01 kernel: [    0.000000] random: get_random_bytes called from start_kernel+0xa4/0x4e8 with crng_init=0
+Jan  1 00:00:01 kernel: [    0.000000] percpu: Embedded 22 pages/cpu s53208 r8192 d28712 u90112
+Jan  1 00:00:01 kernel: [    0.000000] pcpu-alloc: s53208 r8192 d28712 u90112 alloc=22*4096
+Jan  1 00:00:01 kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan  1 00:00:01 kernel: [    0.000000] Detected VIPT I-cache on CPU0
+Jan  1 00:00:01 kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 32320
+Jan  1 00:00:01 kernel: [    0.000000] Kernel command line: consoleblank=0 init=/sbin/finit root=/dev/ipcublk rootwait ro console=ttyUSI3,115200n8 nr_cpus=4 maxcpus=1
+Jan  1 00:00:01 kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Jan  1 00:00:01 kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Jan  1 00:00:01 kernel: [    0.000000] Memory: 85340K/131072K available (7294K kernel code, 914K rwdata, 3272K rodata, 1984K init, 626K bss, 29348K reserved, 16384K cma-reserved)
+Jan  1 00:00:01 kernel: [    0.000000] rcu: Preemptible hierarchical RCU implementation.
+Jan  1 00:00:01 kernel: [    0.000000] rcu: 	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+Jan  1 00:00:01 kernel: [    0.000000] 	Tasks RCU enabled.
+Jan  1 00:00:01 kernel: [    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Jan  1 00:00:01 kernel: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Jan  1 00:00:01 kernel: [    0.000000] GICv3: GIC: Using split EOI/Deactivate mode
+Jan  1 00:00:01 kernel: [    0.000000] GICv3: Distributor has no Range Selector support
+Jan  1 00:00:01 kernel: [    0.000000] GICv3: no VLPI support, no direct LPI support
+Jan  1 00:00:01 kernel: [    0.000000] GICv3: CPU0: found redistributor 3 region 0:0x000000000d0e0000
+Jan  1 00:00:01 kernel: [    0.000000] rcu: 	Offload RCU callbacks from CPUs: (none).
+Jan  1 00:00:01 kernel: [    0.000000] arch_timer: cp15 timer(s) running at 24.00MHz (phys).
+Jan  1 00:00:01 kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+Jan  1 00:00:01 kernel: [    0.000007] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+Jan  1 00:00:01 kernel: [    0.000086] clocksource: mlb-clksrc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 70787423951 ns
+Jan  1 00:00:01 kernel: [    0.000097] sched_clock: 32 bits at 27MHz, resolution 37ns, wraps every 79536431085ns
+Jan  1 00:00:01 kernel: [    0.000568] Console: colour dummy device 80x25
+Jan  1 00:00:01 kernel: [    0.000607] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=96000)
+Jan  1 00:00:01 kernel: [    0.000620] pid_max: default: 32768 minimum: 301
+Jan  1 00:00:01 kernel: [    0.000768] Security Framework initialized
+Jan  1 00:00:01 kernel: [    0.000832] Mount-cache hash table entries: 512 (order: 0, 4096 bytes)
+Jan  1 00:00:01 kernel: [    0.000842] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes)
+Jan  1 00:00:01 kernel: [    0.024134] ASID allocator initialised with 32768 entries
+Jan  1 00:00:01 kernel: [    0.032091] rcu: Hierarchical SRCU implementation.
+Jan  1 00:00:01 kernel: [    0.048132] smp: Bringing up secondary CPUs ...
+Jan  1 00:00:01 kernel: [    0.048146] smp: Brought up 1 node, 1 CPU
+Jan  1 00:00:01 kernel: [    0.048153] SMP: Total of 1 processors activated.
+Jan  1 00:00:01 kernel: [    0.048169] CPU features: detected: GIC system register CPU interface
+Jan  1 00:00:01 kernel: [    0.048180] CPU features: detected: 32-bit EL0 Support
+Jan  1 00:00:01 kernel: [    0.048225] CPU: All CPU(s) started at EL2
+Jan  1 00:00:01 kernel: [    0.048241] alternatives: patching kernel code
+Jan  1 00:00:01 kernel: [    0.049134] devtmpfs: initialized
+Jan  1 00:00:01 kernel: [    0.056557] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jan  1 00:00:01 kernel: [    0.056578] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Jan  1 00:00:01 kernel: [    0.057311] pinctrl core: initialized pinctrl subsystem
+Jan  1 00:00:01 kernel: [    0.057643] regulator-dummy: no parameters
+Jan  1 00:00:01 kernel: [    0.058112] NET: Registered protocol family 16
+Jan  1 00:00:01 kernel: [    0.060212] cpuidle: using governor ladder
+Jan  1 00:00:01 kernel: [    0.060379] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Jan  1 00:00:01 kernel: [    0.061366] DMA: preallocated 256 KiB pool for atomic allocations
+Jan  1 00:00:01 kernel: [    0.084725] SCSI subsystem initialized
+Jan  1 00:00:01 kernel: [    0.084902] usbcore: registered new interface driver usbfs
+Jan  1 00:00:01 kernel: [    0.084947] usbcore: registered new interface driver hub
+Jan  1 00:00:01 kernel: [    0.084989] usbcore: registered new device driver usb
+Jan  1 00:00:01 kernel: [    0.085065] media: Linux media interface: v0.10
+Jan  1 00:00:01 kernel: [    0.085101] videodev: Linux video capture interface: v2.00
+Jan  1 00:00:01 kernel: [    0.085136] pps_core: LinuxPPS API ver. 1 registered
+Jan  1 00:00:01 kernel: [    0.085144] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan  1 00:00:01 kernel: [    0.085162] PTP clock support registered
+Jan  1 00:00:01 kernel: [    0.086256] clocksource: Switched to clocksource arch_sys_counter
+Jan  1 00:00:01 kernel: [    0.139460] VFS: Disk quotas dquot_6.6.0
+Jan  1 00:00:01 kernel: [    0.139563] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jan  1 00:00:01 kernel: [    0.139769] FS-Cache: Loaded
+Jan  1 00:00:01 kernel: [    0.146133] NET: Registered protocol family 2
+Jan  1 00:00:01 kernel: [    0.146919] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes)
+Jan  1 00:00:01 kernel: [    0.146939] TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+Jan  1 00:00:01 kernel: [    0.146963] TCP bind hash table entries: 1024 (order: 2, 16384 bytes)
+Jan  1 00:00:01 kernel: [    0.146991] TCP: Hash tables configured (established 1024 bind 1024)
+Jan  1 00:00:01 kernel: [    0.147102] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:01 kernel: [    0.147131] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jan  1 00:00:01 kernel: [    0.147300] NET: Registered protocol family 1
+Jan  1 00:00:01 kernel: [    0.151769] PCI: CLS 0 bytes, default 64
+Jan  1 00:00:01 kernel: [    0.153387] Initialise system trusted keyrings
+Jan  1 00:00:01 kernel: [    0.153517] workingset: timestamp_bits=62 max_order=15 bucket_order=0
+Jan  1 00:00:01 kernel: [    0.153953] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.
+Jan  1 00:00:01 kernel: [    0.162669] Key type asymmetric registered
+Jan  1 00:00:01 kernel: [    0.162679] Asymmetric key parser 'x509' registered
+Jan  1 00:00:01 kernel: [    0.162725] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Jan  1 00:00:01 kernel: [    0.162736] io scheduler noop registered
+Jan  1 00:00:01 kernel: [    0.162744] io scheduler deadline registered
+Jan  1 00:00:01 kernel: [    0.162775] io scheduler cfq registered (default)
+Jan  1 00:00:01 kernel: [    0.162785] io scheduler mq-deadline registered
+Jan  1 00:00:01 kernel: [    0.162793] io scheduler kyber registered
+Jan  1 00:00:01 kernel: [    0.165523] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Jan  1 00:00:01 kernel: [    0.166745] mlb-usio-uart e700010.usio_uart: rx dma alloc failed
+Jan  1 00:00:01 kernel: [    0.166756] mlb-usio-uart e700010.usio_uart: interrupt mode used for rx (no dma)
+Jan  1 00:00:01 kernel: [    0.166768] mlb-usio-uart e700010.usio_uart: tx dma alloc failed or no properties
+Jan  1 00:00:01 kernel: [    0.166778] mlb-usio-uart e700010.usio_uart: interrupt mode used for tx (no dma)
+Jan  1 00:00:01 kernel: [    0.166796] e700010.usio_uart: ttyUSI1 at MMIO 0xe700010 (irq = 7, base_baud = 12500000) is a mlb-usio-uart
+Jan  1 00:00:01 kernel: [    0.167057] mlb-usio-uart e700030.usio_uart: rx dma alloc failed
+Jan  1 00:00:01 kernel: [    0.167068] mlb-usio-uart e700030.usio_uart: interrupt mode used for rx (no dma)
+Jan  1 00:00:01 kernel: [    0.167079] mlb-usio-uart e700030.usio_uart: tx dma alloc failed or no properties
+Jan  1 00:00:01 kernel: [    0.167088] mlb-usio-uart e700030.usio_uart: interrupt mode used for tx (no dma)
+Jan  1 00:00:01 kernel: [    0.167102] e700030.usio_uart: ttyUSI3 at MMIO 0xe700030 (irq = 9, base_baud = 12500000) is a mlb-usio-uart
+Jan  1 00:00:01 kernel: [    0.759913] console [ttyUSI3] enabled
+Jan  1 00:00:01 kernel: [    0.764235] cacheinfo: Unable to detect cache hierarchy for CPU 0
+Jan  1 00:00:01 kernel: [    0.776772] brd: module loaded
+Jan  1 00:00:01 kernel: [    0.781489] loop: module loaded
+Jan  1 00:00:01 kernel: [    0.788996] sni_ipcu_mb_init:226 [ERROR] request_irq ACK is failed. ret=-22 IRQ=0 devname=[]
+Jan  1 00:00:01 kernel: [    0.797290] vblk_ipcu_init:251 Cannot init send ipcu channel. -retry probe-
+Jan  1 00:00:01 kernel: [    0.804975] libphy: Fixed MDIO Bus: probed
+Jan  1 00:00:01 kernel: [    0.809127] tun: Universal TUN/TAP device driver, 1.6
+Jan  1 00:00:01 kernel: [    0.814711] usbcore: registered new interface driver usb-storage
+Jan  1 00:00:01 kernel: [    0.820609] i2c /dev entries driver
+Jan  1 00:00:01 kernel: [    0.824108] usbcore: registered new interface driver uvcvideo
+Jan  1 00:00:01 kernel: [    0.829757] USB Video Class driver (1.1.1)
+Jan  1 00:00:01 kernel: [    0.834044] sdhci: Secure Digital Host Controller Interface driver
+Jan  1 00:00:01 kernel: [    0.840088] sdhci: Copyright(c) Pierre Ossman
+Jan  1 00:00:01 kernel: [    0.844776] mmc0 : caps=0x25e9c8b2, caps1=0x2003
+Jan  1 00:00:01 kernel: [    0.849250] sdhci-milbeaut 19830000.mmc0: Looking up vmmc-supply from device tree
+Jan  1 00:00:01 kernel: [    0.849265] sdhci-milbeaut 19830000.mmc0: Looking up vmmc-supply property in node /soc/exs_32bus/mmc0@19830000 failed
+Jan  1 00:00:01 kernel: [    0.849282] sdhci-milbeaut 19830000.mmc0: Looking up vqmmc-supply from device tree
+Jan  1 00:00:01 kernel: [    0.849293] sdhci-milbeaut 19830000.mmc0: Looking up vqmmc-supply property in node /soc/exs_32bus/mmc0@19830000 failed
+Jan  1 00:00:01 kernel: [    1.002256] mmc0: SDHCI controller on f_sdh30 [19830000.mmc0] using ADMA
+Jan  1 00:00:01 kernel: [    1.014415] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan  1 00:00:01 kernel: [    1.026478] usbcore: registered new interface driver usbhid
+Jan  1 00:00:01 kernel: [    1.038251] usbhid: USB HID core driver
+Jan  1 00:00:01 kernel: [    1.041914] exFAT: Version 1.3.0
+Jan  1 00:00:01 kernel: [    1.054775] sni-ipcu-driver c853000.snrtos2: sni_ipcu_drv_probe:304 No RTOS channel i/f provided
+Jan  1 00:00:01 kernel: [    1.070261] sni-ipcu-driver: probe of c853000.snrtos2 failed with error -22
+Jan  1 00:00:01 kernel: [    1.088343] sni-dsp-peri-driver 1d000000.xm6_peri: failed to request dma-controller
+Jan  1 00:00:01 kernel: [    1.103073] xt_time: kernel timezone is -0000
+Jan  1 00:00:01 kernel: [    1.114697] NET: Registered protocol family 10
+Jan  1 00:00:01 kernel: [    1.128361] Segment Routing with IPv6
+Jan  1 00:00:01 kernel: [    1.134359] NET: Registered protocol family 17
+Jan  1 00:00:01 kernel: [    1.142260] tipc: Activated (version 2.0.0)
+Jan  1 00:00:01 kernel: [    1.150311] NET: Registered protocol family 30
+Jan  1 00:00:01 kernel: [    1.158378] tipc: Started in single node mode
+Jan  1 00:00:01 kernel: [    1.170850] registered taskstats version 1
+Jan  1 00:00:01 kernel: [    1.178254] Loading compiled-in X.509 certificates
+Jan  1 00:00:01 kernel: [    1.194332] Key type encrypted registered
+Jan  1 00:00:01 kernel: [    1.247317] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Jan  1 00:00:01 kernel: [    1.256793] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Jan  1 00:00:01 kernel: [    1.290602] EXT4-fs (ipcublk): mounted filesystem with ordered data mode. Opts: (null)
+Jan  1 00:00:01 kernel: [    1.306284] VFS: Mounted root (ext4 filesystem) readonly on device 254:0.
+Jan  1 00:00:01 kernel: [    1.314309] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Jan  1 00:00:01 kernel: [    1.322829] cfg80211: failed to load regulatory.db
+Jan  1 00:00:01 kernel: [    1.333697] devtmpfs: mounted
+Jan  1 00:00:01 kernel: [    1.337481] Freeing unused kernel memory: 1984K
+Jan  1 00:00:01 kernel: [    1.350384] Run /sbin/finit as init process
+Jan  1 00:00:01 kernel: [    1.369793] random: fast init done
+Jan  1 00:00:01 kernel: [    1.441534] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+Jan  1 00:00:01 kernel: [    1.454225] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+Jan  1 00:00:01 kernel: [    1.462824] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+Jan  1 00:00:01 kernel: [    1.468844] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+Jan  1 00:00:01 kernel: [    1.567687] udevd[76]: starting version 3.2.5
+Jan  1 00:00:01 kernel: [    1.574706] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+Jan  1 00:00:01 kernel: [    1.599708] random: udevd: uninitialized urandom read (16 bytes read)
+Jan  1 00:00:01 kernel: [    1.608345] mmc0: queuing unknown CIS tuple 0x80 (1 bytes)
+Jan  1 00:00:01 kernel: [    1.613989] mmc0: queuing unknown CIS tuple 0x81 (1 bytes)
+Jan  1 00:00:01 kernel: [    1.619810] mmc0: queuing unknown CIS tuple 0x82 (1 bytes)
+Jan  1 00:00:01 kernel: [    1.625247] mmc0: new high speed SDIO card at address 0001
+Jan  1 00:00:01 kernel: [    1.631386] random: udevd: uninitialized urandom read (16 bytes read)
+Jan  1 00:00:01 kernel: [    1.668974] udevd[76]: starting eudev-3.2.5
+Jan  1 00:00:01 root: Starting babyblue...
+Jan  1 00:00:01 babyblue: Starting babyblue daemon
+Jan  1 00:00:01 babyblue: daemonize: setrlimit ret=0
+Jan  1 00:00:01 babyblue: WARNING: unexpected file descriptors 0 3 4
+Jan  1 00:00:01 babyblue: load_config: parsed camera model=0x39
+Jan  1 00:00:01 babyblue: load_config: boardname_revision:Kongs MP
+Jan  1 00:00:01 babyblue: load_config: Load default rampatch
+Jan  1 00:00:01 babyblue: mac_address: XXXXXXXXXXXX
+Jan  1 00:00:01 babyblue: serial_number: C34XXXXXXXXXXX
+Jan  1 00:00:01 babyblue: hardware_revision: 0x05
+Jan  1 00:00:01 babyblue: software_version: 0.5.0.0
+Jan  1 00:00:01 babyblue: babyblue bin compiled on Aug  4 2021 00:48:40
+Jan  1 00:00:01 babyblue: BLE GATT API Version: 0.93
+Jan  1 00:00:01 babyblue: Enable new advertisement format (g_Enable_Non_Conn_Adv): 1
+Jan  1 00:00:01 babyblue: using /to_bbl
+Jan  1 00:00:01 babyblue: babyblue_cli_open success
+Jan  1 00:00:01 babyblue: entering the state machine with initial cntrl event: 0
+Jan  1 00:00:01 babyblue: start_bt: called
+Jan  1 00:00:01 gpChpIpc: [            main: 309] Start gpChpIpc daemon
+Jan  1 00:00:01 gpChpTestChannel: gpIpcInit: ERROR sending message to RTOS on test_channel err=No such file or directory
+Jan  1 00:00:01 gpCamApi: [I][BOOT]          main() - Starting gpCamApi daemon 
+Jan  1 00:00:01 gpCamApi: [I][INIT]          main() - gpCamApi internal mailboxes created. (BLE in Linux)
+Jan  1 00:00:01 gpNet: [I][BOOT]             main() - Starting gpNet daemon 
+Jan  1 00:00:01 gpNet: [I][GNET]             main() - version 6.0.0.0  built on Aug  4 2021 00:47:21 by  at e2c41ad
+Jan  1 00:00:01 gpNet: [W][GNET]       _json_open() - CKSUM WARNING: Written by v1,2 or 3. Skipping checksum validation. "/tmp/fuse_b/mfg.json" file
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - WIFI MAC     = XX:XX:XX:XX:XX:XX
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - WIFI MAC(bin)= XX:XX:XX:XX:XX:XX
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - BLUE MAC     = XX:XX:XX:XX:XX:XX
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - CAMERA SN    = C34XXXXXXXXXXX
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - CAMERA MODEL = 0x39
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - BOARD NAME   = Kongs MP
+Jan  1 00:00:01 gpNet: [I][GNET]         printMAC() - WIFI REGION  = 0
+Jan  1 00:00:01 gpNet: [I][GNET]      validateMFG() - CSI_AP_MAC   = XX:XX:XX:XX:XX:XX
+Jan  1 00:00:01 gpNet: [I][GNET]    init_MFG_feat() - initializing MFG
+Jan  1 00:00:01 gpNet: [I][GNET]       _json_open() - CKSUM OK v4.1 "/tmp/fuse_b/conf.json" file
+Jan  1 00:00:01 gpNet: [I][GNET] init_config_feat() - initializing config
+Jan  1 00:00:01 gpNet: [I][GNET] executeResumCode() - PSMR       :   COLDBOOT POWER STATE (@ resume time=0) [0]: Set:PWR_ALL_ON then WAIT 10 MINS
+Jan  1 00:00:01 gpNet: [I][GNET] executeResumCode() - PSMR       :   next_time=600 since_resume=0
+Jan  1 00:00:01 gpNet: [I][GNET]  setSuspendState() -            :   setSuspendState: SS_OFF
+Jan  1 00:00:01 gpNet: [I][GNET] nonSRresume_read() -             nonSR: v1,HR=3,TOLS=2016/01/01-03:19:55,PDR=0x00,PC=35,STATUS=0x0000,WAKETIME=0,MTIMER=0,REGS=0,1,0
+Jan  1 00:00:01 gpNet: [I][GNET] doCSIschedCapTGT() -            : process CSI_SCHEDULED_CAPTURE_TARGET target=1970/01/01-00:00:00 offset=8 state=SC_OFFATUS=0x0000,WAKETIME=0,MTIMER=0,REGS=0,1,0 cnt=4
+Jan  1 00:00:01 gpNet: [I][GNET] init_dbg_fr_JSON() - INIT        g_debug_level=0x285420 g_debug=0x30000000
+Jan  1 00:00:01 gpCamApi: [I][INIT]          main() - gpCamApi IPC mailboxes created. Entering busy loop
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 05 CSI for mbox /to_gpCtlD
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_gpCtlD :CU Sent 5 CSI Notifications to mbox /to_gpCtlD (arglen=30)
+Jan  1 00:00:02 gpNet: [I][GNET]          CAfwdYY() - _gpCtlD2   :YY NAK 0, 17, 21 instead of forwarding.
+Jan  1 00:00:02 gpControlD: UTIL_LOG_ERROR:rsp_size exp/act, 2,1  @gpc_commands.cpp:585
+Jan  1 00:00:02 gpNet: [I][GNET]          CAfwdYY() - _gpCtlD2   :YY NAK 0, 17, 21 instead of forwarding.
+Jan  1 00:00:02 gpControlD: UTIL_LOG_ERROR:rsp_size exp/act, 2,1  @gpc_commands.cpp:610
+Jan  1 00:00:02 gpNet: [I][GNET]          CAfwdYY() - _gpCtlD2   :YY NAK 0, 8, 11 instead of forwarding.
+Jan  1 00:00:02 gpControlD: UTIL_LOG_ERROR:Response was null or size was bad for get1  @gpcontrol_if_server.cpp:5543
+Jan  1 00:00:02 gpNet: [I][GNET]          CAfwdYY() - _gpCtlD2   :YY NAK 0, 7, 8 instead of forwarding.
+Jan  1 00:00:02 gpControlD: UTIL_LOG_ERROR:Orientation[2] was already locked, default orientation will be all @gpcontrol_if_server.cpp:5448
+Jan  1 00:00:02 gpBtMan: [I][BOOT]           main() - Starting gpBtMan daemon
+Jan  1 00:00:02 gpBtMan: [I][BTM ] sm_timer_create() - sm_timer_create: timerfd_create returns 6.
+Jan  1 00:00:02 gpBtMan: [I][BTM ]    init_sniper() - init_sniper: called. Handle=0x43b1b8
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBtMan: [I][BTM ]        init_sm() - init_sm: sm=0x1a00e8f0, name=SN PR SM
+Jan  1 00:00:02 gpBtMan: [I][BTM ] get_free_timer() - get_free_timer: give timer index=0, handle=0x43b230
+Jan  1 00:00:02 gpBtMan: [I][BTM ] sm_timer_register() - sm_timer_register: Timer index=0, func=0x404cb8, sm_timeout_callback=0x404cb8
+Jan  1 00:00:02 gpBtMan: [I][BTM ]  init_sn_pr_sm() - init_sn_pr_sm: init_sm OK
+Jan  1 00:00:02 gpBtMan: [I][BTM ]  sm_post_event() - sm_post_event: Event=SP_PR_EVT_STARTUP_SM (0)
+Jan  1 00:00:02 gpBtMan: [I][BTM ] get_bt_capabilities() - get_bt_capabilities: Send BL-1B (BT_GET_CAP) cmd to BabyBlue to get BT Capabilities
+Jan  1 00:00:02 gpBtMan: [I][BTM ]   init_modules() - init_modules: called.
+Jan  1 00:00:02 gpBtMan: [I][BTM ]           main() - main: sm_timer_fd=6, rxqFrGP.mqd=5
+Jan  1 00:00:02 gpBtMan: [I][BTM ]  state_machine() - state_machine: Event=SP_PR_EVT_STARTUP_SM(0)
+Jan  1 00:00:02 gpBtMan: [I][BTM ] request_ble_whitelist() - request_ble_whitelist: Send BL-06 cmd to BabyBlue to get BLE whitelist
+Jan  1 00:00:02 gpBtMan: [I][BTM ]  state_machine() - SN PR SM:SP_ST_INIT  + SP_PR_EVT_STARTUP_SM-> sm_sn_pr_startup_sm SP_ST_INIT  
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[16, 18, 19, 21, 20] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[16, 18, 19, 21, 20, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 19, 21, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 24, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 18, 24, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 13, 15, 24, 16, 18, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	85, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	85, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	85, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	85, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	85, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 13, 24, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 24, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 24, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 24, 16, 18, 19, 21, 20, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 16, 18, 19, 20, 21, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 16, 18, 19, 21, 20, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 16, 18, 19, 21, 20, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 24, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 16, 18, 19, 20, 21, 24, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 16, 18, 19, 20, 21, 24, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 16, 18, 19, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 24, 16, 18, 19, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 24, 19, 20] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[18] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[18] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[16, 18, 19, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 19, 20, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 19, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[18] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[18] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[18] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[24] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 24] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 24] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[24] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	103, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 16, 18, 19, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 16, 18, 19, 24, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 20] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 13, 15, 16, 18, 19, 20, 21, 24, 25] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[19] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[20] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[20] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[21] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 21, 20, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[12, 15, 13, 24, 16, 18, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[13, 20, 21, 24, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	65, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	65, 	"values":	[2] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	102, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	102, 	"values":	[3] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	110, 	"values":	[5] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 16, 18, 19, 21, 20, 24, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[15, 13, 16, 18, 19, 21, 20, 24, 25, 26] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	74, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	102, 	"values":	[0, 2] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	74, 	"values":	[2, 3] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[0] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	105, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	89, 	"values":	[24] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	108, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Unable to find array tag ids in item { 	"status_id":	109, 	"values":	[1] } @settingsStatusMapping.cpp:578
+Jan  1 00:00:02 gpBleSdkD: UTIL_LOG_ERROR:Waiting for gpBleSdkD babyblue thread to start @gpBleSdkD.cpp:155
+Jan  1 00:00:02 gpBleSdkD: Starting gpBleSdkD
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 23 CSI for mbox /to_blesdk
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CU /frMultiple CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x00"
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_blesdk :CU Sent 23 CSI Notifications to mbox /to_blesdk (arglen=150)
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.502    [INFO]: WOM constructor
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.509    [INFO]: Starting womDaemon daemon
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 09 CSI for mbox /to_wom
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_wom    :CU Sent 9 CSI Notifications to mbox /to_wom (arglen=66)
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.512    [INFO]: [WOM]: enterState: kWomState_Init->kWomState_CSISubscribe
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_csi_womDaemon148 CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x03,0x01,0x03,0x00"
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.513    [INFO]: [WOM]: received CU
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.513    [INFO]: [WOM]: onEvent: received event kWomEvent_LiveStreamURLSet while in state kWomState_CSISubscribe
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.513    [INFO]: [WOM]: onEvent: received event kWomEvent_CSIRegisterAck while in state kWomState_CSISubscribe
+Jan  1 00:00:02 womDaemon: 1970-01-01T00:00:02.514    [INFO]: [WOM]: enterState: kWomState_CSISubscribe->kWomState_Idle
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_csi_womDaemon148 CSI Notify(dyn)-CSI_WMS_STATE(0x4a) <- "0x00,0x00,0x00,0x00"
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_csi_womDaemon148 CSI Notify(dyn)-CSI_BROADCAST_ERROR_CODE(0x08) <- "0x00,0x00,0x00,0x00"
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_csi_womDaemon148 CSI Notify(dyn)-CSI_CAH_WOM_STAER(0x62) <- "0x05,0x01,0x03,0x00"
+Jan  1 00:00:02 gpUsb: [I][BOOT]             main() - Starting gpUsb
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - IPC open
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - mq attributes [flags = 0] [maxmsg = 5] [msgsize = 8192] [curmsgs = 0]
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - mq attributes [flags = 0] [maxmsg = 5] [msgsize = 8192] [curmsgs = 0]
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - mq attributes [flags = 0] [maxmsg = 5] [msgsize = 8] [curmsgs = 0]
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - Stack init
+Jan  1 00:00:02 gpUsb: [I][USB ] send_usb_init_to_rtos() - SD Response, cmd : IN, arg : MTP!
+Jan  1 00:00:02 gpUsb: [I][USB ] send_usb_init_to_rtos() - Buf : , len : 53
+Jan  1 00:00:02 gpUsb: [I][USB ] send_usb_init_to_rtos() - buf send 
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - Stack init done
+Jan  1 00:00:02 gpUsb: [I][USB ]             main() - Main Ready
+Jan  1 00:00:02 gpPlatform: [I][BOOT]        main() - Starting gpPlatform daemon
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 05 CSI for mbox /to_pla
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_pla    :CU Sent 5 CSI Notifications to mbox /to_pla (arglen=35)
+Jan  1 00:00:02 gpPlatform: [I][PLAT] setCAHServr() - gpPlatform:setCAHServr Camera Model is 57, Server Env is 0
+Jan  1 00:00:02 gpAth: [I][BOOT]             main() - Starting (daemon)
+Jan  1 00:00:02 gpAth: [I][ATH ]             main() - Version 6.0.0.0  built on Aug  4 2021 00:47:24 by  at e2c41ad
+Jan  1 00:00:02 gpAth: [I][ATH ]             main() - Crash handler options: 0F0001FF
+Jan  1 00:00:02 gpAth: [I][DRV ]             main() - Initializing netlink..
+Jan  1 00:00:02 gpAth: [I][ITR ] open_itron_communication() - Open itron communication
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 06 CSI for mbox /to_ath
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_ath    :CU Sent 6 CSI Notifications to mbox /to_ath (arglen=45)
+Jan  1 00:00:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 31 CSI for mbox /to_gpnet
+Jan  1 00:00:02 gpNet: [I][GNET]         RTsendHS() - /to_wif    :HS Hello Set (Indicate Wireless is ready)
+Jan  1 00:00:02 gpNet: [I][GNET] suspend_state_ma() - SUSP-SM    :  SUSM_RECEIVED_CR_GPN hr+HS+cr+mr+jr+hw+wr+br+pr su+yy+ps+js+ms+ws+bs ack+so [wifi_rst+fr+wf] 00000002 usec=2761378
+Jan  1 00:00:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CU /frMultiple CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x00"
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_gpnet  :CU Sent 30 CSI Notifications to mbox /to_gpnet (arglen=547)
+Jan  1 00:00:02 gpNet: [I][GNET]         INsendCU() - /to_gpnet  :CU Sent 1 CSI Notifications to mbox /to_gpnet (arglen=1262)
+Jan  1 00:00:02 gpAth: [I][ATH ]             main() - ready and waiting for an event...
+Jan  1 00:00:02 gpUdp: [I][BOOT]             main() - Starting gpUdp daemon
+Jan  1 00:00:02 kernel: [    2.774031] random: crng init done
+Jan  1 00:00:02 kernel: [    2.774046] random: 2 urandom warning(s) missed due to ratelimiting
+Jan  1 00:00:02 root: The current system time is: Thu Jan  1 00:00:02 UTC 1970
+Jan  1 00:00:03 gpNet: [I][GNET]   anal_set_count() - analcnt    : set ANL_NET_CNT(9) to 0
+Jan  1 00:00:03 gpNet: [I][GNET] doCSIschedCapTGT() -            : process CSI_SCHEDULED_CAPTURE_TARGET target=1970/01/01-00:00:00 offset=8 state=SC_OFFU+ cnt=4
+Jan  1 00:00:03 gpAth: [I][ATH ]  parse_csi_state() - CSI_WIFI_BAND = 1
+Jan  1 00:00:03 gpAth: [I][ATH ]  parse_csi_state() - CSI_FW_FORCE_UPDATE = 0
+Jan  1 03:20:02 gpNet: [I][GNET]        gpTimeSet() - 1970/01/01-00:00:03 + 1451618399 seconds = 2016/01/01-03:20:02
+Jan  1 03:20:02 gpNet: [I][GNET]       set_status() - Set STS_ACTIVE_USER            - BPsetHR()
+Jan  1 03:20:02 gpNet: [I][GNET]          BPsetHR() - /fr_wif    :HR ================== Hello Ready(boot#03)(Cold boot)POWER_BUTTON(0x02)br=0x00(2016/01/01-03:20:02)(OFFtime=0m:0s)
+Jan  1 03:20:02 gpNet: [I][GNET]          BPsetHR() - /fr_wif    : HR compiled:Aug  4 2021 00:47:22 by: at:e2c41ad (ACK)br=0x00 st=00000000 pair=NONE menu=Classic
+Jan  1 03:20:02 gpNet: [I][GNET]          BPsetHR() - /fr_wif    : HR Boot: (0x02)Power button pressed.(FRW_POWER_BOOT_REASON_POWER_BUTTON)
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CAMERA_WAKE_REASON(0x2f) <- "0x02,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_BT(0x82) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_RC(0x83) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_gpnet   CSI Notify(dyn)-CSI_CNT_THIS_BOOT_AP(0x84) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][GNET]  setSuspendState() -            :   setSuspendState: SS_RESUMING
+Jan  1 03:20:02 gpNet: [I][GNET] suspend_state_ma() - SUSP-SM    :  SUSM_RECEIVED_HR_CMD HR+hs+cr+mr+jr+hw+wr+br+pr su+yy+ps+js+ms+ws+bs ack+so [wifi_rst+fr+wf] 00000001 usec=000000
+Jan  1 03:20:02 gpNet: [I][GNET]    state_machine() - AP State Ma:   AP_USER_OFF + PREPARE_COLD_BOOT   -> sm_ap_ptor      AP_USER_OFF 
+Jan  1 03:20:02 gpNet: [I][GNET] executeResumCode() - PSMR       :   RESUME POWER STATE (@ resume time=0) [0]: Set:PWR_ALL_ON then WAIT 10 MINS
+Jan  1 03:20:02 gpNet: [I][GNET] executeResumCode() - PSMR       :   next_time=600 since_resume=0
+Jan  1 03:20:02 gpNet: [I][GNET]         UDsendLC() - /to_udp    :LD LCD power icon
+Jan  1 03:20:02 gpNet: [I][GNET]    state_machine() - RC State Ma:   RC_USER_OFF + PREPARE_COLD_BOOT   -> sm_rc_ptor      RC_USER_OFF 
+Jan  1 03:20:02 gpNet: [I][GNET]    state_machine() - BT State Ma:   BT_USER_OFF + PREPARE_COLD_BOOT   -> sm_bt_ptoc1off  BT_USER_OFF 
+Jan  1 03:20:02 gpNet: [I][GNET]    state_machine() - SoftTubesSM:   ST_OFF                     + ST_EVT_RESUME            -> sm_nop           ST_OFF
+Jan  1 03:20:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 03 CSI for mbox /to_udp
+Jan  1 03:20:02 gpNet: [I][GNET]         INsendCU() - /to_udp    :CU Sent 3 CSI Notifications to mbox /to_udp (arglen=24)
+Jan  1 03:20:02 gpNet: [I][GNET]          BPgetGP() - /fr_wif    :gp%0001 pair=NONE menu=Classic status=00000000 [sts2=04c10400 feat=00015b80]
+Jan  1 03:20:02 gpNet: [I][CSI ] gotCSIregistrati() -            :CR register 57 CSI for mbox /to_wif
+Jan  1 03:20:02 gpNet: [I][GNET]         INsendCU() - /to_wif    :CU Sent 57 CSI Notifications to mbox /to_wif (arglen=515)
+Jan  1 03:20:02 gpUsb: [I][USB ]             main() - Message received from IPC = 113
+Jan  1 03:20:02 gpUsb: [I][USB ] process_arriving_message() - cmd : in, value : C34XXXXXXXXXXX
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_handle_init_response() - Size=64, len=64
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_handle_init_response() - Camera Serial no : C34XXXXXXXXXXX, Version : H21.01.01.00.00, Camera ID: 57
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_handle_init_response() - Camera Name : HERO10 Black, MTP Product ID : 83, Is MFG_SUPPORT flag: 0, eth product ID: 85
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_sd_state_update() - add removables : 3
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_sd_state_update() - save SD state
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_handle_init_response() - is parakeet : 0, default_class : 0
+Jan  1 03:20:02 gpUsb: [I][USB ] usb_handle_init_response() - Camera Serial no : C34XXXXXXXXXXX, Version : H21.01.01.00.00, Camera_id : 57
+Jan  1 03:20:02 gpUsb: [I][USB ]   usb_stop_timer() - Stop Timer State=0
+Jan  1 03:20:02 gpUsb: [W][USB ] usb_handle_init_response() - parakeet Not Connected
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_NEW_WAKEUP_REASON(0x7f) <- "0xff,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_wif    :CN /fr_wif     CSI Notify(dyn)-CSI_NEW_WAKEUP_REASON(0x7f) <- "0xff,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0xff,0xff,0xff,0xff"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_wom    :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0xff,0xff,0xff,0xff"
+Jan  1 03:20:02 womDaemon: 2016-01-01T03:20:02.745    [INFO]: [WOM]: received CN
+Jan  1 03:20:02 womDaemon: 2016-01-01T03:20:02.745    [INFO]: [WOM]: onEvent: received event kWomEvent_SDNotOk while in state kWomState_Idle
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0xff,0xff,0xff,0xff"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_WOV_ACTIVE(0x2e) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x13,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_LIFE(0x2b) <- "0x13,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_BATTERY_EXTERNAL_POWER(0x3d) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_wif    :CN /fr_wif     CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_ath    :CN /fr_wif     CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpAth: [I][ATH ]  parse_csi_state() - CSI_FW_FORCE_UPDATE = 1
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_FW_FORCE_UPDATE(0x88) <- "0x01,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x04,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_wom    :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x04,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x04,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_gpnet  :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_wom    :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_wif     CSI Notify(dyn)-CSI_SD_CARD_STATE(0x3e) <- "0x00,0x00,0x00,0x00"
+Jan  1 03:20:02 gpNet: [I][CSI ]      log_csi_msg() - /to_pla    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_STATE(0x22) <- "0x04"
+Jan  1 03:20:02 kernel: [    3.891879] womDaemon (148): drop_caches: 3
+Jan  1 03:20:03 gpNet: [I][CSI ]      log_csi_msg() - /to_gpCtlD :CN /fr_gpCtlD  CSI Notify(dyn)-CSI_PRESETS_MODIFIED(0x07) <- "0x00,0x00,0x00,0x06"
+Jan  1 03:20:03 gpNet: [I][CSI ]      log_csi_msg() - /to_blesdk :CN /fr_gpCtlD  CSI Notify(dyn)-CSI_PRESETS_MODIFIED(0x07) <- "0x00,0x00,0x00,0x06"
+Jan  1 03:20:03 womDaemon: 2016-01-01T03:20:02.792    [INFO]: [WOM]: received CN
+Jan  1 03:20:03 womDaemon: 2016-01-01T03:20:03.102    [INFO]: [WOM]: onEvent: received event kWomEvent_SDNotOk while in state kWomState_Idle
+Jan  1 03:20:03 womDaemon: 2016-01-01T03:20:03.124    [INFO]: [WOM]: received CN
+Jan  1 03:20:03 kernel: [    4.223979] womDaemon (148): drop_caches: 3
+Jan  1 03:20:03 kernel: [    4.231476] dwc3-milbeaut 1ba60000.usb31: dwc3: dr_mode is Peripheral
+Jan  1 03:20:03 gpNet: [I][GNET]  parseSendScript() - gpauto > /usr/local/gopro/scripts/gpsend SC%02&
+Jan  1 03:20:03 gpNet: [I][GNET]  parseSendScript() - gpauto > /usr/local/gopro/scripts/gpsend &
+Jan  1 03:20:03 gpUsb: [I][USB ] usb_handle_init_response() - Starting [/bin/sh /usr/bin/mtp_script.sh C34XXXXXXXXXXX 83 HERO10 Black] returns: [0]
+Jan  1 03:20:03 gpUsb: [I][USB ] process_arriving_message() - index : 11
+Jan  1 03:20:03 gpUsb: [I][USB ]             main() - Message received from IPC = 51
+Jan  1 03:20:03 gpUsb: [I][USB ] process_arriving_message() - cmd : SC, value : ^A
+Jan  1 03:20:03 gpUsb: [I][USB ] usb_sd_state_change() -  current state : 1 
+Jan  1 03:20:03 gpNet: [I][CSI ]      log_csi_msg() - /to_pla    :CN /fr_gpnet   CSI Notify(dyn)-CSI_ST_STATE(0x22) <- "0x0c"
+Jan  1 03:20:03 kernel: [    4.325373] sh (187): drop_caches: 3
+Jan  1 03:20:03 gpNet: [I][GNET]  start_sched_cap() - starting sched capture
+Jan  1 03:20:03 gpNet: [I][GNET]  start_sched_cap() - /frcsi     : Start Scheduled Capture

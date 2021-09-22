@@ -1,0 +1,54 @@
+-r--r--r--    1 root     root             0 Jan  1 03:28 buddyinfo
+dr-xr-xr-x    4 root     root             0 Jan  1 03:28 bus
+-r--r--r--    1 root     root             0 Jan  1 03:28 cgroups
+-r--r--r--    1 root     root             0 Jan  1 03:28 cmdline
+-r--r--r--    1 root     root         25725 Jan  1 03:28 config.gz
+-r--r--r--    1 root     root             0 Jan  1 03:28 consoles
+-r--r--r--    1 root     root             0 Jan  1 03:28 cpuinfo
+-r--r--r--    1 root     root             0 Jan  1 03:28 crypto
+lrwxrwxrwx    1 root     root            29 Jan  1 03:28 device-tree -> /sys/firmware/devicetree/base
+-r--r--r--    1 root     root             0 Jan  1 03:28 devices
+-r--r--r--    1 root     root             0 Jan  1 03:28 diskstats
+dr-xr-xr-x    2 root     root             0 Jan  1 03:28 driver
+-r--r--r--    1 root     root             0 Jan  1 03:28 execdomains
+-r--r--r--    1 root     root             0 Jan  1 03:28 fb
+-r--r--r--    1 root     root             0 Jan  1 03:28 filesystems
+dr-xr-xr-x    6 root     root             0 Jan  1 03:28 fs
+-r--r--r--    1 root     root             0 Jan  1 03:28 interrupts
+-r--r--r--    1 root     root             0 Jan  1 03:28 iomem
+-r--r--r--    1 root     root             0 Jan  1 03:28 ioports
+dr-xr-xr-x   23 root     root             0 Jan  1 03:28 irq
+-r--r--r--    1 root     root             0 Jan  1 03:28 kallsyms
+-r--r--r--    1 root     root             0 Jan  1 03:28 key-users
+-r--r--r--    1 root     root             0 Jan  1 03:28 keys
+-r--------    1 root     root             0 Jan  1 03:28 kmsg
+-r--------    1 root     root             0 Jan  1 03:28 kpagecount
+-r--------    1 root     root             0 Jan  1 03:28 kpageflags
+-r--r--r--    1 root     root             0 Jan  1 03:28 loadavg
+-r--r--r--    1 root     root             0 Jan  1 03:28 locks
+-r--r--r--    1 root     root             0 Jan  1 03:28 meminfo
+-r--r--r--    1 root     root             0 Jan  1 03:28 misc
+-r--r--r--    1 root     root             0 Jan  1 03:28 modules
+lrwxrwxrwx    1 root     root            11 Jan  1 03:28 mounts -> self/mounts
+-r--r--r--    1 root     root             0 Jan  1 03:28 mtd
+lrwxrwxrwx    1 root     root             8 Jan  1 03:28 net -> self/net
+-r--------    1 root     root             0 Jan  1 03:28 pagetypeinfo
+-r--r--r--    1 root     root             0 Jan  1 03:28 partitions
+-r--r--r--    1 root     root             0 Jan  1 03:28 sched_debug
+dr-xr-xr-x    2 root     root             0 Jan  1 03:28 scsi
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 self -> 200
+-rw-------    1 root     root             0 Jan  1 03:28 slabinfo
+-r--r--r--    1 root     root             0 Jan  1 03:28 softirqs
+-r--r--r--    1 root     root             0 Jan  1 03:28 stat
+-r--r--r--    1 root     root             0 Jan  1 03:28 swaps
+dr-xr-xr-x    1 root     root             0 Jan  1  1970 sys
+--w-------    1 root     root             0 Jan  1 03:28 sysrq-trigger
+dr-xr-xr-x    2 root     root             0 Jan  1 03:28 sysvipc
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 thread-self -> 200/task/200
+-r--------    1 root     root             0 Jan  1 03:28 timer_list
+dr-xr-xr-x    4 root     root             0 Jan  1 03:28 tty
+-r--r--r--    1 root     root             0 Jan  1 03:28 uptime
+-r--r--r--    1 root     root             0 Jan  1 03:28 version
+-r--------    1 root     root             0 Jan  1 03:28 vmallocinfo
+-r--r--r--    1 root     root             0 Jan  1 03:28 vmstat
+-r--r--r--    1 root     root             0 Jan  1 03:28 zoneinfo

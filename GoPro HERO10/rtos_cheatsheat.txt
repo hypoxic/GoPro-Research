@@ -1,0 +1,16 @@
+t dbg fdr battery printLvl off
+
+# Backup calibration and stuff
+t frw nvm save user_pref user.bin
+t frw nvm save system_pref system.bin
+t frw nvm save calibration calibration.bin
+t frw nvm save vendor vendor.bin
+t frw nvm save preset preset.bin
+
+t api wireless csi_get CSI_APP_PW_SSID
+t api wireless csi_get CSI_APP_PASSPHRASE
+
+<< Bug with writes, writes zeros to the next 32 bits >>
+t frw util read32 0x11640000 0 32
+
+t mfg_usb mtp
