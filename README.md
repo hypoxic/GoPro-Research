@@ -52,7 +52,7 @@ Various public dumps, logs, and musings from our research on these various camer
 [GoPro HERO 9](https://github.com/hypoxic/GoPro-Research/tree/master/Gopro%20HERO9)  
 [GoPro MAX](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro_Max)   
 [GoPro HERO 8](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro%20HERO8)  
-[GoPro HERO 8](https://github.com/hypoxic/gopro-HERO7)   
+[GoPro HERO 7](https://github.com/hypoxic/gopro-HERO7)   
 [GoPro HERO 5](https://github.com/hypoxic/hero5)   
 [GoPro HERO 4 Session](https://github.com/hypoxic/hero4-session)  
 
