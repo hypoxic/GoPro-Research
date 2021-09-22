@@ -3,6 +3,7 @@
 This Repo has logs, utilities, and legally extracted assests for various GoPro Cameras. Older camera's assets are in their own unique repos within Hypoxic's Github.
 
 ## Camera Teardowns 
+[GoPro HERO10 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero10-teardown)   
 [GoPro HERO9 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero9-teardown)   
 [GoPro HERO MAX Physical Teardown](https://gethypoxic.com/blogs/technical/gopro-max-teardown)  
 [GoPro HERO8 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero8-teardown)    
@@ -21,8 +22,14 @@ This Repo has logs, utilities, and legally extracted assests for various GoPro C
 
 
 ## Tools 
-Various tools I use to extract data from the firmware images.   
-Works with GoPro HERO\[6-x\]
+Various tools to extract data from the firmware images. 
+
+### GP2
+GoPro HERO 10 and up.  
+[Tools and scripts for GP2 based cameras](tools/GP2/readme.md)
+
+### GP1
+Works with GoPro HERO\[6-9\]
 *   **unpackh6** - Breaks up the firmware into it's various binary blobs
 *   **binldr.py** - IDA loader for RTOS straight from update file
 *   **busybox** - Compiled busybox with all the components such as telnetd 
@@ -38,4 +45,14 @@ Works with GoPro HERO\[6-x\]
 *   **replace_rom_file.py** - Replaces a rom file with an external rom file and recalculates the crcs. Must be the same size. Replace the original files with the resulting files
 *   **replace_section_file** - Replaces an extracted section with the one passed. Usefull for patching linux to add your own hook. 
 
+## Logs
+Various public dumps, logs, and musings from our research on these various cameras.   
+
+[GoPro HERO 10](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro%20HERO10)  
+[GoPro HERO 9](https://github.com/hypoxic/GoPro-Research/tree/master/Gopro%20HERO9)  
+[GoPro MAX](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro_Max)   
+[GoPro HERO 8](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro%20HERO8)  
+[GoPro HERO 8](https://github.com/hypoxic/gopro-HERO7)   
+[GoPro HERO 5](https://github.com/hypoxic/hero5)   
+[GoPro HERO 4 Session](https://github.com/hypoxic/hero4-session)  
 
