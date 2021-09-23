@@ -1,4 +1,6 @@
 t frw util memmon
+Notes: EL3 Entry point 0x580001E0
+
 [00307990][I] gp_test  *******************************************************
 [00307990][I] gp_test  MEMORY MONITOR : SDRAM linker partition :
 [00307991][I] gp_test  *******************************************************
