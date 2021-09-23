@@ -5,8 +5,6 @@ import ida_offset
 import ida_auto, ida_kernwin, ida_diskio
 import re
 
-BADADDR=0xffffffffffffffff
-
 #Based on Evil Wombats's Analyzer. Updated to GP2
 def urlify(s):
 
@@ -29,7 +27,7 @@ def get_function_start(ea):
 def function_exists(n):
     ret = False
     ea = idaapi.get_name_ea(idaapi.NT_NONE, n)
-    if ea != BADADDR:
+    if ea != idc.BADADDR:
         ret = True			
 
     return ret
