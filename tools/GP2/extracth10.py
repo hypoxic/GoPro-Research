@@ -76,8 +76,12 @@ for vol in parser(li):
     name = os.path.join(directory, fn)
     print(fn)
         
-    # lets remove the gopro header        
-    s=bytes(buf)[0x200:]
+    # lets remove the gopro header   
+    if(vol.vtype != 3):     
+        s=bytes(buf)[0x200:]
+    else:                  
+        s=bytes(buf)
+        
     with open(name,"wb") as fo:
         fo.write(s)
     
