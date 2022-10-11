@@ -3,6 +3,7 @@
 This Repo has logs, utilities, and legally extracted assests for various GoPro Cameras. Older camera's assets are in their own unique repos within Hypoxic's Github.
 
 ## Camera Teardowns 
+[GoPro HERO11 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero11-teardown)   
 [GoPro HERO10 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero10-teardown)   
 [GoPro HERO9 Teardown](https://gethypoxic.com/blogs/technical/gopro-hero9-teardown)   
 [GoPro HERO MAX Physical Teardown](https://gethypoxic.com/blogs/technical/gopro-max-teardown)  
@@ -14,6 +15,7 @@ This Repo has logs, utilities, and legally extracted assests for various GoPro C
 [GoPro HERO5 Physical Teardown](https://gethypoxic.com/blogs/technical/gopro-hero5-tear-down-and-software-study) | [HERO5 Repo](https://github.com/hypoxic/hero5)
 
 ## Interfaces & Accessories
+[Socionext GP1 / SC2000a Research](https://gethypoxic.com/blogs/technical/socionext-gp1-sc2000a-study)
 [Micronesia (Security Enclave) Research](https://gethypoxic.com/blogs/technical/a-practical-guide-for-cracking-aes-128-encrypted-firmware-updates)  
 [GoPro Media Mod Teardown](https://gethypoxic.com/blogs/technical/gopro-media-mod-teardown)   
 [Anti Cloning Technology on the GoPro HEROBUS(tm) 2.0](https://gethypoxic.com/blogs/technical/anti-cloning-technology-on-the-gopro-herobus-2-0?_pos=2&_sid=d65b56eb9&_ss=r)  
@@ -44,10 +46,13 @@ Works with GoPro HERO\[6-9\]
 *   **readldr.py** - IDA loader for a read in binary. Use memdump_h8 within linux os, then use this loader on resulting binary.
 *   **replace_rom_file.py** - Replaces a rom file with an external rom file and recalculates the crcs. Must be the same size. Replace the original files with the resulting files
 *   **replace_section_file** - Replaces an extracted section with the one passed. Usefull for patching linux to add your own hook. 
+*   **gp1info** - A tool which loads a binary from Linux into RTOS memory space and then overwrites a test command. Allows me to run my own code in the RTOS. 
+The complimentary RTOS code allows me to run MCR's to get information on the Socionext GP1 processor. It also has some calls to inspect the eMMC prior to phyiscally removing the device. 
 
 ## Logs
 Various public dumps, logs, and musings from our research on these various cameras.   
 
+[GoPro HERO 11](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro%20HERO11)  
 [GoPro HERO 10](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro%20HERO10)  
 [GoPro HERO 9](https://github.com/hypoxic/GoPro-Research/tree/master/Gopro%20HERO9)  
 [GoPro MAX](https://github.com/hypoxic/GoPro-Research/tree/master/GoPro_Max)   
