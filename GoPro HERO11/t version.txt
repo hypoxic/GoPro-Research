@@ -1,0 +1,15 @@
+s:>t version
+[01524033][I] gp_test   cmd: t version
+[01524033][I] gp_test
+[01524033][I] gp_test
+[01524033][I] gp_test   ******************* HERO11 Black - sultans ********************************************
+[01524033][I] gp_test           Release H22.01.01.00.00 compiled Jul  9 2022, 02:24:09 git-36c602bb
+[01524033][I] gp_test           system.elf MD5 checksum : a12ea96c0ef314548ac4f7304cf77603
+[01524033][I] gp_test           SDK Version 00010200
+[01524033][I] gp_test           DSPC AWE Release AWE_Core V6 Build 1532 AWE_LIB: 20220207 - AWB SULT-2-1-0-2-7-2022
+[01524033][I] gp_test                   Sensory SDK 4.6.1-5+g15b3755
+[01524033][I] gp_test           Production release
+[01524033][I] gp_test           GPDEV disabled
+[01524033][I] gp_test   ***********************************************************************************
+[01524033][I] gp_test
+[01524033][I] gp_test   T_SUCCESS (version): 0

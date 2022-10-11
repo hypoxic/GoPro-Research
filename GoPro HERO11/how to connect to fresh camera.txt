@@ -1,0 +1,12 @@
+How to connect to fresh camera
+
+with debug cable
+  t mfg_usb 1
+with normal cable now connect to linux
+  t frw usb enable-linux-logs 1
+
+# New ble daemon called gpBlueverse
+kill <gpBlueverse>
+kill <gpBlueverse> 
+/usr/local/gopro/bin/gpBlueverse
+

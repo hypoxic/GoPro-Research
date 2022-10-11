@@ -1,0 +1,154 @@
+t frw util memmon
+cmd: t frw util memmon
+*******************************************************
+MEMORY MONITOR : SDRAM linker partition :
+*******************************************************
+
+ | SECTION                           |   START ADDRESS  |  END ADDRESS   | SIZE IN MBytes |
+ | RTOS CODE                         |   0x 40200000    |  0x 4124C7C0   |      16.30 MB  |
+ | RTOS RODATA                       |   0x 4124C800    |  0x 440549C0   |      46.03 MB  |
+ | RTOS DATA                         |   0x 441A26C0    |  0x 442EB200   |       1.28 MB  |
+ | RTOS HEAP (malloc)                |   0x 46D76C40    |  0x 46E76C40   |       1.00 MB  |
+ | RTOS PTABLE                       |   0x 442EC000    |  0x 442EF000   |       0.01 MB  |
+ | RTOS BSS                          |   0x 442F0000    |  0x 46D76C40   |      42.53 MB  |
+ | RTOS TKERNEL MEM                  |   0x 46E76C40    |  0x 50000000   |     145.54 MB  |
+ | LINUX OS                          |   0x 50000000    |  0x 5C000000   |     192.00 MB  |
+ | LINUX RTOS COMMON MEM             |   0x 40080000    |  0x 40080200   |       0.00 MB  |
+ | LINUX RTOS IPCU BUFF              |   0x 400BC228    |  0x 4017C228   |       0.75 MB  |
+ | LINUX RTOS IPCU SYNC              |   0x 4017C228    |  0x 4017C288   |       0.00 MB  |
+ | DSP                               |   0x 5C000000    |  0x 5D800000   |      24.00 MB  |
+ | COMMON AUDIO / FS                 |   0x 5D800000    |  0x 5E5DDD80   |      13.87 MB  |
+ | LARGE MEMORY HEAP                 |   0x 5E5DDD80    |  0x140000000   |    3610.13 MB  |
+
+ Test simple malloc => allocates @ 0x46D7F130
+ Test simple rtos malloc => allocates @ 0x4B99F910
+
+*******************************************************
+MEMORY MONITOR : HostFw RTOS ALLOC status :
+*******************************************************
+
+ - TKERNEL alllocator : total 129.54MB available 74.13MB
+ - TKERNEL internal allocator : total 15.37MB  available 3.91MB
+
+MEMORY MONITOR : HostFw imaging memory status :
+
+*******************************************************
+MEMORY MONITOR : BaseFW status :
+*******************************************************
+
+Memory          : Start Add    = 0x5E5DDD80 | End   Add = 0x140000000
+Memory bot heap : Curr Bot Ptr = 0x140000000 | End   Add = 0x140000000 | Used 0.00 MBs
+Memory top heap : Curr Top Ptr = 0x5E5DDD80 | start Add = 0x5E5DDD80 | Used 0.00 MBs
+Memory tot heap : free 3610.13 MBs / used 0.00 MBs / tot 3610.13 MBs
+[T:   12] rtos_mem_section_debug_info:291 Host FW Heap Metadata
+[T:   12] rtos_mem_section_debug_info:293  Heap start addr  0x5E5DDD80
+[T:   12] rtos_mem_section_debug_info:294  Heap end addr 0x140000000
+[T:   12] rtos_mem_section_debug_info:295  Heap total size 3610.13 MB
+[T:   12] rtos_mem_section_debug_info:297 ******* Dumping metadata for currently allocated ALL heap memory buffers  *****
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:657 MEM ALLOC INFO Start Add = 0x5E5DDD80 | End Add = 0x140000000 | CurrTop = 0x5E5DDD80 | CurrBtm = 0x140000000 | free 3610.13 MBs / tot 3610.13 MBs
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:658 Total number of elements = 0
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:664 ************* 32bit address space ********************
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:675 ************* 32bit address space, total size = 0(MB) ********************
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:681 ************* 64bit address space ********************
+[T:   12] BF_MEMORY_Print_Alloc_Log_All_Addr_Space:692 ************* 64bit address space, total size = 0(MB) ********************
+[T:   12] rtos_mem_section_debug_info:300 ******* Dumping metadata for currently allocated HOST memory buffers  *****
+T_SUCCESS (frw): 0
+
+
+t c memory allocprtall
+Total number of elements = 42
+Alloc : 'Audio record work 1             ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   127, address:0x6A2A0400, size=8192(byte)
+Alloc : 'Audio record work 0             ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   118, address:0x6A29E400, size=8192(byte)
+Alloc : 'Audio record 1                  ',  func name:'Sdram_Map_Movie_Record_Initialize' line :   107, address:0x6939E400, size=15728640(byte)
+Alloc : 'Audio record 0                  ',  func name:'Sdram_Map_Movie_Record_Initialize' line :    95, address:0x6849E400, size=15728640(byte)
+Alloc : 'mem29                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F428000, size=497664(byte)
+Alloc : 'mem29                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F4A4000, size=497664(byte)
+Alloc : 'mem29                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F520000, size=497664(byte)
+Alloc : 'mem20                           ',  func name:'bf_memory_init_config           ' line :   346, address:0x6845AC00, size=276480(byte)
+Alloc : 'mem20                           ',  func name:'bf_memory_init_config           ' line :   346, address:0x68417400, size=276480(byte)
+Alloc : 'mem20                           ',  func name:'bf_memory_init_config           ' line :   346, address:0x683D3C00, size=276480(byte)
+Alloc : 'mem19                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F59C000, size=129024(byte)
+Alloc : 'mem19                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F5BC000, size=129024(byte)
+Alloc : 'mem19                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F5DC000, size=129024(byte)
+Alloc : 'mem16                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F5FC000, size=460800(byte)
+Alloc : 'mem16                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F670000, size=460800(byte)
+Alloc : 'mem16                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F6E4000, size=460800(byte)
+Alloc : 'mem15                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F757800, size=124416(byte)
+Alloc : 'mem15                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F776000, size=124416(byte)
+Alloc : 'mem15                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F794800, size=124416(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F7B3000, size=497664(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F82C800, size=497664(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F8A6000, size=497664(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F91F800, size=497664(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13F999000, size=497664(byte)
+Alloc : 'mem14                           ',  func name:'bf_memory_init_config           ' line :   348, address:0x13FA12800, size=497664(byte)
+Alloc : 'dce_mbprm                       ',  func name:'bf_analyze_dce_init             ' line :  1666, address:0x13FA8C000, size=245760(byte)
+Alloc : 'mem1                            ',  func name:'bf_memory_init_config           ' line :   348, address:0x13FAC8000, size=1244160(byte)
+Alloc : 'mem1                            ',  func name:'bf_memory_init_config           ' line :   348, address:0x13FBF7C00, size=1244160(byte)
+Alloc : 'mem1                            ',  func name:'bf_memory_init_config           ' line :   348, address:0x13FD27800, size=1244160(byte)
+Alloc : 'RDMA_mem_alloc_data_addr        ',  func name:'BF_Rdma_Memory_Alloc            ' line :   261, address:0x683D2A6C, size=3924(byte)
+Alloc : 'RDMA_mem_alloc_reg_addr         ',  func name:'BF_Rdma_Memory_Alloc            ' line :   248, address:0x683D1B18, size=3924(byte)
+Alloc : 'RDMA_mem_alloc_data_addr        ',  func name:'BF_Rdma_Memory_Alloc            ' line :   261, address:0x683D15C8, size=1360(byte)
+Alloc : 'RDMA_mem_alloc_reg_addr         ',  func name:'BF_Rdma_Memory_Alloc            ' line :   248, address:0x683D1078, size=1360(byte)
+Alloc : 'mem1                            ',  func name:'DataMemHolder                   ' line :    44, address:0x683D0F28, size=336(byte)
+Alloc : 'mem1                            ',  func name:'gpsm_mem_container_set_scenario_hook' line :   135, address:0x683D0D58, size=464(byte)
+Alloc : 'EisMblk                         ',  func name:'genDceStaticGrids               ' line :  1692, address:0x13FE57600, size=336(byte)
+Alloc : 'EisLgrid                        ',  func name:'genDceStaticGrids               ' line :  1656, address:0x13FE57780, size=672(byte)
+Alloc : 'Eis                             ',  func name:'setup                           ' line :   528, address:0x13FE57A80, size=1738104(byte)
+Alloc : 'UseCase                         ',  func name:'makeUseCase                     ' line :    22, address:0x67D08E80, size=7110360(byte)
+Alloc : 'RTOS_MEM_SECTION_9              ',  func name:'_mem_section_aligned_alloc      ' line :   216, address:0x62088E80, size=96993280(byte)
+Alloc : 'RTOS_MEM_SECTION_7              ',  func name:'_mem_section_aligned_alloc      ' line :   216, address:0x602FF200, size=30973029(byte)
+Alloc : 'RTOS_MEM_SECTION_6              ',  func name:'_mem_section_aligned_alloc      ' line :   216, address:0x5E5DDD80, size=30545015(byte)
+
+
+t c memory allocprtall_space
+start 'memory allocprtall_space' command
+
+MEM ALLOC INFO Start Add = 0x5E5DDD80 | End Add = 0x140000000 | CurrTop = 0x6A2A2400 | CurrBtm = 0x13F428000 | free 3409.52 MBs / tot 3610.13 MBs
+Total number of elements = 42
+************* 32bit address space ********************
+Alloc : 'Audio record work 1             ',  fn:'Sdram_Map_Movie_Record_Initialize                   ' line :   127, address:0x6A2A0400, size=      8192(bytes), size=  0.01(MB)
+Alloc : 'Audio record work 0             ',  fn:'Sdram_Map_Movie_Record_Initialize                   ' line :   118, address:0x6A29E400, size=      8192(bytes), size=  0.01(MB)
+Alloc : 'Audio record 1                  ',  fn:'Sdram_Map_Movie_Record_Initialize                   ' line :   107, address:0x6939E400, size=  15728640(bytes), size= 15.00(MB)
+Alloc : 'Audio record 0                  ',  fn:'Sdram_Map_Movie_Record_Initialize                   ' line :    95, address:0x6849E400, size=  15728640(bytes), size= 15.00(MB)
+Alloc : 'mem20                           ',  fn:'bf_memory_init_config                               ' line :   346, address:0x6845AC00, size=    276480(bytes), size=  0.26(MB)
+Alloc : 'mem20                           ',  fn:'bf_memory_init_config                               ' line :   346, address:0x68417400, size=    276480(bytes), size=  0.26(MB)
+Alloc : 'mem20                           ',  fn:'bf_memory_init_config                               ' line :   346, address:0x683D3C00, size=    276480(bytes), size=  0.26(MB)
+Alloc : 'RDMA_mem_alloc_data_addr        ',  fn:'BF_Rdma_Memory_Alloc                                ' line :   261, address:0x683D2A6C, size=      3924(bytes), size=  0.00(MB)
+Alloc : 'RDMA_mem_alloc_reg_addr         ',  fn:'BF_Rdma_Memory_Alloc                                ' line :   248, address:0x683D1B18, size=      3924(bytes), size=  0.00(MB)
+Alloc : 'RDMA_mem_alloc_data_addr        ',  fn:'BF_Rdma_Memory_Alloc                                ' line :   261, address:0x683D15C8, size=      1360(bytes), size=  0.00(MB)
+Alloc : 'RDMA_mem_alloc_reg_addr         ',  fn:'BF_Rdma_Memory_Alloc                                ' line :   248, address:0x683D1078, size=      1360(bytes), size=  0.00(MB)
+Alloc : 'mem1                            ',  fn:'DataMemHolder                                       ' line :    44, address:0x683D0F28, size=       336(bytes), size=  0.00(MB)
+Alloc : 'mem1                            ',  fn:'gpsm_mem_container_set_scenario_hook                ' line :   135, address:0x683D0D58, size=       464(bytes), size=  0.00(MB)
+Alloc : 'UseCase                         ',  fn:'makeUseCase                                         ' line :    22, address:0x67D08E80, size=   7110360(bytes), size=  6.78(MB)
+Alloc : 'RTOS_MEM_SECTION_9              ',  fn:'_mem_section_aligned_alloc                          ' line :   216, address:0x62088E80, size=  96993280(bytes), size= 92.50(MB)
+Alloc : 'RTOS_MEM_SECTION_7              ',  fn:'_mem_section_aligned_alloc                          ' line :   216, address:0x602FF200, size=  30973029(bytes), size= 29.54(MB)
+Alloc : 'RTOS_MEM_SECTION_6              ',  fn:'_mem_section_aligned_alloc                          ' line :   216, address:0x5E5DDD80, size=  30545015(bytes), size= 29.13(MB)
+************* 32bit address space, total size = 188(MB) ********************
+************* 64bit address space ********************
+Alloc : 'mem29                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F428000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem29                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F4A4000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem29                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F520000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem19                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F59C000, size=    129024(bytes), size=  0.12(MB)
+Alloc : 'mem19                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F5BC000, size=    129024(bytes), size=  0.12(MB)
+Alloc : 'mem19                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F5DC000, size=    129024(bytes), size=  0.12(MB)
+Alloc : 'mem16                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F5FC000, size=    460800(bytes), size=  0.44(MB)
+Alloc : 'mem16                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F670000, size=    460800(bytes), size=  0.44(MB)
+Alloc : 'mem16                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F6E4000, size=    460800(bytes), size=  0.44(MB)
+Alloc : 'mem15                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F757800, size=    124416(bytes), size=  0.12(MB)
+Alloc : 'mem15                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F776000, size=    124416(bytes), size=  0.12(MB)
+Alloc : 'mem15                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F794800, size=    124416(bytes), size=  0.12(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F7B3000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F82C800, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F8A6000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F91F800, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13F999000, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'mem14                           ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13FA12800, size=    497664(bytes), size=  0.47(MB)
+Alloc : 'dce_mbprm                       ',  fn:'bf_analyze_dce_init                                 ' line :  1666, address:0x13FA8C000, size=    245760(bytes), size=  0.23(MB)
+Alloc : 'mem1                            ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13FAC8000, size=   1244160(bytes), size=  1.19(MB)
+Alloc : 'mem1                            ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13FBF7C00, size=   1244160(bytes), size=  1.19(MB)
+Alloc : 'mem1                            ',  fn:'bf_memory_init_config                               ' line :   348, address:0x13FD27800, size=   1244160(bytes), size=  1.19(MB)
+Alloc : 'EisMblk                         ',  fn:'genDceStaticGrids                                   ' line :  1692, address:0x13FE57600, size=       336(bytes), size=  0.00(MB)
+Alloc : 'EisLgrid                        ',  fn:'genDceStaticGrids                                   ' line :  1656, address:0x13FE57780, size=       672(bytes), size=  0.00(MB)
+Alloc : 'Eis                             ',  fn:'setup                                               ' line :   528, address:0x13FE57A80, size=   1738104(bytes), size=  1.66(MB)
+************* 64bit address space, total size = 11(MB) ********************

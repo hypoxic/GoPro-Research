@@ -1,0 +1,319 @@
+t c disp get_inst_info
+|                     [Disp id : 0]
+|                             Active
+IO_DISP.COMMON[0].LCH.LTRG.word=3
+IO_DISP.COMMON[0].DCORE.TRG.word=3
+IO_DISP.COMMON[0].GRCH[0].GRTRG.word=3
+IO_DISP.COMMON[0].GRCH[1].GRTRG.word=2
+|                                     [Disp Window Info]
+|                                     Disp type                                   :    0
+|                                     Disp state                                  :    0
+[DisplayPort Settings]
+scramble_dis                       = 0
+enhance_framing_en                 = 0
+default_fast_link_train_en         = 0
+scale_down_mode                    = 0
+force_hpd                          = 0
+disable_interleaving               = 0
+sel_aux_timeout_32ms               = 1
+|                                       Disp rotate_degree                          :    0
+sr_scale_down                      = 0
+bs_512_scale_down                  = 0
+video_mapping                      = 0
+pixel_mode_select                  = 0
+vsync_in_polarity                  = 0
+hsync_in_polarity                  = 0
+de_in_polarity                     = 0
+r_v_blank_in_osc                   = 0
+i_p                                = 0
+hblank                             = 0
+|                                       DispIn x_pos                                :    0
+hactive                            = 0
+vactive                            = 0
+vblank                             = 0
+h_front_porch                      = 0
+h_sync_width                       = 0
+v_front_porch                      = 0
+v_sync_width                       = 0
+average_bytes_per_tu               = 0
+init_threshold                     = 0
+average_bytes_per_tu_frac          = 0
+|                                       DispIn y_pos                                :    0
+enable_3d_frame_field_seq          = 0
+init_threshold_hi                  = 0
+hblank_interval                    = 0
+hstart                             = 0
+vstart                             = 0
+mvid                               = 0
+misc0                              = 0x0
+nvid                               = 0
+misc1                              = 0x0
+audio_inf_select                   = 0
+|                                       DispIn width                                :  320
+audio_data_in_en                   = 1
+audio_data_width                   = 24
+hbr_mode_enable                    = 0
+num_channels                       = 1
+audio_mute                         = 0
+audio_packet_id                    = 0
+audio_timestamp_version_num        = 18
+sdp_vertical.en_vertical_sdp_n     = 0x0
+sdp_vertical.en_128bytes_sdp_1     = 0
+sdp_vertical.disable_ext_sdp       = 0
+|                                       DispIn lines                                :  552
+sdp_vertical.fixed_priority_arb    = 0
+[00195795]sdp_horizontal.en_horizontal_sdp_n = 0x0
+sdp_horizontal.fixed_priority_arb  = 0
+tps_sel                            = 0
+phyif_ctrl.phy_rate                = 0
+|          
+                          DispOut x_pos                               :   24
+|                                     DispOut y_pos                               :    0
+|                                     DispOut width                               :  320
+|                                     DispOut lines                               :  552
+|                                     Disp Reverse (H)                            :    0
+|                                     Disp Reverse (V)                            :    0
+|                                     Disp mirror                                 :    0
+|                                     [Disp Config Info]
+|                                     Disp Status                                 : 0x00000007
+phyif_ctrl.phy_lanes               = 0
+phyif_ctrl.ssc_dis                 = 0
+phyif_ctrl.phy_width               = 0
+phy_tx_eq.lane0_tx_preemp          = 0
+phy_tx_eq.lane0_tx_vswing          = 0
+phy_tx_eq.lane0_tx_post_cur2       = 0
+phy_tx_eq.lane1_tx_preemp          = 0
+phy_tx_eq.lane1_tx_vswing          = 0
+phy_tx_eq.lane1_tx_post_cur2       = 0
+phy_tx_eq.lane2_tx_preemp          = 0 
+|                                       Vsync polarity                              : 1
+phy_tx_eq.lane2_tx_vswing          = 0
+phy_tx_eq.lane2_tx_post_cur2       = 0
+phy_tx_eq.lane3_tx_preemp          = 0
+phy_tx_eq.lane3_tx_vswing          = 0
+phy_tx_eq.lane3_tx_post_cur2       = 0
+hpd_event                          = 0
+aux_reply_event                    = 0
+aux_cmd_invalid                    = 0
+sdp_event_stream0                  = 0
+audio_fifo_overflow_stream0        = 1
+|                                       Hsync polarity                              : 1
+video_fifo_overflow_stream0        = 0
+soft_reset.word                    = 0x00000000
+aux_cmd.word                       = 0x00000000
+aux_status.word                    = 0x00000000
+sdp_status.word                    = 0x00000000
+aux_phy_cfg                        = 0
+|                                     Vertical enable signal polarity             : 0
+|                                     Horizontal enable signal polarity           : 0
+|                                     Output clock edge                           : 0
+|                                     0:Progressive, 1:Interlace                  : 0
+|                                     Vsync output 0.5H shift                     : 0
+|                                     Vertical data size                          : 552
+|                                     Vertical cycle (odd)                        : 602
+|                                     Vertical cycle (even) + 0.5H shift          : 602
+|                                     Horizontal cycle                            : 664
+|                                     Vsync pulse width                           : 5
+|                                     Vsync pluse width unit [Line]               : 1
+|                                     Horizontal signal pulse width               : 11
+|                                     Vertical Blank(odd)                         : 25
+|                                     Vertical Blank(even)                        : 25
+|                                     Vsync output delay                          : 0
+|                                     Horizontal Blank                            : 30
+|                                     Hsync output delay                          : 0
+|                                     Horizontal data size                        : 368
+|                                     Vertical enable signal assert timing        : 0
+|                                     Asserted for the period of a vertical blank : 1
+|                                     Output mode                                 : 0
+|                                     Outputs by LSB stuff                        : 0
+|                                     Outputs by 8 bit par 1 element              : 0
+|                                     0.5pix shift output (Odd line)              : 0
+|                                     Color bar size                              : 368
+|                                     Color bar data[0]                           : 0x00
+|                                     Color bar data[1]                           : 0x00
+|                                     Color bar data[2]                           : 0x00
+|                                     Color bar data[3]                           : 0x00
+|                                     Color bar data[4]                           : 0x00
+|                                     Color bar data[5]                           : 0x00
+|                                     Color bar data[6]                           : 0x00
+|                                     Color bar data[7]                           : 0x00
+|                                     Color bar data[8]                           : 0x00
+|                                     Color bar data[9]                           : 0x00
+|                                     Color bar data[10]                          : 0x00
+|                                     Color bar data[11]                          : 0x00
+|                                     Color bar data[12]                          : 0x00
+|                                     Color bar data[13]                          : 0x00
+|                                     Color bar data[14]                          : 0x00
+|                                     Color bar data[15]                          : 0x00
+|                                     [Disp Main Info]
+|                                     Display enable                              : 0x255
+|                                     Input address[0] of Y data                  : 0x5E02EA40
+|                                     Input address[0] of CbCr data               : 0x5E073A40
+|                                     Input address[1] of Y data                  : 0x5DF5FA40
+|                                     Input address[1] of CbCr data               : 0x5DFA4A40
+|                                     Input address[2] of Y data                  : 0x5DFC7240
+|                                     Input address[2] of CbCr data               : 0x5E00C240
+|                                     Input address[3] of Y data                  : 0x5E02EA40
+|                                     Input address[3] of CbCr data               : 0x5E073A40
+|                                     Input bank specification                    : 3
+|                                     Input data FULL horizontal size             : 512
+|                                     Horizontal global area of Y data            : 512
+|                                     Horizontal global area of CbCr data         : 512
+|                                     Horizontal display beginning position       : 24
+|                                     Vertical display beginning position         : 0
+|                                     Input data size width                       : 320
+|                                     Input data size lines                       : 552
+|                                     put data : Horizontal processing start pixel  : 0
+|                                     Horizontal resize magnification(M)          : 1
+|                                     Horizontal resize magnification(N)          : 1
+|                                     Horizontal resize magnification(OF)         : 0
+|                                     Vertical resize magnification(M)            : 1
+|                                     Vertical resize magnification(N)            : 1
+|                                     Vertical resize magnification(OF)           : 0
+|                                     Input format selection                      : 4
+|                                     CLKSEL6_PIXELCLK0                           : 39
+|                                     PLLDI0MLT_PDI0PLLDIV                        : 40
+|                                     PLLDI0FRC_PDI0FNUM                          : 0
+|                                     PLLDI0FRC_PDI0FDEN                          : 0
+|                                     CLKSEL6_PIXELCLK1                           : 4
+|                                     PLLDI1MLT_PDI1PLLDIV                        : 20
+|                                     PLLDI1FRC_PDI1FNUM                          : 0
+|                                     PLLDI1FRC_PDI1FDEN                          : 0
+IO_DISP.COMMON[0].LCH.LTRG.word=3
+IO_DISP.COMMON[0].DCORE.TRG.word=3
+IO_DISP.COMMON[0].GRCH[0].GRTRG.word=3
+IO_DISP.COMMON[0].GRCH[1].GRTRG.word=2
+|                                          [Disp OSD Info]
+|                                          [OSD Layer id : 0] Active
+|                                          OSD In width                              : 368
+|                                          OSD In height                             : 552
+|                                          OSD In position X                         : 0
+|                                          OSD In position Y                         : 0
+|                                          OSD In pitch                              : 368
+|                                          OSD In format                             : 0
+|                                          OSD Out width                             : 368
+|                                          OSD Out height                            : 552
+|                                          OSD Out position X                        : 0
+|                                          OSD Out position Y                        : 0
+|                                          OSD Buffer address                        : 0x4883d660
+|                                  [OSD Layer id : 1] Non Active
+|                     [Disp id : 1]
+|                             Active
+IO_DISP.COMMON[1].LCH.LTRG.word=3
+IO_DISP.COMMON[1].DCORE.TRG.word=3
+IO_DISP.COMMON[1].GRCH[0].GRTRG.word=3
+IO_DISP.COMMON[1].GRCH[1].GRTRG.word=2
+|                                     [Disp Window Info]
+|                                     Disp type                                   :    1
+|                                     Disp state                                  :    0
+|                                     Disp rotate_degree                          :    0
+|                                     DispIn x_pos                                :    0
+|                                     DispIn y_pos                                :    0
+|                                     DispIn width                                :  240
+|                                     DispIn lines                                :  240
+|                                     DispOut x_pos                               :    0
+|                                     DispOut y_pos                               :    0
+|                                     DispOut width                               :  240
+|                                     DispOut lines                               :  240
+|                                     Disp Reverse (H)                            :    1
+|                                     Disp Reverse (V)                            :    0
+|                                     Disp mirror                                 :    0
+|                                     [Disp Config Info]
+|                                     Disp Status                                 : 0x00000007
+|                                     Vsync polarity                              : 1
+|                                     Hsync polarity                              : 1
+|                                     Vertical enable signal polarity             : 0
+|                                     Horizontal enable signal polarity           : 0
+|                                     Output clock edge                           : 0
+|                                     0:Progressive, 1:Interlace                  : 0
+|                                     Vsync output 0.5H shift                     : 0
+|                                     Vertical data size                          : 240
+|                                     Vertical cycle (odd)                        : 384
+|                                     Vertical cycle (even) + 0.5H shift          : 384
+|                                     Horizontal cycle                            : 520
+|                                     Vsync pulse width                           : 2
+|                                     Vsync pluse width unit [Line]               : 1
+|                                     Horizontal signal pulse width               : 20
+|                                     Vertical Blank(odd)                         : 142
+|                                     Vertical Blank(even)                        : 142
+|                                     Vsync output delay                          : 0
+|                                     Horizontal Blank                            : 100
+|                                     Hsync output delay                          : 0
+|                                     Horizontal data size                        : 320
+|                                     Vertical enable signal assert timing        : 0
+|                                     Asserted for the period of a vertical blank : 1
+|                                     Output mode                                 : 0
+|                                     Outputs by LSB stuff                        : 0
+|                                     Outputs by 8 bit par 1 element              : 0
+|                                     0.5pix shift output (Odd line)              : 0
+|                                     Color bar size                              : 320
+|                                     Color bar data[0]                           : 0x00
+|                                     Color bar data[1]                           : 0x00
+|                                     Color bar data[2]                           : 0x00
+|                                     Color bar data[3]                           : 0x00
+|                                     Color bar data[4]                           : 0x00
+|                                     Color bar data[5]                           : 0x00
+|                                     Color bar data[6]                           : 0x00
+|                                     Color bar data[7]                           : 0x00
+|                                     Color bar data[8]                           : 0x00
+|                                     Color bar data[9]                           : 0x00
+|                                     Color bar data[10]                          : 0x00
+|                                     Color bar data[11]                          : 0x00
+|                                     Color bar data[12]                          : 0x00
+|                                     Color bar data[13]                          : 0x00
+|                                     Color bar data[14]                          : 0x00
+|                                     Color bar data[15]                          : 0x00
+|                                     [Disp Main Info]
+|                                     Display enable                              : 0x0
+|                                     Input address[0] of Y data                  : 0x00000000
+|                                     Input address[0] of CbCr data               : 0x00000000
+|                                     Input address[1] of Y data                  : 0x00000000
+|                                     Input address[1] of CbCr data               : 0x00000000
+|                                     Input address[2] of Y data                  : 0x00000000
+|                                     Input address[2] of CbCr data               : 0x00000000
+|                                     Input address[3] of Y data                  : 0x00000000
+|                                     Input address[3] of CbCr data               : 0x00000000
+|                                     Input bank specification                    : 0
+|                                     Input data FULL horizontal size             : 0
+|                                     Horizontal global area of Y data            : 0
+|                                     Horizontal global area of CbCr data         : 0
+|                                     Horizontal display beginning position       : 0
+|                                     Vertical display beginning position         : 0
+|                                     Input data size width                       : 0
+|                                     Input data size lines                       : 0
+|                                     put data Horizontal processing start pixel  : 0
+|                                     Horizontal resize magnification(M)          : 1
+|                                     Horizontal resize magnification(N)          : 1
+|                                     Horizontal resize magnification(OF)         : 0
+|                                     Vertical resize magnification(M)            : 1
+|                                     Vertical resize magnification(N)            : 1
+|                                     Vertical resize magnification(OF)           : 0
+|                                     Input format selection                      : 0
+|                                     CLKSEL6_PIXELCLK0                           : 39
+|                                     PLLDI0MLT_PDI0PLLDIV                        : 40
+|                                     PLLDI0FRC_PDI0FNUM                          : 0
+|                                     PLLDI0FRC_PDI0FDEN                          : 0
+|                                     CLKSEL6_PIXELCLK1                           : 4
+|                                     PLLDI1MLT_PDI1PLLDIV                        : 20
+|                                     PLLDI1FRC_PDI1FNUM                          : 0
+|                                     PLLDI1FRC_PDI1FDEN                          : 0
+IO_DISP.COMMON[1].LCH.LTRG.word=3
+IO_DISP.COMMON[1].DCORE.TRG.word=3
+IO_DISP.COMMON[1].GRCH[0].GRTRG.word=3
+IO_DISP.COMMON[1].GRCH[1].GRTRG.word=2
+|                                          [Disp OSD Info]
+|                                          [OSD Layer id : 0] Active
+|                                          OSD In width                              : 240
+|                                          OSD In height                             : 240
+|                                          OSD In position X                         : 0
+|                                          OSD In position Y                         : 0
+|                                          OSD In pitch                              : 240
+|                                          OSD In format                             : 0
+|                                          OSD Out width                             : 240
+|                                          OSD Out height                            : 240
+|                                          OSD Out position X                        : 0
+|                                          OSD Out position Y                        : 0
+|                                          OSD Buffer address                        : 0x48b15aa0
+|                                  [OSD Layer id : 1] Non Active
+|                     [Disp id : 2]
+|                             Non Active

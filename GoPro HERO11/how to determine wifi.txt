@@ -1,0 +1,6 @@
+root@gopro:/sys/devices/platform/soc/soc:exs_32bus/19830000.mmc0/mmc_host/mmc0/mmc0:0001/mmc0:0001:1# cat vendor
+0x0271
+root@gopro:/sys/devices/platform/soc/soc:exs_32bus/19830000.mmc0/mmc_host/mmc0/mmc0:0001/mmc0:0001:1# cat device
+0x0701
+
+#define SDIO_DEVICE_ID_ATHEROS_QCA9377		0x0701

@@ -28,3 +28,46 @@ start 'memory allocprtall' command
 [00091236][I] basefw   BF_MEMORY_Print_Alloc_Log_All:622  Alloc : 'EisLgrid                        ',  func name:'genDceStaticGrids               ' line :  1135, address:0x5B8BB400, size=1920(byte)
 [00091236][I] basefw   BF_MEMORY_Print_Alloc_Log_All:622  Alloc : 'Eis                             ',  func name:'setup                           ' line :   280, address:0x5AF3CE00, size=9954328(byte)
 [00091237][I] basefw   BF_MEMORY_Print_Alloc_Log_All:622  Alloc : 'UseCase                         ',  func name:'makeUseCase                     ' line :    22, address:0x5A7DE000, size=7727488(byte)
+
+emmc bread 0 100 0x58000000
+memory dump w 0x58000000 0xC810
+memory dump w 0x58000000 0x1000
+memory dump w 0x58004000 0x1000
+              
+
+
+
+
+
+memory dump w 581c0000 0x2000
+0x58000000:00000006 00000000 58100000 00000000 000c0000 00000000 581c0000 00000000 00000060 00000000 580c0000 00000000 00000008 00000000 580c0008 00000000
+0x58000040:00000008 00000000 00000000 00000000 00000000 00000000 580c0010 00000000 0003fef0 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x58000080:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x580000c0:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x58000100:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x58000140:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x58000180:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x580001c0:00000000 00000000 00000000 00000000 00000000 00000000 00000000 5078e328 40080000 00000000 00000000 56784321 00000000 00000000 00000002 00000000
+memory dump w 0x58100000 0x2000
+*** Memory Dump
+0x58100000:0a002b00 41020000 00006963 00454201 2f440700 775f6f74 00006669 742f4309 70675f6f 0074656e 70ee0000 0074656e 32ee0000 32383534 00333636 31324800
+0x58100040:2e31302e 312e3130 30302e36 52454800 2030314f 63616c42 0000006b 02000000 03000100 53003900 55000000 00000000 5f6f74ee 00666977 2f430900 675f6f74
+0x58100080:74656e70 ee000000 0001050c 00000302 00000000 04000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+0x581000c0:00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 05090000 00050900 00000003 00000000 00000000 00010000
+0x58100100:00000000 00000000 00000000 00000000 00000000 00000000 01000000 00000007 00000000 00020302 00000000 00000000 0000ee00 00000001 01000000 00010000
+0x58100140:01000000 00000050 02000104 00005850 00000000 00040000 00580f05 00000000 00000000 04000000 70794800 6369786f 00000000 00000000 00000000 00000000
+0x58100180:00000000 00000000 52540000 5f4b4e55 4f524548 00003031 00000000 00000000 00000000 00000000 00000000 00000101 00000000 01000002 00000000 00000000
+0x581001c0:ee000000 ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100200:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100240:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100280:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x581002c0:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100300:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100340:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100380:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x581003c0:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100400:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100440:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x58100480:ffffffff ffffffff fffeffff ffffffff fffffffb ffdfffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+0x581004c0:ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff
+

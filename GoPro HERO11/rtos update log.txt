@@ -1,0 +1,514 @@
+[00557748][E] gp_debug  [T:  145] da_system_settings_temperature_info:328  Failed to log analytics for event 174
+[00574991][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00574991][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00574992][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00574993][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00575001][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00575001][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00575002][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00575003][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577207][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00577207][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2009, ercd=1.
+[00577209][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00577209][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/bluetopia_dev.cfg
+[00577209][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577212][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/bluetopia_dev.cfg
+[00577212][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577213][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/bluetopia_dev.cfg
+[00577213][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577232][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x63,0x01,0x00,0x01"
+[00577233][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_AP_PAIRING_STATE( 54) <- "0x04"
+[00577233][I] wireless  [T:  201] wiman_csi_ap_pairing_state_cb:4159 Sending pairing completed notification
+[00577233][I] audsink   [T:  201] frw_audsink_beep:1274  asked to BEEP!!!
+[00577233][I] gp_debug  [T:  201] hal_audio_drv_select_route:163 hal_audio_drv_select_route audio select_route start! instance 0
+[00577233][I] gp_debug  [T:  201] hal_audio_drv_select_route:165 hal_audio_drv_select_route current src :1, sink :1
+[00577233][I] gp_debug  [T:  201] hal_audio_drv_select_route:166 hal_audio_drv_select_route src :1, sink :1
+[00577233][I] wireless  [T:  201] wiman_process_ipc:4661                :PZ %04000101 CMD (len=4) from gpNet
+[00577233][I] wireless  [T:  201] wireless_enable:6661 Wireless is enabled
+[00577233][I] audproc   [T:  201] frw_audproc_set_wifi_enabled:1536  change wifi state from 0 to 1 by appc
+[00577233][I] wireless  [T:  201] wiman_process_mqueue:4542     :WE CMD to gpNet
+[00577233][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x08,0x20,0x00"
+[00577234][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_MODE( 18) <- "0x01,0x07"
+[00577234][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x08,0x20,0x40"
+[00577234][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x20,0x40"
+[00577239][I] audsink   [T:   16] audsink_bep_pre_process:427 Got beep index 1, rpt 2, addr 0x42cc5dd4, cnt 8192
+[00577239][I] awe_lib_v6  [T:   16] awe_set_beep_source:1201 numBlocks: 32 duckingPeriod: 0
+[00577239][I] audsink   [T:   16] audsink_bep_pre_process:439 Succeed awe_set_beep_source. Error code: 0
+[00577239][I] audsink   [T:   16] frw_audsink_set_mute:1505  audsink mute: mute flag 0, ref cnt 1
+[00577239][I] awe_lib_v6  [T:   16] awe_process_speaker:1495 In    playbeep: 1, numRepeats: 2, pauseLen: 0, beepInProgress: 0
+[00577256][I] appc_api  [T:  222] appc_api_msg_send:799         feature_supported is: 1
+[00577256][I] appc_api  [T:  222] appc_api_msg_send:832         APPC API:      appc_system_settings_ftu_never_paired_count_set q=0 len=072 cnt=0000
+[00577570][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x30,0x40"
+[00577574][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00577574][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577575][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00577576][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577580][I] audsink   [T:   16] audsink_beep_process:316 AWE finished BEEP
+[00577582][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00577582][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577583][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00577584][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577587][I] wireless  [T:  201] wiman_process_ipc:4665                :gp RSP from gpNet
+[00577590][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = J:/conf.json.bak
+[00577590][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00577591][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = J:/conf.json.bak
+[00577592][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00577595][I] wireless  [T:  201] wiman_process_ipc:4665                :WE RSP from gpNet
+[00577595][I] audproc   [T:  201] frw_audproc_set_wifi_enabled:1536  change wifi state from 1 to 1 by appc
+[00577649][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x30,0x42"
+[00577652][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00577653][I] appc_api  [T:  222] appc_api_msg_send:799         feature_supported is: 1
+[00577653][I] appc_api  [T:  222] appc_api_msg_send:832         APPC API:      appc_system_settings_ftu_never_paired_count_set q=0 len=072 cnt=0001
+[00577653][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577654][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00577655][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577662][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00577662][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577663][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00577664][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00577795][I] wireless  [T:  201] parse_csi_state:4270          :CN CSI Notify STR CSI_PHONE_NAME( 86) <- "iPhone"
+[00578072][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIFI_TRAFFIC_TIMEOUT( 60) <- "0x00"
+[00585744][I] gp_debug  [T:  224] remote_preset_list_groups:8944 remote_preset_list_groups
+[00585744][I] gp_debug  [T:  224] remote_preset_list_groups:8973 remote_preset_list_groups exit
+[00585746][I] gp_debug  [T:  224] remote_preset_list_ids:8979 remote_preset_list_ids
+[00585746][I] gp_debug  [T:  224] remote_preset_list_ids:9011 remote_preset_list_ids exit
+[00585746][I] gp_debug  [T:  224] remote_preset_get_info:9017 remote_preset_get_info
+[00585746][I] gp_debug  [T:  224] remote_preset_get_info:9039 remote_preset_get_info exit
+[00585747][I] gp_debug  [T:  224] remote_preset_list_ids:8979 remote_preset_list_ids
+[00585747][I] gp_debug  [T:  224] remote_preset_list_ids:9011 remote_preset_list_ids exit
+[00585765][I] gp_debug  [T:  224] remote_preset_get_info:9017 remote_preset_get_info
+[00585765][I] gp_debug  [T:  224] remote_preset_get_info:9039 remote_preset_get_info exit
+[00585766][I] gp_debug  [T:  224] remote_preset_list_ids:8979 remote_preset_list_ids
+[00585766][I] gp_debug  [T:  224] remote_preset_list_ids:9011 remote_preset_list_ids exit
+[00585766][I] gp_debug  [T:  224] remote_preset_get_info:9017 remote_preset_get_info
+[00585766][I] gp_debug  [T:  224] remote_preset_get_info:9039 remote_preset_get_info exit
+[00586195][I] gp_debug  [T:  224] remote_setup_date_time_set:5620 remote_setup_date_time_set
+[00586195][I] appc_api  [T:  224] appc_api_msg_send:799         feature_supported is: 1
+[00586195][I] appc_api  [T:  224] appc_api_msg_send:832         APPC API:      appc_system_settings_daylight_savings_time_set q=0 len=072 cnt=0000
+[00586195][I] appc_api  [T:  224] appc_api_msg_send:799         feature_supported is: 1
+[00586195][I] appc_api  [T:  224] appc_api_msg_send:832         APPC API:      appc_system_settings_time_zone_set             q=0 len=072 cnt=0000
+[00586195][I] gp_debug  [T:  203] frw_time_set_timezone_offset:340 Return without updating the timezone offset
+[00586201][I] wireless  [T:  201] wiman_process_mqueue:4542     :TS CMD to gpNet
+[00586203][I] wireless  [T:  201] wiman_process_ipc:4665                :TS RSP from gpNet
+[00586675][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_LINUX_CORE_BOOST(138) <- "0x00"
+[00586946][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00586946][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586947][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00586948][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586957][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00586958][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586958][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00586959][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586964][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00586965][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586965][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00586966][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586971][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00586972][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00586972][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00586973][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00594806][I] wireless  [T:  201] parse_csi_state:4270          :CN CSI Notify STR CSI_APP_SSID( 14) <- "Hypoxic_ HERO11 Black"
+[00594807][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x32,0x42"
+[00594810][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00594810][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00594811][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00594812][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00594825][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00594825][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00594826][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00594827][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00594976][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIFI_AP_IN_5GHZ(140) <- "0x01,0x00,0x00,0x00"
+[00594978][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = J:/conf.json.bak
+[00594978][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00594979][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = J:/conf.json.bak
+[00594980][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00594984][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_AP_STATE( 50) <- "0x01"
+[00602429][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00602429][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00602430][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00602431][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00602440][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00602440][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00602441][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00602442][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00602446][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = J:/conf.json.bak
+[00602447][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00602447][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = J:/conf.json.bak
+[00602448][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00638612][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x36,0x42"
+[00639073][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_APP_ASSOCIATED_COUNT( 12) <- "0x01"
+[00639073][I] wireless  [T:  201] wiman_csi_app_associated_count_cb:3803 APP connected!
+[00639073][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x3e,0x42"
+[00639155][I] wireless  [T:  201] wiman_process_mqueue:4542     :LB CMD to gpNet
+[00650168][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x301, accessmode = w+, fname = J:\save\data_analytics.bin
+[00650172][I] basefw    [T:  203] fj_fs_close:119 close file ID = 46BB3DB0
+[00650172][I] basefw    [T:  203] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00650172][I] basefw    [T:  203] FS_Get_DirectoryEntry:1554 all entry get
+[00650174][I] basefw    [T:    6] FS_Get_DirectoryEntry:1554 all entry get
+[00650174][I] basefw    [T:    6] FS_Get_DirectoryEntry:1536 reset entry
+[00650175][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2003, ercd=2.
+[00650177][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = J:/save/data_analytics.bin
+[00650179][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186676144X
+[00650878][I] basefw    [T:  203] FS_Get_DirectoryEntry:1554 all entry get
+[00650878][W] log       [T:  203] analytics_delete_upload_copy:992 No complete analytics file present in EMMC
+[00650879][E] log       [T:  203] da_user_settings_timelapse_interval_get:215 Invalid timelapse rate -1
+[00650879][E] gp_debug  [T:  203] da_user_settings_timelapse_interval:328  Failed to log analytics for event 21
+[00650879][E] gp_debug  [T:  203] da_user_settings_photo_res:328  Failed to log analytics for event 24
+[00650879][E] gp_debug  [T:  203] da_user_settings_photo_res:328  Failed to log analytics for event 24
+[00650879][E] log       [T:  203] da_user_settings_video_resolution_get:418 Not a valid mode 28
+[00650879][E] gp_debug  [T:  203] da_user_settings_video_resolution:328  Failed to log analytics for event 56
+[00650879][E] log       [T:  203] da_xlate_api_caller_trigger_module:691 caller reported: 1164577456 caller logged: 0
+[00650879][I] audsrc    [T:  203] frw_audsrc_get_control:532 type = 0, value = 0
+[00650879][E] log       [T:  203] da_user_settings_fps_get:469 Not a valid mode 22
+[00650879][E] gp_debug  [T:  203] da_user_settings_fps:328  Failed to log analytics for event 57
+[00650879][E] gp_debug  [T:  203] da_user_settings_protune_settings:328  Failed to log analytics for event 192
+[00650879][E] log       [T:  203] da_user_settings_ec_bias_index_get:519 Not a valid mode 28
+[00650879][E] gp_debug  [T:  203] da_user_settings_ec_bias_index:328  Failed to log analytics for event 59
+[00650879][E] log       [T:  203] da_user_settings_ec_bias_index_get:519 Not a valid mode 28
+[00650879][E] gp_debug  [T:  203] da_user_settings_ec_bias_index:328  Failed to log analytics for event 59
+[00650879][E] log       [T:  203] da_user_settings_ec_bias_index_get:519 Not a valid mode 28
+[00650879][E] gp_debug  [T:  203] da_user_settings_ec_bias_index:328  Failed to log analytics for event 59
+[00650879][E] log       [T:  203] da_user_settings_video_iso_max_get:787 Not a valid video mode 28 so exit without event logging
+[00650879][E] gp_debug  [T:  203] da_user_settings_video_iso_max:328  Failed to log analytics for event 125
+[00650879][E] log       [T:  203] da_user_settings_video_iso_min_get:819 Not a valid video mode 28 so exit without event logging
+[00650879][E] gp_debug  [T:  203] da_user_settings_video_iso_min:328  Failed to log analytics for event 126
+[00650879][E] gp_debug  [T:  203] da_user_settings_photo_iso_max:328  Failed to log analytics for event 63
+[00650879][E] gp_debug  [T:  203] da_user_settings_multi_shot_iso_max:328  Failed to log analytics for event 64
+[00650879][E] gp_debug  [T:  203] da_user_settings_photo_iso_min:328  Failed to log analytics for event 71
+[00650879][E] gp_debug  [T:  203] da_user_settings_multishot_iso_min:328  Failed to log analytics for event 72
+[00657626][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657647][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_OTA_STATE( 42) <- "0x06"
+[00657647][I] fwupdate  [T:  201] fwsm_ota_status_cb:2800 [FWUPD][OTA] Previous Status: 0, Current Status:6
+[00657647][I] csc       [T:  145] csc_task_fwupdate_evtmgr:417 csc_task_fwupdate_evtmgr: EVENT_FWUPD_DOWNLOAD_START
+[00657647][I] fwupdate  [T:  145] fwsm_idle:1668 [FWUPD] fwsm_idle:13
+[00657666][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657669][I] frw_usb   [T:  145] frw_usb_connect_status_get:4412 FRW USB : PC Connected
+[00657669][I] fwupdate  [T:  145] fwsm_idle:1690 [FWUPD] - USB connected to PC at start of update
+[00657669][I] fwupdate  [T:  145] fwsm_persistent_data_get:2687 Getting...:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00657669][I] fwupdate  [T:  145] fwsm_persistent_data_get:2703 Read Success!!
+[00657669][I] fwupdate  [T:  145] fwsm_persistent_data_set:2646 Setting...:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00657669][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00657670][I] fwupdate  [T:  145] fwsm_persistent_data_set:2658 Write Success!!
+[00657670][I] fwupdate  [T:  145] fwsm_idle:1710 [FWUPD]  Battery level: 100, min:10
+[00657670][I] fwupdate  [T:  145] fwsm_idle:1732 [FWUPD] - Start the firmware download.
+[00657670][W] fwupdate  [T:  145] ssm_transition:112 FW_SSM_Trans: Event:13, Cur_state:0, Nxt_State:7
+[00657670][I] fwupdate  [T:  145] fwsm_downloading:1766 [FWUPD] fwsm_downloading:13
+[00657670][I] fwupdate  [T:  145] fwsm_downloading:1771 [FWUPD] - Starting firmware transfer to camera.
+[00657670][I] fwupdate  [T:  145] fwsm_notify_send:2713 [FWUPD] Sending Notification to UI, Notifying :- 4
+[00657670][I] fwupdate  [T:  145] fwsm_persistent_data_get:2687 Getting...:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00657670][I] fwupdate  [T:  145] fwsm_persistent_data_get:2703 Read Success!!
+[00657670][I] fwupdate  [T:  145] fwsm_persistent_data_set:2646 Setting...:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     1
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00657670][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00657671][I] fwupdate  [T:  145] fwsm_persistent_data_set:2658 Write Success!!
+[00657928][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657928][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657928][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657929][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2007, ercd=1.
+[00657929][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/fstatus
+[00657929][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00657932][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/fstatus
+[00657932][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00657933][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/fstatus
+[00657934][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00657938][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00657938][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/firmware.partial
+[00657938][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00657997][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/firmware.partial
+[00657997][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00657998][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/firmware.partial
+[00680687][I] power     [T:  137] frw_power_src_state_transition:301 powerconfd: xition: prev: ibat + usb1 (2), i {3 bars (4), 4277 mV, eoc (4), 100%, 44C rng=3}, e {N/A (0), 0 mV, nobat (0), 0%}, chg_dis 0
+[00680687][I] power     [T:  137] frw_power_src_state_transition:303 powerconfd: xition: cur:  ibat + usb1 (2), i {3 bars (4), 4280 mV, normal (3), 99%, 44C rng=3}, e {N/A (0), 0 mV, nobat (0), 0%}, chg_dis 0
+[00680705][I] csc       [T:  137] csc_accessory_event_callback:754 csc_accessory_event_callback
+[00680705][I] csc       [T:  145] csc_accessory_events_handler:2212 EVENT_ACCESSORY: FRW_ACCESSORY_UPDAT   (2) FRW_ACCESSORY_CHARGER(3) FRW_ACCESSORY_ID_PC_CHARGER(16)
+[00680705][I] csc       [T:  145] power_conf_callback:810 Sending POWER_CONF_EVENT to APPC  param1 0x63040001  param2 0x4
+[00680705][I] wireless  [T:  145] wiman_csi_set_num:8002                :CI CSI Send NUM CSI_BATTERY_LIFE( 43) -> "0x63,0x00,0x00,0x00"
+[00680705][I] csc       [T:  145] csc_utils_video_hindsight_enable_get:942 Current mode is not video or slomo, hence hindsight disabled
+[00680705][I] frw_usb   [T:  145] frw_usb_status_update:5208 ==========================================================================
+[00680705][I] frw_usb   [T:  145] frw_usb_status_update:5209 _frw_usb_instance.charger          3
+[00680705][I] frw_usb   [T:  145] frw_usb_status_update:5210 _frw_usb_instance.usb_cable        1
+[00680705][I] frw_usb   [T:  145] frw_usb_status_update:5211 ready_for_mtp                      1
+[00680705][I] frw_usb   [T:  145] frw_usb_status_update:5212 ==========================================================================
+[00680705][I] csc       [T:  145] csc_process_power_event:2115 Sending internal battery charging event to UI: 1
+[00688779][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00688829][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00688831][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:/firmware.partial
+[00688839][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00688870][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:/fstatus
+[00688871][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00688872][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00688873][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00688875][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:/firmware.partial
+[00691588][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691589][I] basefw    [T:    6] IPCUFS_receiver:212 [IPCUFS]: IPCUFS_receiver ope_cmd Action Result ope_cmd=0x2006, ercd=1.
+[00691688][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00691688][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691689][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00691691][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691694][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:/firmware.zip
+[00691703][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691760][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:/fstatus
+[00691762][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691766][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00691766][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691767][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00691774][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00691778][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_OTA_STATE( 42) <- "0x0b"
+[00691778][I] fwupdate  [T:  201] fwsm_ota_status_cb:2800 [FWUPD][OTA] Previous Status: 6, Current Status:11
+[00691783][I] fwupdate  [T:  201] fwsm_check_sd_space:2928 [FWUPD] SD space remaining: 31141504 Update requires 409600 (0)
+[00691783][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = K:\firmware.zip
+[00691784][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x102, accessmode = w+, fname = C:\MISC\firmware.zip
+[00691829][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00691830][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734296X
+[00691859][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00691947][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734296X
+[00692123][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00692123][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734296X
+[00692153][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00692241][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734296X
+[00694552][I] basefw    [T:    5] FS_Wrapper_Lib_Read:1616 fread: feof = 1. The point reached the end of the file.
+[00694562][I] basefw    [T:  201] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00694563][I] basefw    [T:  201] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00694575][I] gp_debug  [T:  201] gp_fs_copy:1177 File copied
+[00694575][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\MISC\firmware.zip
+[00694622][W] basefw    [T:    5] FS_Wrapper_Lib_Mkdir:2068 pf_mkdir system_error = 22, dirname=C:\UPDATE\
+[00694622][W] basefw    [T:    5] FS_Controller_Mkdir:1778 FS_Wrapper_Lib_Mkdir() failed: ercd=-1, dirname=E:\UPDATE\
+[00694622][E] gp_debug  [T:  135] gp_fs_mkdir:702 gp_fs_mkdir FJ_Fs_Mkdir failed error=1
+[00694622][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x301, accessmode = w+, fname = C:\UPDATE\CAMFWV.bin
+[00694626][I] basefw    [T:  135] fj_fs_close:119 close file ID = 46BEC978
+[00694626][I] basefw    [T:  135] FS_Close:732 FS_Close: close file ID = 1186908536X
+[00694642][W] basefw    [T:    5] FS_Wrapper_Lib_Mkdir:2068 pf_mkdir system_error = 22, dirname=C:\UPDATE\
+[00694642][W] basefw    [T:    5] FS_Controller_Mkdir:1778 FS_Wrapper_Lib_Mkdir() failed: ercd=-1, dirname=E:\UPDATE\
+[00694642][E] gp_debug  [T:  135] gp_fs_mkdir:702 gp_fs_mkdir FJ_Fs_Mkdir failed error=1
+[00694642][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x301, accessmode = w+, fname = C:\UPDATE\DATA.bin
+[00709977][I] basefw    [T:  135] fj_fs_close:119 close file ID = 46BEC978
+[00709977][I] basefw    [T:  135] FS_Close:732 FS_Close: close file ID = 1186908536X
+[00710016][W] basefw    [T:    5] FS_Wrapper_Lib_Mkdir:2068 pf_mkdir system_error = 22, dirname=C:\UPDATE\
+[00710016][W] basefw    [T:    5] FS_Controller_Mkdir:1778 FS_Wrapper_Lib_Mkdir() failed: ercd=-1, dirname=E:\UPDATE\
+[00710016][E] gp_debug  [T:  135] gp_fs_mkdir:702 gp_fs_mkdir FJ_Fs_Mkdir failed error=1
+[00710016][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x301, accessmode = w+, fname = C:\UPDATE\FWUPD.TXT
+[00710020][I] basefw    [T:  135] fj_fs_close:119 close file ID = 46BEC978
+[00710020][I] basefw    [T:  135] FS_Close:732 FS_Close: close file ID = 1186908536X
+[00710029][I] basefw    [T:  135] fj_fs_close:119 close file ID = 46BEC930
+[00710029][I] basefw    [T:  135] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00710031][I] wireless  [T:  135] wiman_csi_set_num:8002                :CI CSI Send NUM CSI_OTA_STATE( 42) -> "0x05,0x00,0x00,0x00"
+[00710031][I] appc_api  [T:  135] appc_api_msg_send:799         feature_supported is: 1
+[00710031][I] appc_api  [T:  135] appc_api_msg_send:832         APPC API:      appc_wireless_ota_ble_off                      q=0 len=240 cnt=0000
+[00710031][I] csc       [T:  145] csc_task_fwupdate_evtmgr:400 csc_task_fwupdate_evtmgr: EVENT_FWUPD_CHECK_START
+[00710032][I] wireless  [T:  201] wiman_process_mqueue:4542     :AP CMD to gpNet
+[00710032][W] fwupdate  [T:  145] fwsm_check_file:1158 [FWUPD] check_file with R_file:C:\UPDATE\FWUPD.HLD & Bin:C:\UPDATE\DATA.BIN
+[00710052][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_OTA_STATE( 42) <- "0x05,0x00,0x00,0x00"
+[00710052][I] fwupdate  [T:  201] fwsm_ota_status_cb:2800 [FWUPD][OTA] Previous Status: 11, Current Status:5
+[00710052][I] wireless  [T:  201] wiman_process_ipc:4665                :AP RSP from gpNet
+[00710052][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x36,0x42"
+[00710053][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x32,0x42"
+[00710053][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_WIRELESS_ANALYTICS_EVENT( 87) <- "0x04,0x18,0x30,0x42"
+[00710056][I] wireless  [T:  201] wiman_process_ipc:4665                :gp RSP from gpNet
+[00710056][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\FWUPD.TXT
+[00710057][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_AP_STATE( 50) <- "0x00"
+[00710079][I] wireless  [T:  201] parse_csi_state:4284          :CN CSI Notify NUM CSI_APP_ASSOCIATED_COUNT( 12) <- "0x00"
+[00710079][I] wireless  [T:  201] wiman_csi_app_associated_count_cb:3823 APP Disconnected!
+[00710082][I] gp_debug  [T:  222] camera_event_to_system_event:889 Received APPC_WIRELESS_NOTIFY_CONNECTION_LOST message from APPC with param0 0 param 1 0
+[00710084][I] wireless  [T:  135] wiman_csi_set_num:8002                :CI CSI Send NUM CSI_OTA_UPDATE_PRESENT( 44) -> "0x00,0x00,0x00,0x00"
+[00710084][I] basefw    [T:    5] FS_Wrapper_Lib_Read:1616 fread: feof = 1. The point reached the end of the file.
+[00710084][I] basefw    [T:  145] fj_fs_close:119 close file ID = 46BEC930
+[00710084][I] basefw    [T:  145] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00710086][W] fwupdate  [T:  145] fwsm_check_file:1158 [FWUPD] check_file with R_file:C:\UPDATE\FWUPD.TXT & Bin:C:\UPDATE\DATA.BIN
+[00710086][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\DATA.BIN
+[00710087][I] basefw    [T:  145] fj_fs_close:119 close file ID = 46BEC930
+[00710087][I] basefw    [T:  145] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00710087][I] fwupdate  [T:  145] fwsm_isrequired:710 [FWUPD] Update rules file C:\UPDATE\FWUPD.TXT and update file C:\UPDATE\DATA.BIN are present
+[00710087][I] fwupdate  [T:  145] fwupd_check_start:262 [FWUPD] Firmware update required.
+[00710104][I] frw_usb   [T:  145] frw_usb_connect_status_get:4412 FRW USB : PC Connected
+[00710104][I] appc_api  [T:  203] appc_system_settings_orientation_set:298 cur_upd_mode 1 new orientation 1
+[00710104][I] cam_mode  [T:  145] camera_mode_switch:494 target mode: fwupdate, current mode:idle
+[00710104][I] cam_mode  [T:  145] camera_mode_switch:521 Active MAsk:0x67ffffff -- Feature Bit: 0x1
+[00710104][I] awe_lib_v6  [T:  145] awe_get_mic_mode:2377 Beam Pattern: 0
+[00710104][I] audproc   [T:  145] frw_audproc_get_mic_mode:1995  AWE mic mode 0
+[00710104][I] cam_mode  [T:  145] av_stop_module:2633 Stopping Module : Lcd
+[00710104][I] csc       [T:  204] process_csm_event:181 target_core_config 3-1 event source 3 type 48
+[00710104][I] display   [T:  145] frw_disp_stop:483 REQ to stop LCD display
+[00710104][I] csc       [T:  204] core_switch_manager_task_entry:374 Target Core config is the same as before - 0
+[00710104][I] disp_rear  [T:  145] disp_lcd_stop:383 FJ_Disp_Video_Disable Success
+[00710104][I] cam_mode  [T:  145] av_stop_module:2633 Stopping Module : FrontLcd
+[00710104][I] display   [T:  145] frw_disp_stop:500 REQ to stop FRONT LCD display
+[00710104][I] disp_front  [T:  145] disp_front_lcd_stop:261 FJ_Disp_Video_Disable Success
+[00710104][I] cam_mode  [T:  145] av_detach_modules:2748 Detaching Module[FrontLcd] from Module[Image_capture]
+[00710104][I] cam_mode  [T:  145] av_resume_module:2254 Resuming Module : FrontLcd
+[00710104][I] cam_mode  [T:  145] av_start_module:2538 Starting Module : FrontLcd
+[00710104][I] display   [T:  145] frw_disp_start:433 REQ to start FRONT LCD display
+[00710104][I] disp_front  [T:  145] disp_front_lcd_start:222 FJ_Disp_Video_Enable/Disable Success
+[00710104][I] display   [T:  145] frw_disp_on:1645 REQ to turn on FRONT LCD display. Turning on FRONT LCD display
+[00710104][I] gp_debug  [T:  145] mipi_st7796hv_enable:2431 mipi_st7796hv_enable
+[00710104][W] gp_debug  [T:  145] mipi_st7796hv_enable:2439 mipi_st7796hv_enable: initialized! SKIPPED
+[00710105][I] fwupdate  [T:  145] fwsm_persistent_data_get:2687 Getting...:
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     1
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00710106][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00710106][I] fwupdate  [T:  145] fwsm_persistent_data_get:2703 Read Success!!
+[00710106][I] fwupdate  [T:  145] fwsm_init:624 [FWUPD] fwsm_init: init_state:0 init_defaults:0
+[00710106][I] gp_debug  [T:  145] fwupd_check_start:292 !!!TIME_THIS!!! 00001ms fwsm_init( FWSTATE_IDLE @ fwupd_check_start:292
+[00710106][I] csc       [T:  145] csc_task_fwupdate_evtmgr:403 csc_task_fwupdate_evtmgr: Firmware update started.
+[00710106][I] csc       [T:  145] csc_task_fwupdate_evtmgr:410 csc_task_fwupdate_evtmgr: EVENT_FWUPD_START
+[00710106][I] fwupdate  [T:  145] fwsm_idle:1668 [FWUPD] fwsm_idle:1
+[00710118][I] frw_usb   [T:  145] frw_usb_connect_status_get:4412 FRW USB : PC Connected
+[00710118][I] fwupdate  [T:  145] fwsm_idle:1690 [FWUPD] - USB connected to PC at start of update
+[00710118][I] fwupdate  [T:  145] fwsm_persistent_data_get:2687 Getting...:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     1
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00710118][I] fwupdate  [T:  145] fwsm_persistent_data_get:2703 Read Success!!
+[00710118][I] fwupdate  [T:  145] fwsm_persistent_data_set:2646 Setting...:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     1
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00710118][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00710119][I] fwupdate  [T:  145] fwsm_persistent_data_set:2658 Write Success!!
+[00710119][I] fwupdate  [T:  145] fwsm_idle:1710 [FWUPD]  Battery level: 99, min:10
+[00710119][I] fwupdate  [T:  145] fwsm_idle:1728 [FWUPD] - Start the state machine.
+[00710119][W] fwupdate  [T:  145] ssm_transition:112 FW_SSM_Trans: Event:1, Cur_state:0, Nxt_State:1
+[00710119][I] fwupdate  [T:  145] fwsm_next_step:1517 [FWUPD] fwsm_next_step:1
+[00710119][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\FWUPD.TXT
+[00710120][I] basefw    [T:    5] FS_Wrapper_Lib_Read:1616 fread: feof = 1. The point reached the end of the file.
+[00710120][I] basefw    [T:  145] fj_fs_close:119 close file ID = 46BEC930
+[00710120][I] basefw    [T:  145] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00710122][I] fwupdate  [T:  145] fwsm_notify_send:2713 [FWUPD] Sending Notification to UI, Notifying :- 0
+[00710122][I] fwupdate  [T:  145] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:1
+[00710122][W] fwupdate  [T:  145] ssm_transition:112 FW_SSM_Trans: Event:5, Cur_state:1, Nxt_State:2
+[00710122][I] fwupdate  [T:  145] fwsm_camera_updating:2206 [FWUPD] fwsm_camera_updating:5
+[00710122][I] fwupdate  [T:  145] fwsm_step_notify:854 [FWUPD] Sending Notification to UI: notify event: 13, current step:1 total steps:2
+[00710125][I] fwupdate  [T:  145] fwsm_check_sd_space:2928 [FWUPD] SD space remaining: 30874592 Update requires 409600 (0)
+[00710125][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\nover.txt
+[00710126][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\CAMFWV.bin
+[00710126][I] basefw    [T:  145] fj_fs_close:119 close file ID = 46BEC930
+[00710126][I] basefw    [T:  145] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00710128][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x0, accessmode = r, fname = C:\UPDATE\DATA.BIN
+[00710129][I] fwupdate  [T:  145] fwsm_sd_calculate_crc:1191  [CRC] DATA.bin size = 273188656
+[00710129][I] fwupdate  [T:  145] fwsm_sd_calculate_crc:1202  [CRC] calling util_crc32_add
+[00710142][I] appc_api  [T:  222] appc_api_msg_send:799         feature_supported is: 1
+[00710142][I] appc_api  [T:  222] appc_api_msg_send:832         APPC API:      appc_framebuffer_fp_rightside_up_set           q=0 len=048 cnt=0000
+[00710213][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json
+[00710214][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00710215][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json
+[00710216][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00710222][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x302, accessmode = w+, fname = K:/conf.json.bak
+[00710222][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00710223][I] basefw    [T:    5] FS_Wrapper_Lib_Open:1507 open mode =0x2, accessmode = r+, fname = K:/conf.json.bak
+[00710224][I] basefw    [T:    6] FS_Close:732 FS_Close: close file ID = 1186734224X
+[00710237][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00710761][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00711284][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00711806][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00712329][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00712851][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00713328][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00713349][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00713879][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00714402][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00714924][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00715447][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00715969][I] fwupdate  [T:  203] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00716105][I] fwupdate  [T:  145] fwsm_sd_calculate_crc:1228  [CRC] CRC = c3f65993
+[00716105][I] basefw    [T:  145] fj_fs_close:119 close file ID = 46BEC930
+[00716105][I] basefw    [T:  145] FS_Close:732 FS_Close: close file ID = 1186908464X
+[00716107][I] fwupdate  [T:  145] fwsm_sd_validate:1365  Validation Success, Proceed Firmware Update!
+[00716107][I] fwupdate  [T:  145] fwsm_camera_updating:2254 [FWUPD] - C:\UPDATE\DATA.BIN validated successfully.
+[00716108][W] basefw    [T:    5] FS_Wrapper_Lib_Set_Attribute:1351 get_att: fstat error system_error = 2, fname=C:\version.txt
+[00716108][W] basefw    [T:    5] FS_Controller_Set_Attribute:2404 FS_Wrapper_Lib_Set_Attribute() failed: ercd=-1, fname=E:\version.txt, attr=0
+[00716108][E] gp_debug  [T:  145] gp_fs_chmod:670 gp_fs_chmod FJ_Fs_SetAttribute failed error=1
+[00716108][E] gp_debug  [T:  145] gp_fs_remove:491 gp_fs_remove FJ_Fs_Remove failed error=1
+[00716119][I] fwupdate  [T:  145] fwsm_notify_send:2713 [FWUPD] Sending Notification to UI, Notifying :- 0
+[00716119][I] fwupdate  [T:  145] fwsm_inprogress:805 [FWUPD] Firmware update IS in progress:2
+[00716119][I] fwupdate  [T:  145] fwsm_persistent_data_set:2646 Setting...:
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:833 FWUPD Partition Info:
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:834     Filename:            C:\UPDATE\DATA.BIN
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:835     Current state:       0
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:836     Current retry count: 0
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:837     Step error:          0
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:838     File verified:       0
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:839     Enable Wireless:     1
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:840     Total Steps          2
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:844 Other Non-FWUPD items:
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:845     enable_mtp           1
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:846     serial_debug         0
+[00716119][I] fwupdate  [T:  145] fwsm_show_state:847     spyd_debug           0x00
+[00716120][I] fwupdate  [T:  145] fwsm_persistent_data_set:2658 Write Success!!
+[00716120][I] basefw    [T:  145] fj_stopmode:282 ### fj_stopmode(): prev=VIDEO(0x00040000), curr=IDLE(0x00020000), next=INITIALIZER(0x000000ff), req=INITIALIZER(0x000000ff) .
+[00716120][I] basefw    [T:  145] fj_setmode:200 ### fj_setmode(): prev=VIDEO(0x00040000), curr=IDLE(0x00020000), next=STOP(0x00008000), req=INITIALIZER(0x000000ff).
+[00716120][I] basefw    [T:  145] fj_startmode:242 ### fj_startmode(): prev=VIDEO(0x00040000), curr=IDLE(0x00020000), next=STOP(0x00008000), req=IDLE(0x00020000) .
+[00716123][I] fwupdate  [T:  145] fwsm_camera_updating:2316 [FWUPD] Current Boot Selector: 1
+[00716123][I] fwupdate  [T:  145] fwsm_wait_for_gpnet:483 [FWUPD] Wirless Driver loaded. Okay to shutdown Linux.
+[00716123][I] wireless  [T:  201] wiman_process_mqueue:4542     :SU CMD to gpNet
+[00716148][I] appc_api  [T:  222] appc_api_msg_send:799         feature_supported is: 1
+[00716148][I] appc_api  [T:  222] appc_api_msg_send:832         APPC API:      appc_framebuffer_fp_rightside_up_set           q=0 len=048 cnt=0001

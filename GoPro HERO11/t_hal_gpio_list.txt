@@ -1,0 +1,31 @@
+cmd: t hal gpio list
+Names of all GPIOs registered with the HAL GPIO subsystem:
+        BMI260_INT1
+        BMI260_INT2
+        WIFI_TIME_SYNC
+        CP_GPS_TP
+        FRONT_LCD_ID2
+        CAM0_SHDN#
+        SPKR_MODE
+        IAP_EN
+        CP_FAIL
+        FRONT_LCD_RST#
+        LCD_DSI_RST
+        TP_RST#
+        EN_SNSR_VDD
+        BT_DEV_WAKE
+        GPS_TIME_PULSE
+        FRONT_BL_EN
+        ACC_HSK
+        I2C_HSK
+        SHUTTER_KEY_CPK
+        PMIC_INT#
+        TP_INT
+        POWER_KEY_CPK
+        I2C_HANDSHAKE
+        HB_INT
+        MCU_INTR
+        PMIC2_INT
+        GPS_RESET#
+        FRONT_LCD_BL_PWM
+        FRONT_LCD_ID1

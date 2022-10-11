@@ -1,0 +1,19 @@
+QZC-WM7-rPM
+t appc log 
+t mfg_usb 1
+t frw usb enable-linux-logs 1
+
+
+
+t frw mcu filecheck C:\MCUFW_SULTAN_APP_DEV
+t frw mcu fwupdate C:\MCUFW_SULTAN_APP_DEV sd force
+t hal stm32 
+t hal stm32 memread 0x20000000
+t hal stm32 appver
+t hal stm32 fusb 0x0
+t hal stm32 rtc
+t hal stm32 reg 0x200
+t hal stm32 pkton
+t dbg fdr mcu printlvl off
+
+t mfg_usb 1

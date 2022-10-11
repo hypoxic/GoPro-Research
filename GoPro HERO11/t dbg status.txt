@@ -1,0 +1,146 @@
+s:>t dbg status[01716012][E] gp_debug  [T:  145] da_system_settings_temperature_info:328  Failed to log analytics for event 174
+
+[01716834][I] gp_test   cmd: t dbg status
+[01716834][I] gp_test   -- Buffers --
+[01716834][I] gp_test   LogBuffer: 300B/1048576B | Send to BinDump: OFF | Skipped: 0
+[01716834][I] gp_test   BinDumpBuffer: 0B/3145728B | Skipped: 0
+[01716834][I] gp_test   HistoryBuffer:
+[01716834][I] gp_test     - Recording: ON (144B/2097152B) | Overwrite: ON
+[01716834][I] gp_test   EventBuffer: OFF (0/0) | Overwrite: ON
+[01716834][I] gp_test
+[01716834][I] gp_test   -- root FDR --
+[01716834][I] gp_test   Total Errors = 81
+[01716834][I] gp_test   Total Warnings = 41
+[01716834][I] gp_test
+[01716834][I] gp_test   -- FDR tree --
+[01716834][I] gp_test                                                        |         LOG          |           BINDUMP            |                PRINT FORM                           ATING                 |
+[01716834][I] gp_test   root                            [I:-][-][OFF][ OFF ] | err: 0    warn: 4    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |- basefw                       [I:-][-][OFF][ OFF ] | err: 2    warn: 16   | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |- gp_debug                     [I:-][-][OFF][ OFF ] | err: 20   warn: 6    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |- gp_test                      [V:-][-][OFF][ OFF ] | err: 28   warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin                                                   |
+[01716834][I] gp_test   |- frw_dump                     [I:-][-][OFF][FULL ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |- gp_boot                      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |- framework                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |  |- taskmon                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |  |- nvm                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |  |- frw_mcu                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |  |- calib                     [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716834][I] gp_test   |  |- display                   [I:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |  |- disp_rear              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |  |- disp_front             [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |  \- disp_ext               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- gp_ipc                    [I:-][-][OFF][ OFF ] | err: 5    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- audio                     [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- led                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- battery                   [I:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- power                     [I:-][-][OFF][ OFF ] | err: 1    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- accessory                 [I:-][-][OFF][ OFF ] | err: 2    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- frw_batt_remote           [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- ext_led                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- frw_input                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- frw_thermal               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- dfswrite                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- audsrc                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- audsink                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- audcap                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- pipecfg                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716835][I] gp_test   |  |- imgsrc                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |- imgcap                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |  \- imgcap_dsrc            [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |- gpsm                      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |- IspFactory                [I:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |  \- Isp0                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |     |- ImuSensorDataSrc    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |     |- Acls                [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |     |- Awb                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |     |- Ae                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |     \- Usecase             [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- TimeRefs         [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- sensorPattern    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- Monitor          [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- dynUseCaseMngr   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- AeAwbStats       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |- Eis              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |  \- gpeis         [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |     |- ers        [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716836][I] gp_test   |  |        |     |- ersSec     [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |     \- ersPrep    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- Iq               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- Ob               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- SceneCl          [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- xtmStats         [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- xtmLceEstim      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- xtmLceDrive      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- Fd               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- RoiManager       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- Ms               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        |- Lec              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |        \- xtm              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |- framebuf                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |- mft                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |  \- mft_aenc               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |- playback                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |- frw_usb                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |- orient                    [I:-][-][OFF][ OFF ] | err: 1    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716837][I] gp_test   |  |  \- Sensor Fusion          [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |     \- Orientation Tracker [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- imgpipe                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- audcap_datasrc            [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- datacap                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- logging                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- audproc                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- mft_still_dng_0           [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- mft_still_dng_1           [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  \- streamer                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |- hal                          [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- batt_remote               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- ext_battery               [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- gpio_ctrl                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- i2c_ctrl                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- spi_ctrl                  [I:-][-][OFF][ OFF ] | err: 5    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- uart_ctrl                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- timer_ctrl                [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- adc_ctrl                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716838][I] gp_test   |  |- imu_ctrl                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- avs_ctrl                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- mipi_ctrl                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- imu                       [I:-][-][OFF][ OFF ] | err: 11   warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- dsp_temp                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- pmic                      [I:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- drv_button                [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- mcu                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |  \- heartbeat              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- dsp                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- drv_batt                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- gpu                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- dma                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- pdm                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- mp4_muxer                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- exif_muxer                [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- mp_demux                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- exif_demuxer              [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- ublox_m10                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716839][I] gp_test   |  |- awe_lib_v6                [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  \- imx677                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |- monitor                      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |- IsgAssert                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |- appc                         [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- settings                  [I:-][-][OFF][ OFF ] | err: 1    warn: 3    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- cam_mode                  [I:-][-][OFF][ OFF ] | err: 1    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |  \- fwupdate               [I:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- capture                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- presets                   [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- db                        [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- csc                       [I:-][-][OFF][ OFF ] | err: 4    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- log                       [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- wireless                  [I:-][-][OFF][ OFF ] | err: 0    warn: 3    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- appc_api                  [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  |- stream                    [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |  \- appc_test                 [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   |- mdb                          [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test   \- bindump                      [I:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin T                           hread      Class Func |
+[01716840][I] gp_test                                    | |  |   |     '- BINDUMP LEVEL
+[01716840][I] gp_test                   PRINT LOG LEVEL -' |  |   '- EVENT LOGGING
+[01716840][I] gp_test                   RECORD LOG LEVEL --'  '- ASSERT LEVEL
+[01716840][I] gp_test
+[01716840][I] gp_test   T_SUCCESS (dbg): 0

@@ -1,0 +1,57 @@
+0x0c840000 milbeaut-karine-xdmac
+0x0c850000 milbeaut-karine-xdmac
+0x0c851000 ipcu-device
+0x0c852000 ipcu-device
+0x0c853000 ipcu-device
+
+0x0c86c000 arm,primecell  Watchdog
+0x0D140000
+
+0x0d151000 milbeaut-karine-pinctrl
+0x0d152000 milbeaut-karine-ccu
+0x0d154344 cpuswitch
+
+0x0e000040 milbeaut-timer
+
+0x0e005200 karine-i2c
+0x0e005400 karine-i2c
+0x0e005600 karine-i2c
+0x0e005000 karine-i2c
+0x0e005800 karine-i2c
+
+0x0e100000 milbeaut-karine-hdmac
+0x0e110000 milbeaut-karine-hdmac
+0x0e120000 milbeaut-karine-hdmac
+0x0e130000 milbeaut-karine-hdmac
+
+0x0e700000 milbeaut-karine-usio-uart *ttyUSI1   mlb-usio-uart
+0x0e700010 milbeaut-karine-usio-uart
+0x0e700020 milbeaut-karine-usio-uart
+0x0e700030 milbeaut-karine-usio-uart *ttyUSI3  mlb-usio-uart
+0x0e700030 usio_uart * console
+0x0e700040 milbeaut-karine-usio-uart
+
+0x0f000000 milbeaut-spi
+0x0f001000 milbeaut-spi
+0x0f002000 milbeaut-spi
+0x0f003000 milbeaut-spi
+
+0x19830000 milbeaut-karine-sdhci-3.0  MMC0
+0x19820000 milbeaut-karine-sdhci-4.0
+0x19890000 generic-ehci
+0x19891000 generic-ohci
+0x198a0000 usb2m9m,f_usb20dc_lfp
+0x19880000 f_usb31drd_m20v
+0x19880000 DWC3
+
+0x1b000000 milbeaut-pcie-rc-karine
+0x1ba60000 dwc3-milbeaut 1ba60000.usb31
+0x1b400000 milbeaut-pcie-rc-karine
+0x1ba01010 exsint-karine
+
+0x1c000000 dsp-peri-device
+0x1c200000 dsp-peri-device
+0x1d000000 dsp-peri-device
+
+0x50000000 0x08000000 linux memory 
+0x58000000 shared-commem

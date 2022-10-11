@@ -1,0 +1,21 @@
+root@gopro:/proc# cat iomem
+0d151000-0d151fff : pinctrl
+0d152000-0d154fff : clk@d152000
+19830000-19833fff : mmc0@19830000
+1988c100-1988ffff : dwc3@19880000
+198a0000-198affff : udc
+1b800000-1b800fff : hdmac
+1ba60000-1ba7ffff : reg-subsys
+50000000-5bffffff : System RAM
+  50008000-5000dfff : reserved
+  50080000-50afffff : Kernel code
+  50b00000-50ceffff : reserved
+  50cf0000-50e75fff : Kernel data
+  5ae00000-5affffff : reserved
+  5b1de000-5bdfffff : reserved
+  5bf24000-5bf84fff : reserved
+  5bf85000-5bfdcfff : reserved
+  5bfdf000-5bfdffff : reserved
+  5bfe0000-5bfe1fff : reserved
+  5bfe2000-5bff5fff : reserved
+  5bff6000-5bffffff : reserved
