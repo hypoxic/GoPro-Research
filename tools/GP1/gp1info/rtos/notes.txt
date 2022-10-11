@@ -1,0 +1,99 @@
+Hypoxic GP1 Information
+Architecture= 9, read 0x410fc075
+CPUID_EXT_PFR0 = 0x1131
+CPUID_EXT_PFR1 = 0x11011
+CPUID_EXT_DFR0 = 0x2010555
+CPUID_EXT_AFR0 = 0x0
+CPUID_EXT_MMFR0 = 0x10101105
+CPUID_EXT_MMFR1 = 0x40000000
+CPUID_EXT_MMFR2 = 0x1240000
+CPUID_EXT_MMFR3 = 0x2102211
+CPUID_EXT_ISAR0 = 0x2101110
+CPUID_EXT_ISAR1 = 0x13112111
+CPUID_EXT_ISAR2 = 0x21232041
+CPUID_EXT_ISAR3 = 0x11112131
+CPUID_EXT_ISAR4 = 0x10011142
+CPUID_EXT_ISAR5 = 0x0
+midr = 0x410fc075
+mpidr32 = 0x80000f00
+DBGDIDR           = 0x3515f005  
+/* 
+    3 Watch points
+    5 Breakpoint Registers
+    2 with contex matching (1+1)
+    Debug architecture 0x5 The processor implements ARMv7.1 Debug architecture.
+    Processor Variant 0
+    Processor Revision
+*/
+  
+  0x79000000 freespace used by R/W NAND tests
+  
+  
+0x45571000 EMMC Partition table
+  
+NAND/EMMC(1)
+busybox devmem 0x1DFF4000
+0x30000001
+media em get_param
+FJ_EMMC_Get_ParamBlk_Info() end(0)
+FJ_EMMC_Get_ParamBlk_Info.  param_blk_top=0x00a80300, param_blk_size=0x00100000
+media em par_read 0   
+Media Test Execute
+FJ_EMMC_Partition_Read() end(0)
+ - num = 4
+ - partition 0  type=4, LBA=0x280300, size=0x100000
+ - partition 1  type=4, LBA=0x380300, size=0x100000
+ - partition 2  type=4, LBA=0x480300, size=0x200000
+ - partition 3  type=4, LBA=0x680300, size=0x200000
+ - partition 4  type=0, LBA=0x0, size=0x0
+ - partition 5  type=0, LBA=0x0, size=0x0
+ - partition 6  type=0, LBA=0x0, size=0x0
+ - partition 7  type=0, LBA=0x0, size=0x0
+ 
+media em par_read 1
+  DebugVer          = 0x00000005
+  DBGDEVID          = 0x01110f13
+rombase = 0x0
+
+
+  *result = 0x280200;
+  result[1] = 4;
+  result[2] = 0x280200;
+  result[3] = 2622208;
+  result[4] = 1048576;
+  result[5] = 3670784;
+  result[6] = 1048576;
+  result[7] = 4719360;
+  result[8] = 0x200000;
+  result[9] = 6816512;
+  result[10] = 0x200000;
+  result[11] = 8913664;
+  result[12] = 0x200000;
+  result[13] = 11010816;
+  result[14] = 0;
+  result[15] = 11010816;
+  result[16] = 0;
+  result[17] = 4;
+  result[18] = 0x4000;
+  result[19] = 512;
+  result[20] = 4;
+  result[21] = 0x4000;
+  result[22] = 512;
+  result[23] = 4;
+  result[24] = 0x4000;
+  result[25] = 512;
+  result[26] = 4;
+  result[27] = 0x4000;
+  result[28] = 512;
+  result[29] = 4;
+  result[30] = 0x4000;
+  result[31] = 512;
+  result[32] = 0;
+  result[33] = 0;
+  result[34] = 0;
+  result[35] = 0;
+  result[36] = 0;
+  result[37] = 0;
+  result[38] = 11010816;
+  result[39] = 1048576;
+  result[40] = 12059392;
