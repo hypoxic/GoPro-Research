@@ -1,17 +1,45 @@
+/*
+  GP2 Memory Map
+
+*/
+
+0xf100   SMP-SRAM
+
+08000000-08020000 BootROM
+08200000-08220000 Supervisor
+08400000-08420000 SDRAM  (check)
+
+./memdisplay64 0x0821ff00 0x1000
+00900000 MAC address
+09000100 bit 30
+
+
 0x0c840000 milbeaut-karine-xdmac
 0x0c850000 milbeaut-karine-xdmac
 0x0c851000 ipcu-device
 0x0c852000 ipcu-device
-0x0c853000 ipcu-device
+0x0c853000 ipcu-device (c853000.snrtos2)
 
 0x0c86c000 arm,primecell  Watchdog
-0x0D140000
 
+
+0d000000 GIC interrupt controller
+0d0e0000 GICv3
+0D140000
+
+0x0d150000 misctop
 0x0d151000 milbeaut-karine-pinctrl
 0x0d152000 milbeaut-karine-ccu
+0x0D152204 enable clock MW_Custom_EMMC_Start_Clock
 0x0d154344 cpuswitch
 
+dff7400 i3c1
+dffb000 milbeaut-m20v-pmc-pinctrl
+
+0xe000000 timer
 0x0e000040 milbeaut-timer
+e004000 updown0
+0xe004020 updown1
 
 0x0e005200 karine-i2c
 0x0e005400 karine-i2c
@@ -19,23 +47,33 @@
 0x0e005000 karine-i2c
 0x0e005800 karine-i2c
 
+e007000 i3c0
+
 0x0e100000 milbeaut-karine-hdmac
 0x0e110000 milbeaut-karine-hdmac
 0x0e120000 milbeaut-karine-hdmac
 0x0e130000 milbeaut-karine-hdmac
 
-0x0e700000 milbeaut-karine-usio-uart *ttyUSI1   mlb-usio-uart
+0x0e700000 milbeaut-karine-usio-uart *ttyUSI1   mlb-usio-uart   (rtos & loader)
 0x0e700010 milbeaut-karine-usio-uart
 0x0e700020 milbeaut-karine-usio-uart
 0x0e700030 milbeaut-karine-usio-uart *ttyUSI3  mlb-usio-uart
 0x0e700030 usio_uart * console
 0x0e700040 milbeaut-karine-usio-uart
 
+c86c000 watchdog
+
 0x0f000000 milbeaut-spi
 0x0f001000 milbeaut-spi
 0x0f002000 milbeaut-spi
 0x0f003000 milbeaut-spi
 
+0x19840000 security processor?
+0x19840000
+
+0x19810000 mlb01-emmc-5.0
+0x19810200 srs
+0x19810000 hrs
 0x19830000 milbeaut-karine-sdhci-3.0  MMC0
 0x19820000 milbeaut-karine-sdhci-4.0
 0x19890000 generic-ehci
@@ -44,8 +82,12 @@
 0x19880000 f_usb31drd_m20v
 0x19880000 DWC3
 
+0x14c0a000 NOC
+
 0x1b000000 milbeaut-pcie-rc-karine
+0x1ba00200 exstop
 0x1ba60000 dwc3-milbeaut 1ba60000.usb31
+0x1bb00e00 pcie_apb
 0x1b400000 milbeaut-pcie-rc-karine
 0x1ba01010 exsint-karine
 
@@ -53,5 +95,25 @@
 0x1c200000 dsp-peri-device
 0x1d000000 dsp-peri-device
 
-0x50000000 0x08000000 linux memory 
-0x58000000 shared-commem
+
+50000000 0x08000000 linux memory 
+57000000 CMA (16MiB)
+58000000 shared-commem
+shared_commem {
+        compatible = "socionext, shared-commem";
+        address64;
+        buf-addr = <0x00000000 0x58000008>;
+        buf-size = <0x00000000 0x58000010>;
+        sync-addr = <0x00000000 0x58000018>;
+        sync-size = <0x00000000 0x58000020>;
+        rd-pointer-addr = <0x00000000 0x58000028>;
+        rd-pointer-size = <0x00000000 0x58000030>;
+        wt-pointer-addr = <0x00000000 0x58000038>;
+        wt-pointer-size = <0x00000000 0x58000040>;
+        movie-rec-addr = <0x00000000 0x58000048>;
+        movie-rec-size = <0x00000000 0x58000050>;
+        term-io-addr = <0x00000000 0x58000058>;
+        term-io-size = <0x00000000 0x58000060>;
+
+
+0x4FFFFFF0 BEEFCAKE continue
