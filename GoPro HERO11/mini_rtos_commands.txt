@@ -1,0 +1,82 @@
+Various RTOS commands needed for the hero11 mini
+
+If need to quiet down logs
+t dbg fdr Monitor printLvl off
+t dbg fdr pmic printLvl off
+t dbg fdr battery printLvl off
+t dbg fdr power printLvl off
+
+better to just use 
+t dbg fdr basefw printLvl on
+t dbg fdr gp_test printLvl on
+t dbg fdr gp_debug printLvl on
+
+Fw update attempts to moorea. Note, it fails packet 2. header failure
+t frw mcu heartbeat 0
+t frw mcu fwupdate C:\MCUFW_SULTAN_APP sd force
+t frw mcu fwupdate MCUFW_SULTAN_APP romfs force
+t frw mcu fwupdate mcufw_stm32_app_dev romfs force
+MCUFW_SULTAN_APP
+writes 1231 chunks
+imgheader is two chunks
+
+Turn off power saving
+--------------------- 
+Need to manually perfom power saving [labs release]
+// Turn on noshutdown
+devmem 0x43463E40 8 1
+// Turn off noshutdown
+devmem 0x43463E40 8 0
+
+[ doesn't work] 
+t api setup auto_power_down never   
+camera_utils_autopower_off_timer_handle
+t api setup lcd_sleep never
+t appc status no_shutdown on
+
+[ rewrite linux ]
+mount -o remount,rw  /dev/ipcublk /
+mount -o remount,ro  /dev/ipcublk /
+
+t frw util read32 0x431EC458
+=0x01000101
+devmem 0x431EC45A 8 ==> 0
+devmem 0x431EC45A 8 1
+
+//---
+
+if [ -f /tmp/fuse_d/hypoxic.sh ]; then
+    chmod +x /tmp/fuse_d/hypoxic.sh
+    /tmp/fuse_d/hypoxic.sh &
+else
+    if [ -f /tmp/fuse_a/trunk.sh ]; then
+        chmod +x /tmp/fuse_a/persist.sh
+        /tmp/fuse_a/persist.sh &
+    fi
+fi
+
+
+
+/tmp/fuse_a/memdisplay64 0x18000800 0x1000
+t frw util read32 0x4319B9A8
+t appc settings save
+devmem 0x43463E40 8 0x00
+D:\Dropbox\designs\Gopro\HERO11mini\1.10.70 Labs\LABS_MINI11_01_10_70\UPDATE\sections\cinit.bin
+43108440 
+
+t appc settings save
+
+t frw util write32 0x4319B9A8 0xFFFFFFFF
+
+time ffmpeg -i input.mp4 -filter:v fps=fps=1/60 ffmpeg_%0d.bmp
+time for i in {0..39} ; do ffmpeg -accurate_seek -ss `echo $i*60.0 | bc` -i input.mp4   -frames:v 1 period_down_$i.bmp ; done
+t dbg fdr fwupdate printLvl on
+
+feature_supported is:
+t frw util write32 0x4319B9A4 0xFFFFFFFF
+
+ignore authentication
+// Does not work
+pismo_camera_config+0x49A=
+0x431EC45A
+

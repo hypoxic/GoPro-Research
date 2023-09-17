@@ -1,0 +1,232 @@
+[00040651][I] gp_test   cmd: t rtos task
+[00040653][I] gp_test                                     CPU  Wait      Wait    Wakeup   Susp     Stack   Stack        Stack
+[00040653][I] gp_test      ID      Name      Prty State  3210  Reason    Obj ID  Req Cnt  Req Cnt  Size    Headroom     Base         Task Long Name
+[00040653][I] gp_test   --------------------------------------------------------------------------------------------------------------------------
+[00040653][I] gp_test   0x01000002             6  wasp   -210 rmbf    0x01000001      0     0     16896       0   0%    0x0x459ab210
+[00040653][I] gp_test   0x0100003d SNRSEN      7  wasp   ---0 flg     0x0100005b      0     0     12544       0   0%    0x0x46000110
+[00040653][I] gp_test   0x0100003c SNRSENVD    7  wasp   ---0 flg     0x0100005a      0     0     24832       0   0%    0x0x45ffc910
+[00040653][I] gp_test   0x01000023 SNRWOR12    8  dorm   ---0                         0     0     16640       0   0%    0x0x45f99110
+[00040653][I] gp_test   0x01000024 SNRWOR13    8  dorm   ---0                         0     0     16640       0   0%    0x0x45f9d910
+[00040653][I] gp_test   0x01000025 SNRWOR14    8  dorm   ---0                         0     0     16640       0   0%    0x0x45fa2110
+[00040653][I] gp_test   0x01000026 SNRWOR15    8  dorm   ---0                         0     0     16640       0   0%    0x0x45fa6910
+[00040654][I] gp_test   0x01000027 SNRWOR16    8  dorm   ---0                         0     0     16640       0   0%    0x0x45fab110
+[00040654][I] gp_test   0x01000028 SNRWOR17    8  dorm   ---0                         0     0     16640       0   0%    0x0x45faf910
+[00040654][I] gp_test   0x0100002d SNRTDIQ     8  dorm   -2--                         0     0     12544       0   0%    0x0x45fc3110
+[00040654][I] gp_test   0x01000029 SNRWOR18    8  dorm   ---0                         0     0     16640       0   0%    0x0x45fb4110
+[00040654][I] gp_test   0x0100002c SNRTDNR     8  dorm   -2--                         0     0     12544       0   0%    0x0x45fbf910
+[00040654][I] gp_test   0x0100002a SNRWOR19    8  dorm   ---0                         0     0     16640       0   0%    0x0x45fb8910
+[00040654][I] gp_test   0x01000011 SNRMSG      8  wasp   ---0 mbx     0x01000001      0     0      8448       0   0%    0x0x45f48110
+[00040654][I] gp_test   0x01000012 SNRSEQ0     8  wasp   ---0 mbx     0x01000002      0     0     16640       0   0%    0x0x45f4c910
+[00040654][I] gp_test   0x01000013 SNRSEQ1     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f51110
+[00040654][I] gp_test   0x01000014 SNRSEQ2     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f55910
+[00040654][I] gp_test   0x01000015 SNRSEQ3     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f5a110
+[00040654][I] gp_test   0x01000016 SNRSEQ4     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f5e910
+[00040654][I] gp_test   0x01000017 SNRWOR0     8  wasp   ---0 flg     0x010000bd      0     0     16640       0   0%    0x0x45f63110
+[00040655][I] gp_test   0x01000018 SNRWOR1     8  wasp   ---0 mbx     0x01000008      0     0     16640       0   0%    0x0x45f67910
+[00040655][I] gp_test   0x01000019 SNRWOR2     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f6c110
+[00040655][I] gp_test   0x0100001a SNRWOR3     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f70910
+[00040655][I] gp_test   0x0100001b SNRWOR4     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f75110
+[00040655][I] gp_test   0x0100001c SNRWOR5     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f79910
+[00040655][I] gp_test   0x0100001d SNRWOR6     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f7e110
+[00040655][I] gp_test   0x0100001e SNRWOR7     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f82910
+[00040655][I] gp_test   0x01000020 SNRWOR9     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f8b910
+[00040655][I] gp_test   0x0100001f SNRWOR8     8  dorm   ---0                         0     0     16640       0   0%    0x0x45f87110
+[00040655][I] gp_test   0x01000021 SNRWOR10    8  dorm   ---0                         0     0     16640       0   0%    0x0x45f90110
+[00040655][I] gp_test   0x01000022 SNRWOR11    8  dorm   ---0                         0     0     16640       0   0%    0x0x45f94910
+[00040655][I] gp_test   0x01000046 SNRTEST0    9  dorm   ---0                         0     0     12544       0   0%    0x0x4601f910
+[00040656][I] gp_test   0x01000047 SNRTEST1    9  dorm   ---0                         0     0     12544       0   0%    0x0x46023110
+[00040656][I] gp_test   0x01000048 SNRTEST2    9  dorm   ---0                         0     0     12544       0   0%    0x0x46026910
+[00040656][I] gp_test   0x0100004d SNREHDR3    9  dorm   ---0                         0     0     12544       0   0%    0x0x46038110
+[00040656][I] gp_test   0x0100009e heartbea    9  wasp   -210 slp                     0     0     17664       0   0%    0x0x4f929510
+[00040656][I] gp_test   0x0100004c SNREHDR2    9  dorm   ---0                         0     0     12544       0   0%    0x0x46034910
+[00040656][I] gp_test   0x0100004b SNREHDR1    9  dorm   ---0                         0     0     12544       0   0%    0x0x46031110
+[00040656][I] gp_test   0x0100004a SNREHDR0    9  dorm   ---0                         0     0     12544       0   0%    0x0x4602d910
+[00040656][I] gp_test   0x01000049 SNRTEST3    9  dorm   ---0                         0     0     12544       0   0%    0x0x4602a110
+[00040656][I] gp_test   0x0100003f SNRSTAT     9  wasp   ---0 flg     0x01000080      0     0     12544       0   0%    0x0x46007110
+[00040656][I] gp_test   0x01000040 SNRJPEG     9  dorm   ---0                         0     0     12544       0   0%    0x0x4600a910
+[00040656][I] gp_test   0x0100008d mcu_hb     10  wasp   -210 slp                     0     0     17664       0   0%    0x0x4f857d10
+[00040656][I] gp_test   0x01000038 SNRCNR     10  dorm   ---0                         0     0     12544       0   0%    0x0x45feb910
+[00040656][I] gp_test   0x0100008f mcu_stm3   10  wasp   -210 slp                     0     0     17664       0   0%    0x0x4f862d10
+[00040657][I] gp_test   0x01000030 SNRRBK     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fcd910
+[00040657][I] gp_test   0x01000031 SNRMAP     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fd1110
+[00040657][I] gp_test   0x01000032 SNRLTM     12  wasp   ---0 flg     0x0100005d      0     0     12544       0   0%    0x0x45fd4910
+[00040657][I] gp_test   0x01000034 SNRHDR     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fdd910
+[00040657][I] gp_test   0x01000035 SNRB2B0    12  dorm   ---0                         0     0     12544       0   0%    0x0x45fe1110
+[00040657][I] gp_test   0x01000036 SNRB2B1    12  dorm   ---0                         0     0     12544       0   0%    0x0x45fe4910
+[00040657][I] gp_test   0x01000037 SNRRSZ     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fe8110
+[00040657][I] gp_test   0x0100002b SNRME      12  dorm   ---0                         0     0     12544       0   0%    0x0x45fbc110
+[00040657][I] gp_test   0x0100002e SNRB2R     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fc6910
+[00040657][I] gp_test   0x0100002f SNRR2Y     12  dorm   -2--                         0     0     12544       0   0%    0x0x45fca110
+[00040657][I] gp_test   0x01000039 SNRSRO     12  dorm   ---0                         0     0     12544       0   0%    0x0x45fef110
+[00040657][I] gp_test   0x0100003a SNRSROP1   12  dorm   ---0                         0     0     12544       0   0%    0x0x45ff2910
+[00040658][I] gp_test   0x0100003b SNRSENUP   12  dorm   ---0                         0     0     12544       0   0%    0x0x45ff6110
+[00040658][I] gp_test   0x01000033 SNRLTMR    13  wasp   ---0 flg     0x0100005e      0     0     20736       0   0%    0x0x45fda110
+[00040658][I] gp_test   0x0100003e SNRSENEV   14  wasp   ---0 flg     0x0100005c      0     0     12544       0   0%    0x0x46003910
+[00040658][I] gp_test   0x01000089 wqRealwr   15  wasp   -210 rmbf    0x01000013      0     0     20736       0   0%    0x0x4f841910
+[00040658][I] gp_test   0x01000083 COMPINT    15  wasp   ---0 flg     0x010000cf      0     0      8448       0   0%    0x0x460cd110
+[00040658][I] gp_test   0x01000003 BOOT       17  dorm   ---0                         0     0      8448       0   0%    0x0x45f18910
+[00040658][I] gp_test   0x01000063 H_DP       20  dorm   ---0                         0     0      8448       0   0%    0x0x46074110
+[00040658][I] gp_test   0x0100000d DISPHPD    20  dorm   ---0                         0     0      8448       0   0%    0x0x45f3a910
+[00040658][I] gp_test   0x010000dd Ae         23  wasp   -210 sem     0x0100019b      0     0     18688       0   0%    0x0x4fbf1110
+[00040658][I] gp_test   0x010000dc Awb        23  wasp   -21- sem     0x01000199      0     0     18688       0   0%    0x0x4fbec110
+[00040658][I] gp_test   0x010000db Acls       23  wasp   -210 sem     0x01000197      0     0     49408       0   0%    0x0x4fbe7110
+[00040658][I] gp_test   0x0100007d BASEFW     24  wasp   ---0 dly                     0     0     24832       0   0%    0x0x460be110
+[00040659][I] gp_test   0x0100005a H265LCD    25  dorm   --1-                         0     0      8448       0   0%    0x0x4605a910
+[00040659][I] gp_test   0x010000d8 EisPri     25  wasp   -21- sem     0x0100018d      0     0     20736       0   0%    0x0x4fbd0110
+[00040659][I] gp_test   0x010000d7 EisFrPri   25  wasp   -21- sem     0x0100018b      0     0     20736       0   0%    0x0x4fbca910
+[00040659][I] gp_test   0x0100005b H265DP     25  dorm   --1-                         0     0      8448       0   0%    0x0x4605d110
+[00040659][I] gp_test   0x010000a4 SFTask     26  wasp   -210 flg     0x0100016d      0     0     20736       0   0%    0x0x4f950110
+[00040659][I] gp_test   0x0100000e AUDIO_ED   27  wasp   --1- flg     0x01000066      0     0     14592       0   0%    0x0x45f3e910
+[00040659][I] gp_test   0x0100009b audspk     27  wasp   -210 flg     0x01000165      0     0     20736       0   0%    0x0x4f913910
+[00040659][I] gp_test   0x01000064 DEMUX      27  dorm   --1-                         0     0     28928       0   0%    0x0x4607b910
+[00040659][I] gp_test   0x0100000f AUDIO_CP   27  wasp   --1- flg     0x01000064      0     0     12544       0   0%    0x0x45f42110
+[00040659][I] gp_test   0x01000010 AUDIO_OT   27  wasp   --1- flg     0x01000065      0     0     12544       0   0%    0x0x45f45910
+[00040659][I] gp_test   0x010000ae recAETrg   30  wasp   -210 flg     0x01000175      0     0     18688       0   0%    0x0x4f9ee110
+[00040659][I] gp_test   0x01000059 H265DISP   31  dorm   --1-                         0     0      8448       0   0%    0x0x46058110
+[00040659][I] gp_test   0x01000052 H265_CC3   32  dorm   --1-                         0     0      8448       0   0%    0x0x46046910
+[00040660][I] gp_test   0x01000053 H265INT    32  dorm   --1-                         0     0      8448       0   0%    0x0x46049110
+[00040660][I] gp_test   0x01000054 H265INT1   32  dorm   --1-                         0     0      8448       0   0%    0x0x4604b910
+[00040660][I] gp_test   0x01000055 H265INT2   32  dorm   --1-                         0     0      8448       0   0%    0x0x4604e110
+[00040660][I] gp_test   0x01000056 H265INT3   32  dorm   --1-                         0     0      8448       0   0%    0x0x46050910
+[00040660][I] gp_test   0x01000058 H265_VEC   32  dorm   --1-                         0     0      8448       0   0%    0x0x46055910
+[00040660][I] gp_test   0x01000050 H265_CC1   32  dorm   --1-                         0     0      8448       0   0%    0x0x46041910
+[00040660][I] gp_test   0x0100004f H265_CC    32  dorm   --1-                         0     0      8448       0   0%    0x0x4603f110
+[00040660][I] gp_test   0x01000051 H265_CC2   32  dorm   --1-                         0     0      8448       0   0%    0x0x46044110
+[00040660][I] gp_test   0x01000057 H265_ENT   33  dorm   --1-                         0     0      9472       0   0%    0x0x46053510
+[00040660][I] gp_test   0x0100005c H_MV_FRE   33  dorm   --1-                         0     0      8448       0   0%    0x0x4605f910
+[00040660][I] gp_test   0x010000d6 PocckEis   33  wasp   -210 sem     0x01000188      0     0     20736       0   0%    0x0x4fbc5110
+[00040660][I] gp_test   0x010000d9 HsModel    35  wasp   -210 sem     0x0100018f      0     0     20736       0   0%    0x0x4fbd5910
+[00040661][I] gp_test   0x0100004e H265CTRL   36  dorm   --1-                         0     0     16640       0   0%    0x0x4603c910
+[00040661][I] gp_test   0x010000d3 MsWorker   40  wasp   -210 sem     0x01000182      0     0     18688       0   0%    0x0x4fba0910
+[00040661][I] gp_test   0x010000d4 XtmAecLu   40  wasp   -21- sem     0x01000184      0     0     61696       0   0%    0x0x4fbb0110
+[00040661][I] gp_test   0x010000ab audproc    41  wasp   -21- flg     0x01000172      0     0     28928       0   0%    0x0x4f9d2910
+[00040661][I] gp_test   0x0100007f AWB        41  dorm   --1-                         0     0      8448       0   0%    0x0x460c3110
+[00040661][I] gp_test   0x0100007e AE         41  dorm   --1-                         0     0      8448       0   0%    0x0x460c0910
+[00040661][I] gp_test   0x010000d2 LceEstim   45  wasp   -21- sem     0x01000180      0     0     37120       0   0%    0x0x4fb9b910
+[00040661][I] gp_test   0x010000ac audvr      49  wasp   -21- flg     0x01000174      0     0     37120       0   0%    0x0x4f9dc110
+[00040661][I] gp_test   0x01000043 SMSGRSZ    50  wasp   ---0 flg     0x01000062      0     0     20736       0   0%    0x0x46017110
+[00040661][I] gp_test   0x01000045 IPFDDUMP   50  dorm   ---0                         0     0      8448       0   0%    0x0x4601c110
+[00040661][I] gp_test   0x01000062 H_JPG      50  dorm   ---0                         0     0      8448       0   0%    0x0x46071910
+[00040661][I] gp_test   0x010000d5 XtmTcBpE   50  wasp   -21- sem     0x01000186      0     0     61696       0   0%    0x0x4fbbf910
+[00040661][I] gp_test   0x010000c3 FB1        50  wasp   --10 sem     0x0100016d      0     0     24832       0   0%    0x0x4fa8b910
+[00040662][I] gp_test   0x010000c2 FB0        50  wasp   --10 sem     0x0100016b      0     0     24832       0   0%    0x0x4fa85110
+[00040662][I] gp_test   0x010000a8 MDBTask    50  wasp   -210 flg     0x01000170      0     0     17664       0   0%    0x0x4f96fd10
+[00040662][I] gp_test   0x0100008e mcuIRQ     50  wasp   -210 flg     0x010000d5      0     0     24832       0   0%    0x0x4f85e110
+[00040662][I] gp_test   0x01000084 SREGDUMP   50  dorm   --1-                         0     0      8448       0   0%    0x0x460cf910
+[00040662][I] gp_test   0x0100005e H_AUD_DG   51  dorm   --1-                         0     0      8448       0   0%    0x0x46064910
+[00040662][I] gp_test   0x0100005f H_MV_FED   51  dorm   --1-                         0     0     20736       0   0%    0x0x4606a110
+[00040662][I] gp_test   0x01000060 H_MAIN     51  dorm   ---0                         0     0      8448       0   0%    0x0x4606c910
+[00040662][I] gp_test   0x01000061 H_RAW      51  dorm   ---0                         0     0      8448       0   0%    0x0x4606f110
+[00040662][I] gp_test   0x01000008 UPDATER    51  dorm   --1-                         0     0      8448       0   0%    0x0x45f26110
+[00040662][I] gp_test   0x01000007 VBD_RECV   51  wasp   ---0 flg     0x010000ba      0     0      8448       0   0%    0x0x45f23910
+[00040662][I] gp_test   0x01000006 FS_IPCUR   51  wasp   ---0 flg     0x010000b9      0     0      8448       0   0%    0x0x45f21110
+[00040662][I] gp_test   0x01000005 FS_RECV    51  wasp   ---0 mbx     0x0100001f      0     0     12544       0   0%    0x0x45f1e910
+[00040663][I] gp_test   0x0100005d H_MV_WR    51  dorm   --1-                         0     0      8448       0   0%    0x0x46062110
+[00040663][I] gp_test   0x010000b1 Rw2dng_1   55  wasp   -210 flg     0x01000179      0     0     33024       0   0%    0x0x4fa06910
+[00040663][I] gp_test   0x010000b0 Rw2dng_0   55  wasp   -210 flg     0x01000179      0     0     33024       0   0%    0x0x4f9fe110
+[00040663][I] gp_test   0x010000af stillRec   55  wasp   -210 flg     0x01000177      0     0     28928       0   0%    0x0x4f9f5910
+[00040663][I] gp_test   0x010000aa haudio_a   55  wasp   -210 flg     0x01000173      0     0     20736       0   0%    0x0x4f97a910
+[00040663][I] gp_test   0x010000ad recSrvcE   56  wasp   -210 flg     0x01000175      0     0     52480       0   0%    0x0x4f9e9510
+[00040663][I] gp_test   0x0100000c CMD_OBSR   56  run    ---0                         0     0     33024       0   0%    0x0x45f38110
+[00040663][I] gp_test   0x0100009c Imgcap D   57  wasp   -210 rmbf    0x01000036      0     0     33024       0   0%    0x0x4f91c110
+[00040663][I] gp_test   0x010000a5 Imgpipe    57  wasp   -210 rmbf    0x01000039      0     0     33024       0   0%    0x0x4f95d910
+[00040663][I] gp_test   0x01000044 TEST_BG    57  dorm   ---0                         0     0      8448       0   0%    0x0x46019910
+[00040663][I] gp_test   0x010000a6 Audcap D   57  wasp   -210 sem     0x0100015a      0     0     33024       0   0%    0x0x4f966110
+[00040663][I] gp_test   0x01000096 frwledta   58  wasp   -210 flg     0x010000da      0     0     20736       0   0%    0x0x4f8ca110
+[00040664][I] gp_test   0x0100009a dfsWrt     58  wasp   -210 flg     0x010000dd      0     0     25856       0   0%    0x0x4f90e510
+[00040664][I] gp_test   0x01000076 IPCU17     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460a8910
+[00040664][I] gp_test   0x01000075 IPCU16     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460a6110
+[00040664][I] gp_test   0x0100007a IPCU21     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460b2910
+[00040664][I] gp_test   0x0100006e IPCU9      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46094910
+[00040664][I] gp_test   0x01000074 IPCU15     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460a3910
+[00040664][I] gp_test   0x01000065 IPCU0      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4607e110
+[00040664][I] gp_test   0x01000066 IPCU1      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46080910
+[00040664][I] gp_test   0x01000067 IPCU2      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46083110
+[00040664][I] gp_test   0x01000068 IPCU3      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46085910
+[00040664][I] gp_test   0x0100006f IPCU10     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46097110
+[00040664][I] gp_test   0x01000073 IPCU14     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460a1110
+[00040664][I] gp_test   0x01000072 IPCU13     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4609e910
+[00040665][I] gp_test   0x01000071 IPCU12     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4609c110
+[00040665][I] gp_test   0x01000082 IPFDMAIN   60  dorm   ---0                         0     0      8448       0   0%    0x0x460ca910
+[00040665][I] gp_test   0x01000070 IPCU11     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46099910
+[00040665][I] gp_test   0x01000079 IPCU20     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460b0110
+[00040665][I] gp_test   0x01000078 IPCU19     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460ad910
+[00040665][I] gp_test   0x0100007c IPCU23     60  dorm   ---0                         0     0      8448       0   0%    0x0x460b7910
+[00040665][I] gp_test   0x0100006a IPCU5      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4608a910
+[00040665][I] gp_test   0x01000069 IPCU4      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46088110
+[00040665][I] gp_test   0x01000077 IPCU18     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460ab110
+[00040665][I] gp_test   0x0100009f usb        60  wasp   -210 rmbf    0x01000037      0     0     33024       0   0%    0x0x4f931910
+[00040665][I] gp_test   0x010000c8 datacap    60  wasp   -210 rmbf    0x01000041      0     0     24832       0   0%    0x0x4fab0110
+[00040665][I] gp_test   0x0100006d IPCU8      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x46092110
+[00040665][I] gp_test   0x010000c5 pbMov      60  wasp   -210 flg     0x01000188      0     0     28928       0   0%    0x0x4fa9b910
+[00040666][I] gp_test   0x0100006c IPCU7      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4608f910
+[00040666][I] gp_test   0x0100006b IPCU6      60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x4608d110
+[00040666][I] gp_test   0x0100007b IPCU22     60  wasp   ---0 flg     0x010000a8      0     0      8448       0   0%    0x0x460b5110
+[00040666][I] gp_test   0x010000c7 stilDisp   61  wasp   -210 rmbf    0x01000040      0     0     24832       0   0%    0x0x4faa8910
+[00040666][I] gp_test   0x01000087 fdr        61  run    -210                         0     0     18688       0   0%    0x0x4f834910
+[00040666][I] gp_test   0x0100009d qrcontro   61  wasp   -210 slp                     0     0     33024       0   0%    0x0x4f924910
+[00040666][I] gp_test   0x010000e4 qrbackdr   62  wasp   -210 slp                     0     0     18688       0   0%    0x0x4fc24110
+[00040666][I] gp_test   0x0100000b UART_CTL   62  rdy    ---0                      8655     0     16640       0   0%    0x0x45f2f910
+[00040666][I] gp_test   0x010000c6 stillDec   62  wasp   -210 rmbf    0x0100003f      0     0     24832       0   0%    0x0x4faa2110
+[00040666][I] gp_test   0x01000086 bindump    62  wasp   -210 flg     0x010000d1      0     0     18688       0   0%    0x0x4f82f910
+[00040666][I] gp_test   0x010000ce strmTsk    64  wasp   -210 rmbf    0x0100004a      0     0     24832       0   0%    0x0x4faea910
+[00040666][I] gp_test   0x010000cd strmIpc    64  wasp   -210 rmbf    0x01000017      0     0     24832       0   0%    0x0x4fae3110
+[00040667][I] gp_test   0x01000080 REGDUMP    70  dorm   ---0                         0     0      8448       0   0%    0x0x460c5910
+[00040667][I] gp_test   0x01000085 IMGDUMP    70  dorm   --1-                         0     0      8448       0   0%    0x0x460d2110
+[00040667][I] gp_test   0x01000081 DATADUMP   71  dorm   ---0                         0     0      8448       0   0%    0x0x460c8110
+[00040667][I] gp_test   0x010000e3 voiceCUI   80  wasp   -210 rmbf    0x0100004f      0     0     24832       0   0%    0x0x4fc1f110
+[00040667][I] gp_test   0x01000041 SNRIQCH    80  wasp   -2-- flg     0x01000061      0     0     12544       0   0%    0x0x4600e110
+[00040667][I] gp_test   0x010000de taraApp    80  wasp   -210 rmbf    0x01000050      0     0     33024       0   0%    0x0x4fbf9910
+[00040667][I] gp_test   0x010000d1 SceneCl    80  wasp   -21- sem     0x0100017e      0     0     18688       0   0%    0x0x4fb92110
+[00040667][I] gp_test   0x01000099 dfsSDMon   80  wasp   -210 flg     0x010000dc      0     0     49408       0   0%    0x0x4f8e1910
+[00040667][I] gp_test   0x010000c4 playback   80  wasp   -210 rmbf    0x0100003d      0     0     33024       0   0%    0x0x4fa94110
+[00040667][I] gp_test   0x010000bc Upck1:2    81  wasp   -210 flg     0x01000183      0     0     28928       0   0%    0x0x4fa59110
+[00040667][I] gp_test   0x01000042 SNRIQCL    81  wasp   --1- flg     0x01000061      0     0     12544       0   0%    0x0x46011910
+[00040667][I] gp_test   0x010000b2 Upck0:0    81  wasp   -210 flg     0x0100017d      0     0     28928       0   0%    0x0x4fa0e110
+[00040668][I] gp_test   0x010000b3 Upck0:1    81  wasp   -210 flg     0x0100017d      0     0     28928       0   0%    0x0x4fa15910
+[00040668][I] gp_test   0x010000b4 Upck0:2    81  wasp   -210 flg     0x0100017d      0     0     28928       0   0%    0x0x4fa1d110
+[00040668][I] gp_test   0x010000b5 Upck0:3    81  wasp   -210 flg     0x0100017d      0     0     28928       0   0%    0x0x4fa24910
+[00040668][I] gp_test   0x010000b6 vc50:0     81  wasp   -210 flg     0x01000180      0     0     28928       0   0%    0x0x4fa2c110
+[00040668][I] gp_test   0x010000b7 vc50:1     81  wasp   -210 flg     0x01000180      0     0     28928       0   0%    0x0x4fa33910
+[00040668][I] gp_test   0x010000b8 vc50:2     81  wasp   -210 flg     0x01000180      0     0     28928       0   0%    0x0x4fa3b110
+[00040668][I] gp_test   0x010000b9 vc50:3     81  wasp   -210 flg     0x01000180      0     0     28928       0   0%    0x0x4fa42910
+[00040668][I] gp_test   0x010000ba Upck1:0    81  wasp   -210 flg     0x01000183      0     0     28928       0   0%    0x0x4fa4a110
+[00040668][I] gp_test   0x010000bb Upck1:1    81  wasp   -210 flg     0x01000183      0     0     28928       0   0%    0x0x4fa51910
+[00040668][I] gp_test   0x010000bd Upck1:3    81  wasp   -210 flg     0x01000183      0     0     28928       0   0%    0x0x4fa60910
+[00040668][I] gp_test   0x010000be vc51:0     81  wasp   -210 flg     0x01000186      0     0     28928       0   0%    0x0x4fa68110
+[00040668][I] gp_test   0x010000bf vc51:1     81  wasp   -210 flg     0x01000186      0     0     28928       0   0%    0x0x4fa6f910
+[00040668][I] gp_test   0x010000c0 vc51:2     81  wasp   -210 flg     0x01000186      0     0     28928       0   0%    0x0x4fa77110
+[00040669][I] gp_test   0x010000c1 vc51:3     81  wasp   -210 flg     0x01000186      0     0     28928       0   0%    0x0x4fa7e910
+[00040669][I] gp_test   0x010000d0 IqBinDum   82  wasp   -210 sem     0x0100017c      0     0     18688       0   0%    0x0x4fb8d110
+[00040669][I] gp_test   0x010000da Fd         85  wasp   -21- sem     0x01000192      0     0     18688       0   0%    0x0x4fbda910
+[00040669][I] gp_test   0x010000cb CAH        90  wasp   -210 flg     0x01000195      0     0     37120       0   0%    0x0x4fad4110
+[00040669][I] gp_test   0x010000ca wiman     100  wasp   -210 flg     0x01000194      0     0     37120       0   0%    0x0x4faca910
+[00040669][I] gp_test   0x010000df remBcPac  100  wasp   -210 rmbf    0x0100004c      0     0     33024       0   0%    0x0x4fc02110
+[00040669][I] gp_test   0x0100008a wqShrtwr  100  wasp   -210 rmbf    0x01000014      0     0     20736       0   0%    0x0x4f848110
+[00040669][I] gp_test   0x010000a3 bacpacGn  100  wasp   -210 rmbf    0x01000038      0     0     20736       0   0%    0x0x4f94a910
+[00040669][I] gp_test   0x010000e2 cclProxy  100  wasp   -210 flg     0x010001a3      0     0     20736       0   0%    0x0x4fc18910
+[00040669][I] gp_test   0x01000092 dbProxy   100  wasp   -210 sem     0x01000153      0     0     42240       0   0%    0x0x4f8a9d10
+[00040669][I] gp_test   0x01000091 csc       100  wasp   -210 rmbf    0x0100003c      0     0     37120       0   0%    0x0x4f872910
+[00040669][I] gp_test   0x010000cc appc_api  100  wasp   -210 rmbf    0x01000046      0     0     33024       0   0%    0x0x4fadc910
+[00040670][I] gp_test   0x010000a2 bleMetad  100  wasp   -210 rmbf    0x01000019      0     0     24832       0   0%    0x0x4f945110
+[00040670][I] gp_test   0x010000a1 kwMetada  100  wasp   -210 rmbf    0x0100001a      0     0     24832       0   0%    0x0x4f93e910
+[00040670][I] gp_test   0x010000cf CSM_task  100  wasp   --10 rmbf    0x0100004b      0     0     37120       0   0%    0x0x4fb88110
+[00040670][I] gp_test   0x010000a0 usbIPC    100  wasp   -210 rmbf    0x0100001c      0     0     24832       0   0%    0x0x4f938110
+[00040670][I] gp_test   0x01000098 btnPOLL_  100  wasp   -210 slp                     0     0     20736       0   0%    0x0x4f8d5110
+[00040670][I] gp_test   0x01000097 BtnHndlr  100  wasp   -210 rmbf    0x01000022      0     0     20736       0   0%    0x0x4f8cf910
+[00040670][I] gp_test   0x01000095 ipcGPDEV  100  wasp   -210 rmbf    0x0100001e      0     0     35072       0   0%    0x0x4f8c4910
+[00040670][I] gp_test   0x01000094 ipcTCHAN  100  wasp   -210 rmbf    0x0100001d      0     0     35072       0   0%    0x0x4f8bb910
+[00040670][I] gp_test   0x01000093 ipcWfiBt  100  wasp   -210 rmbf    0x01000016      0     0     35072       0   0%    0x0x4f8b2910
+[00040670][I] gp_test   0x010000e0 remWIFI   100  wasp   -210 rmbf    0x0100004d      0     0     33024       0   0%    0x0x4fc0a910
+[00040670][I] gp_test   0x010000e1 remBLE    100  wasp   -210 rmbf    0x0100004e      0     0     33024       0   0%    0x0x4fc13110
+[00040670][I] gp_test   0x01000090 ledDrv    100  wasp   -210 rmbf    0x01000015      0     0     24832       0   0%    0x0x4f869110
+[00040670][I] gp_test   0x010000c9 cscAsync  101  wasp   -210 rmbf    0x01000043      0     0     43264       0   0%    0x0x4fabb110
+[00040671][I] gp_test   0x0100008b FRW_MON0  120  wasp   -210 slp                     0     0     20736       0   0%    0x0x4f84d910
+[00040671][I] gp_test   0x010000a9 FRW_MON1  120  wasp   -210 slp                     0     0     20736       0   0%    0x0x4f975110
+[00040671][I] gp_test   0x01000088 wqLongwr  125  wasp   -210 rmbf    0x01000012      0     0     20736       0   0%    0x0x4f83b110
+[00040671][I] gp_test   0x010000a7 SD Logge  130  wasp   -210 flg     0x0100016f      0     0     18688       0   0%    0x0x4f96b110
+[00040671][I] gp_test   0x0100008c SYS_INFO  136  wasp   -210 flg     0x010000d4      0     0     20736       0   0%    0x0x4f853110
+[00040671][I] gp_test   0x01000004 IDLE0     137  rdy    ---0                         0     0      8448       0   0%    0x0x45f1b110
+[00040671][I] gp_test   0x0100000a IDLE2     137  rdy    -2--                         0     0      8448       0   0%    0x0x45f2b110
+[00040671][I] gp_test   0x01000009 IDLE1     137  run    --1-                         0     0      8448       0   0%    0x0x45f28910
+[00040671][I] gp_test   0x01000001 InitTask  250  rdy    -210                         0     0     24576       0   0%    0x0x459a4810

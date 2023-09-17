@@ -1,0 +1,216 @@
+t dbg fdr appc printLvl on
+t dbg fdr basefw printLvl on
+t dbg fdr gp_test printLvl on
+t dbg fdr gp_debug printLvl on
+t dbg fdr Monitor printLvl off
+
+t dbg fdr battery printLvl on
+t dbg fdr battery printLvl off
+t dbg fdr battery printLvl dbg
+
+t appc settings render_th 1920 1080 0 0 1920 1080
+ 
+[00221568][I] gp_test   cmd: t dbg fdr
+[00221568][I] gp_test   FDR (Flight Data Recorder interface)
+[00221568][I] gp_test   Usage:
+[00221568][I] gp_test           t dbg [off|err|warn|info/on|verb|dbg] // legacy API to specify log level
+[00221568][I] gp_test           t dbg irq [off|on]                    // Enable / Disable IRQ print on UART
+[00221568][I] gp_test           t dbg file                            // Toggle real time dump to file (invasive)
+[00221568][I] gp_test           t dbg status                          // to display all FDR tree status and names
+[00221568][I] gp_test
+[00221568][I] gp_test           -- TCmd --
+[00221568][I] gp_test           t dbg tcmd lastresult // displays last command status
+[00221568][I] gp_test           t dbg tcmd lastlogs   // display last commands logs (gp_test fdr)
+[00221568][I] gp_test
+[00221568][I] gp_test           -- Fdr Specific Command --
+[00221568][I] gp_test           => add Nr to these commands for non-recursive application)
+[00221568][I] gp_test           t dbg fdr [fdr_name] status                                      // Display this FDR tree status
+[00221568][I] gp_test           t dbg fdr [fdr_name] printLvl[Nr]   [off|err|warn|info|verb|dbg] // Set FDR print log level
+[00221569][I] gp_test           t dbg fdr [fdr_name] recordLvl[Nr]  [off|err|warn|info|verb|dbg] // Set FDR record log level
+[00221569][I] gp_test           t dbg fdr [fdr_name] eventLvl[Nr]   [off|on]                     // Set FDR event level
+[00221569][I] gp_test           t dbg fdr [fdr_name] binDumpLvl[Nr] [off|light|full]             // Set FDR event level
+[00221569][I] gp_test
+[00221569][I] gp_test           // Set format option, pass all option you want separated by spaces
+[00221569][I] gp_test           t dbg fdr [fdr_name] fmtOpt[Nr] [off|all|color|time|lvl|origin|thread|file|class|func]
+[00221569][I] gp_test
+[00221569][I] gp_test           -- BinDump --
+[00221569][I] gp_test           t dbg fdr bindump logs [on|off]         // toggle log recording to bindump
+[00221569][I] gp_test           t dbg fdr bindump datastreamer [on|off] // toggle dump to datastreamer
+[00221569][I] gp_test           t dbg fdr bindump file [on|off]         // toggle dump to file
+[00221569][I] gp_test
+[00221569][I] gp_test           -- Error --
+[00221569][I] gp_test           t dbg fdr error print // display first errors and warnings with their occurence
+[00221569][I] gp_test           t dbg fdr error reset // reset the first error buffer
+[00221569][I] gp_test
+[00221569][I] gp_test           -- History --
+[00221569][I] gp_test           t dbg fdr history clear              // Clear the history
+[00221569][I] gp_test           t dbg fdr history record    [on|off] // Set record of entries into history
+[00221569][I] gp_test           t dbg fdr history overwrite [on|off] // When 'on' entries will be overwritten when buffer is full
+[00221569][I] gp_test           t dbg fdr history dump console [lvl] [fdr_name]         // Dump history to console
+[00221569][I] gp_test           t dbg fdr history dump file [lvl] [fdr_name] [filename] // Dump history to SD card
+[00221569][I] gp_test                   lvl: minimum severity to dump [err|warn|info|verb|dbg] (defaults to verbose)
+[00221569][I] gp_test                   fdr_name: name of fdr to dump value for (if left empty or set to ALL => all FDRs)
+[00221569][I] gp_test                   filename: name of file to dump (defaults to rtos.log)
+[00221569][I] gp_test
+[00221569][I] gp_test           -- Events --
+[00221569][I] gp_test           t dbg fdr events init [size]            // Initialize event buffer. size has to be power of 2, by defaut 1MB
+[00221569][I] gp_test           t dbg fdr events start                  // Start capturing events
+[00221569][I] gp_test           t dbg fdr events stop                   // Stop capturing events
+[00221569][I] gp_test           t dbg fdr events free                   // Free Init
+[00221569][I] gp_test           t dbg fdr events overwrite [on|off]     // When 'on' entries will be overwritten when buffer is full
+[00221569][I] gp_test           t dbg fdr events dump vcd [filename]    // Dump events to vcd format in a file
+[00221569][I] gp_test           t dbg fdr events taskmon start_bythread // start scheduling events, one signal per task/irq
+[00221569][I] gp_test           t dbg fdr events taskmon start_bycpu    // start scheduling events, one signal per cpu
+[00221569][I] gp_test           t dbg fdr events taskmon stop           // stop scheduling events
+[00221569][I] gp_test
+[00221569][I] gp_test           -- Sanity --
+[00221569][I] gp_test           t dbg fdr fdr_sanity   // Stress test of fdr sanity
+[00221569][I] gp_test           t dbg fdr printf_sanity   // Stress test of printf alone sanity
+
+
+s:>t dbg status
+
+[00250096][I] gp_test   cmd: t dbg status
+[00250096][I] gp_test   -- Buffers --
+[00250096][I] gp_test   LogBuffer: 300B/1048576B | Send to BinDump: OFF | Skipped: 0
+[00250096][I] gp_test   BinDumpBuffer: 0B/3145728B | Skipped: 0
+[00250096][I] gp_test   HistoryBuffer:
+[00250096][I] gp_test     - Recording: ON (920B/2097152B) | Overwrite: ON
+[00250096][I] gp_test   EventBuffer: OFF (0/0) | Overwrite: ON
+[00250096][I] gp_test
+[00250096][I] gp_test   -- root FDR --
+[00250097][I] gp_test   Total Errors = 54
+[00250097][I] gp_test   Total Warnings = 44
+[00250097][I] gp_test
+[00250097][I] gp_test   -- FDR tree --
+[00250097][I] gp_test                                                        |         LOG          |           BINDUMP            |                PRINT FORMATING                 |
+[00250097][I] gp_test   root                            [-:-][-][OFF][ OFF ] | err: 2    warn: 5    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |- basefw                       [I:-][-][OFF][ OFF ] | err: 3    warn: 5    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |- gp_debug                     [-:-][-][OFF][ OFF ] | err: 5    warn: 2    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |- gp_test                      [I:-][-][OFF][ OFF ] | err: 11   warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin                        |
+[00250097][I] gp_test   |- frw_dump                     [-:-][-][OFF][FULL ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |- gp_boot                      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |- framework                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- taskmon                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- nvm                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- frw_mcu                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- calib                     [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- display                   [-:-][-][OFF][ OFF ] | err: 0    warn: 2    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |  |- disp_oled              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |  \- disp_ext               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- gp_ipc                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250097][I] gp_test   |  |- crashdump                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- audio                     [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- led                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- battery                   [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- power                     [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- accessory                 [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- frw_batt_remote           [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- ext_led                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- frw_input                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- frw_thermal               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- dfswrite                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- audsrc                    [-:-][-][OFF][ OFF ] | err: 6    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- audsink                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- audcap                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- pipecfg                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- imgsrc                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- imgcap                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |  \- imgcap_dsrc            [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250098][I] gp_test   |  |- gpsm                      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |- IspFactory                [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |  \- Isp0                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |     |- ImuSensorDataSrc    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |     |- Acls                [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |     |- Awb                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |     |- Ae                  [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |     \- Usecase             [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- TimeRefs         [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- sensorPattern    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- Monitor          [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- dynUseCaseMngr   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- AeAwbStats       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |- Eis              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |  \- gpeis         [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |     |- ers        [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |     |- ersSec     [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250099][I] gp_test   |  |        |     \- ersPrep    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- Iq               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- Ob               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- SceneCl          [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- xtmStats         [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- xtmLceEstim      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- xtmLceDrive      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- Fd               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- RoiManager       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- Ms               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        |- Lec              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |        \- xtm              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |- framebuf                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |- mft                       [-:-][-][OFF][ OFF ] | err: 1    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |  \- mft_aenc               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |- playback                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |- frw_usb                   [-:-][-][OFF][ OFF ] | err: 2    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |- orient                    [-:-][-][OFF][ OFF ] | err: 1    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250100][I] gp_test   |  |  \- Sensor Fusion          [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |     \- Orientation Tracker [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- frw_gps                   [-:-][-][OFF][ OFF ] | err: 3    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- imgpipe                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- audcap_datasrc            [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- datacap                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- logging                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- audproc                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- mft_still_dng_0           [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- mft_still_dng_1           [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  \- streamer                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |- hal                          [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- armv8                     [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- batt_remote               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- ext_battery               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- gpio_ctrl                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- i2c_ctrl                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- spi_ctrl                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- uart_ctrl                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250101][I] gp_test   |  |- timer_ctrl                [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- adc_ctrl                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- imu_ctrl                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- avs_ctrl                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- mipi_ctrl                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- imu                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- dsp_temp                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- pmic                      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- drv_button                [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- mcu                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |  \- heartbeat              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- dsp                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- drv_batt                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- gpu                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- dma                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- pdm                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- mp4_muxer                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- exif_muxer                [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250102][I] gp_test   |  |- mp_demux                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- exif_demuxer              [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- awe_lib_v6                [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  \- imx677                    [-:-][-][OFF][ OFF ] | err: 0    warn: 3    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |- monitor                      [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |- IsgAssert                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |- appc                         [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- settings                  [-:-][-][OFF][ OFF ] | err: 0    warn: 10   | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- cam_mode                  [-:-][-][OFF][ OFF ] | err: 0    warn: 6    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |  \- fwupdate               [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- capture                   [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- presets                   [-:-][-][OFF][ OFF ] | err: 18   warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- db                        [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- csc                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- log                       [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- wireless                  [-:-][-][OFF][ OFF ] | err: 0    warn: 1    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- appc_api                  [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  |- stream                    [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250103][I] gp_test   |  \- appc_test                 [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250104][I] gp_test   \- mdb                          [-:-][-][OFF][ OFF ] | err: 0    warn: 0    | sent: 0      skipped: 0      | Color Time Level Origin Thread      Class Func |
+[00250104][I] gp_test                                    | |  |   |     '- BINDUMP LEVEL
+[00250104][I] gp_test                   PRINT LOG LEVEL -' |  |   '- EVENT LOGGING
+[00250104][I] gp_test                   RECORD LOG LEVEL --'  '- ASSERT LEVEL
+[00250104][I] gp_test
+[00250104][I] gp_test   T_SUCCESS (dbg): 0
