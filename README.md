@@ -22,6 +22,43 @@ This Repo has logs, utilities, and legally extracted assests for various GoPro C
 [GoPro HEROBus(tm) Research](https://gethypoxic.com/blogs/technical/gopro-herobus-for-gopro-hero5)  
 [GoPro HERO\[5-9\] Interfaces](https://gethypoxic.com/blogs/technical/gopro-hero5-interfaces)  
 
+## GoPro Camera Database
+Please create a pull request if you have any changes or additions
+
+|Camera       |Model #|Code Name     |Camera|FCC ID|Processor   |Sensor       |Wifi/BT |
+|-------------|-------|--------------|------|------|------------|-------------|--------|
+|????         |67     |Stones        |      |      |            |             |        |
+|HERO (2024)  |       |              |H24.03|AMFR1 |            |             |        |
+|HERO13 Black |65     |Shipstern     |H24.01|CPSS1 |GP2         |Sony IMX677L |BCM4381 |
+|Max2         |64     |Pebbles       |      |CPPB1 |GP2         |Sony IMX677L |        |
+|HERO12 Black |62     |Red Bluff     |H23.01|SPBL1 |GP2         |Sony IMX677L |QCA9377 |
+|HERO11 Mini  |60     |Pismo         |H22.03|CPPM1 |GP2         |Sony IMX677L |QCA9377 |
+|HERO11 Black |58     |Sultans       |H22.01|SPBL1 |GP2         |Sony IMX677L |QCA9377 |
+|HERO10 Black |57     |Kongs         |H21.01|SPBL1 |GP2         |Sony IMX677  |QCA9377 |
+|HERO9 Black  |55     |Boilers       |HD9.01|SPBL1 |GP1         |Sony IMX677  |QCA9377 |
+|Max          |51     |Coconuts      |H19.03|SPCC1 |GP1         |Sony IMX577  |QCA9377 |
+|HERO8        |50     |JBay          |HD8.01|SPJB1 |GP1         |Sony IMX277  |QCA9377 |
+|HERO (2018)  |34     |Smoky         |H18.01|ASST1 |A9SE7       |IMX117       |QCA9377 |
+|HERO7 Silver |33     |Badger        |H18.03|SPTM1 |APQ8053-Pro |Sony IMX458  |        |
+|HERO7 White  |32     |Boomer        |H18.02|SPTM1 |APQ8053-Lite|Sony IMX458  |        |
+|HERO7        |30     |Tavarua       |HD7.01|SPCH1 |GP1         |Sony IMX277  |QCA9377 |
+|HERO6        |24     |Chopes        |HD6.01|SPCH1 |GP1         |Sony IMX277  |QCA9377 |
+|Fusion       |22     |Superbank     |FS1.04|SBDC1 |A9SE7       |             |QCA9377 |
+|HERO5 Session|21     |Margaret River|HD5.03|HWMR1 |A9SE7       |IMX117       |QCA9377 |
+|HERO5        |19     |Streaky       |HD5.02|ASST1 |A9SE7       |IMX117       |QCA9377 |
+|HERO+        |17     |Himalayas     |HD3.22|HWHM1 |            |             |        |
+|HERO4 Session|16     |Rocky Point   |HX1.01|HWRP1 |A7          |IMX117       |QCA6134X|
+|HERO+ LCD    |15     |Haleiwa       |HD3.21|HWHM1 |            |             |        |
+|HERO         |14     |Bolina        |HD3.20|XXXXX |            |             |        |
+|HERO4 Black  |13     |Pipe          |HD4.02|XXXXX |A9          |IMX117       |QCA6134X|
+|HERO4 Silver |12     |Backdoor      |HD4.01|XXXXX |A9          |IMX117       |QCA6134X|
+|HERO3+ Black |11     |Bawa          |HD3.11|XXXXX |A7          |IMX117       |        |
+|HERO3+ Silver|10     |Uluwatu       |HD3.10|XXXXX |A7          |             |        |
+|HERO3 Black  |4      |Todos         |HD3.03|XXXXX |A7          |IMX117       |        |
+|HERO3 Silver |3      |Blacks        |HD3.02|XXXXX |A5S         |MY9F002      |        |
+|HERO3 White  |2      |Shores        |HD3.01|XXXXX |A5S         |MT9P001      |        |
+|HERO2        |1      |NONE          |HD2.01|XXXXX |A5S         |MY9F002      |        |
+|HERO         |       |              |      |      |A2S         |MT9P006I12STC|        |
 
 ## Tools 
 Various tools to extract data from the firmware images. 
