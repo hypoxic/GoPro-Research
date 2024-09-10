@@ -29,7 +29,7 @@ Please create a pull request if you have any changes or additions
 |-------------|-------|--------------|------|------|------------|-------------|--------|
 |????         |67     |Stones        |      |      |            |             |        |
 |HERO (2024)  |       |              |H24.03|AMFR1 |            |             |        |
-|HERO13 Black |65     |Shipstern     |H24.01|CPSS1 |GP2         |Sony IMX677L |BCM4381 |
+|HERO13 Black |65     |Shipstern     |H24.01|CPSS1 |GP2         |Sony IMX677L | BCM4381|
 |Max2         |64     |Pebbles       |      |CPPB1 |GP2         |Sony IMX677L |        |
 |HERO12 Black |62     |Red Bluff     |H23.01|SPBL1 |GP2         |Sony IMX677L |QCA9377 |
 |HERO11 Mini  |60     |Pismo         |H22.03|CPPM1 |GP2         |Sony IMX677L |QCA9377 |
