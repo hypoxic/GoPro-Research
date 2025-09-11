@@ -33,7 +33,7 @@ Please create a pull request if you have any changes or additions
 |????         |67     |Stones        |      |      |            |             |        |Might be transcoder  |
 |HERO (2024)  |66     |Fraction      |H24.03|AMFR1 |Ambarella H22|Sony IMX688? |BCM43456|Chicony Whitelabelled |
 |HERO13 Black |65     |Shipstern     |H24.01|CPSS1 |Socionext GP2|Sony IMX677L |BCM4381 |  |
-|Max2         |64     |Pebbles       |H24.02|CPPB1 |Socionext GP2|Sony IMX677L |BCM4362 |  |
+|Max2         |64     |Pebbles       |H24.02|CPPB1 |Socionext GP3|Sony IMX677L |BCM4362 |  |
 |HERO12 Black |62     |Red Bluff     |H23.01|SPBL1 |Socionext GP2 |Sony IMX677L |QCA9377 |  |
 |HERO11 Mini  |60     |Pismo         |H22.03|CPPM1 |Socionext GP2|Sony IMX677L |QCA9377 |  |
 |HERO11 Black |58     |Sultans       |H22.01|SPBL1 |Socionext GP2|Sony IMX677L |QCA9377 |  |
