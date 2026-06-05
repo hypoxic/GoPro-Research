@@ -30,8 +30,9 @@ Please create a pull request if you have any changes or additions
 
 |Camera       |Model #|Code Name     |Camera|FCC ID|Processor   |Sensor       |Wifi/BT |Notes |
 |-------------|-------|--------------|------|------|------------|-------------|--------|--|
-|HERO Lit     |70     |Lit_Fraction  |H25.03|AMFR1 |Ambarella H22|Sony IMX688 |BCM43456|Chicony Whitelabelled, PRELIMINARY |                                    
-|????         |67     |Stones        |      |      |            |             |        |Might be transcoder  |
+|MISSION1     |71     |Sandbar_Lite  |H26.02|TPSB1 |Socionext GP3 (TPK)|Sony IMX06A |BCM4446|
+|HERO Lit     |70     |Lit_Fraction  |H25.03|AMFR1 |Ambarella H22|Sony IMX688 |BCM43456|Chicony Whitelabelled, PRELIMINARY |   
+|MISSION1 Pro |69     |Sandbar       |H26.01|TPSB1 |Socionext GP3 (TPK)|Sony IMX06A |BCM4446|
 |HERO (2024)  |66     |Fraction      |H24.03|AMFR1 |Ambarella H22|Sony IMX688 |BCM43456|Chicony Whitelabelled |
 |HERO13 Black |65     |Shipstern     |H24.01|CPSS1 |Socionext GP2|Sony IMX677L |BCM4381 |  |
 |MAX 2        |64     |Pebbles       |H24.02|CPPB1 |Socionext GP2|Sony IMX677 |BCM4362 | PRELIMINARY |
